@@ -1,0 +1,503 @@
+﻿capital = 38
+set_research_slots = 3
+
+oob = "BRU_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "BRU_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "BRU_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	early_bomber = 1
+	early_fighter = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+
+set_country_flag = conv_southeast_asia
+set_convoys = 2
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 70
+	communism = 1
+	democratic = 12
+	fascism = 15
+	neutrality = 2
+	radical = 0
+}
+
+add_opinion_modifier = { target = ALG modifier = negative_15 }
+add_opinion_modifier = { target = ARG modifier = negative_135 }
+add_opinion_modifier = { target = AST modifier = negative_10 }
+add_opinion_modifier = { target = BAN modifier = negative_20 }
+add_opinion_modifier = { target = BEL modifier = negative_200 }
+set_truce = { target = BEL days = 1065 }
+add_opinion_modifier = { target = BHU modifier = negative_20 }
+add_opinion_modifier = { target = BRA modifier = positive_20 }
+give_military_access = BRA
+add_opinion_modifier = { target = BUL modifier = negative_110 }
+add_opinion_modifier = { target = CAM modifier = positive_110 }
+add_opinion_modifier = { target = CAN modifier = negative_10 }
+add_opinion_modifier = { target = CHI modifier = positive_40 }
+add_opinion_modifier = { target = CHL modifier = negative_110 }
+add_opinion_modifier = { target = COL modifier = negative_110 }
+add_opinion_modifier = { target = COS modifier = negative_200 }
+add_opinion_modifier = { target = CUB modifier = negative_110 }
+add_opinion_modifier = { target = ECU modifier = negative_200 }
+add_opinion_modifier = { target = EGY modifier = positive_40 }
+give_military_access = EGY
+add_opinion_modifier = { target = ELS modifier = negative_200 }
+add_opinion_modifier = { target = ENG modifier = positive_189 }
+add_opinion_modifier = { target = FIN modifier = negative_10 }
+add_opinion_modifier = { target = FRA modifier = positive_150 }
+give_military_access = FRA
+add_opinion_modifier = { target = GER modifier = negative_198 }
+set_truce = { target = GER days = 1065 }
+add_opinion_modifier = { target = GUA modifier = negative_111 }
+give_military_access = GUA
+add_opinion_modifier = { target = HAI modifier = negative_110 }
+add_opinion_modifier = { target = HOL modifier = negative_200 }
+add_opinion_modifier = { target = HON modifier = negative_110 }
+add_opinion_modifier = { target = HUN modifier = negative_35 }
+add_opinion_modifier = { target = IRE modifier = negative_135 }
+set_truce = { target = IRE days = 1065 }
+add_opinion_modifier = { target = ITA modifier = negative_200 }
+add_opinion_modifier = { target = JAM modifier = negative_35 }
+add_opinion_modifier = { target = JAP modifier = positive_50 }
+add_opinion_modifier = { target = LIB modifier = negative_71 }
+give_military_access = LIB
+add_opinion_modifier = { target = MAC modifier = negative_10 }
+add_opinion_modifier = { target = MEX modifier = negative_96 }
+give_military_access = MEX
+add_opinion_modifier = { target = MLT modifier = negative_10 }
+add_opinion_modifier = { target = MON modifier = negative_45 }
+add_opinion_modifier = { target = MOR modifier = positive_10 }
+add_opinion_modifier = { target = NEP modifier = negative_20 }
+add_opinion_modifier = { target = NIC modifier = negative_200 }
+add_opinion_modifier = { target = NZL modifier = negative_110 }
+add_opinion_modifier = { target = OCC modifier = negative_110 }
+set_truce = { target = OCC days = 1065 }
+add_opinion_modifier = { target = PAR modifier = negative_200 }
+add_opinion_modifier = { target = PER modifier = negative_5 }
+add_opinion_modifier = { target = POR modifier = negative_34 }
+add_opinion_modifier = { target = PUE modifier = negative_60 }
+add_opinion_modifier = { target = RAJ modifier = negative_195 }
+add_opinion_modifier = { target = ROM modifier = negative_125 }
+add_opinion_modifier = { target = SAF modifier = negative_73 }
+give_military_access = SAF
+add_opinion_modifier = { target = SCA modifier = negative_200 }
+add_opinion_modifier = { target = SIA modifier = positive_140 }
+give_military_access = SIA
+add_opinion_modifier = { target = SIL modifier = negative_100 }
+add_opinion_modifier = { target = SOV modifier = negative_170 }
+add_opinion_modifier = { target = SPB modifier = negative_160 }
+add_opinion_modifier = { target = SWI modifier = negative_10 }
+add_opinion_modifier = { target = TIB modifier = positive_10 }
+give_military_access = TIB
+add_opinion_modifier = { target = TUN modifier = positive_10 }
+add_opinion_modifier = { target = TUR modifier = negative_20 }
+add_opinion_modifier = { target = UAE modifier = negative_5 }
+add_opinion_modifier = { target = URG modifier = negative_135 }
+add_opinion_modifier = { target = USA modifier = negative_200 }
+add_opinion_modifier = { target = VEN modifier = negative_200 }
+add_opinion_modifier = { target = VIN modifier = negative_95 }
+add_opinion_modifier = { target = W00 modifier = negative_120 }
+add_opinion_modifier = { target = W04 modifier = negative_45 }
+add_opinion_modifier = { target = W15 modifier = negative_120 }
+add_opinion_modifier = { target = X06 modifier = negative_20 }
+add_opinion_modifier = { target = X13 modifier = positive_65 }
+add_opinion_modifier = { target = X15 modifier = negative_114 }
+add_opinion_modifier = { target = X16 modifier = positive_10 }
+add_opinion_modifier = { target = X22 modifier = negative_200 }
+set_truce = { target = X22 days = 1065 }
+add_opinion_modifier = { target = X41 modifier = negative_45 }
+add_opinion_modifier = { target = X56 modifier = negative_90 }
+add_opinion_modifier = { target = X69 modifier = positive_10 }
+add_opinion_modifier = { target = X86 modifier = negative_120 }
+add_opinion_modifier = { target = X91 modifier = positive_10 }
+add_opinion_modifier = { target = X94 modifier = negative_5 }
+add_opinion_modifier = { target = X98 modifier = negative_200 }
+add_opinion_modifier = { target = YEM modifier = negative_90 }
+
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_malay
+}
+set_stability = 0.60
+set_war_support = 0.59
+create_country_leader = {
+	name = "Yusuf Murshidul"
+	desc = "POLITICS_YUSUF_MURSHIDUL_DESC"
+	picture = "gfx/leaders/Indo_Chinese_Nesia/Portrait_CAM_Norodom_Sihanouk.dds"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Shahabuddin Raja Inu"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Aziz al-Marhum"
+	traits = { }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Jalil Aadzam"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Moerani Riayat Shah"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Moerani Bendahara"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Metetini Raja Ahmad"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Poerava Aadzam"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Moerani Raja Ahmad"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Moeata Aadzam"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Poe Riayat Shah"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Azura Raja Inu"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Merenui Raja Inu"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Ali Muadzam"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Al-Mukammal Muadzam"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Muabidin al-Khairat"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Yusuf Raja Ahmad"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Tuanku al-Marhum"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Muhammad al-Khairat"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Jalil al-Khairat"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Abdullah Raja Ahmad"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Ali Aadzam"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRU }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = BRU_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = BRU_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = BRU_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}

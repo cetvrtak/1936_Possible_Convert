@@ -1,0 +1,31 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 4641
+		task_force = {
+			name = "1st Fleet"
+			location = 4641
+			ship = { name = "Napoleon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAI version_name = "Early Destroyer" } } }
+			ship = { name = "Toussaint Louverture" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAI version_name = "Early Destroyer" } } }
+			ship = { name = "Cap Haitien 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAI version_name = "Early Destroyer" } } }
+			ship = { name = "Port de Paix 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAI version_name = "Early Destroyer" } } }
+			ship = { name = "Jérémie" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAI version_name = "Early Destroyer" } } }
+			ship = { name = "Baron Samedi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAI version_name = "Early Destroyer" } } }
+			ship = { name = "Calypso" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAI version_name = "Early Destroyer" } } }
+			ship = { name = "Reine Mojo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAI version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "HAI"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

@@ -1,0 +1,149 @@
+units = {
+	fleet = {
+		name = "8th Fleet"
+		naval_base = 12975
+		task_force = {
+			name = "8th Fleet"
+			location = 2272
+			ship = { name = "Giuseppe Cesare Abba" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "6th Ravenna Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "13th Venice Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "Francesco Stucco" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "Giuseppe Sirtori" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "6th Genoa Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 9909
+		task_force = {
+			name = "5th Fleet"
+			location = 9909
+			ship = { name = "4th Nice Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "6th Nice Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "Simone Schiaffino" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Massa Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "7th Genoa Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "4th Trieste Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "1st Venice Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "Giovanni Acerbi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "Vincenzo Giordano Orsini" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "Giuseppe Sirtori 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "10th Venice Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "Antonio Mosto" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "Giuseppe Missori" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "Rosolino Pilo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "Pilade Bronzetti" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "Giovanni Acerbi 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "1st Rome Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Nice Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "9th Venice Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "9th Genoa Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "Pilade Bronzetti 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Trieste Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "10th Massa Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "Francesco Nullo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "Ippolito Nievo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Naples Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "5th Ravenna Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Genoa Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "8th Nice Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Nice Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "5th Nice Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "15th Venice Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "7th Nice Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "Simone Schiaffino 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "1st Nice Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "1st Trieste Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "8th Genoa Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "4th Genoa Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "14th Venice Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "Rosolino Pilo 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "1st Palermo Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "10th Fleet"
+		naval_base = 12975
+		task_force = {
+			name = "10th Fleet"
+			location = 5656
+			ship = { name = "Giuseppe Sirtori 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "7th Massa Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 12975
+		task_force = {
+			name = "2nd Fleet"
+			location = 5656
+			ship = { name = "4th Massa Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "9th Massa Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "12th Fleet"
+		naval_base = 12975
+		task_force = {
+			name = "12th Fleet"
+			location = 5838
+			ship = { name = "3rd Rome Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "13th Fleet"
+		naval_base = 9904
+		task_force = {
+			name = "13th Fleet"
+			location = 9904
+			ship = { name = "11th Massa Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "1st Brindisi Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "5th Genoa Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "7th Ravenna Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Trieste Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "5th Trieste Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "4th Lucca Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Lucca Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "9th Fleet"
+		naval_base = 11837
+		task_force = {
+			name = "9th Fleet"
+			location = 11837
+			ship = { name = "8th Massa Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "11th Venice Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Lucca Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "12th Venice Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "1st Lucca Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "Simone Schiaffino 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "5th Rome Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+			ship = { name = "10th Genoa Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "ITA"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "ITA"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

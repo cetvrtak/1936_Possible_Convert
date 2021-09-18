@@ -1,0 +1,33 @@
+
+state={
+	id=439
+	name="STATE_439"
+	resources={
+		rubber=339.000
+		steel=14.000
+		tungsten=125.000
+	}
+
+	history={
+		owner = W50
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			7399 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = W50
+		add_core_of = X55
+	}
+
+	provinces={
+		1364 1376 1392 4310 4367 4384 7399 12215 12255 12271 
+	}
+	manpower=416976
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

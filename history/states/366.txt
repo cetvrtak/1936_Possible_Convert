@@ -1,0 +1,30 @@
+
+state={
+	id=366
+	name="STATE_366"
+	resources={
+		aluminium=1.000
+	}
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			4042 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		4042 
+	}
+	manpower=1051756
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

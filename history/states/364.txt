@@ -1,0 +1,30 @@
+
+state={
+	id=364
+	name="STATE_364"
+	resources={
+		rubber=0.000
+	}
+
+	history={
+		owner = W54
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			12154 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = W54
+	}
+
+	provinces={
+		1389 4393 7614 10423 12154 12240 12400 
+	}
+	manpower=477856
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

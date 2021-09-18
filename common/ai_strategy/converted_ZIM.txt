@@ -1,0 +1,16 @@
+﻿converted_war_strategies_ZIM = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_ZIM = {
+	enable = {
+		tag = ZIM
+	}
+	abort = {
+		always = no
+	}
+	
+}

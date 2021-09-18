@@ -1,0 +1,42 @@
+
+state={
+	id=32
+	name="STATE_32"
+	resources={
+		aluminium=5.000
+		oil=2.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = X15
+		victory_points = {
+			9975 1 
+		}
+		victory_points = {
+			11952 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			9975 = {
+				naval_base = 8
+			}
+			air_base = 10
+
+		}
+		add_core_of = X15
+		add_core_of = X86
+		add_claim_by = RAJ
+		add_claim_by = X79
+	}
+
+	provinces={
+		1103 1144 4064 4090 4132 4187 7013 7150 7165 7207 9975 10118 11952 12037 12092 
+	}
+	manpower=10602708
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

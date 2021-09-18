@@ -1,0 +1,35 @@
+
+state={
+	id=466
+	name="STATE_466"
+	resources={
+		oil=44.000
+		steel=9.000
+	}
+
+	history={
+		owner = PER
+		victory_points = {
+			5005 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			5005 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = IRQ
+		add_core_of = PER
+	}
+
+	provinces={
+		1922 5005 5089 7953 10797 
+	}
+	manpower=619092
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

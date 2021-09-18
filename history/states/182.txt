@@ -1,0 +1,33 @@
+
+state={
+	id=182
+	name="STATE_182"
+
+	history={
+		owner = GER
+		victory_points = {
+			362 3 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			362 = {
+				naval_base = 10
+			}
+			air_base = 7
+
+		}
+		add_core_of = GER
+		add_claim_by = W01
+		add_claim_by = X99
+	}
+
+	provinces={
+		334 362 389 3295 3324 9263 
+	}
+	manpower=1859084
+	buildings_max_level_factor=1.000
+	state_category=city
+}

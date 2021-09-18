@@ -1,0 +1,33 @@
+
+state={
+	id=614
+	name="STATE_614"
+	resources={
+		aluminium=0.000
+		rubber=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = W58
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			2050 = {
+				naval_base = 10
+			}
+			air_base = 5
+
+		}
+		add_core_of = W58
+		add_core_of = X97
+	}
+
+	provinces={
+		2050 12731 
+	}
+	manpower=7044496
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

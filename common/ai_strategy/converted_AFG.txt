@@ -1,0 +1,146 @@
+﻿converted_war_strategies_AFG = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "W00"
+		value = 1019
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 150
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X56"
+		value = 120
+	}
+	ai_strategy = {
+		type = conquer
+		id = "PER"
+		value = 112
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAN"
+		value = 12
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SCA"
+		value = 6
+	}
+}
+
+converted_diplo_strategies_AFG = {
+	enable = {
+		tag = AFG
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X56"
+		value = 282
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 248
+	}
+	ai_strategy = {
+		type = contain
+		id = "W00"
+		value = 244
+	}
+	ai_strategy = {
+		type = contain
+		id = "PER"
+		value = 184
+	}
+	ai_strategy = {
+		type = contain
+		id = "W30"
+		value = 104
+	}
+	ai_strategy = {
+		type = contain
+		id = "X80"
+		value = 89
+	}
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 66
+	}
+	ai_strategy = {
+		type = contain
+		id = "X69"
+		value = 21
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W00"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X56"
+		value = 320
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 127
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "PER"
+		value = 98
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAN"
+		value = 4
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SCA"
+		value = 2
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 194
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X80"
+		value = 90
+	}
+	ai_strategy = {
+		type = alliance
+		id = "XSM"
+		value = 40
+	}
+	ai_strategy = {
+		type = alliance
+		id = "W30"
+		value = 20
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W30"
+		value = 121
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X56"
+		value = 99
+	}
+}

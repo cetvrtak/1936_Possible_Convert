@@ -1,0 +1,38 @@
+
+state={
+	id=354
+	name="STATE_354"
+	resources={
+		aluminium=5.000
+		chromium=16.000
+		steel=20.000
+	}
+
+	history={
+		owner = W53
+		victory_points = {
+			10088 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			10088 = {
+				naval_base = 8
+			}
+			air_base = 10
+
+		}
+		add_core_of = BAN
+		add_core_of = RAJ
+		add_core_of = W53
+		add_core_of = X96
+	}
+
+	provinces={
+		1059 1101 1538 4104 4513 9946 10060 10088 10116 10428 12063 
+	}
+	manpower=7523844
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

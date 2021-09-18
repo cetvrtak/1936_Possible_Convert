@@ -1,0 +1,26 @@
+
+state={
+	id=434
+	name="STATE_434"
+
+	history={
+		owner = HOL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			153 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		153 
+	}
+	manpower=84480
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

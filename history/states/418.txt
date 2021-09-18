@@ -1,0 +1,35 @@
+
+state={
+	id=418
+	name="STATE_418"
+	resources={
+		aluminium=0.000
+		chromium=2.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = X86
+		victory_points = {
+			10311 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = RAJ
+		add_core_of = X48
+		add_core_of = X79
+		add_core_of = X86
+	}
+
+	provinces={
+		5019 5063 7060 10311 10511 11950 12226 
+	}
+	manpower=4002108
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

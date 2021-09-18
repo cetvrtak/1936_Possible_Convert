@@ -1,0 +1,151 @@
+﻿converted_war_strategies_HUN = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ROM"
+		value = 1478
+	}
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 1433
+	}
+	ai_strategy = {
+		type = conquer
+		id = "YUG"
+		value = 497
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 48
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAN"
+		value = 16
+	}
+}
+
+converted_diplo_strategies_HUN = {
+	enable = {
+		tag = HUN
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "YUG"
+		value = 57
+	}
+	ai_strategy = {
+		type = contain
+		id = "ROM"
+		value = 41
+	}
+	ai_strategy = {
+		type = contain
+		id = "SIL"
+		value = 16
+	}
+	ai_strategy = {
+		type = contain
+		id = "TUR"
+		value = 16
+	}
+	ai_strategy = {
+		type = contain
+		id = "ALG"
+		value = 10
+	}
+	ai_strategy = {
+		type = contain
+		id = "EGY"
+		value = 6
+	}
+	ai_strategy = {
+		type = contain
+		id = "MLT"
+		value = 3
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "YUG"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 295
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ROM"
+		value = 240
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 10
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAN"
+		value = 3
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ITA"
+		value = 179
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 128
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = 20
+	}
+	ai_strategy = {
+		type = protect
+		id = "SIL"
+		value = 20
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "YUG"
+		value = 87
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "VIN"
+		value = 57
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "HAI"
+		value = 36
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X86"
+		value = 29
+	}
+}

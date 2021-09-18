@@ -1,0 +1,35 @@
+
+state={
+	id=534
+	name="STATE_534"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			12518 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			12518 = {
+				naval_base = 8
+			}
+			air_base = 5
+
+		}
+		add_core_of = SOV
+		add_core_of = W37
+		add_core_of = X57
+	}
+
+	provinces={
+		1714 1772 1878 4798 4810 4878 7746 10572 10598 10641 10701 12518 12623 
+	}
+	manpower=438996
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

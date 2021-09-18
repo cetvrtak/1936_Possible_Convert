@@ -1,0 +1,38 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 8113
+		task_force = {
+			name = "2nd Fleet"
+			location = 8113
+			ship = { name = "Aragua" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "Early Destroyer" } } }
+			ship = { name = "Constitución" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "Early Destroyer" } } }
+			ship = { name = "Federación" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "Early Destroyer" } } }
+			ship = { name = "Constitución 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "Early Destroyer" } } }
+			ship = { name = "General Crespo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "Early Destroyer" } } }
+			ship = { name = "General Crespo 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "Early Destroyer" } } }
+			ship = { name = "Federación 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "Early Destroyer" } } }
+			ship = { name = "Marcay" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "Early Destroyer" } } }
+			ship = { name = "Libertad" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "Early Destroyer" } } }
+			ship = { name = "Marcay 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "Early Destroyer" } } }
+			ship = { name = "Maturín" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "Early Destroyer" } } }
+			ship = { name = "Libertad 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "Early Destroyer" } } }
+			ship = { name = "Maturín 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "Early Destroyer" } } }
+			ship = { name = "1st Curiapo Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Curiapo Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "VEN"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

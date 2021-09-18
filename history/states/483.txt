@@ -1,0 +1,30 @@
+
+state={
+	id=483
+	name="STATE_483"
+
+	history={
+		owner = PUE
+		victory_points = {
+			1440 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			1440 = {
+				naval_base = 6
+			}
+			air_base = 5
+
+		}
+		add_core_of = PUE
+	}
+
+	provinces={
+		1440 
+	}
+	manpower=1060988
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

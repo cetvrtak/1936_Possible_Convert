@@ -1,0 +1,27 @@
+
+state={
+	id=371
+	name="STATE_371"
+
+	history={
+		owner = W54
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			13005 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = W54
+	}
+
+	provinces={
+		13005 
+	}
+	manpower=56772
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

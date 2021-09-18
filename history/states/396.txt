@@ -1,0 +1,35 @@
+
+state={
+	id=396
+	name="STATE_396"
+	resources={
+		rubber=4.000
+		steel=2.000
+	}
+
+	history={
+		owner = LIB
+		victory_points = {
+			7959 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			8006 = {
+				naval_base = 8
+			}
+			air_base = 5
+
+		}
+		add_core_of = LIB
+	}
+
+	provinces={
+		7959 8006 
+	}
+	manpower=1180288
+	buildings_max_level_factor=1.000
+	state_category=town
+}

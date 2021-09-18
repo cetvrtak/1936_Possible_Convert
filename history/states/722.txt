@@ -1,0 +1,36 @@
+
+state={
+	id=722
+	name="STATE_722"
+	resources={
+		aluminium=20.000
+		chromium=6.000
+	}
+
+	history={
+		owner = YUG
+		victory_points = {
+			9809 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			9809 = {
+				naval_base = 4
+			}
+			air_base = 10
+
+		}
+		add_core_of = MNT
+		add_core_of = YUG
+		add_claim_by = BOS
+	}
+
+	provinces={
+		9809 11858 
+	}
+	manpower=329232
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

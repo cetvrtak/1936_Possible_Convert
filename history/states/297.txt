@@ -1,0 +1,26 @@
+
+state={
+	id=297
+	name="STATE_297"
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			373 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		373 
+	}
+	manpower=56888
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

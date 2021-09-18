@@ -1,0 +1,33 @@
+
+state={
+	id=346
+	name="STATE_346"
+
+	history={
+		owner = W51
+		victory_points = {
+			12766 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			8043 = {
+				naval_base = 8
+			}
+			air_base = 10
+
+		}
+		add_core_of = ETH
+		add_core_of = W25
+		add_core_of = W51
+		add_claim_by = X11
+	}
+
+	provinces={
+		5017 5047 5091 8043 12723 12766 
+	}
+	manpower=915520
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

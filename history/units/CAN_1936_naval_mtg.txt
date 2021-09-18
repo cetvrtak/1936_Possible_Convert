@@ -1,0 +1,44 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 12149
+		task_force = {
+			name = "3rd Fleet"
+			location = 12149
+			ship = { name = "Rainbow" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CAN version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Aurora" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CAN version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Niobe" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CAN version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Fort Severn Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CAN version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Quebec City Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CAN version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Arviat Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CAN version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Rainbow 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CAN version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Aurora 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CAN version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Arviat Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CAN version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Fort Severn Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CAN version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Halifax Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CAN version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "CAN"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "CAN"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

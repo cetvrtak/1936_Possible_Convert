@@ -1,0 +1,34 @@
+
+state={
+	id=2
+	name="STATE_2"
+	resources={
+		steel=25.000
+	}
+
+	history={
+		owner = ALG
+		victory_points = {
+			7132 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			1013 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = ALG
+	}
+
+	provinces={
+		1013 4116 4146 4150 7040 7132 9964 10045 11923 12020 12760 
+	}
+	manpower=2405088
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

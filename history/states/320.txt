@@ -1,0 +1,34 @@
+
+state={
+	id=320
+	name="STATE_320"
+	resources={
+		chromium=3.000
+		steel=5.000
+	}
+
+	history={
+		owner = GRE
+		victory_points = {
+			4178 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			10203 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = GRE
+	}
+
+	provinces={
+		1106 1173 4078 4178 4193 7096 7211 10203 11965 
+	}
+	manpower=601308
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

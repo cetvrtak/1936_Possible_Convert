@@ -1,0 +1,44 @@
+
+state={
+	id=124
+	name="STATE_124"
+	resources={
+		aluminium=6.000
+		chromium=18.000
+		steel=21.000
+		tungsten=6.000
+	}
+
+	history={
+		owner = X41
+		victory_points = {
+			7465 20 
+		}
+		victory_points = {
+			10255 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			10255 = {
+				naval_base = 6
+			}
+			air_base = 10
+
+		}
+		add_core_of = X41
+		add_core_of = X48
+		add_claim_by = RAJ
+		add_claim_by = X88
+		add_claim_by = X96
+	}
+
+	provinces={
+		1228 1430 1622 4237 4321 4365 4414 5032 7090 7297 7310 7340 7372 7428 7465 10001 10152 10255 10296 10469 10756 10897 11924 11978 12180 12241 12462 12490 12779 
+	}
+	manpower=12860672
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

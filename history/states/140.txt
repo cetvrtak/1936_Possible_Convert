@@ -1,0 +1,29 @@
+
+state={
+	id=140
+	name="STATE_140"
+	resources={
+		chromium=2.000
+		oil=1.000
+		rubber=0.000
+	}
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = SUD
+	}
+
+	provinces={
+		1914 2088 4918 7925 10743 10784 10795 12806 12862 12887 
+	}
+	manpower=816052
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

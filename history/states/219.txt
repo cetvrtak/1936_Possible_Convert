@@ -1,0 +1,26 @@
+
+state={
+	id=219
+	name="STATE_219"
+
+	history={
+		owner = W44
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = BRD
+		add_core_of = RWA
+		add_core_of = W44
+	}
+
+	provinces={
+		2220 9962 
+	}
+	manpower=1554256
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

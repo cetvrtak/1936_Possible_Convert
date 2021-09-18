@@ -1,0 +1,30 @@
+
+state={
+	id=326
+	name="STATE_326"
+
+	history={
+		owner = RAJ
+		victory_points = {
+			4410 15 
+		}
+		victory_points = {
+			5055 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 6
+
+		}
+		add_core_of = RAJ
+	}
+
+	provinces={
+		2005 4410 5040 5055 5096 7064 7334 7938 9973 10332 10751 12777 12786 
+	}
+	manpower=21976072
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

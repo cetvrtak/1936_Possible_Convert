@@ -1,0 +1,790 @@
+﻿capital = 201
+set_research_slots = 2
+
+oob = "CMR_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "CMR_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "CMR_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_central_africa
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 20
+	democratic = 77
+	neutrality = 3
+}
+
+add_opinion_modifier = { target = ALG modifier = positive_20 }
+add_opinion_modifier = { target = ARG modifier = positive_55 }
+add_opinion_modifier = { target = BEL modifier = positive_55 }
+add_opinion_modifier = { target = BHU modifier = negative_30 }
+add_opinion_modifier = { target = BRA modifier = positive_5 }
+add_opinion_modifier = { target = BRU modifier = negative_30 }
+add_opinion_modifier = { target = BUL modifier = negative_100 }
+add_opinion_modifier = { target = CAM modifier = negative_30 }
+add_opinion_modifier = { target = CHL modifier = positive_15 }
+add_opinion_modifier = { target = COL modifier = positive_15 }
+add_opinion_modifier = { target = COS modifier = negative_100 }
+add_opinion_modifier = { target = CUB modifier = negative_100 }
+add_opinion_modifier = { target = ECU modifier = negative_85 }
+add_opinion_modifier = { target = EGY modifier = negative_30 }
+add_opinion_modifier = { target = ENG modifier = positive_75 }
+add_opinion_modifier = { target = FIN modifier = positive_20 }
+add_opinion_modifier = { target = FRA modifier = positive_5 }
+add_opinion_modifier = { target = GRE modifier = positive_5 }
+add_opinion_modifier = { target = GUA modifier = negative_50 }
+add_opinion_modifier = { target = HAI modifier = positive_5 }
+add_opinion_modifier = { target = HOL modifier = positive_20 }
+add_opinion_modifier = { target = HUN modifier = negative_100 }
+add_opinion_modifier = { target = IRE modifier = negative_100 }
+add_opinion_modifier = { target = JAM modifier = negative_100 }
+add_opinion_modifier = { target = LIB modifier = negative_70 }
+add_opinion_modifier = { target = MEX modifier = positive_55 }
+add_opinion_modifier = { target = MON modifier = negative_130 }
+add_opinion_modifier = { target = NEP modifier = negative_30 }
+add_opinion_modifier = { target = NIC modifier = negative_50 }
+add_opinion_modifier = { target = PAR modifier = positive_5 }
+add_opinion_modifier = { target = PER modifier = negative_30 }
+add_opinion_modifier = { target = POR modifier = negative_95 }
+add_opinion_modifier = { target = PUE modifier = negative_50 }
+add_opinion_modifier = { target = ROM modifier = negative_50 }
+add_opinion_modifier = { target = SIA modifier = negative_30 }
+add_opinion_modifier = { target = SIL modifier = negative_100 }
+add_opinion_modifier = { target = SOV modifier = positive_5 }
+add_opinion_modifier = { target = SWI modifier = positive_30 }
+add_opinion_modifier = { target = TIB modifier = negative_30 }
+add_opinion_modifier = { target = TUR modifier = positive_90 }
+add_opinion_modifier = { target = UAE modifier = negative_30 }
+add_opinion_modifier = { target = URG modifier = negative_45 }
+add_opinion_modifier = { target = USA modifier = positive_30 }
+add_opinion_modifier = { target = VEN modifier = negative_85 }
+add_opinion_modifier = { target = VIN modifier = negative_30 }
+add_opinion_modifier = { target = W00 modifier = negative_30 }
+add_opinion_modifier = { target = W04 modifier = negative_100 }
+add_opinion_modifier = { target = W15 modifier = negative_30 }
+add_opinion_modifier = { target = X13 modifier = negative_30 }
+add_opinion_modifier = { target = X15 modifier = negative_50 }
+add_opinion_modifier = { target = X16 modifier = negative_30 }
+add_opinion_modifier = { target = X41 modifier = positive_50 }
+add_opinion_modifier = { target = X56 modifier = negative_30 }
+add_opinion_modifier = { target = X69 modifier = negative_30 }
+add_opinion_modifier = { target = X86 modifier = negative_100 }
+add_opinion_modifier = { target = X91 modifier = negative_30 }
+add_opinion_modifier = { target = X98 modifier = positive_155 }
+add_opinion_modifier = { target = YEM modifier = negative_30 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_north_german
+}
+create_country_leader = {
+	name = "Wilhelm von Blomberg"
+	desc = "POLITICS_WILHELM_VON BLOMBERG_DESC"
+	picture = "gfx/leaders/AST/Portrait_Australia_John_Curtin.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Marie von Rauch"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Jessica von Hessen-Darmstadt"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Hanna Groener"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Sofia Heppendorf"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Hanna Cordemann"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Hanna von Manteuffel"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Marie von Wettin"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Marie von Roon"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Hanna von Bülow"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Jessica von Blumenthal"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Emma von Sachsen-Meiningen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Hanna von Tirpitz"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Hanna von Ravensberg"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Jessica von Bismarck-Bohlen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Marie Vogel von Falkenstein"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Sofia von Oldenburg"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Sofia zur Lippe"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Sofia Brommy"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Marie von Hessen-Darmstadt"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Emma Cordemann"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Emma von Sachsen-Altenburg"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Marie Krohn"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Sofia von Hessen-Darmstadt"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Sofia von Arentschildt"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Hanna zur Lippe"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Jessica Brommy"
+		GFX = "gfx/leaders/ENG/portrait_eng_diana_rowden.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Jessica Cordemann"
+		GFX = "gfx/leaders/ENG/portrait_eng_nancy_wake.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Sofia von Holstein-Gottorp"
+		GFX = "gfx/leaders/ENG/portrait_eng_krystyna_skarbek.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Jessica von Mecklenburg-Schwerin"
+		GFX = "gfx/leaders/FRA/portrait_fra_jennie_rousseau.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Hanna Dreyer"
+		GFX = "gfx/leaders/FRA/portrait_fra_odette_samson.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Emma von Bülow"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_F.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Fritz von Sachsen-Meiningen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Konrad von Hessen-Darmstadt"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Alfred Krohn"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Eduard von Hannover"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Alexander von Moltke"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Franz von Waldeck und Pyrmont"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Bernhard Heppendorf"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Erich von Sachsen-Meiningen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Ernst von Kleefeld"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Konrad von Bülow"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Leonhard von Hessen-Kassel"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Erwin Dreyer"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Alfred von Anhalt"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Adelbert von Bismarck-Bohlen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Peter von Bismarck-Bohlen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Otto von Halkett"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Jürgen von Spee"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Hermann von dem Knesebeck"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Leonhard von Gebser"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Bernhard von Schlieffen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Maximilian von Spee"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Ernst von Richthofen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Manfred von Zieten"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Karl von Halkett"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Albrecht von Kleefeld"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Wolfgang von Fritsch"
+		GFX = "gfx/leaders/ENG/portrait_eng_patrick_fermor.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Helmuth von Anhalt"
+		GFX = "gfx/leaders/ENG/portrait_eng_dusko_popov.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Gustav Krohn"
+		GFX = "gfx/leaders/ENG/portrait_eng_juan_pujol.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Hugo von Wettin"
+		GFX = "gfx/leaders/ENG/portrait_eng_roman_czerniawski.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Bernhard von Holstein-Gottorp"
+		GFX = "gfx/leaders/FRA/portrait_fra_rene_joyeuse.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Lukas von Schwarzburg"
+		GFX = "gfx/leaders/FRA/portrait_fra_gilbert_renault.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Ludwig von Spee"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Joachim von Boyen"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Paul Vogel von Falkenstein"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_M.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Florian Heppendorf"
+		GFX = "gfx/leaders/GER/portrait_ger_elyesa_bazna.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Nikolaus Droste"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Lukas von Hannover"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Reinhard Dreyer"
+		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Adolf von Gebser"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_europe_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+	create_operative_leader = {
+		name = "Rudolf von Fritsch"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_commonwealth_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CMR }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

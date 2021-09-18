@@ -1,0 +1,529 @@
+﻿capital = 396
+set_research_slots = 3
+
+oob = "LIB_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "LIB_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "LIB_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	early_bomber = 1
+	early_fighter = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_ship_hull_submarine = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_light = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+
+set_country_flag = conv_western_africa
+set_convoys = 1
+
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 12 producer = LIB }
+
+set_politics = {
+    ruling_party = communism
+    last_election = "1903.7.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	communism = 100
+}
+
+add_opinion_modifier = { target = ALG modifier = negative_200 }
+add_opinion_modifier = { target = ARG modifier = negative_65 }
+add_opinion_modifier = { target = AST modifier = negative_80 }
+add_opinion_modifier = { target = BAN modifier = negative_110 }
+add_opinion_modifier = { target = BEL modifier = negative_45 }
+add_opinion_modifier = { target = BHU modifier = negative_110 }
+add_opinion_modifier = { target = BRA modifier = negative_76 }
+add_opinion_modifier = { target = BRU modifier = negative_71 }
+add_opinion_modifier = { target = BUL modifier = negative_45 }
+add_opinion_modifier = { target = CAM modifier = negative_110 }
+add_opinion_modifier = { target = CAN modifier = negative_80 }
+add_opinion_modifier = { target = CHI modifier = negative_60 }
+add_opinion_modifier = { target = CHL modifier = negative_105 }
+add_opinion_modifier = { target = COL modifier = negative_105 }
+add_opinion_modifier = { target = COS modifier = negative_185 }
+add_opinion_modifier = { target = CUB modifier = negative_45 }
+add_opinion_modifier = { target = ECU modifier = negative_200 }
+add_opinion_modifier = { target = EGY modifier = negative_71 }
+add_opinion_modifier = { target = ELS modifier = negative_95 }
+add_opinion_modifier = { target = ENG modifier = negative_167 }
+add_opinion_modifier = { target = FIN modifier = negative_100 }
+add_opinion_modifier = { target = FRA modifier = negative_165 }
+add_opinion_modifier = { target = GER modifier = negative_86 }
+add_opinion_modifier = { target = GRE modifier = negative_115 }
+add_opinion_modifier = { target = GUA modifier = negative_25 }
+add_opinion_modifier = { target = HAI modifier = negative_90 }
+add_opinion_modifier = { target = HOL modifier = negative_80 }
+add_opinion_modifier = { target = HON modifier = negative_95 }
+add_opinion_modifier = { target = HUN modifier = negative_195 }
+add_opinion_modifier = { target = IRE modifier = negative_185 }
+add_opinion_modifier = { target = ITA modifier = negative_200 }
+add_opinion_modifier = { target = JAM modifier = negative_155 }
+add_opinion_modifier = { target = JAP modifier = negative_110 }
+add_opinion_modifier = { target = MAC modifier = negative_85 }
+add_opinion_modifier = { target = MEX modifier = negative_65 }
+add_opinion_modifier = { target = MLT modifier = negative_95 }
+add_opinion_modifier = { target = MON modifier = negative_135 }
+add_opinion_modifier = { target = MOR modifier = negative_110 }
+add_opinion_modifier = { target = NEP modifier = negative_110 }
+add_opinion_modifier = { target = NIC modifier = negative_200 }
+add_opinion_modifier = { target = NZL modifier = negative_80 }
+add_opinion_modifier = { target = OCC modifier = negative_85 }
+add_opinion_modifier = { target = PAR modifier = negative_115 }
+add_opinion_modifier = { target = PER modifier = negative_110 }
+add_opinion_modifier = { target = POR modifier = negative_176 }
+add_opinion_modifier = { target = PUE modifier = negative_135 }
+add_opinion_modifier = { target = RAJ modifier = negative_100 }
+add_opinion_modifier = { target = ROM modifier = negative_15 }
+add_opinion_modifier = { target = SAF modifier = negative_80 }
+add_opinion_modifier = { target = SCA modifier = negative_200 }
+add_opinion_modifier = { target = SIA modifier = negative_71 }
+add_opinion_modifier = { target = SIL modifier = positive_120 }
+add_opinion_modifier = { target = SOV modifier = negative_200 }
+add_opinion_modifier = { target = SPB modifier = negative_95 }
+add_opinion_modifier = { target = SWI modifier = negative_90 }
+add_opinion_modifier = { target = TIB modifier = negative_110 }
+add_opinion_modifier = { target = TUN modifier = negative_110 }
+add_opinion_modifier = { target = TUR modifier = negative_10 }
+add_opinion_modifier = { target = UAE modifier = negative_110 }
+add_opinion_modifier = { target = URG modifier = negative_150 }
+add_opinion_modifier = { target = USA modifier = negative_25 }
+add_opinion_modifier = { target = VEN modifier = negative_200 }
+add_opinion_modifier = { target = VIN modifier = negative_110 }
+add_opinion_modifier = { target = W00 modifier = negative_110 }
+add_opinion_modifier = { target = W04 modifier = negative_200 }
+add_opinion_modifier = { target = W15 modifier = negative_110 }
+add_opinion_modifier = { target = X06 modifier = negative_110 }
+add_opinion_modifier = { target = X13 modifier = negative_110 }
+add_opinion_modifier = { target = X15 modifier = negative_121 }
+add_opinion_modifier = { target = X16 modifier = negative_110 }
+add_opinion_modifier = { target = X22 modifier = negative_85 }
+add_opinion_modifier = { target = X41 modifier = negative_200 }
+add_opinion_modifier = { target = X56 modifier = negative_110 }
+add_opinion_modifier = { target = X69 modifier = negative_110 }
+add_opinion_modifier = { target = X86 modifier = negative_60 }
+add_opinion_modifier = { target = X91 modifier = negative_71 }
+add_opinion_modifier = { target = X94 modifier = negative_110 }
+add_opinion_modifier = { target = X98 modifier = positive_35 }
+add_opinion_modifier = { target = YEM modifier = negative_110 }
+add_opinion_modifier = { target = YUG modifier = negative_115 }
+
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_afro_american
+}
+set_stability = 0.60
+set_war_support = 0.60
+create_country_leader = {
+	name = "Aaron Ratcliff"
+	desc = "POLITICS_AARON_RATCLIFF_DESC"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "William Delany"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Edgar Griffin"
+	traits = { }
+	skill = 2
+	attack_skill = 5
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Milton Flipper"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 4
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Katherine Flipper"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Mary Carney"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Dorothy Brown"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Jane Augusta"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Dorothy Brown"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Katherine Ratcliff"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Mary Nell"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Katherine Gardner"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Katherine Fields"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Katherine Douglass"
+		GFX = "gfx/leaders/USA/portrait_usa_josephine_baker.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Frederick Fields"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Michael Pinn"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Ebenezer Basset"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Cathay Smith"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Benton Du Bois"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Charles Basset"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Andre Pinn"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Robert Mink"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Joseph Delany"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = LIB_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = ship_hull_heavy_1
+		name_group = LIB_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_heavy_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = LIB_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = LIB_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = LIB_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=292
+	name="STATE_292"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = W47
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = W12
+		add_core_of = W47
+		add_claim_by = BRM
+	}
+
+	provinces={
+		1170 1566 1607 2061 4175 4210 4654 7400 7562 7603 7647 7909 7974 12317 12363 
+	}
+	manpower=2718916
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

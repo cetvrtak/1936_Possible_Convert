@@ -1,0 +1,32 @@
+
+state={
+	id=202
+	name="STATE_202"
+	resources={
+		aluminium=1.000
+		rubber=0.000
+	}
+
+	history={
+		owner = W43
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			5139 = {
+				naval_base = 10
+			}
+			air_base = 5
+
+		}
+		add_core_of = GAB
+		add_core_of = W43
+	}
+
+	provinces={
+		5139 8207 10948 13210 
+	}
+	manpower=384600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

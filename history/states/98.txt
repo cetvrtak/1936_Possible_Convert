@@ -1,0 +1,33 @@
+
+state={
+	id=98
+	name="STATE_98"
+	resources={
+		rubber=15.000
+		tungsten=8.000
+	}
+
+	history={
+		owner = CHI
+		victory_points = {
+			1319 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = X62
+		add_core_of = YUN
+		add_claim_by = CHI
+	}
+
+	provinces={
+		1114 1196 1319 1383 1522 1653 4501 4559 5009 7446 7606 7965 7976 8023 10346 10413 10776 10863 12262 12282 12789 12898 
+	}
+	manpower=10683380
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

@@ -1,0 +1,16 @@
+﻿converted_war_strategies_ZAM = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_ZAM = {
+	enable = {
+		tag = ZAM
+	}
+	abort = {
+		always = no
+	}
+	
+}

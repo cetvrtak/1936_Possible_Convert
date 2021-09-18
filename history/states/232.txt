@@ -1,0 +1,34 @@
+
+state={
+	id=232
+	name="STATE_232"
+	resources={
+		aluminium=16.000
+		oil=40.000
+		steel=15.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			11479 6 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 10
+
+		}
+		add_core_of = W01
+		add_core_of = X44
+		add_claim_by = W07
+	}
+
+	provinces={
+		417 438 442 462 466 491 536 3410 3434 3483 3562 3743 6431 6460 6483 6499 6522 9425 9454 9468 9494 9558 11398 11411 11413 11427 11479 11507 11550 
+	}
+	manpower=7927548
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

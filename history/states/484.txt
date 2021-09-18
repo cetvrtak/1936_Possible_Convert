@@ -1,0 +1,39 @@
+
+state={
+	id=484
+	name="STATE_484"
+	resources={
+		tungsten=37.000
+	}
+
+	history={
+		owner = W04
+		victory_points = {
+			1908 15 
+		}
+		victory_points = {
+			4971 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 10
+
+		}
+		add_core_of = RAJ
+		add_core_of = W04
+		add_core_of = X18
+		add_core_of = X50
+		add_core_of = X52
+		add_core_of = X54
+		add_core_of = X84
+	}
+
+	provinces={
+		1199 1908 2054 2092 4149 4971 4984 7905 7998 10847 10866 12041 12718 12829 12844 12876 12886 
+	}
+	manpower=7007672
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

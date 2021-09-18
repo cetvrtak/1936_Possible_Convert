@@ -1,0 +1,16 @@
+﻿converted_war_strategies_KAZ = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_KAZ = {
+	enable = {
+		tag = KAZ
+	}
+	abort = {
+		always = no
+	}
+	
+}

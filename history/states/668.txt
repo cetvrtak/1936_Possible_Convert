@@ -1,0 +1,30 @@
+
+state={
+	id=668
+	name="STATE_668"
+	resources={
+		oil=42.000
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			1352 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		1352 1753 4586 4740 4757 4811 4814 4871 7834 7892 9802 10340 10532 12024 12513 
+	}
+	manpower=907960
+	buildings_max_level_factor=1.000
+	state_category=town
+}

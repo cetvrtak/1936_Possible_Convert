@@ -1,0 +1,71 @@
+﻿converted_war_strategies_SAF = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 499
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAN"
+		value = 176
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 40
+	}
+}
+
+converted_diplo_strategies_SAF = {
+	enable = {
+		tag = SAF
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 357
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAN"
+		value = 176
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 13
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "AST"
+		value = 173
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CHL"
+		value = 77
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ROM"
+		value = 54
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "IRE"
+		value = 48
+	}
+}

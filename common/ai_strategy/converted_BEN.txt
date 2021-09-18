@@ -1,0 +1,151 @@
+﻿converted_war_strategies_BEN = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 346
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SPB"
+		value = 209
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = 33
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 15
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ALG"
+		value = 6
+	}
+	ai_strategy = {
+		type = conquer
+		id = "FRA"
+		value = 3
+	}
+}
+
+converted_diplo_strategies_BEN = {
+	enable = {
+		tag = BEN
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 396
+	}
+	ai_strategy = {
+		type = contain
+		id = "X97"
+		value = 373
+	}
+	ai_strategy = {
+		type = contain
+		id = "NGA"
+		value = 273
+	}
+	ai_strategy = {
+		type = contain
+		id = "X04"
+		value = 256
+	}
+	ai_strategy = {
+		type = contain
+		id = "W35"
+		value = 256
+	}
+	ai_strategy = {
+		type = contain
+		id = "X05"
+		value = 25
+	}
+	ai_strategy = {
+		type = contain
+		id = "X39"
+		value = 25
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "NGA"
+		value = 231
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X97"
+		value = 181
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W35"
+		value = 115
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X04"
+		value = 113
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "FRA"
+		value = 20
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W11"
+		value = 5
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 5
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ALG"
+		value = 1
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 1
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SPB"
+		value = 200
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X43"
+		value = 150
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SAR"
+		value = 83
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W19"
+		value = 52
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X80"
+		value = 52
+	}
+}

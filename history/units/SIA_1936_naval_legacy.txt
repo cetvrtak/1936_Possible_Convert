@@ -1,0 +1,44 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 7225
+		task_force = {
+			name = "2nd Fleet"
+			location = 7225
+			ship = { name = "Phetchaburi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+			ship = { name = "Phetchaburi 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+			ship = { name = "Ratchaburi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+			ship = { name = "Nakhonpathom" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+			ship = { name = "Bangkok" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+			ship = { name = "Rattanakosin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+			ship = { name = "Samutprakan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+			ship = { name = "Samutsongkhram" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+			ship = { name = "Pathumthani" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+			ship = { name = "Kanchanaburi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+			ship = { name = "Suphanburi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+			ship = { name = "Samutsakhon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+			ship = { name = "Nonthaburi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SIA } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "SIA"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "SIA"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

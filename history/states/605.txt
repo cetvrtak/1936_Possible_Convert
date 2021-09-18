@@ -1,0 +1,32 @@
+
+state={
+	id=605
+	name="STATE_605"
+	resources={
+		chromium=6.000
+		steel=4.000
+	}
+
+	history={
+		owner = W57
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			7419 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = PHI
+		add_core_of = W57
+	}
+
+	provinces={
+		1224 1261 1311 1340 1368 4269 4373 4429 7307 7385 7419 7423 10145 10186 10302 12112 12118 12153 
+	}
+	manpower=2307024
+	buildings_max_level_factor=1.000
+	state_category=town
+}

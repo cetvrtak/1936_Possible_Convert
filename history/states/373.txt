@@ -1,0 +1,26 @@
+
+state={
+	id=373
+	name="STATE_373"
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			13028 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		13027 13028 13029 13030 13031 13032 13033 
+	}
+	manpower=28612
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

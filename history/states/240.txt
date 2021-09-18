@@ -1,0 +1,25 @@
+
+state={
+	id=240
+	name="STATE_240"
+	resources={
+		aluminium=1.000
+		rubber=0.000
+		steel=4.000
+	}
+	impassable = yes
+
+	history={
+		owner = W49
+		add_core_of = MRT
+		add_core_of = W49
+		add_core_of = X21
+	}
+
+	provinces={
+		1897 1962 7943 8035 10771 10779 10838 
+	}
+	manpower=112324
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

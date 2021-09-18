@@ -1,0 +1,71 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 6984
+		task_force = {
+			name = "2nd Fleet"
+			location = 6984
+			ship = { name = "South Carolina" definition = battleship equipment = { battleship_2 = { amount = 1 owner = USA } } }
+			ship = { name = "South Carolina 2" definition = battleship equipment = { battleship_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Michigan" definition = battleship equipment = { battleship_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Olympia" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "San Francisco" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Philadelphia" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Minneapolis" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "San Francisco 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Denver" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Des Moines" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Chattanooga" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Galveston" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Tacoma" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Baltimore" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Philadelphia 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Cleveland" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Olympia 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Cincinnati" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Newark" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Baltimore 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Raleigh" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Montgomery" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Detroit" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "1st New Orleans Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Charleston" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Marblehead" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Milwaukee" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "1st Houston Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "2nd New Orleans Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 6909
+		task_force = {
+			name = "6th Fleet"
+			location = 6909
+			ship = { name = "Columbia" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Cincinnati 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Raleigh 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "USA"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "USA"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

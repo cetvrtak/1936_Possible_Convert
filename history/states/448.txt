@@ -1,0 +1,32 @@
+
+state={
+	id=448
+	name="STATE_448"
+	resources={
+		aluminium=103.000
+		steel=116.000
+	}
+
+	history={
+		owner = OCC
+		victory_points = {
+			6613 4 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = FRA
+		add_core_of = OCC
+	}
+
+	provinces={
+		762 764 780 3589 3594 3762 3764 3768 3770 6613 6639 6784 6786 6975 9590 9736 11593 11716 
+	}
+	manpower=3829352
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

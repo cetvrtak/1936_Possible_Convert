@@ -1,0 +1,101 @@
+﻿converted_war_strategies_X27 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 542
+	}
+	ai_strategy = {
+		type = conquer
+		id = "EGY"
+		value = 56
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 40
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 32
+	}
+}
+
+converted_diplo_strategies_X27 = {
+	enable = {
+		tag = X27
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 381
+	}
+	ai_strategy = {
+		type = contain
+		id = "TUR"
+		value = 108
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X65"
+		value = 102
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TEX"
+		value = 26
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "EGY"
+		value = 18
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 10
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 10
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 81
+	}
+	ai_strategy = {
+		type = alliance
+		id = "AUS"
+		value = 71
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W11"
+		value = 105
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W09"
+		value = 27
+	}
+}

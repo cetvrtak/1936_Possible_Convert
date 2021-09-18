@@ -1,0 +1,40 @@
+
+state={
+	id=415
+	name="STATE_415"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+		steel=1.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = X86
+		victory_points = {
+			10801 1 
+		}
+		victory_points = {
+			11995 20 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 10
+
+		}
+		add_core_of = RAJ
+		add_core_of = X46
+		add_core_of = X49
+		add_core_of = X86
+		add_core_of = X89
+	}
+
+	provinces={
+		1949 2036 2105 4106 4950 4953 7080 8076 10801 10807 10816 10872 11995 12080 12743 12799 12854 
+	}
+	manpower=12211816
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

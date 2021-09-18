@@ -1,0 +1,30 @@
+
+state={
+	id=185
+	name="STATE_185"
+	resources={
+		steel=236.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			9559 4 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		549 678 1346 3629 6529 9503 9559 11502 
+	}
+	manpower=3109284
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=209
+	name="STATE_209"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = W43
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = CAR
+		add_core_of = W43
+		add_core_of = X85
+	}
+
+	provinces={
+		988 7219 7931 8048 10071 10883 10951 12741 12824 
+	}
+	manpower=1910696
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

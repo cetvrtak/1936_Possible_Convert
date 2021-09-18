@@ -1,0 +1,917 @@
+﻿capital = 340
+set_major = yes
+set_research_slots = 4
+
+oob = "ITA_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "ITA_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "ITA_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	basic_light_tank = 1
+	early_bomber = 1
+	early_fighter = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	gwtank = 1
+	improved_light_tank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
+	marines = 1
+	motorised_infantry = 1
+	support_weapons = 1
+	synth_oil_experiments = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "La Resistance" }
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_light = 1
+		improved_airplane_launcher = 1
+		mtg_transport = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+
+set_country_flag = conv_southern_europe
+set_convoys = 60
+
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 122 producer = ITA }
+add_equipment_to_stockpile = { type = gw_tank_equipment amount = 61 producer = ITA }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 97 producer = ITA }
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1932.12.16"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 0
+	communism = 5
+	democratic = 86
+	fascism = 4
+	neutrality = 3
+	radical = 2
+}
+
+# DIPLOMACY
+if = {
+    limit = {
+        has_dlc = "Together for Victory"
+    }
+    set_autonomy = {
+        target = W51
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = W52
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = W53
+        autonomous_state = autonomy_colony
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = W54
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = W55
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    else = {
+        puppet = W51
+        puppet = W52
+        puppet = W53
+        puppet = W54
+        puppet = W55
+    }
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = ITA_research
+}
+
+add_opinion_modifier = { target = ALG modifier = positive_200 }
+add_opinion_modifier = { target = ARG modifier = negative_20 }
+add_opinion_modifier = { target = AST modifier = negative_200 }
+add_opinion_modifier = { target = BAN modifier = negative_193 }
+set_truce = { target = BAN days = 1107 }
+add_opinion_modifier = { target = BEL modifier = positive_115 }
+give_military_access = BEL
+add_opinion_modifier = { target = BHU modifier = positive_50 }
+add_opinion_modifier = { target = BRA modifier = negative_180 }
+add_opinion_modifier = { target = BRU modifier = negative_200 }
+add_opinion_modifier = { target = BUL modifier = negative_200 }
+add_opinion_modifier = { target = CAM modifier = positive_40 }
+add_opinion_modifier = { target = CAN modifier = negative_200 }
+add_opinion_modifier = { target = CHI modifier = positive_25 }
+add_opinion_modifier = { target = CHL modifier = negative_80 }
+add_opinion_modifier = { target = COL modifier = negative_80 }
+add_opinion_modifier = { target = COS modifier = positive_195 }
+add_opinion_modifier = { target = CUB modifier = negative_200 }
+add_opinion_modifier = { target = ECU modifier = negative_50 }
+add_opinion_modifier = { target = EGY modifier = negative_192 }
+add_opinion_modifier = { target = ENG modifier = negative_154 }
+add_opinion_modifier = { target = FIN modifier = positive_115 }
+add_opinion_modifier = { target = FRA modifier = positive_19 }
+add_opinion_modifier = { target = GER modifier = positive_190 }
+give_military_access = GER
+add_opinion_modifier = { target = GRE modifier = negative_195 }
+add_opinion_modifier = { target = GUA modifier = negative_200 }
+add_opinion_modifier = { target = HAI modifier = positive_20 }
+add_opinion_modifier = { target = HOL modifier = negative_3 }
+add_opinion_modifier = { target = HUN modifier = negative_200 }
+add_opinion_modifier = { target = IRE modifier = negative_115 }
+add_opinion_modifier = { target = JAM modifier = positive_50 }
+add_opinion_modifier = { target = JAP modifier = negative_200 }
+add_opinion_modifier = { target = LIB modifier = negative_200 }
+add_opinion_modifier = { target = MAC modifier = positive_105 }
+add_opinion_modifier = { target = MEX modifier = negative_200 }
+add_opinion_modifier = { target = MLT modifier = negative_30 }
+add_opinion_modifier = { target = MON modifier = positive_175 }
+give_military_access = MON
+add_opinion_modifier = { target = MOR modifier = negative_115 }
+add_opinion_modifier = { target = NEP modifier = negative_198 }
+add_opinion_modifier = { target = NIC modifier = negative_200 }
+add_opinion_modifier = { target = NZL modifier = negative_30 }
+add_opinion_modifier = { target = OCC modifier = negative_169 }
+add_opinion_modifier = { target = PAR modifier = positive_20 }
+add_opinion_modifier = { target = PER modifier = negative_10 }
+add_opinion_modifier = { target = POR modifier = negative_200 }
+add_opinion_modifier = { target = PUE modifier = negative_22 }
+add_opinion_modifier = { target = RAJ modifier = negative_148 }
+add_opinion_modifier = { target = ROM modifier = positive_136 }
+give_military_access = ROM
+add_opinion_modifier = { target = SAF modifier = negative_30 }
+add_opinion_modifier = { target = SCA modifier = negative_185 }
+add_opinion_modifier = { target = SIA modifier = negative_187 }
+add_opinion_modifier = { target = SIL modifier = negative_191 }
+add_opinion_modifier = { target = SOV modifier = positive_21 }
+give_military_access = SOV
+add_opinion_modifier = { target = SPB modifier = positive_160 }
+give_military_access = SPB
+add_opinion_modifier = { target = SWI modifier = negative_79 }
+add_opinion_modifier = { target = TIB modifier = negative_200 }
+add_opinion_modifier = { target = TUN modifier = positive_200 }
+add_opinion_modifier = { target = TUR modifier = negative_170 }
+add_opinion_modifier = { target = UAE modifier = negative_20 }
+add_opinion_modifier = { target = URG modifier = negative_200 }
+add_opinion_modifier = { target = USA modifier = negative_200 }
+add_opinion_modifier = { target = VIN modifier = positive_115 }
+add_opinion_modifier = { target = W00 modifier = positive_180 }
+add_opinion_modifier = { target = W04 modifier = positive_85 }
+add_opinion_modifier = { target = W15 modifier = positive_40 }
+add_opinion_modifier = { target = X06 modifier = positive_100 }
+add_opinion_modifier = { target = X13 modifier = positive_50 }
+add_opinion_modifier = { target = X15 modifier = negative_200 }
+add_opinion_modifier = { target = X16 modifier = negative_200 }
+add_opinion_modifier = { target = X22 modifier = positive_135 }
+add_opinion_modifier = { target = X41 modifier = positive_77 }
+add_opinion_modifier = { target = X56 modifier = positive_10 }
+add_opinion_modifier = { target = X69 modifier = negative_135 }
+add_opinion_modifier = { target = X86 modifier = negative_195 }
+add_opinion_modifier = { target = X91 modifier = negative_200 }
+add_opinion_modifier = { target = X94 modifier = negative_35 }
+add_opinion_modifier = { target = X98 modifier = positive_190 }
+add_opinion_modifier = { target = YEM modifier = positive_45 }
+add_opinion_modifier = { target = YUG modifier = negative_191 }
+
+
+add_ideas = {
+	great_power
+	ITA_monarch
+	vittoria_mutilata
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_north_italian
+}
+set_stability = 0.60
+set_war_support = 0.61
+create_country_leader = {
+	name = "Simone di Savoia-Aosta"
+	desc = "POLITICS_SIMONE_DI SAVOIA-AOSTA_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Fiorenzo Orengo"
+	traits = { }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Faustino Pellion di Persano"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Ruggiero Mambretti"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Ambrogio Perruchetti"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 4
+}
+
+create_navy_leader = {
+	name = "Federico Pianelli"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 3
+	coordination_skill = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Maria Sanna"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Anna d'Austria-Este"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Maria Baratieri"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Maria Emo"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Anna Ramorino"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Anna Capello"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Maria Caviglia"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Anna Albricci"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Anna Ramorino"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Maria d'Austria-Este"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Maria Cialdini"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Maria Badoglio"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Maria Vaccari"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Maria Porro"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Anna Orengo"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Anna Zupelli"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Anna di Savoia"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Anna Solari"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Maria Orengo"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Anna Mambretti"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Maria Pacoret de Saint Bon"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Anna Dezza"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Maria Cialdini"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Anna Ceccherini"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Maria Sacchi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Girolamo Caviglia"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Alfonso Orengo"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Ferdinando Cadorna"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Enrico Fanti"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Luigi d'Absburgo-Toscana"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Fiorenzo Pellion di Persano"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Vittorio Zupelli"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Simone Bava-Beccaris"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Carlo Cusani"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Leopoldo Baratieri"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Gaetano Cadorna"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Gaetano Caviglia"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Ruggiero d'Absburgo-Toscana"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Oreste Saletta"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Camillo Sanna"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Angelo di Savoia"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Luigi Pecori-Giraldi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Gaetano Canevaro"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Alfonso Presbitero"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Pasquale Solari"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Silvio Garibaldi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Pecori-Giraldi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Roberto Govone"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Fabrizio Thaon di Revel"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Alessandro Capello"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+	create_operative_leader = {
+		name = "Ruggiero Emo"
+		GFX = "gfx/leaders/SPA/portrait_spa_juan_pujol.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = ship_hull_heavy_1
+		name_group = ITA_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_heavy_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = ITA_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = ITA_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = ITA_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}

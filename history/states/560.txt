@@ -1,0 +1,27 @@
+
+state={
+	id=560
+	name="STATE_560"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = MOL
+		add_core_of = ROM
+		add_core_of = W07
+		add_core_of = X20
+	}
+
+	provinces={
+		6761 9548 11689 
+	}
+	manpower=1154572
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

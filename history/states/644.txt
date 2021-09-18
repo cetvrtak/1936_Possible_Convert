@@ -1,0 +1,32 @@
+
+state={
+	id=644
+	name="STATE_644"
+	resources={
+		oil=14.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			2097 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 5
+
+		}
+		add_core_of = IRQ
+		add_core_of = TUR
+		add_core_of = W42
+	}
+
+	provinces={
+		1631 2097 3795 4951 7994 8001 10744 10876 12046 12372 12413 12839 12879 
+	}
+	manpower=782160
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

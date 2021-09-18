@@ -1,0 +1,9 @@
+
+supply_area={
+	id=268
+	name="SUPPLYAREA_268"
+	value=4
+	states={
+		93 94 101 263 551 
+	}
+}

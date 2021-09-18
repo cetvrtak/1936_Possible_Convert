@@ -1,0 +1,38 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 3552
+		task_force = {
+			name = "2nd Fleet"
+			location = 3552
+			ship = { name = "Shannon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X22 } } }
+			ship = { name = "Nelson" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X22 } } }
+			ship = { name = "Northampton" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X22 } } }
+			ship = { name = "Imperieuse" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X22 } } }
+			ship = { name = "Warspite" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X22 } } }
+			ship = { name = "Orlando" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X22 } } }
+			ship = { name = "Australia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X22 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X22"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X22"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,296 @@
+﻿capital = 436
+set_research_slots = 2
+
+oob = "GUY_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "GUY_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "GUY_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 14
+	democratic = 84
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = ALG modifier = positive_20 }
+add_opinion_modifier = { target = ARG modifier = positive_55 }
+add_opinion_modifier = { target = BEL modifier = positive_55 }
+add_opinion_modifier = { target = BHU modifier = negative_30 }
+add_opinion_modifier = { target = BRA modifier = positive_5 }
+add_opinion_modifier = { target = BRU modifier = negative_30 }
+add_opinion_modifier = { target = BUL modifier = negative_100 }
+add_opinion_modifier = { target = CAM modifier = negative_30 }
+add_opinion_modifier = { target = CHL modifier = positive_15 }
+add_opinion_modifier = { target = COL modifier = positive_15 }
+add_opinion_modifier = { target = COS modifier = negative_100 }
+add_opinion_modifier = { target = CUB modifier = negative_100 }
+add_opinion_modifier = { target = ECU modifier = negative_85 }
+add_opinion_modifier = { target = EGY modifier = negative_30 }
+add_opinion_modifier = { target = FIN modifier = positive_20 }
+add_opinion_modifier = { target = GRE modifier = positive_5 }
+add_opinion_modifier = { target = GUA modifier = negative_50 }
+add_opinion_modifier = { target = HAI modifier = positive_30 }
+add_opinion_modifier = { target = HUN modifier = negative_100 }
+add_opinion_modifier = { target = IRE modifier = negative_100 }
+add_opinion_modifier = { target = JAM modifier = negative_100 }
+add_opinion_modifier = { target = LIB modifier = negative_45 }
+add_opinion_modifier = { target = MEX modifier = positive_55 }
+add_opinion_modifier = { target = MON modifier = negative_130 }
+add_opinion_modifier = { target = NEP modifier = negative_30 }
+add_opinion_modifier = { target = NIC modifier = negative_50 }
+add_opinion_modifier = { target = PAR modifier = positive_5 }
+add_opinion_modifier = { target = PER modifier = negative_30 }
+add_opinion_modifier = { target = POR modifier = negative_95 }
+add_opinion_modifier = { target = PUE modifier = negative_50 }
+add_opinion_modifier = { target = ROM modifier = negative_50 }
+add_opinion_modifier = { target = SIA modifier = negative_30 }
+add_opinion_modifier = { target = SIL modifier = negative_100 }
+add_opinion_modifier = { target = SOV modifier = positive_5 }
+add_opinion_modifier = { target = SWI modifier = positive_30 }
+add_opinion_modifier = { target = TIB modifier = negative_30 }
+add_opinion_modifier = { target = TUR modifier = positive_90 }
+add_opinion_modifier = { target = UAE modifier = negative_30 }
+add_opinion_modifier = { target = URG modifier = negative_45 }
+add_opinion_modifier = { target = USA modifier = positive_30 }
+add_opinion_modifier = { target = VEN modifier = negative_100 }
+add_opinion_modifier = { target = VIN modifier = negative_30 }
+add_opinion_modifier = { target = W00 modifier = negative_30 }
+add_opinion_modifier = { target = W04 modifier = negative_100 }
+add_opinion_modifier = { target = W15 modifier = negative_30 }
+add_opinion_modifier = { target = X13 modifier = negative_30 }
+add_opinion_modifier = { target = X15 modifier = negative_50 }
+add_opinion_modifier = { target = X16 modifier = negative_30 }
+add_opinion_modifier = { target = X41 modifier = positive_50 }
+add_opinion_modifier = { target = X56 modifier = negative_30 }
+add_opinion_modifier = { target = X69 modifier = negative_30 }
+add_opinion_modifier = { target = X86 modifier = negative_100 }
+add_opinion_modifier = { target = X91 modifier = negative_30 }
+add_opinion_modifier = { target = X98 modifier = positive_155 }
+add_opinion_modifier = { target = YEM modifier = negative_30 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_afro_caribbean
+}
+create_country_leader = {
+	name = "Henry Kilgour"
+	desc = "POLITICS_HENRY_KILGOUR_DESC"
+	picture = "gfx/leaders/LIB/Portrait_LIB_edwin_barclay.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Madeleine Perry"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GUY }
+	}
+
+	create_operative_leader = {
+		name = "Roseline Douglas"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GUY }
+	}
+
+	create_operative_leader = {
+		name = "Roseline Nurse"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GUY }
+	}
+
+	create_operative_leader = {
+		name = "Beatrice Robinson"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GUY }
+	}
+
+	create_operative_leader = {
+		name = "Mardochée Brathwaite"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GUY }
+	}
+
+	create_operative_leader = {
+		name = "Samentha Abbott"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GUY }
+	}
+
+	create_operative_leader = {
+		name = "Judith Shadd"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GUY }
+	}
+
+	create_operative_leader = {
+		name = "Esther Findley"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GUY }
+	}
+
+	create_operative_leader = {
+		name = "Rachelle Williams"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GUY }
+	}
+
+	create_operative_leader = {
+		name = "Fabiola McIntosh"
+		GFX = "gfx/leaders/USA/portrait_usa_josephine_baker.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GUY }
+	}
+
+	create_operative_leader = {
+		name = "Hubert Brathwaite"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GUY }
+	}
+
+	create_operative_leader = {
+		name = "Malcolm Brathwaite"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GUY }
+	}
+
+	create_operative_leader = {
+		name = "Geoffrey Robinson"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GUY }
+	}
+
+	create_operative_leader = {
+		name = "Josiah Douglas"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GUY }
+	}
+
+	create_operative_leader = {
+		name = "Josiah Nurse"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GUY }
+	}
+
+	create_operative_leader = {
+		name = "Stokely Stollmeyer"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GUY }
+	}
+
+	create_operative_leader = {
+		name = "Geoffrey Best"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GUY }
+	}
+
+	create_operative_leader = {
+		name = "Geoffrey Kilgour"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GUY }
+	}
+
+	create_operative_leader = {
+		name = "Stokely Julian"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GUY }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=296
+	name="STATE_296"
+
+	history={
+		owner = W46
+		victory_points = {
+			4299 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = RAJ
+		add_core_of = W46
+		add_core_of = X10
+		add_claim_by = PAK
+	}
+
+	provinces={
+		1377 1983 4045 4299 8082 8114 12137 
+	}
+	manpower=27720588
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

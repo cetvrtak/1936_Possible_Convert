@@ -1,0 +1,584 @@
+﻿capital = 347
+set_research_slots = 3
+
+oob = "X75_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X75_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X75_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_southern_europe
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 70
+	democratic = 28
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = ALG modifier = negative_25 }
+add_opinion_modifier = { target = ARG modifier = negative_5 }
+add_opinion_modifier = { target = BEL modifier = negative_25 }
+add_opinion_modifier = { target = BUL modifier = negative_100 }
+add_opinion_modifier = { target = CHL modifier = positive_20 }
+add_opinion_modifier = { target = COL modifier = positive_20 }
+add_opinion_modifier = { target = COS modifier = negative_25 }
+add_opinion_modifier = { target = CUB modifier = negative_100 }
+add_opinion_modifier = { target = ECU modifier = negative_5 }
+add_opinion_modifier = { target = ENG modifier = positive_10 }
+add_opinion_modifier = { target = FIN modifier = positive_5 }
+add_opinion_modifier = { target = FRA modifier = positive_20 }
+add_opinion_modifier = { target = GRE modifier = negative_5 }
+add_opinion_modifier = { target = GUA modifier = negative_150 }
+add_opinion_modifier = { target = HAI modifier = positive_20 }
+add_opinion_modifier = { target = HOL modifier = negative_5 }
+add_opinion_modifier = { target = HUN modifier = negative_25 }
+add_opinion_modifier = { target = IRE modifier = negative_25 }
+add_opinion_modifier = { target = JAM modifier = negative_25 }
+add_opinion_modifier = { target = LIB modifier = negative_95 }
+add_opinion_modifier = { target = MEX modifier = negative_5 }
+add_opinion_modifier = { target = MON modifier = negative_25 }
+add_opinion_modifier = { target = NIC modifier = negative_125 }
+add_opinion_modifier = { target = PAR modifier = positive_20 }
+add_opinion_modifier = { target = POR modifier = negative_5 }
+add_opinion_modifier = { target = PUE modifier = negative_50 }
+add_opinion_modifier = { target = ROM modifier = negative_125 }
+add_opinion_modifier = { target = SIL modifier = negative_100 }
+add_opinion_modifier = { target = SOV modifier = positive_15 }
+add_opinion_modifier = { target = SWI modifier = positive_5 }
+add_opinion_modifier = { target = TUR modifier = negative_50 }
+add_opinion_modifier = { target = URG modifier = negative_105 }
+add_opinion_modifier = { target = USA modifier = positive_5 }
+add_opinion_modifier = { target = VEN modifier = negative_5 }
+add_opinion_modifier = { target = W04 modifier = negative_25 }
+add_opinion_modifier = { target = X15 modifier = negative_125 }
+add_opinion_modifier = { target = X41 modifier = negative_25 }
+add_opinion_modifier = { target = X86 modifier = negative_100 }
+add_opinion_modifier = { target = X98 modifier = negative_55 }
+
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_north_italian
+}
+create_country_leader = {
+	name = "Raffaele Dezza"
+	desc = "POLITICS_RAFFAELE_DEZZA_DESC"
+	picture = "gfx/leaders/ITA/Portrait_Italy_Victor_Emmanuel_III.dds"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Maria Pallavicino"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Anna Pellion di Persano"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Anna Saletta"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Maria Fara"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Anna di Savoia-Aosta"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Maria Pallavicino"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Anna Govone"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Anna Cusani"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Anna Govone"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Maria Porro"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Anna Baldissera"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Maria Porro"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Maria di Savoia"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Maria Fara"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Anna Mambretti"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Maria Mambretti"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Maria d'Austria-Este"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Maria Solari"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Anna Pianelli"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Maria Garibaldi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Anna Cagni"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Maria Ricotti-Magnani"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Maria Cadorna"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Anna Orengo"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Anna Caviglia"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Cesare La Màrmora"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Ambrogio Solari"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Oreste Acton"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Faustino Menabrea"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Pasquale Badoglio"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Ruggiero Emo"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Gaetano Acton"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Guglielmo Thaon di Revel"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Tancredi Ramorino"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Fiorenzo Cagni"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Girolamo Thaon di Revel"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Guglielmo Presbitero"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Fabrizio Cagni"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Vittorio di Savoia-Aosta"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Oreste d'Absburgo-Toscana"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Innocenzo Ceccherini"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Ettore Pianelli"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Davide Sanna"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Vittorio Perruchetti"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Oreste Menabrea"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Matteo Capello"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Pasquale Ceccherini"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Ruggiero Thaon di Revel"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Leopoldo Presbitero"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Antonio Garibaldi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+	create_operative_leader = {
+		name = "Giuseppe Vaccari"
+		GFX = "gfx/leaders/SPA/portrait_spa_juan_pujol.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X75 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

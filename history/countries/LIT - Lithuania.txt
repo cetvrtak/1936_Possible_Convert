@@ -1,0 +1,621 @@
+﻿capital = 493
+set_research_slots = 3
+
+oob = "LIT_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "LIT_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "LIT_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_eastern_europe
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 69
+	democratic = 25
+	neutrality = 2
+	radical = 4
+}
+
+add_opinion_modifier = { target = ALG modifier = negative_25 }
+add_opinion_modifier = { target = ARG modifier = negative_5 }
+add_opinion_modifier = { target = BEL modifier = negative_25 }
+add_opinion_modifier = { target = BUL modifier = negative_100 }
+add_opinion_modifier = { target = CHL modifier = positive_20 }
+add_opinion_modifier = { target = COL modifier = positive_20 }
+add_opinion_modifier = { target = COS modifier = negative_25 }
+add_opinion_modifier = { target = CUB modifier = negative_100 }
+add_opinion_modifier = { target = ECU modifier = negative_5 }
+add_opinion_modifier = { target = ENG modifier = positive_10 }
+add_opinion_modifier = { target = FIN modifier = positive_5 }
+add_opinion_modifier = { target = FRA modifier = positive_20 }
+add_opinion_modifier = { target = GRE modifier = negative_5 }
+add_opinion_modifier = { target = GUA modifier = negative_150 }
+add_opinion_modifier = { target = HAI modifier = positive_20 }
+add_opinion_modifier = { target = HOL modifier = negative_5 }
+add_opinion_modifier = { target = HUN modifier = negative_25 }
+add_opinion_modifier = { target = IRE modifier = negative_25 }
+add_opinion_modifier = { target = JAM modifier = negative_25 }
+add_opinion_modifier = { target = LIB modifier = negative_95 }
+add_opinion_modifier = { target = MEX modifier = negative_5 }
+add_opinion_modifier = { target = MON modifier = negative_25 }
+add_opinion_modifier = { target = NIC modifier = negative_125 }
+add_opinion_modifier = { target = PAR modifier = positive_20 }
+add_opinion_modifier = { target = POR modifier = negative_5 }
+add_opinion_modifier = { target = PUE modifier = negative_50 }
+add_opinion_modifier = { target = ROM modifier = negative_125 }
+add_opinion_modifier = { target = SIL modifier = negative_100 }
+add_opinion_modifier = { target = SWI modifier = positive_5 }
+add_opinion_modifier = { target = TUR modifier = negative_50 }
+add_opinion_modifier = { target = URG modifier = negative_105 }
+add_opinion_modifier = { target = USA modifier = positive_5 }
+add_opinion_modifier = { target = VEN modifier = negative_5 }
+add_opinion_modifier = { target = W04 modifier = negative_25 }
+add_opinion_modifier = { target = X15 modifier = negative_125 }
+add_opinion_modifier = { target = X41 modifier = negative_25 }
+add_opinion_modifier = { target = X86 modifier = negative_100 }
+add_opinion_modifier = { target = X98 modifier = negative_55 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_lithuanian
+}
+create_country_leader = {
+	name = "Marijus Krupavicius"
+	desc = "POLITICS_MARIJUS_KRUPAVICIUS_DESC"
+	picture = "gfx/leaders/Eastern_European/portrait_EST_Adolf_Friedrich_von_Mecklenburg.dds"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Rozė Galdikienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Aurelija Žemaitienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Viltautė Brazauskienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Elena Dvarionienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Tatjana Vagnoriienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Lilija Čiurlionienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Tatjana Danauskienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Gertrüda Čiurlionienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Odeta Stauaitienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Janina Širvydienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Urtė Almenienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Donata Landsbergienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Monika Šacienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Odeta Almenienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Kristina Voldemarienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Vitalija Birutienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Sandra Terleckienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Monika Švedienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Smiltė Straižienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Smiltė Širvydienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Smiltė Paksienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Edita Paulauskienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Katrė Poželienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Inga Švedienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Donata Simonavičiienė"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Daiva Širvydienė"
+		GFX = "gfx/leaders/POL/portrait_pol_krystyna_skarbek.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Rolandas Dvarionas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Kazys Brazauskas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Arunas Stauaitis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Zydrunas Buga"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Markas Galdikas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Kazimieras Paleckis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Ringaudas Dubeneckis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Justas Paleckis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Adolfas Slezevicius"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Bronislovas Vagnorius"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Adolfas Birutis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Algirdas Dubeneckis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Paulius Terleckas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Jonusas Bradziunas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Simonas Terleckas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Jonusas Ciurlionis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Aleksandras Danauskas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Konstantinas Slezevicius"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Bronislovas Krupavicius"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Augustinas Stauaitis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Gendiminas Lozoraitis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Darius Straizys"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Ramunas Basanavicius"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Boris Slezevicius"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Mykolas Bradziunas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Steponas Stauaitis"
+		GFX = "gfx/leaders/POL/portrait_pol_roman_czerniawski.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Kazimieras Sirvydas"
+		GFX = "gfx/leaders/SOV/portrait_sov_alexander_rado.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Mykolas Radvila"
+		GFX = "gfx/leaders/SOV/portrait_sov_kim_philby.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+	create_operative_leader = {
+		name = "Lukas Galdikas"
+		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIT }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

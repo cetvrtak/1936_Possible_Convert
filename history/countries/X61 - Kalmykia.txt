@@ -1,0 +1,289 @@
+﻿capital = 524
+set_research_slots = 3
+
+oob = "X61_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X61_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X61_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_eastern_europe
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 64
+	democratic = 34
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = ALG modifier = negative_25 }
+add_opinion_modifier = { target = ARG modifier = negative_35 }
+add_opinion_modifier = { target = BEL modifier = negative_55 }
+add_opinion_modifier = { target = BHU modifier = positive_55 }
+add_opinion_modifier = { target = BRA modifier = negative_30 }
+add_opinion_modifier = { target = BUL modifier = negative_100 }
+add_opinion_modifier = { target = CAM modifier = positive_15 }
+add_opinion_modifier = { target = CHL modifier = negative_10 }
+add_opinion_modifier = { target = COL modifier = negative_10 }
+add_opinion_modifier = { target = COS modifier = negative_25 }
+add_opinion_modifier = { target = CUB modifier = negative_100 }
+add_opinion_modifier = { target = ECU modifier = negative_35 }
+add_opinion_modifier = { target = ENG modifier = negative_5 }
+add_opinion_modifier = { target = FIN modifier = negative_10 }
+add_opinion_modifier = { target = FRA modifier = negative_10 }
+add_opinion_modifier = { target = GRE modifier = negative_20 }
+add_opinion_modifier = { target = GUA modifier = negative_150 }
+add_opinion_modifier = { target = HAI modifier = negative_10 }
+add_opinion_modifier = { target = HOL modifier = negative_20 }
+add_opinion_modifier = { target = HUN modifier = negative_25 }
+add_opinion_modifier = { target = IRE modifier = negative_25 }
+add_opinion_modifier = { target = JAM modifier = negative_25 }
+add_opinion_modifier = { target = LIB modifier = negative_110 }
+add_opinion_modifier = { target = MEX modifier = negative_35 }
+add_opinion_modifier = { target = MON modifier = positive_55 }
+add_opinion_modifier = { target = NEP modifier = positive_15 }
+add_opinion_modifier = { target = NIC modifier = negative_125 }
+add_opinion_modifier = { target = PAR modifier = negative_10 }
+add_opinion_modifier = { target = POR modifier = negative_35 }
+add_opinion_modifier = { target = PUE modifier = negative_50 }
+add_opinion_modifier = { target = ROM modifier = negative_125 }
+add_opinion_modifier = { target = SIA modifier = positive_15 }
+add_opinion_modifier = { target = SIL modifier = negative_100 }
+add_opinion_modifier = { target = SWI modifier = negative_10 }
+add_opinion_modifier = { target = TIB modifier = positive_55 }
+add_opinion_modifier = { target = TUR modifier = negative_50 }
+add_opinion_modifier = { target = URG modifier = negative_135 }
+add_opinion_modifier = { target = USA modifier = negative_10 }
+add_opinion_modifier = { target = VEN modifier = negative_35 }
+add_opinion_modifier = { target = VIN modifier = positive_15 }
+add_opinion_modifier = { target = W00 modifier = positive_15 }
+add_opinion_modifier = { target = W04 modifier = negative_25 }
+add_opinion_modifier = { target = W15 modifier = positive_15 }
+add_opinion_modifier = { target = X15 modifier = negative_125 }
+add_opinion_modifier = { target = X41 modifier = negative_25 }
+add_opinion_modifier = { target = X86 modifier = negative_100 }
+add_opinion_modifier = { target = X98 modifier = negative_85 }
+
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_mongol
+}
+create_country_leader = {
+	name = "Khorloogiin Tserendorj"
+	desc = "POLITICS_KHORLOOGIIN_TSERENDORJ_DESC"
+	picture = "gfx/leaders/TIB/Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Chabi Sukhbaatar"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Doquez-khatum Genden"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Mandukhai Tomorbaatar"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Goland Jamyan"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Conchaka Jamyan"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Borte Amar"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Mulan Tomorbaatar"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Temülen Bodoo"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Zaufishan Sukhbaatar"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Ho'elun Genden"
+		GFX = "gfx/leaders/CHI/portrait_man_yoshiko_kawashima.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Chingis Bodoo"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Kubilai Sukhbaatar"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Balingiin Genden"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Gonchigjalzangiin Jamyan"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Khorloogiin Chagdarjav"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Damdin Tomorbaatar"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Otgonbayar Chagdarjav"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Damdin Chagdarjav"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Dogsomyn Tomorbaatar"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

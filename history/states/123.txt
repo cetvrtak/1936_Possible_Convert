@@ -1,0 +1,30 @@
+
+state={
+	id=123
+	name="STATE_123"
+
+	history={
+		owner = VIN
+		victory_points = {
+			4401 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			4401 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = VIN
+	}
+
+	provinces={
+		1285 1396 4401 7238 7271 7347 10232 12176 12204 12232 
+	}
+	manpower=1945236
+	buildings_max_level_factor=1.000
+	state_category=town
+}

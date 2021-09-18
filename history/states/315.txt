@@ -1,0 +1,32 @@
+
+state={
+	id=315
+	name="STATE_315"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = W43
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			5158 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_core_of = ANG
+		add_core_of = W43
+		add_core_of = X64
+	}
+
+	provinces={
+		5158 8219 8248 12981 
+	}
+	manpower=761696
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

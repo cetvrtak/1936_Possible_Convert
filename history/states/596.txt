@@ -1,0 +1,30 @@
+
+state={
+	id=596
+	name="STATE_596"
+	resources={
+		tungsten=33.000
+	}
+
+	history={
+		owner = SPB
+		victory_points = {
+			11851 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = SPB
+	}
+
+	provinces={
+		809 931 985 3930 6866 6902 6948 6954 9839 9877 9917 9925 11780 11798 11851 13230 
+	}
+	manpower=1206360
+	buildings_max_level_factor=1.000
+	state_category=town
+}

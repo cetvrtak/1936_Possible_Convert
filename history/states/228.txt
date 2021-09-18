@@ -1,0 +1,32 @@
+
+state={
+	id=228
+	name="STATE_228"
+	resources={
+		aluminium=5.000
+		rubber=1.000
+		steel=1.000
+	}
+
+	history={
+		owner = W49
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W11
+		add_core_of = W49
+		add_core_of = X21
+		add_core_of = X82
+	}
+
+	provinces={
+		2012 10812 10829 10915 12751 
+	}
+	manpower=1602520
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

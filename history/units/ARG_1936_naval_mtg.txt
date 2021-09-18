@@ -1,0 +1,37 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 1639
+		task_force = {
+			name = "2nd Fleet"
+			location = 1639
+			ship = { name = "ARA La Rioja" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Early Destroyer" } } }
+			ship = { name = "ARA Mendoza" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Early Destroyer" } } }
+			ship = { name = "ARA Misiones" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Early Destroyer" } } }
+			ship = { name = "ARA Paraná" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "ARG"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "ARG"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

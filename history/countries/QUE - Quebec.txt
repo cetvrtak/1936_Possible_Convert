@@ -1,0 +1,789 @@
+﻿capital = 60
+set_research_slots = 3
+
+oob = "QUE_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "QUE_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "QUE_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = radical
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 4
+	democratic = 55
+	neutrality = 3
+	radical = 38
+}
+
+add_opinion_modifier = { target = ALG modifier = positive_40 }
+add_opinion_modifier = { target = ARG modifier = positive_70 }
+add_opinion_modifier = { target = BEL modifier = positive_60 }
+add_opinion_modifier = { target = BHU modifier = negative_10 }
+add_opinion_modifier = { target = BRA modifier = positive_10 }
+add_opinion_modifier = { target = BRU modifier = negative_10 }
+add_opinion_modifier = { target = BUL modifier = negative_100 }
+add_opinion_modifier = { target = CAM modifier = negative_10 }
+add_opinion_modifier = { target = CHL modifier = positive_20 }
+add_opinion_modifier = { target = COL modifier = positive_20 }
+add_opinion_modifier = { target = COS modifier = negative_100 }
+add_opinion_modifier = { target = CUB modifier = negative_100 }
+add_opinion_modifier = { target = ECU modifier = negative_80 }
+add_opinion_modifier = { target = EGY modifier = negative_10 }
+add_opinion_modifier = { target = ENG modifier = positive_5 }
+add_opinion_modifier = { target = FIN modifier = positive_15 }
+add_opinion_modifier = { target = FRA modifier = positive_30 }
+add_opinion_modifier = { target = GRE modifier = negative_15 }
+add_opinion_modifier = { target = GUA modifier = negative_50 }
+add_opinion_modifier = { target = HAI modifier = positive_20 }
+add_opinion_modifier = { target = HOL modifier = negative_15 }
+add_opinion_modifier = { target = HUN modifier = negative_100 }
+add_opinion_modifier = { target = IRE modifier = negative_100 }
+add_opinion_modifier = { target = JAM modifier = negative_100 }
+add_opinion_modifier = { target = LIB modifier = negative_95 }
+add_opinion_modifier = { target = MEX modifier = positive_70 }
+add_opinion_modifier = { target = MON modifier = negative_110 }
+add_opinion_modifier = { target = NEP modifier = negative_10 }
+add_opinion_modifier = { target = NIC modifier = negative_50 }
+add_opinion_modifier = { target = PAR modifier = positive_20 }
+add_opinion_modifier = { target = PER modifier = negative_10 }
+add_opinion_modifier = { target = POR modifier = negative_70 }
+add_opinion_modifier = { target = PUE modifier = negative_50 }
+add_opinion_modifier = { target = ROM modifier = negative_50 }
+add_opinion_modifier = { target = SIA modifier = negative_10 }
+add_opinion_modifier = { target = SIL modifier = negative_100 }
+add_opinion_modifier = { target = SOV modifier = positive_5 }
+add_opinion_modifier = { target = SWI modifier = positive_5 }
+add_opinion_modifier = { target = TIB modifier = negative_10 }
+add_opinion_modifier = { target = TUR modifier = positive_90 }
+add_opinion_modifier = { target = UAE modifier = negative_10 }
+add_opinion_modifier = { target = URG modifier = negative_30 }
+add_opinion_modifier = { target = USA modifier = positive_5 }
+add_opinion_modifier = { target = VEN modifier = negative_80 }
+add_opinion_modifier = { target = VIN modifier = negative_10 }
+add_opinion_modifier = { target = W00 modifier = negative_10 }
+add_opinion_modifier = { target = W04 modifier = negative_100 }
+add_opinion_modifier = { target = W15 modifier = negative_10 }
+add_opinion_modifier = { target = X13 modifier = negative_10 }
+add_opinion_modifier = { target = X15 modifier = negative_50 }
+add_opinion_modifier = { target = X16 modifier = negative_10 }
+add_opinion_modifier = { target = X41 modifier = positive_50 }
+add_opinion_modifier = { target = X56 modifier = negative_10 }
+add_opinion_modifier = { target = X69 modifier = negative_10 }
+add_opinion_modifier = { target = X86 modifier = negative_100 }
+add_opinion_modifier = { target = X91 modifier = negative_10 }
+add_opinion_modifier = { target = X98 modifier = positive_170 }
+add_opinion_modifier = { target = YEM modifier = negative_10 }
+
+
+add_ideas = {
+	QUE_monarch
+	volunteer_only
+	civilian_economy
+	free_trade
+	culture_french_canadian
+}
+create_country_leader = {
+	name = "Luis-Phillippe de St.-Just"
+	desc = "POLITICS_LUIS-PHILLIPPE_DE ST.-JUST_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = minarchism
+	traits = {
+	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Jeanne LeBlanc"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Jeanne Angers"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Marie Masson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Marie Robitaille"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Jeanne Brodeur"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Marie Perodeau"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Marie Langelier"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Marie Brodeur"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Françoise Masson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Jeanne Belleau"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Françoise Perodeau"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Françoise Jotte"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Jeanne Pantaléon"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Jeanne Caron"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Marie Langelier"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Jeanne Masson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Jeanne Belleau"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Marie Angers"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Marie Damasne"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Marie LeBlanc"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Marie Robitaille"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Jeanne de St.-Just"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Jeanne Langelier"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Marie Jotte"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Françoise Perodeau"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Jeanne de St.-Just"
+		GFX = "gfx/leaders/ENG/portrait_eng_diana_rowden.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Françoise Angers"
+		GFX = "gfx/leaders/ENG/portrait_eng_nancy_wake.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Jeanne de St.-Just"
+		GFX = "gfx/leaders/ENG/portrait_eng_krystyna_skarbek.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Françoise Angers"
+		GFX = "gfx/leaders/FRA/portrait_fra_jennie_rousseau.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Marie Pantaléon"
+		GFX = "gfx/leaders/FRA/portrait_fra_odette_samson.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Françoise Pantaléon"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_F.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Louis Chapleau"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Letellier Robitaille"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Gaspard LeBlanc"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Èdouard Chapleau"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Louis Masson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "René Chapleau"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Auguste Caron"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Théodore Caron"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Luc de St.-Just"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Joseph Belleau"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "René Perodeau"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Gilles LeBlanc"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Luc Masson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Luc Jotte"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Louis Brodeur"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Eugéne Caron"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Gilles Jotte"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "René Perodeau"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Louis Angers"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Jean LeBlanc"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Letellier Chapleau"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Gaspard Langelier"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Jean-Pierre Caron"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Èssioff Masson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Joseph Chapleau"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Louis Masson"
+		GFX = "gfx/leaders/ENG/portrait_eng_patrick_fermor.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Letellier Caron"
+		GFX = "gfx/leaders/ENG/portrait_eng_dusko_popov.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Francois Brodeur"
+		GFX = "gfx/leaders/ENG/portrait_eng_juan_pujol.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Joseph Angers"
+		GFX = "gfx/leaders/ENG/portrait_eng_roman_czerniawski.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Èssioff Robitaille"
+		GFX = "gfx/leaders/FRA/portrait_fra_rene_joyeuse.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Francois Pantaléon"
+		GFX = "gfx/leaders/FRA/portrait_fra_gilbert_renault.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Èssioff Angers"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Luc Chapleau"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Èdouard de St.-Just"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_M.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Luis-Phillippe Belleau"
+		GFX = "gfx/leaders/GER/portrait_ger_elyesa_bazna.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Letellier Robitaille"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Jean Caron"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Gaspard Damasne"
+		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Louis Brodeur"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_europe_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+	create_operative_leader = {
+		name = "Francois Perodeau"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_commonwealth_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { QUE }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

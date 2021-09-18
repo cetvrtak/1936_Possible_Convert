@@ -1,0 +1,35 @@
+
+state={
+	id=28
+	name="STATE_28"
+	resources={
+		rubber=6.000
+	}
+
+	history={
+		owner = X13
+		victory_points = {
+			4273 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			12234 = {
+				naval_base = 6
+			}
+			air_base = 10
+
+		}
+		add_core_of = X13
+		add_core_of = X19
+	}
+
+	provinces={
+		4273 7293 10191 12162 12219 12234 
+	}
+	manpower=2154952
+	buildings_max_level_factor=1.000
+	state_category=town
+}

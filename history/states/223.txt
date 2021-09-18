@@ -1,0 +1,35 @@
+
+state={
+	id=223
+	name="STATE_223"
+	resources={
+		aluminium=4.000
+		rubber=1.000
+		steel=1.000
+	}
+
+	history={
+		owner = W49
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			12858 = {
+				naval_base = 10
+			}
+			air_base = 10
+
+		}
+		add_core_of = GNA
+		add_core_of = W49
+		add_core_of = X43
+		add_core_of = X51
+	}
+
+	provinces={
+		1909 12747 12802 12858 12891 
+	}
+	manpower=2185860
+	buildings_max_level_factor=1.000
+	state_category=town
+}

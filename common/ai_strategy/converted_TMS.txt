@@ -1,0 +1,16 @@
+﻿converted_war_strategies_TMS = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_TMS = {
+	enable = {
+		tag = TMS
+	}
+	abort = {
+		always = no
+	}
+	
+}

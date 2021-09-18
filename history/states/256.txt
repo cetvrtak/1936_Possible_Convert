@@ -1,0 +1,31 @@
+
+state={
+	id=256
+	name="STATE_256"
+
+	history={
+		owner = W46
+		victory_points = {
+			12251 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			10321 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_core_of = W46
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		10321 12251 
+	}
+	manpower=25060
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

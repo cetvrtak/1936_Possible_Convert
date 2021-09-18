@@ -1,0 +1,26 @@
+
+state={
+	id=313
+	name="STATE_313"
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			1751 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1751 
+	}
+	manpower=300824
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,410 @@
+focus_tree = {
+	id = ITA_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = WarPropITA
+		icon = GFX_goal_generic_propaganda
+		text = WarProp
+		x = 30
+		y = 0
+		cost = 10
+		available = {
+		threat > 0.000000
+	}
+		completion_reward = {
+		add_stability = 0.05
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = PrepInterITA
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		text = PrepInter
+		prerequisite = { focus = WarPropITA }
+		x = 0
+		y = 1
+		relative_position_id = WarPropITA
+		cost = 10
+		available = {
+		threat > 0.000000
+	}
+		completion_reward = {
+		add_political_power = 120
+		set_rule = { can_send_volunteers = yes }
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = LimITA
+		icon = GFX_goal_generic_more_territorial_claims
+		text = Lim
+		prerequisite = { focus = PrepInterITA }
+		x = 0
+		y = 1
+		relative_position_id = PrepInterITA
+		cost = 10
+		available = {
+		threat > 0.000000
+	}
+		completion_reward = {
+		add_ideas = limited_interventionism
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WarPlanITAJAP
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanJAP
+		prerequisite = { focus = LimITA }
+		bypass = {
+		has_war_with = JAP
+	}
+		x = -2
+		y = 1
+		relative_position_id = LimITA
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = JAP
+			exists = yes
+			NOT = { has_government = democratic } 
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+			}
+		}
+	}
+		completion_reward = {
+		army_experience = 20
+		add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoITAJAP
+		icon = GFX_goal_generic_trade
+		text = EmbargoJAP
+		prerequisite = { focus =  WarPlanITAJAP }
+		bypass = {
+		has_war_with = JAP
+	}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanITAJAP
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = JAP
+			exists = yes
+			NOT = { has_government = democratic } 
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		JAP = {
+			add_opinion_modifier = { target = ROOT modifier = embargo }
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARITAJAP
+		icon = GFX_goal_support_democracy
+		text = WARJAP
+		prerequisite = { focus =  EmbargoITAJAP }
+		bypass = {
+		has_war_with = JAP
+	}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoITAJAP
+		cost = 10
+		available = {
+		has_war = no
+		any_other_country = {
+			original_tag = JAP
+			exists = yes
+			NOT = { has_government = democratic } 
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = JAP
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WarPlanITASOV
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanSOV
+		prerequisite = { focus = LimITA }
+		bypass = {
+		has_war_with = SOV
+	}
+		x = 0
+		y = 1
+		relative_position_id = LimITA
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = SOV
+			exists = yes
+			NOT = { has_government = democratic } 
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+			}
+		}
+	}
+		completion_reward = {
+		army_experience = 20
+		add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoITASOV
+		icon = GFX_goal_generic_trade
+		text = EmbargoSOV
+		prerequisite = { focus =  WarPlanITASOV }
+		bypass = {
+		has_war_with = SOV
+	}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanITASOV
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = SOV
+			exists = yes
+			NOT = { has_government = democratic } 
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		SOV = {
+			add_opinion_modifier = { target = ROOT modifier = embargo }
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARITASOV
+		icon = GFX_goal_support_democracy
+		text = WARSOV
+		prerequisite = { focus =  EmbargoITASOV }
+		bypass = {
+		has_war_with = SOV
+	}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoITASOV
+		cost = 10
+		available = {
+		has_war = no
+		any_other_country = {
+			original_tag = SOV
+			exists = yes
+			NOT = { has_government = democratic } 
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = SOV
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WarPlanITACHI
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanCHI
+		prerequisite = { focus = LimITA }
+		bypass = {
+		has_war_with = CHI
+	}
+		x = 2
+		y = 1
+		relative_position_id = LimITA
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = CHI
+			exists = yes
+			NOT = { has_government = democratic } 
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+			}
+		}
+	}
+		completion_reward = {
+		army_experience = 20
+		add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoITACHI
+		icon = GFX_goal_generic_trade
+		text = EmbargoCHI
+		prerequisite = { focus =  WarPlanITACHI }
+		bypass = {
+		has_war_with = CHI
+	}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanITACHI
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = CHI
+			exists = yes
+			NOT = { has_government = democratic } 
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		CHI = {
+			add_opinion_modifier = { target = ROOT modifier = embargo }
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARITACHI
+		icon = GFX_goal_support_democracy
+		text = WARCHI
+		prerequisite = { focus =  EmbargoITACHI }
+		bypass = {
+		has_war_with = CHI
+	}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoITACHI
+		cost = 10
+		available = {
+		has_war = no
+		any_other_country = {
+			original_tag = CHI
+			exists = yes
+			NOT = { has_government = democratic } 
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = CHI
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+}

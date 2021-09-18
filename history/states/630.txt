@@ -1,0 +1,36 @@
+
+state={
+	id=630
+	name="STATE_630"
+	resources={
+		chromium=6.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			6550 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			10007 = {
+				naval_base = 6
+			}
+			air_base = 5
+
+		}
+		add_core_of = GRE
+		add_core_of = TUR
+		add_core_of = W42
+		add_core_of = X30
+	}
+
+	provinces={
+		1164 4170 6550 7003 8435 9940 10007 12058 
+	}
+	manpower=745032
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

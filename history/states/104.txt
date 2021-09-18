@@ -1,0 +1,25 @@
+
+state={
+	id=104
+	name="STATE_104"
+
+	history={
+		owner = CHI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = W30
+		add_claim_by = CHI
+	}
+
+	provinces={
+		1703 1766 1943 1970 2015 2074 4682 4828 4973 5016 5042 5087 7790 7949 8042 8086 8112 10315 10885 10911 12119 12864 
+	}
+	manpower=929196
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

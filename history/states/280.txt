@@ -1,0 +1,36 @@
+
+state={
+	id=280
+	name="STATE_280"
+	resources={
+		aluminium=4.000
+		rubber=2.000
+	}
+
+	history={
+		owner = W49
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			12742 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_core_of = W49
+		add_core_of = X05
+		add_claim_by = ENG
+		add_claim_by = ITA
+		add_claim_by = TOG
+		add_claim_by = VOL
+	}
+
+	provinces={
+		8039 8096 12742 12787 
+	}
+	manpower=6492102
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

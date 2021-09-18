@@ -1,0 +1,33 @@
+
+state={
+	id=555
+	name="STATE_555"
+	resources={
+		aluminium=17.000
+		chromium=29.000
+		steel=15.000
+		tungsten=5.000
+	}
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = KYR
+		add_core_of = UZB
+		add_claim_by = KAZ
+		add_claim_by = TAJ
+	}
+
+	provinces={
+		1216 1483 1675 1825 1919 2058 4224 4316 4391 4768 4923 5062 10187 10408 10488 10530 10660 12370 12430 12511 12581 
+	}
+	manpower=1981812
+	buildings_max_level_factor=1.000
+	state_category=town
+}

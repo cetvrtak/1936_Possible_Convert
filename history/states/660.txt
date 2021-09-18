@@ -1,0 +1,32 @@
+
+state={
+	id=660
+	name="STATE_660"
+	resources={
+		chromium=2.000
+		oil=2.000
+	}
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			8020 = {
+				naval_base = 6
+			}
+			air_base = 5
+
+		}
+		add_core_of = OMA
+		add_core_of = YEM
+	}
+
+	provinces={
+		1947 2018 2059 2103 4993 5049 8002 8020 10760 
+	}
+	manpower=348048
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

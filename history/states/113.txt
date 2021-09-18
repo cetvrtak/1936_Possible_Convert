@@ -1,0 +1,26 @@
+
+state={
+	id=113
+	name="STATE_113"
+
+	history={
+		owner = CHL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			10995 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		10995 
+	}
+	manpower=11868
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

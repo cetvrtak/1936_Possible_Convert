@@ -1,0 +1,31 @@
+
+state={
+	id=477
+	name="STATE_477"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = W00
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			1179 = {
+				naval_base = 8
+			}
+			air_base = 5
+
+		}
+		add_core_of = X80
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		1179 7917 12774 
+	}
+	manpower=151804
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

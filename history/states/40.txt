@@ -1,0 +1,33 @@
+
+state={
+	id=40
+	name="STATE_40"
+	resources={
+		aluminium=5.000
+	}
+
+	history={
+		owner = BRA
+		victory_points = {
+			13083 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = BRA
+		add_claim_by = BOL
+		add_claim_by = PRU
+		add_claim_by = X98
+	}
+
+	provinces={
+		1979 2198 5083 5214 5216 5232 8185 8254 10960 12919 12965 13083 
+	}
+	manpower=2459476
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

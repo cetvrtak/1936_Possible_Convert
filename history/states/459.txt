@@ -1,0 +1,26 @@
+
+state={
+	id=459
+	name="STATE_459"
+
+	history={
+		owner = X98
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = ECU
+		add_claim_by = PRU
+		add_claim_by = X98
+	}
+
+	provinces={
+		8149 12869 
+	}
+	manpower=80916
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

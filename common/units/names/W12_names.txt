@@ -1,0 +1,58 @@
+﻿W12 = {
+	battle_cruiser = {
+		prefix = ""
+		generic = { "Battlecruiser" }
+		unique = {
+			"Lashio" "Dartsendo" "Gyantse" "Gartse" "Shan" "Lhotse" "Makalu" "Nagqu" "Nyingchi" "Nedong" "Pelbar" "Qamdo" "Shigatse" "Sakya" "Tinggri" 
+		}
+	}
+
+	battleship = {
+		prefix = ""
+		generic = { "Battleship" }
+		unique = {
+			"Lashio" "Dartsendo" "Gyantse" "Gartse" "Shan" "Lhotse" "Makalu" "Nagqu" "Nyingchi" "Nedong" "Pelbar" "Qamdo" "Shigatse" "Sakya" "Tinggri" 
+		}
+	}
+
+	carrier = {
+		prefix = ""
+		generic = { "Carrier" }
+		unique = {
+			"Lashio" "Dartsendo" "Gyantse" "Gartse" "Shan" "Lhotse" "Makalu" "Nagqu" "Nyingchi" "Nedong" "Pelbar" "Qamdo" "Shigatse" "Sakya" "Tinggri" 
+		}
+	}
+
+	destroyer = {
+		prefix = ""
+		generic = { "Destroyer" }
+		unique = {
+			"Lashio" "Dartsendo" "Gyantse" "Gartse" "Shan" "Lhotse" "Makalu" "Nagqu" "Nyingchi" "Nedong" "Pelbar" "Qamdo" "Shigatse" "Sakya" "Tinggri" 
+		}
+	}
+
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Heavy Cruiser" }
+		unique = {
+			"Lashio" "Dartsendo" "Gyantse" "Gartse" "Shan" "Lhotse" "Makalu" "Nagqu" "Nyingchi" "Nedong" "Pelbar" "Qamdo" "Shigatse" "Sakya" "Tinggri" 
+		}
+	}
+
+	light_cruiser = {
+		prefix = ""
+		generic = { "Light Cruiser" }
+		unique = {
+			"Lashio" "Dartsendo" "Gyantse" "Gartse" "Shan" "Lhotse" "Makalu" "Nagqu" "Nyingchi" "Nedong" "Pelbar" "Qamdo" "Shigatse" "Sakya" "Tinggri" 
+		}
+	}
+
+	submarine = {
+		prefix = ""
+		generic = { "Submarine" }
+		unique = {
+			"Lashio" "Dartsendo" "Gyantse" "Gartse" "Shan" "Lhotse" "Makalu" "Nagqu" "Nyingchi" "Nedong" "Pelbar" "Qamdo" "Shigatse" "Sakya" "Tinggri" 
+		}
+	}
+
+}

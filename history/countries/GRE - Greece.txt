@@ -1,0 +1,837 @@
+﻿capital = 319
+set_research_slots = 3
+
+oob = "GRE_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "GRE_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "GRE_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	early_bomber = 1
+	early_fighter = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	gwtank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	synth_oil_experiments = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_light = 1
+		improved_airplane_launcher = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+
+set_country_flag = conv_southern_europe
+set_convoys = 14
+
+add_equipment_to_stockpile = { type = gw_tank_equipment amount = 120 producer = GRE }
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1935.5.23"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 22
+	communism = 22
+	democratic = 32
+	fascism = 15
+	neutrality = 4
+	radical = 5
+}
+
+add_opinion_modifier = { target = ALG modifier = negative_25 }
+add_opinion_modifier = { target = ARG modifier = negative_140 }
+add_opinion_modifier = { target = AST modifier = negative_15 }
+add_opinion_modifier = { target = BEL modifier = negative_200 }
+set_truce = { target = BEL days = 1065 }
+add_opinion_modifier = { target = BRA modifier = negative_55 }
+add_opinion_modifier = { target = BUL modifier = positive_5 }
+add_opinion_modifier = { target = CAN modifier = negative_15 }
+add_opinion_modifier = { target = CHI modifier = positive_20 }
+add_opinion_modifier = { target = CHL modifier = negative_195 }
+add_opinion_modifier = { target = COL modifier = negative_115 }
+add_opinion_modifier = { target = COS modifier = negative_200 }
+add_opinion_modifier = { target = CUB modifier = negative_115 }
+add_opinion_modifier = { target = ECU modifier = negative_200 }
+add_opinion_modifier = { target = EGY modifier = positive_30 }
+give_military_access = EGY
+add_opinion_modifier = { target = ELS modifier = negative_200 }
+add_opinion_modifier = { target = ENG modifier = positive_200 }
+add_opinion_modifier = { target = FIN modifier = negative_15 }
+add_opinion_modifier = { target = FRA modifier = positive_200 }
+give_military_access = FRA
+add_opinion_modifier = { target = GER modifier = positive_2 }
+set_truce = { target = GER days = 1065 }
+add_opinion_modifier = { target = GUA modifier = negative_170 }
+add_opinion_modifier = { target = HAI modifier = negative_115 }
+add_opinion_modifier = { target = HOL modifier = negative_200 }
+add_opinion_modifier = { target = HON modifier = negative_135 }
+add_opinion_modifier = { target = HUN modifier = negative_40 }
+add_opinion_modifier = { target = IRE modifier = negative_140 }
+set_truce = { target = IRE days = 1065 }
+add_opinion_modifier = { target = ITA modifier = negative_195 }
+add_opinion_modifier = { target = JAM modifier = negative_40 }
+add_opinion_modifier = { target = LIB modifier = negative_115 }
+add_opinion_modifier = { target = MEX modifier = negative_170 }
+add_opinion_modifier = { target = MLT modifier = negative_15 }
+add_opinion_modifier = { target = MON modifier = negative_25 }
+add_opinion_modifier = { target = NIC modifier = negative_200 }
+add_opinion_modifier = { target = NZL modifier = negative_15 }
+add_opinion_modifier = { target = OCC modifier = negative_200 }
+set_truce = { target = OCC days = 1065 }
+add_opinion_modifier = { target = PAR modifier = negative_200 }
+add_opinion_modifier = { target = POR modifier = negative_60 }
+add_opinion_modifier = { target = PUE modifier = negative_65 }
+add_opinion_modifier = { target = RAJ modifier = negative_10 }
+add_opinion_modifier = { target = ROM modifier = positive_10 }
+add_opinion_modifier = { target = SAF modifier = negative_15 }
+add_opinion_modifier = { target = SCA modifier = negative_200 }
+add_opinion_modifier = { target = SIL modifier = negative_200 }
+add_opinion_modifier = { target = SOV modifier = positive_115 }
+give_military_access = SOV
+add_opinion_modifier = { target = SPB modifier = negative_15 }
+add_opinion_modifier = { target = SWI modifier = negative_15 }
+add_opinion_modifier = { target = TUR modifier = negative_190 }
+add_opinion_modifier = { target = URG modifier = negative_140 }
+add_opinion_modifier = { target = USA modifier = negative_190 }
+add_opinion_modifier = { target = VEN modifier = negative_200 }
+add_opinion_modifier = { target = VIN modifier = negative_100 }
+add_opinion_modifier = { target = W00 modifier = negative_150 }
+add_opinion_modifier = { target = W04 modifier = negative_25 }
+add_opinion_modifier = { target = W15 modifier = negative_100 }
+add_opinion_modifier = { target = X13 modifier = negative_50 }
+add_opinion_modifier = { target = X15 modifier = negative_125 }
+add_opinion_modifier = { target = X22 modifier = negative_200 }
+set_truce = { target = X22 days = 1065 }
+add_opinion_modifier = { target = X41 modifier = negative_25 }
+add_opinion_modifier = { target = X56 modifier = negative_100 }
+add_opinion_modifier = { target = X86 modifier = negative_100 }
+add_opinion_modifier = { target = X98 modifier = negative_200 }
+add_opinion_modifier = { target = YEM modifier = negative_100 }
+
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_greek
+}
+set_stability = 0.60
+set_war_support = 0.60
+create_country_leader = {
+	name = "Mikhael Voulgaris"
+	desc = "POLITICS_MIKHAEL_VOULGARIS_DESC"
+	picture = "gfx/leaders/Mediterranean/Portrait_Alfonso_XIII.tga"
+	expire = "1965.1.1"
+	ideology = prussian_const
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Ionnis Papoulas"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Charilaos Smolenskis"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Panagiotis Soutsos"
+	traits = { }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Stefanos Zaimis"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_navy_leader = {
+	name = "Themistoklis Venizelos"
+	traits = { }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Georgia Papágo"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Panagiota Mavrovounióti"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Eleni Kanári"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Calliope Tzavéla"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Eleni Papoúla"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Kyriake Mavrovounióti"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Anastasia Mavrokordáto"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Eleni Mavrokordáto"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Anastasia Smolénski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Sofia Dousmani"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Evangelia Dousmani"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Aiketerine Saráfi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Georgia Níder"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Despoina Smolénski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Aiketerine Plastíra"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Eirene Zaḯmi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Anastasia Trikoúpi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Maria Metaxá"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Aggeliki Smolénski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Demetra Saráfi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Demetra Venizélo"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Maria Mavrovounióti"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Konstantina Voúlgari"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Paraskevi Zymvrakáki"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Baslikike Foúmi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Stefanos Papoulas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Theodoros Nider"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Charilaos Charalambis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Benizelos Metaxas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Ilias Kolokotronis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Themistoklis Stanotas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Charilaos Mavrocordatos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Augustinos Trikoupis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Ionnis Mavrocordatos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Tzannis Kanaris"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Othon Palaskas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Spyros Katsimiros"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Antonios Spyromilios"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Emmanouil Kallergis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Spyridion Katsimiros"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Themistoklis Kanaris"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Themistoklis Metaxas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Kitsos Gonatas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Alexandros Christakis-Zografos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Staikos Pangalos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Antonios Nider"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Stefanos Pangalos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Aristidis Typaldos-Alfonsatos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Adamantios Plastiras"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Emmanouil Pangalos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Evripidis Kriezis"
+		GFX = "gfx/leaders/SPA/portrait_spa_juan_pujol.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = ship_hull_heavy_1
+		name_group = GRE_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_heavy_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = GRE_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = GRE_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = GRE_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}

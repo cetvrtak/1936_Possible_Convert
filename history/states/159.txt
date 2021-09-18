@@ -1,0 +1,33 @@
+
+state={
+	id=159
+	name="STATE_159"
+
+	history={
+		owner = FIN
+		victory_points = {
+			9228 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			9228 = {
+				naval_base = 1
+			}
+			air_base = 2
+
+		}
+		add_core_of = FIN
+		add_core_of = SCA
+		add_core_of = SWE
+	}
+
+	provinces={
+		9228 
+	}
+	manpower=45524
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,33 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 5120
+		task_force = {
+			name = "1st Fleet"
+			location = 5120
+			ship = { name = "Atacazo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ECU } } }
+			ship = { name = "Babahoyo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ECU } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "ECU"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "ECU"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

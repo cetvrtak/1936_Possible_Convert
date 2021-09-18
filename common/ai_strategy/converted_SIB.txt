@@ -1,0 +1,16 @@
+﻿converted_war_strategies_SIB = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_SIB = {
+	enable = {
+		tag = SIB
+	}
+	abort = {
+		always = no
+	}
+	
+}

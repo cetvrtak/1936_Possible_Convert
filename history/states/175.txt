@@ -1,0 +1,31 @@
+
+state={
+	id=175
+	name="STATE_175"
+	resources={
+		aluminium=6.000
+		steel=54.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			587 7 
+		}
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 8
+			arms_factory = 4
+			air_base = 4
+
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		587 3444 3547 6583 9522 11435 11470 
+	}
+	manpower=8490712
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

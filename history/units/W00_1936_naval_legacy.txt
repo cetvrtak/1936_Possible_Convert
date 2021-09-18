@@ -1,0 +1,40 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 3456
+		task_force = {
+			name = "2nd Fleet"
+			location = 3456
+			ship = { name = "Devi 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = W00 } } }
+			ship = { name = "Gayatri 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = W00 } } }
+			ship = { name = "Jalsena 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = W00 } } }
+			ship = { name = "Jhelum" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = W00 } } }
+			ship = { name = "Jhelum 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = W00 } } }
+			ship = { name = "Lakshmi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = W00 } } }
+			ship = { name = "Lakshmi 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = W00 } } }
+			ship = { name = "Nav ka Yudh" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = W00 } } }
+			ship = { name = "Indus 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = W00 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "W00"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "W00"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

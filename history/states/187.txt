@@ -1,0 +1,39 @@
+
+state={
+	id=187
+	name="STATE_187"
+	resources={
+		aluminium=3.000
+		rubber=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = W49
+		victory_points = {
+			10803 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			10803 = {
+				naval_base = 10
+			}
+			air_base = 10
+
+		}
+		add_core_of = IVO
+		add_core_of = W49
+		add_core_of = X05
+		add_core_of = X63
+	}
+
+	provinces={
+		5013 8065 10803 
+	}
+	manpower=2339432
+	buildings_max_level_factor=1.000
+	state_category=town
+}

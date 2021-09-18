@@ -1,0 +1,31 @@
+
+state={
+	id=142
+	name="STATE_142"
+	resources={
+		rubber=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			1977 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = SUD
+	}
+
+	provinces={
+		1977 2003 2046 4138 4963 7989 8105 10745 10902 12725 12796 12826 12836 12881 
+	}
+	manpower=463868
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

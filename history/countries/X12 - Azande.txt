@@ -1,0 +1,298 @@
+﻿capital = 216
+set_research_slots = 2
+
+oob = "X12_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X12_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X12_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_central_africa
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 83
+	democratic = 14
+	neutrality = 3
+}
+
+add_opinion_modifier = { target = ALG modifier = negative_45 }
+add_opinion_modifier = { target = ARG modifier = negative_35 }
+add_opinion_modifier = { target = BEL modifier = negative_35 }
+add_opinion_modifier = { target = BHU modifier = negative_20 }
+add_opinion_modifier = { target = BRA modifier = negative_10 }
+add_opinion_modifier = { target = BRU modifier = negative_20 }
+add_opinion_modifier = { target = BUL modifier = negative_100 }
+add_opinion_modifier = { target = CAM modifier = negative_20 }
+add_opinion_modifier = { target = CHL modifier = negative_10 }
+add_opinion_modifier = { target = COL modifier = negative_10 }
+add_opinion_modifier = { target = COS modifier = negative_25 }
+add_opinion_modifier = { target = CUB modifier = negative_100 }
+add_opinion_modifier = { target = ECU modifier = negative_35 }
+add_opinion_modifier = { target = EGY modifier = negative_20 }
+add_opinion_modifier = { target = ENG modifier = negative_5 }
+add_opinion_modifier = { target = FIN modifier = negative_10 }
+add_opinion_modifier = { target = FRA modifier = negative_10 }
+add_opinion_modifier = { target = GUA modifier = negative_150 }
+add_opinion_modifier = { target = HAI modifier = negative_10 }
+add_opinion_modifier = { target = HUN modifier = negative_25 }
+add_opinion_modifier = { target = IRE modifier = negative_25 }
+add_opinion_modifier = { target = JAM modifier = negative_25 }
+add_opinion_modifier = { target = LIB modifier = negative_110 }
+add_opinion_modifier = { target = MEX modifier = negative_35 }
+add_opinion_modifier = { target = MON modifier = negative_45 }
+add_opinion_modifier = { target = NEP modifier = negative_20 }
+add_opinion_modifier = { target = NIC modifier = negative_125 }
+add_opinion_modifier = { target = PAR modifier = negative_10 }
+add_opinion_modifier = { target = PER modifier = negative_20 }
+add_opinion_modifier = { target = POR modifier = negative_35 }
+add_opinion_modifier = { target = PUE modifier = negative_50 }
+add_opinion_modifier = { target = ROM modifier = negative_125 }
+add_opinion_modifier = { target = SIA modifier = negative_20 }
+add_opinion_modifier = { target = SIL modifier = negative_100 }
+add_opinion_modifier = { target = SWI modifier = negative_10 }
+add_opinion_modifier = { target = TIB modifier = negative_20 }
+add_opinion_modifier = { target = TUR modifier = negative_50 }
+add_opinion_modifier = { target = UAE modifier = negative_20 }
+add_opinion_modifier = { target = URG modifier = negative_135 }
+add_opinion_modifier = { target = USA modifier = negative_10 }
+add_opinion_modifier = { target = VEN modifier = negative_35 }
+add_opinion_modifier = { target = VIN modifier = negative_20 }
+add_opinion_modifier = { target = W00 modifier = negative_20 }
+add_opinion_modifier = { target = W04 modifier = negative_25 }
+add_opinion_modifier = { target = W15 modifier = negative_20 }
+add_opinion_modifier = { target = X13 modifier = positive_10 }
+add_opinion_modifier = { target = X15 modifier = negative_125 }
+add_opinion_modifier = { target = X16 modifier = negative_20 }
+add_opinion_modifier = { target = X41 modifier = negative_25 }
+add_opinion_modifier = { target = X56 modifier = negative_20 }
+add_opinion_modifier = { target = X69 modifier = negative_20 }
+add_opinion_modifier = { target = X86 modifier = negative_100 }
+add_opinion_modifier = { target = X91 modifier = negative_20 }
+add_opinion_modifier = { target = X98 modifier = negative_85 }
+add_opinion_modifier = { target = YEM modifier = negative_20 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_azande
+}
+create_country_leader = {
+	name = "Ngabwe Nabushi"
+	desc = "POLITICS_NGABWE_NABUSHI_DESC"
+	picture = "gfx/leaders/African/Portrait_SUD_Abd_Mahdi.tga"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Zahra Muhigirwa"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X12 }
+	}
+
+	create_operative_leader = {
+		name = "Nala Nabushi"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X12 }
+	}
+
+	create_operative_leader = {
+		name = "Nala Nabushi"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X12 }
+	}
+
+	create_operative_leader = {
+		name = "Zahra Muhigirwa"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X12 }
+	}
+
+	create_operative_leader = {
+		name = "Nia Ntayitunda"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X12 }
+	}
+
+	create_operative_leader = {
+		name = "Nala Muhigirwa"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X12 }
+	}
+
+	create_operative_leader = {
+		name = "Nala Muhigirwa"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X12 }
+	}
+
+	create_operative_leader = {
+		name = "Zahra Ntayitunda"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X12 }
+	}
+
+	create_operative_leader = {
+		name = "Hanna Ntayitunda"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X12 }
+	}
+
+	create_operative_leader = {
+		name = "Nala Nabushi"
+		GFX = "gfx/leaders/USA/portrait_usa_josephine_baker.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X12 }
+	}
+
+	create_operative_leader = {
+		name = "Rutanganda Muhigirwa"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X12 }
+	}
+
+	create_operative_leader = {
+		name = "Makome Nabushi"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X12 }
+	}
+
+	create_operative_leader = {
+		name = "Rugemaninzi Muhigirwa"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X12 }
+	}
+
+	create_operative_leader = {
+		name = "Birhenjira Muhigirwa"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X12 }
+	}
+
+	create_operative_leader = {
+		name = "Souau Ntayitunda"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X12 }
+	}
+
+	create_operative_leader = {
+		name = "Bigomokero Ntayitunda"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X12 }
+	}
+
+	create_operative_leader = {
+		name = "Ngabwe Nabushi"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X12 }
+	}
+
+	create_operative_leader = {
+		name = "Mwerve Muhigirwa"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X12 }
+	}
+
+	create_operative_leader = {
+		name = "Mwerve Nabushi"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X12 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

@@ -1,0 +1,37 @@
+units = {
+	fleet = {
+		name = "Armada de Mexico"
+		naval_base = 5066
+		task_force = {
+			name = "Armada de Mexico"
+			location = 5066
+			ship = { name = "Olmec" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Early Destroyer" } } }
+			ship = { name = "Teotihaucan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Early Destroyer" } } }
+			ship = { name = "Nahua" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Early Destroyer" } } }
+			ship = { name = "Teotihaucan 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Early Destroyer" } } }
+			ship = { name = "Nahua 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Early Destroyer" } } }
+			ship = { name = "Usumacinta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Early Destroyer" } } }
+			ship = { name = "Azcapotzalco" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Early Destroyer" } } }
+			ship = { name = "Corralero" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Early Destroyer" } } }
+			ship = { name = "Rio Grande" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Early Destroyer" } } }
+			ship = { name = "Tiltepec" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Early Destroyer" } } }
+			ship = { name = "Pastoria" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Early Destroyer" } } }
+			ship = { name = "Ayutla" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Early Destroyer" } } }
+			ship = { name = "Tehuantepec" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Early Destroyer" } } }
+			ship = { name = "1st Matamoros Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "MEX"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=687
+	name="STATE_687"
+	resources={
+		aluminium=44.000
+		steel=136.000
+		tungsten=62.000
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			4799 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = USA
+		add_core_of = X36
+	}
+
+	provinces={
+		1862 4521 4607 4736 4799 4816 7756 7827 7879 10422 10591 12134 12399 12425 
+	}
+	manpower=737720
+	buildings_max_level_factor=1.000
+	state_category=town
+}

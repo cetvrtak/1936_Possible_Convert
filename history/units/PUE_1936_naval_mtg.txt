@@ -1,0 +1,34 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 1440
+		task_force = {
+			name = "1st Fleet"
+			location = 1440
+			ship = { name = "Prince Charles" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PUE version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "PUE"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "PUE"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

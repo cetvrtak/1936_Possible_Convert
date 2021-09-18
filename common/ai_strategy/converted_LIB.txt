@@ -1,0 +1,61 @@
+﻿converted_war_strategies_LIB = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 280
+	}
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 278
+	}
+}
+
+converted_diplo_strategies_LIB = {
+	enable = {
+		tag = LIB
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 323
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 93
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "JAM"
+		value = 63
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X13"
+		value = 54
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "HAI"
+		value = 45
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "PUE"
+		value = 41
+	}
+}

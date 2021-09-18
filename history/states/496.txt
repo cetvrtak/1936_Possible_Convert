@@ -1,0 +1,31 @@
+
+state={
+	id=496
+	name="STATE_496"
+
+	history={
+		owner = SOV
+		victory_points = {
+			400 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = BLR
+		add_core_of = POL
+		add_core_of = SOV
+		add_core_of = UKR
+		add_core_of = W01
+	}
+
+	provinces={
+		290 318 347 400 3254 3256 3281 3366 3392 3393 6546 11247 11301 11357 11528 13206 
+	}
+	manpower=2562964
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

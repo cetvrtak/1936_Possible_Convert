@@ -1,0 +1,31 @@
+
+state={
+	id=716
+	name="STATE_716"
+	resources={
+		aluminium=37.000
+	}
+
+	history={
+		owner = VEN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12716 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = GUY
+		add_claim_by = VEN
+	}
+
+	provinces={
+		12716 
+	}
+	manpower=99808
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

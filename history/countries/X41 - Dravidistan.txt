@@ -1,0 +1,476 @@
+﻿capital = 124
+set_research_slots = 3
+add_named_threat = { threat = 0.14 name = infamy }
+
+oob = "X41_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X41_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X41_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	early_bomber = 1
+	early_fighter = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	gwtank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	marines = 1
+	support_weapons = 1
+	synth_oil_experiments = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_ship_hull_submarine = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_light = 1
+		improved_airplane_launcher = 1
+		mtg_transport = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+add_tech_bonus = { name = land_doc_bonus bonus = 1000 uses = 1 category = land_doctrine }
+
+set_country_flag = conv_south_asia
+set_convoys = 7
+
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = X41 }
+add_equipment_to_stockpile = { type = gw_tank_equipment amount = 841 producer = X41 }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 44 producer = X41 }
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1932.3.30"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 0
+	communism = 8
+	democratic = 75
+	fascism = 9
+	neutrality = 4
+	radical = 4
+}
+
+add_opinion_modifier = { target = ALG modifier = positive_105 }
+add_opinion_modifier = { target = ARG modifier = negative_85 }
+add_opinion_modifier = { target = AST modifier = positive_40 }
+add_opinion_modifier = { target = BAN modifier = positive_50 }
+add_opinion_modifier = { target = BEL modifier = positive_50 }
+add_opinion_modifier = { target = BHU modifier = negative_30 }
+add_opinion_modifier = { target = BRA modifier = positive_40 }
+add_opinion_modifier = { target = BRU modifier = negative_45 }
+add_opinion_modifier = { target = BUL modifier = negative_200 }
+add_opinion_modifier = { target = CAM modifier = negative_30 }
+add_opinion_modifier = { target = CAN modifier = positive_40 }
+add_opinion_modifier = { target = CHI modifier = negative_100 }
+add_opinion_modifier = { target = CHL modifier = negative_60 }
+add_opinion_modifier = { target = COL modifier = negative_60 }
+add_opinion_modifier = { target = COS modifier = negative_200 }
+add_opinion_modifier = { target = CUB modifier = negative_200 }
+add_opinion_modifier = { target = ECU modifier = negative_125 }
+add_opinion_modifier = { target = EGY modifier = negative_11 }
+add_opinion_modifier = { target = ELS modifier = negative_25 }
+add_opinion_modifier = { target = ENG modifier = positive_30 }
+add_opinion_modifier = { target = FIN modifier = positive_40 }
+add_opinion_modifier = { target = FRA modifier = positive_71 }
+add_opinion_modifier = { target = GER modifier = positive_106 }
+give_military_access = GER
+add_opinion_modifier = { target = GRE modifier = negative_25 }
+add_opinion_modifier = { target = GUA modifier = negative_200 }
+add_opinion_modifier = { target = HAI modifier = negative_135 }
+add_opinion_modifier = { target = HOL modifier = positive_50 }
+add_opinion_modifier = { target = HON modifier = negative_135 }
+add_opinion_modifier = { target = HUN modifier = negative_200 }
+add_opinion_modifier = { target = IRE modifier = negative_200 }
+add_opinion_modifier = { target = ITA modifier = positive_77 }
+add_opinion_modifier = { target = JAM modifier = negative_200 }
+add_opinion_modifier = { target = JAP modifier = negative_85 }
+add_opinion_modifier = { target = LIB modifier = negative_200 }
+add_opinion_modifier = { target = MAC modifier = positive_50 }
+add_opinion_modifier = { target = MEX modifier = negative_85 }
+add_opinion_modifier = { target = MLT modifier = negative_25 }
+add_opinion_modifier = { target = MON modifier = negative_200 }
+add_opinion_modifier = { target = MOR modifier = negative_45 }
+add_opinion_modifier = { target = NEP modifier = positive_115 }
+add_opinion_modifier = { target = NIC modifier = negative_150 }
+add_opinion_modifier = { target = NZL modifier = positive_40 }
+add_opinion_modifier = { target = OCC modifier = positive_50 }
+add_opinion_modifier = { target = PAR modifier = negative_25 }
+add_opinion_modifier = { target = PER modifier = negative_45 }
+add_opinion_modifier = { target = RAJ modifier = negative_200 }
+add_opinion_modifier = { target = ROM modifier = negative_200 }
+add_opinion_modifier = { target = SAF modifier = positive_60 }
+add_opinion_modifier = { target = SCA modifier = negative_150 }
+add_opinion_modifier = { target = SIA modifier = negative_30 }
+add_opinion_modifier = { target = SIL modifier = negative_200 }
+add_opinion_modifier = { target = SOV modifier = negative_50 }
+add_opinion_modifier = { target = SPB modifier = positive_36 }
+give_military_access = SPB
+add_opinion_modifier = { target = SWI modifier = positive_40 }
+add_opinion_modifier = { target = TIB modifier = negative_130 }
+add_opinion_modifier = { target = TUN modifier = positive_75 }
+add_opinion_modifier = { target = UAE modifier = positive_30 }
+add_opinion_modifier = { target = URG modifier = negative_200 }
+add_opinion_modifier = { target = USA modifier = positive_75 }
+add_opinion_modifier = { target = VEN modifier = negative_200 }
+add_opinion_modifier = { target = VIN modifier = negative_130 }
+add_opinion_modifier = { target = W00 modifier = negative_101 }
+add_opinion_modifier = { target = W04 modifier = positive_30 }
+give_military_access = W04
+add_opinion_modifier = { target = W15 modifier = negative_90 }
+add_opinion_modifier = { target = X06 modifier = negative_25 }
+add_opinion_modifier = { target = X13 modifier = negative_45 }
+add_opinion_modifier = { target = X15 modifier = positive_5 }
+add_opinion_modifier = { target = X16 modifier = negative_45 }
+add_opinion_modifier = { target = X22 modifier = positive_50 }
+add_opinion_modifier = { target = X56 modifier = negative_145 }
+add_opinion_modifier = { target = X69 modifier = positive_25 }
+add_opinion_modifier = { target = X86 modifier = negative_199 }
+add_opinion_modifier = { target = X91 modifier = negative_45 }
+add_opinion_modifier = { target = X94 modifier = negative_25 }
+add_opinion_modifier = { target = X98 modifier = negative_35 }
+add_opinion_modifier = { target = YEM modifier = negative_145 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_telegu
+}
+set_stability = 0.60
+set_war_support = 0.59
+create_country_leader = {
+	name = "Alluri Hanumathu"
+	desc = "POLITICS_ALLURI_HANUMATHU_DESC"
+	picture = "gfx/leaders/Indian/Portrait_BHC_Mohandas_Karamchand_Gandhi.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Uyyalawada Sriramulu"
+	traits = { }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Uyyalawada Naidu"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Sarojini Sitaramaraju"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Sarojini Kattabomman"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Indira Sitaramaraju"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X41 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Naidu"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X41 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Kattabomman"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X41 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Naidu"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X41 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Deshmukh"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X41 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Naidu"
+		GFX = "gfx/leaders/RAJ/portrait_raj_noor_inayat_khan.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X41 }
+	}
+
+	create_operative_leader = {
+		name = "Uyyalawada Naidu"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X41 }
+	}
+
+	create_operative_leader = {
+		name = "Vasireddy Naidu"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X41 }
+	}
+
+	create_operative_leader = {
+		name = "Narasimha Sitaramaraju"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X41 }
+	}
+
+	create_operative_leader = {
+		name = "Sarojini Kattabomman"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X41 }
+	}
+
+	create_operative_leader = {
+		name = "Sarojini Naidu"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X41 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = X41_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = ship_hull_heavy_1
+		name_group = X41_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_heavy_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = X41_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X41_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X41_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}

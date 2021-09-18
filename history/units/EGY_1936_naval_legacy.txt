@@ -1,0 +1,40 @@
+units = {
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 4076
+		task_force = {
+			name = "4th Fleet"
+			location = 4076
+			ship = { name = "Alif" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EGY } } }
+			ship = { name = "Anwar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EGY } } }
+			ship = { name = "Amin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EGY } } }
+			ship = { name = "Bahir" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EGY } } }
+			ship = { name = "Ayham" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EGY } } }
+			ship = { name = "Dhakwan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EGY } } }
+			ship = { name = "Falah" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EGY } } }
+			ship = { name = "Faraj" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EGY } } }
+			ship = { name = "Fawzan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EGY } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "EGY"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "EGY"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

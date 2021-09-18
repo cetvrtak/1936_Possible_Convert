@@ -1,0 +1,37 @@
+
+state={
+	id=319
+	name="STATE_319"
+	resources={
+		aluminium=39.000
+		chromium=19.000
+		steel=15.000
+		tungsten=13.000
+	}
+
+	history={
+		owner = GRE
+		victory_points = {
+			4109 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			4109 = {
+				naval_base = 8
+			}
+			air_base = 5
+
+		}
+		add_core_of = GRE
+	}
+
+	provinces={
+		976 1109 1205 3864 3988 4109 7127 11895 12001 
+	}
+	manpower=1059128
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=376
+	name="STATE_376"
+	resources={
+		aluminium=0.000
+		rubber=0.000
+	}
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			12975 = {
+				naval_base = 8
+			}
+			air_base = 5
+
+		}
+		add_core_of = RCG
+		add_core_of = X74
+	}
+
+	provinces={
+		12975 
+	}
+	manpower=815904
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

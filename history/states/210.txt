@@ -1,0 +1,30 @@
+
+state={
+	id=210
+	name="STATE_210"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = W43
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = CAR
+		add_core_of = W31
+		add_core_of = W43
+		add_claim_by = X12
+	}
+
+	provinces={
+		3165 5084 12719 
+	}
+	manpower=289492
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

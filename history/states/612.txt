@@ -1,0 +1,26 @@
+
+state={
+	id=612
+	name="STATE_612"
+
+	history={
+		owner = SPB
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			4357 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		4357 12103 
+	}
+	manpower=95972
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

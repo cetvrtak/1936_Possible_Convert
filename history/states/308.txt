@@ -1,0 +1,31 @@
+
+state={
+	id=308
+	name="STATE_308"
+	resources={
+		rubber=7.000
+	}
+
+	history={
+		owner = W47
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			10219 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = W47
+		add_core_of = X19
+	}
+
+	provinces={
+		1298 4301 7321 10175 10219 12151 
+	}
+	manpower=351340
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

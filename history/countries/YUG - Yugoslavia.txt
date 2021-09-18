@@ -1,0 +1,788 @@
+﻿capital = 718
+set_research_slots = 3
+
+oob = "YUG_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "YUG_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "YUG_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	early_bomber = 1
+	early_fighter = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+
+set_country_flag = conv_southern_europe
+set_convoys = 1
+
+
+set_politics = {
+    ruling_party = fascism
+    last_election = "1935.12.27"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 0
+	communism = 16
+	democratic = 61
+	fascism = 13
+	neutrality = 4
+	radical = 6
+}
+
+add_opinion_modifier = { target = ALG modifier = negative_25 }
+add_opinion_modifier = { target = ARG modifier = negative_160 }
+add_opinion_modifier = { target = AST modifier = positive_5 }
+add_opinion_modifier = { target = BEL modifier = negative_100 }
+set_truce = { target = BEL days = 1065 }
+add_opinion_modifier = { target = BRA modifier = negative_15 }
+add_opinion_modifier = { target = BUL modifier = positive_1 }
+add_opinion_modifier = { target = CAN modifier = positive_5 }
+add_opinion_modifier = { target = CHI modifier = negative_100 }
+add_opinion_modifier = { target = CHL modifier = negative_115 }
+add_opinion_modifier = { target = COL modifier = negative_115 }
+add_opinion_modifier = { target = COS modifier = negative_200 }
+add_opinion_modifier = { target = CUB modifier = negative_95 }
+add_opinion_modifier = { target = ECU modifier = negative_200 }
+add_opinion_modifier = { target = EGY modifier = positive_110 }
+add_opinion_modifier = { target = ELS modifier = negative_200 }
+add_opinion_modifier = { target = ENG modifier = positive_200 }
+add_opinion_modifier = { target = FRA modifier = positive_200 }
+give_military_access = FRA
+add_opinion_modifier = { target = GER modifier = negative_200 }
+set_truce = { target = GER days = 1065 }
+add_opinion_modifier = { target = GUA modifier = negative_150 }
+add_opinion_modifier = { target = HAI modifier = negative_115 }
+add_opinion_modifier = { target = HOL modifier = positive_30 }
+give_military_access = HOL
+add_opinion_modifier = { target = HON modifier = negative_95 }
+add_opinion_modifier = { target = HUN modifier = negative_200 }
+add_opinion_modifier = { target = IRE modifier = negative_100 }
+set_truce = { target = IRE days = 1065 }
+add_opinion_modifier = { target = ITA modifier = negative_191 }
+add_opinion_modifier = { target = LIB modifier = negative_115 }
+add_opinion_modifier = { target = MAC modifier = negative_8 }
+add_opinion_modifier = { target = MEX modifier = negative_140 }
+add_opinion_modifier = { target = MON modifier = negative_25 }
+add_opinion_modifier = { target = NIC modifier = negative_200 }
+add_opinion_modifier = { target = NZL modifier = negative_195 }
+add_opinion_modifier = { target = OCC modifier = negative_100 }
+set_truce = { target = OCC days = 1065 }
+add_opinion_modifier = { target = PAR modifier = negative_200 }
+add_opinion_modifier = { target = POR modifier = negative_25 }
+add_opinion_modifier = { target = ROM modifier = positive_1 }
+add_opinion_modifier = { target = SAF modifier = negative_195 }
+add_opinion_modifier = { target = SOV modifier = positive_110 }
+add_opinion_modifier = { target = TUR modifier = negative_192 }
+add_opinion_modifier = { target = URG modifier = negative_140 }
+add_opinion_modifier = { target = USA modifier = negative_195 }
+add_opinion_modifier = { target = VEN modifier = negative_200 }
+add_opinion_modifier = { target = VIN modifier = negative_100 }
+add_opinion_modifier = { target = W04 modifier = negative_25 }
+add_opinion_modifier = { target = W15 modifier = negative_100 }
+add_opinion_modifier = { target = X15 modifier = negative_125 }
+add_opinion_modifier = { target = X22 modifier = negative_100 }
+set_truce = { target = X22 days = 1065 }
+add_opinion_modifier = { target = X56 modifier = negative_100 }
+add_opinion_modifier = { target = X91 modifier = positive_30 }
+add_opinion_modifier = { target = YEM modifier = negative_100 }
+
+
+add_ideas = {
+	YUG_monarch
+	limited_conscription
+	partial_economic_mobilisation
+	limited_exports
+	culture_serb
+}
+set_stability = 0.60
+set_war_support = 0.22
+create_country_leader = {
+	name = "Bozidar Maric"
+	desc = "POLITICS_BOZIDAR_MARIC_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_6.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Milojko Zivkovic"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Draza Radulovic"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Momcilo Mihailovic"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Stojan Jokic"
+	traits = { }
+	skill = 2
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Ratko Paskas"
+	traits = { }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Helena Putnik"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Catherine Miliutinovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Helena Dragutinovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Helena Paskas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Dorothy Sokolovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Helena Veric"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Catherine Panic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Adriana Ljubicic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Helen Belimarkovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Catherine Miliutinovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Ekaterina Jankovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Ekaterina Lesjanin"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Doroteja Panic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Ekaterina Novak"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Doroteja Misic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Catherine Bozanovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Dorothy Nad"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Helena Pavkovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Jadviga Kadijevic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Dorothy Misic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Adriana Vasiljevic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Helena Paskas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Helena Panic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Helena Bojovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Catherine Putnik"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Zivota Ojdanic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Vaselien Veric"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Vladimir Miliutinovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Veljko Simovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Stepa Grujic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Milivoje Paskas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Koca Zivkovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Vojislav Jovanovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Dejan Jankovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Bozidar Miloradovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Danilo Popovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Ratko Belimarkovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Stojan Bozanovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Djordje Ojdanic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Draza Adzic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Miodrag Maric"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Zvezdan Veric"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Milos Ljubicic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Branko Horvatovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Koca Obrenovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Dragan Adzic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Pavle Stepanovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Ratko Panic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Milivoje Jovanovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+	create_operative_leader = {
+		name = "Bozidar Lesjanin"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { YUG }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = YUG_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = YUG_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = YUG_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=127
+	name="STATE_127"
+	resources={
+		chromium=9.000
+		tungsten=16.000
+	}
+
+	history={
+		owner = X41
+		victory_points = {
+			8087 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = X41
+		add_core_of = X48
+		add_claim_by = RAJ
+		add_claim_by = X79
+		add_claim_by = X86
+	}
+
+	provinces={
+		1275 1317 1359 4280 4472 5104 7411 8087 10259 10324 10799 12114 
+	}
+	manpower=6584652
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

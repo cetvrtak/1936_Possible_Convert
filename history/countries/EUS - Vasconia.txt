@@ -1,0 +1,602 @@
+﻿capital = 598
+set_research_slots = 3
+
+oob = "EUS_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "EUS_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "EUS_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_southern_europe
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 11
+	democratic = 86
+	fascism = 0
+	neutrality = 3
+}
+
+add_opinion_modifier = { target = ALG modifier = positive_40 }
+add_opinion_modifier = { target = ARG modifier = positive_70 }
+add_opinion_modifier = { target = BEL modifier = positive_50 }
+add_opinion_modifier = { target = BHU modifier = negative_10 }
+add_opinion_modifier = { target = BRU modifier = negative_10 }
+add_opinion_modifier = { target = BUL modifier = negative_100 }
+add_opinion_modifier = { target = CAM modifier = negative_10 }
+add_opinion_modifier = { target = CHL modifier = positive_30 }
+add_opinion_modifier = { target = COL modifier = positive_30 }
+add_opinion_modifier = { target = COS modifier = negative_100 }
+add_opinion_modifier = { target = CUB modifier = negative_100 }
+add_opinion_modifier = { target = ECU modifier = negative_70 }
+add_opinion_modifier = { target = EGY modifier = negative_10 }
+add_opinion_modifier = { target = ENG modifier = positive_10 }
+add_opinion_modifier = { target = FIN modifier = positive_5 }
+add_opinion_modifier = { target = GRE modifier = negative_15 }
+add_opinion_modifier = { target = GUA modifier = negative_50 }
+add_opinion_modifier = { target = HAI modifier = positive_20 }
+add_opinion_modifier = { target = HOL modifier = negative_15 }
+add_opinion_modifier = { target = HUN modifier = negative_100 }
+add_opinion_modifier = { target = IRE modifier = negative_100 }
+add_opinion_modifier = { target = JAM modifier = negative_100 }
+add_opinion_modifier = { target = LIB modifier = negative_85 }
+add_opinion_modifier = { target = MEX modifier = positive_70 }
+add_opinion_modifier = { target = MON modifier = negative_110 }
+add_opinion_modifier = { target = NEP modifier = negative_10 }
+add_opinion_modifier = { target = NIC modifier = negative_50 }
+add_opinion_modifier = { target = PAR modifier = positive_20 }
+add_opinion_modifier = { target = PER modifier = negative_10 }
+add_opinion_modifier = { target = POR modifier = negative_55 }
+add_opinion_modifier = { target = PUE modifier = negative_50 }
+add_opinion_modifier = { target = ROM modifier = negative_50 }
+add_opinion_modifier = { target = SIA modifier = negative_10 }
+add_opinion_modifier = { target = SIL modifier = negative_100 }
+add_opinion_modifier = { target = SOV modifier = positive_5 }
+add_opinion_modifier = { target = SWI modifier = positive_15 }
+add_opinion_modifier = { target = TIB modifier = negative_10 }
+add_opinion_modifier = { target = TUR modifier = positive_90 }
+add_opinion_modifier = { target = UAE modifier = negative_10 }
+add_opinion_modifier = { target = URG modifier = negative_30 }
+add_opinion_modifier = { target = USA modifier = positive_15 }
+add_opinion_modifier = { target = VEN modifier = negative_70 }
+add_opinion_modifier = { target = VIN modifier = negative_10 }
+add_opinion_modifier = { target = W00 modifier = negative_10 }
+add_opinion_modifier = { target = W04 modifier = negative_100 }
+add_opinion_modifier = { target = W15 modifier = negative_10 }
+add_opinion_modifier = { target = X13 modifier = negative_10 }
+add_opinion_modifier = { target = X15 modifier = negative_50 }
+add_opinion_modifier = { target = X16 modifier = negative_10 }
+add_opinion_modifier = { target = X41 modifier = positive_50 }
+add_opinion_modifier = { target = X56 modifier = negative_10 }
+add_opinion_modifier = { target = X69 modifier = negative_10 }
+add_opinion_modifier = { target = X86 modifier = negative_100 }
+add_opinion_modifier = { target = X91 modifier = negative_10 }
+add_opinion_modifier = { target = X98 modifier = positive_170 }
+add_opinion_modifier = { target = YEM modifier = negative_10 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_basque
+}
+create_country_leader = {
+	name = "Antonio Zamárraga"
+	desc = "POLITICS_ANTONIO_ZAMáRRAGA_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Nuña de Azpilicueta"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Plazentzia Zamárraga"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Belaskita Nárdiz"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Emili Echevarría"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Teresa Zumalacárregui"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Belaskita Ibarrola"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Plaisance de Rentería"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Teresa Elorza"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Elvira Echave"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Blanka Aldecoa"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Berengaria Uzcudun"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Nuña Uzcudun"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Toda Aranzadi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Plaisance Ibárruri"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Maria Ajuriaguerra"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Stephania Olave"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Catalina Echagüe"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Stephania Ajuriaguerra"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Joan Gaztañeta"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Estefania Aldecoa"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Berengaria Zumalacárregui"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Munia Olano"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Blanca Lazcano"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Andregoto Zumalacárregui"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Blanche Olano"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Antonio Ajuriaguerra"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Miguel Rotaeche"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Agustín Ajuriaguerra"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Miguel Zárate"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Koldobika Echegaray"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Koldobika Echegaray"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Paulino Echegaray"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Cosme Ibárruri"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Aitor Elorza"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "José María Echevarría"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Carlos de Amésquita"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Rafael Rotaeche"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Vicente Aznar"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Ángel Irujo"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Rafael Oyarzábal"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Rafael Ibarrola"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Arturo Armendáriz"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Sabino Oyarzábal"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Imanol Zárate"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Tomás de Erauso"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Vicente Moneo"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Iñaki de Rentería"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Julen Aranzadi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Endika de Rentería"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Joseba Zárate"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+	create_operative_leader = {
+		name = "Andrés de Amésquita"
+		GFX = "gfx/leaders/SPA/portrait_spa_juan_pujol.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EUS }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

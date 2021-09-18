@@ -1,0 +1,16 @@
+﻿converted_war_strategies_UZB = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_UZB = {
+	enable = {
+		tag = UZB
+	}
+	abort = {
+		always = no
+	}
+	
+}

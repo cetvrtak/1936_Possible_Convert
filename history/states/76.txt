@@ -1,0 +1,30 @@
+
+state={
+	id=76
+	name="STATE_76"
+	resources={
+		steel=8.000
+	}
+
+	history={
+		owner = CHI
+		victory_points = {
+			7035 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		1083 1099 1125 1171 4105 4173 7035 7104 10044 11937 12019 12061 
+	}
+	manpower=25039152
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

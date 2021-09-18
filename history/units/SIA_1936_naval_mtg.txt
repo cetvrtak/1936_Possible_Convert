@@ -1,0 +1,36 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 7225
+		task_force = {
+			name = "2nd Fleet"
+			location = 7225
+			ship = { name = "Phetchaburi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Phetchaburi 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Ratchaburi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Nakhonpathom" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Bangkok" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Rattanakosin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Samutprakan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Samutsongkhram" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Pathumthani" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Kanchanaburi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Suphanburi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Samutsakhon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Nonthaburi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "SIA"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

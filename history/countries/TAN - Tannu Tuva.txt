@@ -1,0 +1,229 @@
+﻿capital = 528
+set_research_slots = 3
+
+oob = "TAN_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "TAN_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "TAN_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_siberia
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 9
+	democratic = 89
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = ALG modifier = positive_40 }
+add_opinion_modifier = { target = ARG modifier = positive_40 }
+add_opinion_modifier = { target = BEL modifier = positive_20 }
+add_opinion_modifier = { target = BHU modifier = positive_20 }
+add_opinion_modifier = { target = BRA modifier = negative_30 }
+add_opinion_modifier = { target = BRU modifier = negative_10 }
+add_opinion_modifier = { target = BUL modifier = negative_100 }
+add_opinion_modifier = { target = CAM modifier = positive_5 }
+add_opinion_modifier = { target = COS modifier = negative_100 }
+add_opinion_modifier = { target = CUB modifier = negative_100 }
+add_opinion_modifier = { target = ECU modifier = negative_100 }
+add_opinion_modifier = { target = EGY modifier = negative_10 }
+add_opinion_modifier = { target = ENG modifier = negative_5 }
+add_opinion_modifier = { target = FIN modifier = negative_10 }
+add_opinion_modifier = { target = FRA modifier = negative_10 }
+add_opinion_modifier = { target = GRE modifier = negative_30 }
+add_opinion_modifier = { target = GUA modifier = negative_50 }
+add_opinion_modifier = { target = HAI modifier = negative_10 }
+add_opinion_modifier = { target = HOL modifier = negative_30 }
+add_opinion_modifier = { target = HUN modifier = negative_100 }
+add_opinion_modifier = { target = IRE modifier = negative_100 }
+add_opinion_modifier = { target = JAM modifier = negative_100 }
+add_opinion_modifier = { target = LIB modifier = negative_100 }
+add_opinion_modifier = { target = MEX modifier = positive_40 }
+add_opinion_modifier = { target = MON modifier = negative_94 }
+add_opinion_modifier = { target = NEP modifier = positive_5 }
+add_opinion_modifier = { target = NIC modifier = negative_50 }
+add_opinion_modifier = { target = PAR modifier = negative_10 }
+add_opinion_modifier = { target = PER modifier = positive_15 }
+add_opinion_modifier = { target = POR modifier = negative_110 }
+add_opinion_modifier = { target = PUE modifier = negative_50 }
+add_opinion_modifier = { target = ROM modifier = negative_50 }
+add_opinion_modifier = { target = SIA modifier = positive_5 }
+add_opinion_modifier = { target = SIL modifier = negative_100 }
+add_opinion_modifier = { target = SOV modifier = negative_10 }
+add_opinion_modifier = { target = TIB modifier = positive_20 }
+add_opinion_modifier = { target = TUR modifier = positive_90 }
+add_opinion_modifier = { target = UAE modifier = negative_10 }
+add_opinion_modifier = { target = URG modifier = negative_60 }
+add_opinion_modifier = { target = VEN modifier = negative_100 }
+add_opinion_modifier = { target = VIN modifier = positive_5 }
+add_opinion_modifier = { target = W00 modifier = positive_5 }
+add_opinion_modifier = { target = W04 modifier = negative_100 }
+add_opinion_modifier = { target = W15 modifier = positive_5 }
+add_opinion_modifier = { target = X13 modifier = negative_10 }
+add_opinion_modifier = { target = X15 modifier = negative_50 }
+add_opinion_modifier = { target = X16 modifier = negative_10 }
+add_opinion_modifier = { target = X41 modifier = positive_50 }
+add_opinion_modifier = { target = X56 modifier = positive_15 }
+add_opinion_modifier = { target = X69 modifier = negative_10 }
+add_opinion_modifier = { target = X86 modifier = negative_100 }
+add_opinion_modifier = { target = X91 modifier = negative_10 }
+add_opinion_modifier = { target = X98 modifier = positive_140 }
+add_opinion_modifier = { target = YEM modifier = negative_10 }
+
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_tatar
+}
+create_country_leader = {
+	name = "Baqi Faysi"
+	desc = "POLITICS_BAQI_FAYSI_DESC"
+	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_democratic1.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Anar Ibragimova"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TAN }
+	}
+
+	create_operative_leader = {
+		name = "Saltanat Kamalova"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TAN }
+	}
+
+	create_operative_leader = {
+		name = "Aruzhan Yanbayeva"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TAN }
+	}
+
+	create_operative_leader = {
+		name = "Sezim Khusainova"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TAN }
+	}
+
+	create_operative_leader = {
+		name = "Anara Yanbayeva"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TAN }
+	}
+
+	create_operative_leader = {
+		name = "Aruzhan Khusainova"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TAN }
+	}
+
+	create_operative_leader = {
+		name = "Ismail Tukay"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TAN }
+	}
+
+	create_operative_leader = {
+		name = "Galiaskar Gizzat"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TAN }
+	}
+
+	create_operative_leader = {
+		name = "Ismail Khusainov"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TAN }
+	}
+
+	create_operative_leader = {
+		name = "Rustam Tinchurin"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TAN }
+	}
+
+	create_operative_leader = {
+		name = "Galiaskar Faysi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TAN }
+	}
+
+	create_operative_leader = {
+		name = "Musa Faysi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TAN }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

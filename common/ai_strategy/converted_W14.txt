@@ -1,0 +1,16 @@
+﻿converted_war_strategies_W14 = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_W14 = {
+	enable = {
+		tag = W14
+	}
+	abort = {
+		always = no
+	}
+	
+}

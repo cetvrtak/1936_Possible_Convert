@@ -1,0 +1,36 @@
+
+state={
+	id=456
+	name="STATE_456"
+	resources={
+		steel=5.000
+		tungsten=0.000
+	}
+
+	history={
+		owner = X98
+		victory_points = {
+			2225 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			2225 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = PRU
+		add_core_of = W18
+		add_core_of = X98
+	}
+
+	provinces={
+		2225 5166 8160 8191 10940 12953 
+	}
+	manpower=426956
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,65 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 911
+		task_force = {
+			name = "2nd Fleet"
+			location = 911
+			ship = { name = "4th Montpellier Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "1st Montpellier Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "1st Toulon Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "2nd Montpellier Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "3rd Montpellier Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "Jakez Karter" definition = battleship equipment = { battleship_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "Breizh" definition = battleship equipment = { battleship_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "Jakez Karter 2" definition = battleship equipment = { battleship_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "1st Montpellier Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "2nd Montpellier Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "1st Toulon Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "2nd Toulon Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "3rd Montpellier Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "Jakez Karter 3" definition = battleship equipment = { battleship_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "2nd Toulon Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "5th Montpellier Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "6th Montpellier Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "3rd Toulon Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "Nelson" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "Northampton" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "Imperieuse" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "Northampton 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "Northampton 3" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "Warspite" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "Orlando" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "Australia" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "Undaunted" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "Narcissus" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "Immortalite" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "Shannon" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "Galatea" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "Aurora" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "Blake" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = OCC } } }
+			ship = { name = "Blake 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = OCC } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "OCC"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "OCC"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

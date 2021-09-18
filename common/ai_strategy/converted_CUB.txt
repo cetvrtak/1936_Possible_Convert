@@ -1,0 +1,141 @@
+﻿converted_war_strategies_CUB = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "MEX"
+		value = 102
+	}
+	ai_strategy = {
+		type = conquer
+		id = "HAI"
+		value = 16
+	}
+	ai_strategy = {
+		type = conquer
+		id = "PUE"
+		value = 8
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 6
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CHL"
+		value = 3
+	}
+}
+
+converted_diplo_strategies_CUB = {
+	enable = {
+		tag = CUB
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "HON"
+		value = 51
+	}
+	ai_strategy = {
+		type = contain
+		id = "NIC"
+		value = 44
+	}
+	ai_strategy = {
+		type = contain
+		id = "JAM"
+		value = 41
+	}
+	ai_strategy = {
+		type = contain
+		id = "PUE"
+		value = 21
+	}
+	ai_strategy = {
+		type = contain
+		id = "ELS"
+		value = 3
+	}
+	ai_strategy = {
+		type = contain
+		id = "GUA"
+		value = 2
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "PUE"
+		value = 104
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "MEX"
+		value = 34
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HAI"
+		value = 24
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 2
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHL"
+		value = 1
+	}
+	ai_strategy = {
+		type = alliance
+		id = "COS"
+		value = 56
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GUA"
+		value = 30
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ELS"
+		value = 13
+	}
+	ai_strategy = {
+		type = alliance
+		id = "NIC"
+		value = 4
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "YEM"
+		value = 111
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "MON"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "PUE"
+		value = 63
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "URG"
+		value = 58
+	}
+}

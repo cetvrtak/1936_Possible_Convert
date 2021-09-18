@@ -1,0 +1,30 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10070
+		task_force = {
+			name = "1st Fleet"
+			location = 10070
+			ship = { name = "Alif" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Early Destroyer" } } }
+			ship = { name = "Alif 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Early Destroyer" } } }
+			ship = { name = "Amin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Early Destroyer" } } }
+			ship = { name = "Dhakwan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Early Destroyer" } } }
+			ship = { name = "Falah" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Early Destroyer" } } }
+			ship = { name = "Anwar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Early Destroyer" } } }
+			ship = { name = "Ayham" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "MOR"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

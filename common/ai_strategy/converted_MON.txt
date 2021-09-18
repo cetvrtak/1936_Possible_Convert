@@ -1,0 +1,71 @@
+﻿converted_war_strategies_MON = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "CHI"
+		value = 1044
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 951
+	}
+}
+
+converted_diplo_strategies_MON = {
+	enable = {
+		tag = MON
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 98
+	}
+	ai_strategy = {
+		type = contain
+		id = "CHI"
+		value = 67
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"
+		value = 396
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "HON"
+		value = 89
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "NZL"
+		value = 84
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CUB"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "TIB"
+		value = 45
+	}
+}

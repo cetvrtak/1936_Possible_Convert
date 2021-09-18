@@ -1,0 +1,76 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 1182
+		task_force = {
+			name = "2nd Fleet"
+			location = 1182
+			ship = { name = "Hyuga" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "1936 Battleship" } } }
+			ship = { name = "Nagato" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "1936 Battleship" } } }
+			ship = { name = "Ise" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "1936 Battleship" } } }
+			ship = { name = "Yamashiro" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "1936 Battleship" } } }
+			ship = { name = "Satsuma" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "1936 Battleship" } } }
+			ship = { name = "Kawachi" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "1936 Battleship" } } }
+			ship = { name = "Hyuga 2" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "1936 Battleship" } } }
+			ship = { name = "Ise 2" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "1936 Battleship" } } }
+			ship = { name = "1st Inchon Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Okayama Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Okayama Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Haeju Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Okayama Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Matsushima" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Kirishima" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Kasagi" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Haruna" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Itsukushima" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Chiyoda" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Kirishima 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Chitose" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Haruna 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Yaeyama" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Yoshino" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Naniwa" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Takachiho" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Hiei" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Hashidate" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Hiei 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Chitose 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Niitaka" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Yura" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Kinu" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Haeju Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 11948
+		task_force = {
+			name = "4th Fleet"
+			location = 2684
+			ship = { name = "Musashi" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "1936 Battleship" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "JAP"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "JAP"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

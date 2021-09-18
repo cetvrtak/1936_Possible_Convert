@@ -1,0 +1,31 @@
+
+state={
+	id=57
+	name="STATE_57"
+
+	history={
+		owner = CAM
+		victory_points = {
+			4223 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			4341 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = CAM
+		add_core_of = VIN
+	}
+
+	provinces={
+		1423 4223 4284 4341 7303 7331 10261 12133 12288 
+	}
+	manpower=515916
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

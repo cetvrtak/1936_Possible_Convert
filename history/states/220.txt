@@ -1,0 +1,41 @@
+
+state={
+	id=220
+	name="STATE_220"
+	resources={
+		aluminium=0.000
+		rubber=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = W49
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			4952 = {
+				naval_base = 2
+			}
+			air_base = 10
+
+		}
+		add_core_of = BEN
+		add_core_of = W35
+		add_core_of = W49
+		add_claim_by = NGA
+		add_claim_by = NGR
+		add_claim_by = X04
+		add_claim_by = X97
+		W00 = {
+			set_province_controller = 4952
+		}
+	}
+
+	provinces={
+		4952 12900 
+	}
+	manpower=5291208
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

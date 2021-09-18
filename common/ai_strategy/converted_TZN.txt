@@ -1,0 +1,16 @@
+﻿converted_war_strategies_TZN = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_TZN = {
+	enable = {
+		tag = TZN
+	}
+	abort = {
+		always = no
+	}
+	
+}

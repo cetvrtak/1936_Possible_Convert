@@ -1,0 +1,32 @@
+
+state={
+	id=307
+	name="STATE_307"
+	resources={
+		aluminium=6.000
+		rubber=1.000
+	}
+
+	history={
+		owner = W44
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			2123 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = W44
+		add_claim_by = MZB
+	}
+
+	provinces={
+		2123 2159 2202 2217 5164 10972 
+	}
+	manpower=1599992
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

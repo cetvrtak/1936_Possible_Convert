@@ -1,0 +1,31 @@
+
+state={
+	id=405
+	name="STATE_405"
+
+	history={
+		owner = MEX
+		victory_points = {
+			12715 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			12867 = {
+				naval_base = 8
+			}
+			air_base = 5
+
+		}
+		add_core_of = MEX
+		add_core_of = W38
+	}
+
+	provinces={
+		2021 4904 4965 12715 12867 
+	}
+	manpower=1138864
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

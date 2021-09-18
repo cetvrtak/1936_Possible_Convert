@@ -1,0 +1,28 @@
+
+state={
+	id=393
+	name="STATE_393"
+	resources={
+		chromium=5.000
+	}
+
+	history={
+		owner = X56
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = RAJ
+		add_claim_by = X56
+	}
+
+	provinces={
+		4990 5105 7847 7975 8044 
+	}
+	manpower=194332
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

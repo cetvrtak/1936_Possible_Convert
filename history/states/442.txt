@@ -1,0 +1,34 @@
+
+state={
+	id=442
+	name="STATE_442"
+	resources={
+		oil=5.000
+		rubber=96.000
+		steel=1.000
+	}
+
+	history={
+		owner = W50
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			10135 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = INS
+		add_core_of = W50
+		add_core_of = X53
+	}
+
+	provinces={
+		1209 4306 4390 4608 7654 10135 10479 10491 12293 12472 
+	}
+	manpower=4428036
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

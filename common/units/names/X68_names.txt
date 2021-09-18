@@ -1,0 +1,58 @@
+﻿X68 = {
+	battle_cruiser = {
+		prefix = ""
+		generic = { "Battlecruiser" }
+		unique = {
+			"Bumba" "Bushoong" "Nzambi" "Kuba" "Kaam" "Mwari" "Mulopwe" "Mulungu" "Mbonga" "Kasai" "Mazendere" "Mboko" "Musikavanhu" "Mutorwa" 
+		}
+	}
+
+	battleship = {
+		prefix = ""
+		generic = { "Battleship" }
+		unique = {
+			"Bumba" "Bushoong" "Nzambi" "Kuba" "Kaam" "Mwari" "Mulopwe" "Mulungu" "Mbonga" "Kasai" "Mazendere" "Mboko" "Musikavanhu" "Mutorwa" 
+		}
+	}
+
+	carrier = {
+		prefix = ""
+		generic = { "Carrier" }
+		unique = {
+			"Bumba" "Bushoong" "Nzambi" "Kuba" "Kaam" "Mwari" "Mulopwe" "Mulungu" "Mbonga" "Kasai" "Mazendere" "Mboko" "Musikavanhu" "Mutorwa" 
+		}
+	}
+
+	destroyer = {
+		prefix = ""
+		generic = { "Destroyer" }
+		unique = {
+			"Bumba" "Bushoong" "Nzambi" "Kuba" "Kaam" "Mwari" "Mulopwe" "Mulungu" "Mbonga" "Kasai" "Mazendere" "Mboko" "Musikavanhu" "Mutorwa" 
+		}
+	}
+
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Heavy Cruiser" }
+		unique = {
+			"Bumba" "Bushoong" "Nzambi" "Kuba" "Kaam" "Mwari" "Mulopwe" "Mulungu" "Mbonga" "Kasai" "Mazendere" "Mboko" "Musikavanhu" "Mutorwa" 
+		}
+	}
+
+	light_cruiser = {
+		prefix = ""
+		generic = { "Light Cruiser" }
+		unique = {
+			"Bumba" "Bushoong" "Nzambi" "Kuba" "Kaam" "Mwari" "Mulopwe" "Mulungu" "Mbonga" "Kasai" "Mazendere" "Mboko" "Musikavanhu" "Mutorwa" 
+		}
+	}
+
+	submarine = {
+		prefix = ""
+		generic = { "Submarine" }
+		unique = {
+			"Bumba" "Bushoong" "Nzambi" "Kuba" "Kaam" "Mwari" "Mulopwe" "Mulungu" "Mbonga" "Kasai" "Mazendere" "Mboko" "Musikavanhu" "Mutorwa" 
+		}
+	}
+
+}

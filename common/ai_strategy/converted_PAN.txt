@@ -1,0 +1,16 @@
+﻿converted_war_strategies_PAN = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_PAN = {
+	enable = {
+		tag = PAN
+	}
+	abort = {
+		always = no
+	}
+	
+}

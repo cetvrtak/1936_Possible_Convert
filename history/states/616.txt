@@ -1,0 +1,33 @@
+
+state={
+	id=616
+	name="STATE_616"
+	resources={
+		aluminium=3.000
+		steel=6.000
+	}
+
+	history={
+		owner = SPB
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			743 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = EUS
+		add_core_of = OCC
+		add_claim_by = SPB
+	}
+
+	provinces={
+		743 3740 9882 9884 11697 11699 12169 
+	}
+	manpower=1050492
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

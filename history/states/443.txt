@@ -1,0 +1,33 @@
+
+state={
+	id=443
+	name="STATE_443"
+	resources={
+		chromium=1.000
+	}
+
+	history={
+		owner = NIC
+		victory_points = {
+			12738 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			1988 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = NIC
+	}
+
+	provinces={
+		1988 2075 10728 12738 
+	}
+	manpower=392572
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

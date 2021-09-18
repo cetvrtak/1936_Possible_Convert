@@ -1,0 +1,30 @@
+
+state={
+	id=53
+	name="STATE_53"
+	resources={
+		oil=4.000
+		steel=2.000
+		tungsten=44.000
+	}
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = BOL
+		add_core_of = X98
+	}
+
+	provinces={
+		2174 5179 10938 10952 10987 12930 
+	}
+	manpower=513188
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

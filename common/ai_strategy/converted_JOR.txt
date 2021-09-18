@@ -1,0 +1,16 @@
+﻿converted_war_strategies_JOR = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_JOR = {
+	enable = {
+		tag = JOR
+	}
+	abort = {
+		always = no
+	}
+	
+}

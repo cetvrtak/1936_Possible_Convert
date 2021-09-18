@@ -1,0 +1,39 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 4641
+		task_force = {
+			name = "1st Fleet"
+			location = 4641
+			ship = { name = "Napoleon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HAI } } }
+			ship = { name = "Toussaint Louverture" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HAI } } }
+			ship = { name = "Cap Haitien 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HAI } } }
+			ship = { name = "Port de Paix 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HAI } } }
+			ship = { name = "Jérémie" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HAI } } }
+			ship = { name = "Baron Samedi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HAI } } }
+			ship = { name = "Calypso" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HAI } } }
+			ship = { name = "Reine Mojo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HAI } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "HAI"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "HAI"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

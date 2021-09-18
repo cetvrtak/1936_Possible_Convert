@@ -1,0 +1,38 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 10347
+		task_force = {
+			name = "2nd Fleet"
+			location = 10347
+			ship = { name = "Quince de Noviembre" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "Early Destroyer" } } }
+			ship = { name = "Audaz" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "Early Destroyer" } } }
+			ship = { name = "Colonia" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "Early Destroyer" } } }
+			ship = { name = "Colonia 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "Early Destroyer" } } }
+			ship = { name = "Dieciocho de Julio" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "URG"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "URG"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

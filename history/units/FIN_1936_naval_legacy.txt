@@ -1,0 +1,93 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 3061
+		task_force = {
+			name = "1st Fleet"
+			location = 3061
+			ship = { name = "Kotka" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "Oulu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "7th Viipuri Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "8th Viipuri Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "6th Turku Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "9th Viipuri Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "4th Kotka Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "10th Viipuri Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "7th Turku Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "8th Turku Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "6th Oulu Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "9th Turku Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "7th Oulu Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "5th Kotka Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "10th Turku Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "8th Oulu Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "11th Turku Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "9th Oulu Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "7th Kotka Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "10th Oulu Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "9th Kotka Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "12th Turku Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "12th Oulu Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "13th Oulu Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "14th Oulu Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "11th Kotka Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "17th Viipuri Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "15th Oulu Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "12th Kotka Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "18th Viipuri Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "16th Oulu Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "17th Oulu Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "14th Kotka Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "21st Viipuri Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "13th Turku Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "13th Viipuri Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "14th Viipuri Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "Per Brahe" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "1st Oulu Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "2nd Oulu Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "Kemi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "3rd Oulu Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "4th Oulu Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "3rd Viipuri Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "Viipuri" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "4th Viipuri Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "5th Oulu Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "5th Viipuri Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "6th Oulu Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "6th Viipuri Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "7th Oulu Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 9206
+		task_force = {
+			name = "3rd Fleet"
+			location = 9206
+			ship = { name = "7th Viipuri Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "2nd Viipuri Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "1st Viipuri Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "FIN"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "FIN"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

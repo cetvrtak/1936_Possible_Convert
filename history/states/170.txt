@@ -1,0 +1,27 @@
+
+state={
+	id=170
+	name="STATE_170"
+
+	history={
+		owner = FRA
+		victory_points = {
+			620 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 3
+			air_base = 3
+
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		620 651 3621 3626 3771 6618 6648 6651 9734 9751 
+	}
+	manpower=2699004
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

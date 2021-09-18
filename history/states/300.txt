@@ -1,0 +1,31 @@
+
+state={
+	id=300
+	name="STATE_300"
+	resources={
+		chromium=7.000
+	}
+
+	history={
+		owner = W44
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			5222 = {
+				naval_base = 10
+			}
+			air_base = 5
+
+		}
+		add_core_of = MAD
+		add_core_of = W44
+	}
+
+	provinces={
+		5128 5222 8188 10993 
+	}
+	manpower=3577216
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,97 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 758
+		task_force = {
+			name = "1st Fleet"
+			location = 758
+			ship = { name = "Alfonso XIII" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Ciudad de Oviedo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Juan Sebastián Elcano" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Don Juan de Austria" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Isla de Luzón" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Alfonso XII" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Cataluña" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Isla de Cuba" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Conde de Venadito" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Don Juan de Austria 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Aragón" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Ciudad de Oviedo 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Alfonso XII 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Don Antonio de Ulloa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Cristóbal Colón" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Emperador Carlos V" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Cataluña 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Navarra" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Reina Regente" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Reina Cristina" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Cristóbal Colón 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Gravina" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Castilla" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Infanta Isabel" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Aragón 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Velasco" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Vizcaya" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "1st Bilbao Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Isla de Cuba 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "1st La Coruña Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "1st Pau Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "2nd Pau Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "3rd Pau Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "4th Pau Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 10063
+		task_force = {
+			name = "3rd Fleet"
+			location = 10063
+			ship = { name = "Álvaro de Bazán" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Brigadier Topete" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Castañeta" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Extremadura" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Marqués de la Ensenada" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Reina Mercedes" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Cardenal Cisneros" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Gravina 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Don Juan de Austria 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Castilla 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Princesa de Asturias" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Infanta Isabel 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Don Antonio de Ulloa 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Ciudad de Oviedo 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Almirante Oquendo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Extremadura 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Conde de Venadito 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Conde de Venadito 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Lepanto" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Emperador Carlos V 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Río de la Plata" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Almirante Oquendo 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Cardenal Cisneros 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "1st Cartagena Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPB } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "SPB"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "SPB"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

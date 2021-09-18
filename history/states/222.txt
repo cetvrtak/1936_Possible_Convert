@@ -1,0 +1,33 @@
+
+state={
+	id=222
+	name="STATE_222"
+	resources={
+		aluminium=0.000
+		rubber=4.000
+		steel=0.000
+	}
+
+	history={
+		owner = W49
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = NGA
+		add_core_of = NGR
+		add_core_of = W49
+		add_core_of = X34
+		add_core_of = X58
+	}
+
+	provinces={
+		1969 4972 4997 5028 
+	}
+	manpower=10705432
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

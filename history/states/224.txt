@@ -1,0 +1,29 @@
+
+state={
+	id=224
+	name="STATE_224"
+
+	history={
+		owner = W44
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			4985 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = SOM
+		add_core_of = W44
+		add_claim_by = X11
+	}
+
+	provinces={
+		1905 4985 5068 8094 8124 10833 10921 12759 12814 
+	}
+	manpower=390316
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

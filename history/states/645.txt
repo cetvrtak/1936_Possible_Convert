@@ -1,0 +1,32 @@
+
+state={
+	id=645
+	name="STATE_645"
+	resources={
+		oil=12.000
+	}
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			8085 = {
+				naval_base = 6
+			}
+			air_base = 5
+
+		}
+		add_core_of = IRQ
+		add_core_of = KUW
+		add_claim_by = TUR
+	}
+
+	provinces={
+		78 2004 2089 7977 8085 12726 12855 
+	}
+	manpower=670432
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

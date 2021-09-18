@@ -1,0 +1,833 @@
+﻿capital = 55
+set_research_slots = 3
+
+oob = "BUL_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "BUL_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "BUL_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	early_bomber = 1
+	early_fighter = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_light = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+
+set_country_flag = conv_eastern_europe
+set_convoys = 2
+
+
+set_politics = {
+    ruling_party = communism
+    last_election = "1904.1.27"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	communism = 100
+}
+
+add_opinion_modifier = { target = ALG modifier = negative_200 }
+add_opinion_modifier = { target = ARG modifier = negative_45 }
+add_opinion_modifier = { target = AST modifier = negative_100 }
+add_opinion_modifier = { target = BAN modifier = negative_100 }
+add_opinion_modifier = { target = BEL modifier = negative_55 }
+add_opinion_modifier = { target = BHU modifier = negative_110 }
+add_opinion_modifier = { target = BRA modifier = negative_105 }
+add_opinion_modifier = { target = BRU modifier = negative_110 }
+add_opinion_modifier = { target = CAM modifier = negative_110 }
+add_opinion_modifier = { target = CAN modifier = negative_100 }
+add_opinion_modifier = { target = CHI modifier = negative_50 }
+add_opinion_modifier = { target = CHL modifier = negative_95 }
+add_opinion_modifier = { target = COL modifier = negative_95 }
+add_opinion_modifier = { target = COS modifier = negative_200 }
+add_opinion_modifier = { target = CUB modifier = negative_50 }
+add_opinion_modifier = { target = ECU modifier = negative_195 }
+add_opinion_modifier = { target = EGY modifier = negative_67 }
+give_military_access = EGY
+add_opinion_modifier = { target = ELS modifier = negative_100 }
+add_opinion_modifier = { target = ENG modifier = negative_200 }
+add_opinion_modifier = { target = FIN modifier = negative_85 }
+add_opinion_modifier = { target = FRA modifier = negative_82 }
+give_military_access = FRA
+add_opinion_modifier = { target = GER modifier = positive_163 }
+add_opinion_modifier = { target = GRE modifier = positive_5 }
+add_opinion_modifier = { target = GUA modifier = negative_25 }
+add_opinion_modifier = { target = HAI modifier = negative_95 }
+add_opinion_modifier = { target = HOL modifier = negative_115 }
+add_opinion_modifier = { target = HON modifier = negative_100 }
+add_opinion_modifier = { target = HUN modifier = negative_200 }
+add_opinion_modifier = { target = IRE modifier = negative_200 }
+add_opinion_modifier = { target = ITA modifier = negative_200 }
+add_opinion_modifier = { target = JAM modifier = negative_200 }
+add_opinion_modifier = { target = JAP modifier = negative_110 }
+add_opinion_modifier = { target = LIB modifier = negative_45 }
+add_opinion_modifier = { target = MAC modifier = negative_95 }
+add_opinion_modifier = { target = MEX modifier = negative_45 }
+add_opinion_modifier = { target = MLT modifier = negative_100 }
+add_opinion_modifier = { target = MON modifier = negative_200 }
+add_opinion_modifier = { target = MOR modifier = negative_110 }
+add_opinion_modifier = { target = NEP modifier = negative_110 }
+add_opinion_modifier = { target = NIC modifier = negative_150 }
+add_opinion_modifier = { target = NZL modifier = negative_100 }
+add_opinion_modifier = { target = OCC modifier = negative_100 }
+add_opinion_modifier = { target = PAR modifier = negative_95 }
+add_opinion_modifier = { target = PER modifier = negative_110 }
+add_opinion_modifier = { target = POR modifier = negative_185 }
+add_opinion_modifier = { target = PUE modifier = negative_150 }
+add_opinion_modifier = { target = RAJ modifier = negative_100 }
+add_opinion_modifier = { target = ROM modifier = negative_67 }
+add_opinion_modifier = { target = SAF modifier = negative_100 }
+add_opinion_modifier = { target = SCA modifier = negative_200 }
+add_opinion_modifier = { target = SIA modifier = negative_110 }
+add_opinion_modifier = { target = SIL modifier = positive_100 }
+add_opinion_modifier = { target = SOV modifier = positive_200 }
+give_military_access = SOV
+add_opinion_modifier = { target = SPB modifier = negative_100 }
+add_opinion_modifier = { target = SWI modifier = negative_95 }
+add_opinion_modifier = { target = TIB modifier = negative_110 }
+add_opinion_modifier = { target = TUN modifier = negative_110 }
+add_opinion_modifier = { target = TUR modifier = negative_128 }
+add_opinion_modifier = { target = UAE modifier = negative_110 }
+add_opinion_modifier = { target = URG modifier = negative_145 }
+add_opinion_modifier = { target = USA modifier = negative_200 }
+add_opinion_modifier = { target = VEN modifier = negative_195 }
+add_opinion_modifier = { target = VIN modifier = negative_110 }
+add_opinion_modifier = { target = W00 modifier = negative_110 }
+add_opinion_modifier = { target = W04 modifier = negative_200 }
+add_opinion_modifier = { target = W15 modifier = negative_110 }
+add_opinion_modifier = { target = X06 modifier = negative_100 }
+add_opinion_modifier = { target = X13 modifier = negative_110 }
+add_opinion_modifier = { target = X15 modifier = negative_150 }
+add_opinion_modifier = { target = X16 modifier = negative_110 }
+add_opinion_modifier = { target = X22 modifier = negative_100 }
+add_opinion_modifier = { target = X41 modifier = negative_200 }
+add_opinion_modifier = { target = X56 modifier = negative_110 }
+add_opinion_modifier = { target = X69 modifier = negative_110 }
+add_opinion_modifier = { target = X86 modifier = negative_60 }
+add_opinion_modifier = { target = X91 modifier = negative_110 }
+add_opinion_modifier = { target = X94 modifier = negative_110 }
+add_opinion_modifier = { target = X98 modifier = positive_55 }
+add_opinion_modifier = { target = YEM modifier = negative_110 }
+add_opinion_modifier = { target = YUG modifier = positive_1 }
+
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_bulgarian
+}
+set_stability = 0.60
+set_war_support = 0.61
+create_country_leader = {
+	name = "Damyan Tsaklev"
+	desc = "POLITICS_DAMYAN_TSAKLEV_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Atanas Mutkorov"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Kiril Nikiforov"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Stanislav Zlatarev"
+	traits = { }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Vulko Ilyev"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 4
+}
+
+create_navy_leader = {
+	name = "Niloa Krayonski"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Ina Valkoska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Katerina Kovaceva"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Katrin Draganova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Ralitsa Sirakoska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Ralitsa Petroska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Katerina Balkanska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Vania Nikiforova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Evgeniya Tsakleva"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Elena Krayonska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Evgeniya Valkoska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Stella Battemberga"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Mihaela Žekoska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Stella Ficeva"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Sylvie Petroska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Ralitsa Sirakoska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Amaka Daskalova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Maria Nikolaeva"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Katrin Kovaceva"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Reneta Velčeva"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Vania Ficeva"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Katerina Draganova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Katrin Dimitrieva"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Katerina Kirkova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Ina Blaskova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Hirstiana Nikolaeva"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Mihail Blaskov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Vasil Valnarov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Stoyu Kovachev"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Boris Kovachev"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Asen Ivanov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Radko Bradistilov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Dobri Petrov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Damyan Kovachev"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Atila Radev"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Stefan Blaskov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Vulko Kirkov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Hristo Saksokoburggotski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Trifon Balabanov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Pravoslav Nazlamov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Konstantin Agura"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Boris Mutkorov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Ferdinand Zafirov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Stefan Vasilev"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Sava Dikov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Pravoslav Lazarov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Pravoslav Solarov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Vasil Marinkov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Niloa Solarov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Mihail Dimitriev"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Velizar Vasilev"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = ship_hull_heavy_1
+		name_group = BUL_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_heavy_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = BUL_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = BUL_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = BUL_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}

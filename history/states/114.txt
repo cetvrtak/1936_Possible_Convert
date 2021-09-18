@@ -1,0 +1,31 @@
+
+state={
+	id=114
+	name="STATE_114"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = COL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			7630 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = PAN
+		add_claim_by = COL
+	}
+
+	provinces={
+		1633 4611 4624 7630 10482 
+	}
+	manpower=209704
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

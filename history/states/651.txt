@@ -1,0 +1,25 @@
+
+state={
+	id=651
+	name="STATE_651"
+
+	history={
+		owner = W59
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = LBA
+		add_core_of = W59
+	}
+
+	provinces={
+		7076 7136 7194 8069 13073 
+	}
+	manpower=54560
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

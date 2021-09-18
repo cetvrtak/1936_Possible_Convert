@@ -1,0 +1,977 @@
+﻿add_namespace = NFEvents
+
+country_event = {
+	id = NFEvents.1
+	title = "China Demands Mongolia!"
+	desc = "Today China sent an envoy to us with a proposition of an union. We are alone and in this world, and a union with China might prove to be fruitful. Our people would be safe with the mighty army of China and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We accept the Union"
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				MON = { is_subject = yes }
+			}
+			modifier = {
+				add = -15
+				MON = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 45
+				MON = { has_army_size = { size < 40 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.2 }
+		}
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				MON = { has_army_size = { size < 30 } }
+			}
+			modifier = {
+				add = 20
+				MON = { has_army_size = { size > 39 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.3 }
+			if = {
+				limit = { is_in_faction_with = MON }
+				remove_from_faction = MON
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.3
+	title = "Mongolia Refuses!"
+	desc = "Mongolia Refused our proposed union! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = MON
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.2
+	title = "Mongolia accepts!"
+	desc = "Mongolia accepted our proposed union, their added strength will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		408 = {
+			if = {
+				limit = { is_owned_by = MON }
+				add_core_of = MON
+			}
+		}
+		annex_country = { target = MON transfer_troops = yes }
+		add_political_power = 50
+		add_named_threat = { threat = 2 name = "China annexed Mongolia" }
+		set_country_flag = MON_annexed
+	}
+}
+
+country_event = {
+	id = NFEvents.4
+	title = "China Demands Siam!"
+	desc = "Today China sent an envoy to us with a proposition of an union. We are alone and in this world, and a union with China might prove to be fruitful. Our people would be safe with the mighty army of China and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We accept the Union"
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				SIA = { is_subject = yes }
+			}
+			modifier = {
+				add = -15
+				SIA = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 45
+				SIA = { has_army_size = { size < 40 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.5 }
+		}
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				SIA = { has_army_size = { size < 30 } }
+			}
+			modifier = {
+				add = 20
+				SIA = { has_army_size = { size > 39 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.6 }
+			if = {
+				limit = { is_in_faction_with = SIA }
+				remove_from_faction = SIA
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.6
+	title = "Siam Refuses!"
+	desc = "Siam Refused our proposed union! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = SIA
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.5
+	title = "Siam accepts!"
+	desc = "Siam accepted our proposed union, their added strength will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		585 = {
+			if = {
+				limit = { is_owned_by = SIA }
+				add_core_of = SIA
+			}
+		}
+		586 = {
+			if = {
+				limit = { is_owned_by = SIA }
+				add_core_of = SIA
+			}
+		}
+		587 = {
+			if = {
+				limit = { is_owned_by = SIA }
+				add_core_of = SIA
+			}
+		}
+		588 = {
+			if = {
+				limit = { is_owned_by = SIA }
+				add_core_of = SIA
+			}
+		}
+		589 = {
+			if = {
+				limit = { is_owned_by = SIA }
+				add_core_of = SIA
+			}
+		}
+		590 = {
+			if = {
+				limit = { is_owned_by = SIA }
+				add_core_of = SIA
+			}
+		}
+		591 = {
+			if = {
+				limit = { is_owned_by = SIA }
+				add_core_of = SIA
+			}
+		}
+		annex_country = { target = SIA transfer_troops = yes }
+		add_political_power = 50
+		add_named_threat = { threat = 2 name = "China annexed Siam" }
+		set_country_flag = SIA_annexed
+	}
+}
+
+country_event = {
+	id = NFEvents.7
+	title = "China Demands Tibet!"
+	desc = "Today China sent an envoy to us with a proposition of an union. We are alone and in this world, and a union with China might prove to be fruitful. Our people would be safe with the mighty army of China and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We accept the Union"
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				TIB = { is_subject = yes }
+			}
+			modifier = {
+				add = -15
+				TIB = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 45
+				TIB = { has_army_size = { size < 40 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.8 }
+		}
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				TIB = { has_army_size = { size < 30 } }
+			}
+			modifier = {
+				add = 20
+				TIB = { has_army_size = { size > 39 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.9 }
+			if = {
+				limit = { is_in_faction_with = TIB }
+				remove_from_faction = TIB
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.9
+	title = "Tibet Refuses!"
+	desc = "Tibet Refused our proposed union! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = TIB
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.8
+	title = "Tibet accepts!"
+	desc = "Tibet accepted our proposed union, their added strength will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		622 = {
+			if = {
+				limit = { is_owned_by = TIB }
+				add_core_of = TIB
+			}
+		}
+		623 = {
+			if = {
+				limit = { is_owned_by = TIB }
+				add_core_of = TIB
+			}
+		}
+		annex_country = { target = TIB transfer_troops = yes }
+		add_political_power = 50
+		add_named_threat = { threat = 2 name = "China annexed Tibet" }
+		set_country_flag = TIB_annexed
+	}
+}
+
+country_event = {
+	id = NFEvents.10
+	title = "China Demands Dai Nam!"
+	desc = "Today China sent an envoy to us with a proposition of an union. We are alone and in this world, and a union with China might prove to be fruitful. Our people would be safe with the mighty army of China and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We accept the Union"
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				VIN = { is_subject = yes }
+			}
+			modifier = {
+				add = -15
+				VIN = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 45
+				VIN = { has_army_size = { size < 40 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.11 }
+		}
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				VIN = { has_army_size = { size < 30 } }
+			}
+			modifier = {
+				add = 20
+				VIN = { has_army_size = { size > 39 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.12 }
+			if = {
+				limit = { is_in_faction_with = VIN }
+				remove_from_faction = VIN
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.12
+	title = "Dai Nam Refuses!"
+	desc = "Dai Nam Refused our proposed union! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = VIN
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.11
+	title = "Dai Nam accepts!"
+	desc = "Dai Nam accepted our proposed union, their added strength will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		121 = {
+			if = {
+				limit = { is_owned_by = VIN }
+				add_core_of = VIN
+			}
+		}
+		122 = {
+			if = {
+				limit = { is_owned_by = VIN }
+				add_core_of = VIN
+			}
+		}
+		123 = {
+			if = {
+				limit = { is_owned_by = VIN }
+				add_core_of = VIN
+			}
+		}
+		annex_country = { target = VIN transfer_troops = yes }
+		add_political_power = 50
+		add_named_threat = { threat = 2 name = "China annexed Dai Nam" }
+		set_country_flag = VIN_annexed
+	}
+}
+
+country_event = {
+	id = NFEvents.13
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with China. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 0
+				NOT = { has_government = CHI }
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = CHI
+					value < 100
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = CHI
+					value < 50
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = CHI
+					value < 0
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				CHI = {
+					is_in_faction = no
+				}
+			}
+			CHI = {
+				create_faction = "FACTION_NAME_FASCIST_1"
+			}
+		}
+		CHI = {
+			add_to_faction = ROOT
+		}
+		hidden_effect = {
+			news_event = { id = news.500 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			news_event = { id = news.501 }
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.14
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with China. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 0
+				NOT = { has_government = CHI }
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = CHI
+					value < 100
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = CHI
+					value < 50
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = CHI
+					value < 0
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				CHI = {
+					is_in_faction = no
+				}
+			}
+			CHI = {
+				create_faction = "FACTION_NAME_FASCIST_2"
+			}
+		}
+		CHI = {
+			add_to_faction = ROOT
+		}
+		hidden_effect = {
+			news_event = { id = news.502 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			news_event = { id = news.503 }
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.15
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with China. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 0
+				NOT = { has_government = CHI }
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = CHI
+					value < 100
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = CHI
+					value < 50
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = CHI
+					value < 0
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				CHI = {
+					is_in_faction = no
+				}
+			}
+			CHI = {
+				create_faction = "FACTION_NAME_FASCIST_3"
+			}
+		}
+		CHI = {
+			add_to_faction = ROOT
+		}
+		hidden_effect = {
+			news_event = { id = news.504 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			news_event = { id = news.505 }
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.16
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with China. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 0
+				NOT = { has_government = CHI }
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = CHI
+					value < 100
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = CHI
+					value < 50
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = CHI
+					value < 0
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				CHI = {
+					is_in_faction = no
+				}
+			}
+			CHI = {
+				create_faction = "FACTION_NAME_FASCIST_4"
+			}
+		}
+		CHI = {
+			add_to_faction = ROOT
+		}
+		hidden_effect = {
+			news_event = { id = news.506 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			news_event = { id = news.507 }
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.17
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with Japan. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 0
+				NOT = { has_government = JAP }
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = JAP
+					value < 100
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = JAP
+					value < 50
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = JAP
+					value < 0
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				JAP = {
+					is_in_faction = no
+				}
+			}
+			JAP = {
+				create_faction = "daitoa_kyoeiken"
+			}
+		}
+		JAP = {
+			add_to_faction = ROOT
+		}
+		hidden_effect = {
+			news_event = { id = news.508 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			news_event = { id = news.509 }
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.18
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with Japan. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 0
+				NOT = { has_government = JAP }
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = JAP
+					value < 100
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = JAP
+					value < 50
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = JAP
+					value < 0
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				JAP = {
+					is_in_faction = no
+				}
+			}
+			JAP = {
+				create_faction = "FACTION_NAME_FASCIST_5"
+			}
+		}
+		JAP = {
+			add_to_faction = ROOT
+		}
+		hidden_effect = {
+			news_event = { id = news.510 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			news_event = { id = news.511 }
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.19
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with Japan. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 0
+				NOT = { has_government = JAP }
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = JAP
+					value < 100
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = JAP
+					value < 50
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = JAP
+					value < 0
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				JAP = {
+					is_in_faction = no
+				}
+			}
+			JAP = {
+				create_faction = "axis"
+			}
+		}
+		JAP = {
+			add_to_faction = ROOT
+		}
+		hidden_effect = {
+			news_event = { id = news.512 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			news_event = { id = news.513 }
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.20
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by The United Kingdom"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			SOV = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = ENG
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.21
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by China"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			SOV = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = CHI
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.22
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by Japan"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			SOV = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = JAP
+				}
+			}
+		}
+	}
+}

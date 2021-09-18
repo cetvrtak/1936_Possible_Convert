@@ -1,0 +1,37 @@
+
+state={
+	id=35
+	name="STATE_35"
+	resources={
+		rubber=0.000
+		steel=7.000
+		tungsten=5.000
+	}
+
+	history={
+		owner = BAN
+		victory_points = {
+			4245 20 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			9991 = {
+				naval_base = 8
+			}
+			air_base = 6
+
+		}
+		add_core_of = BAN
+		add_core_of = RAJ
+	}
+
+	provinces={
+		1159 2843 4062 4162 4245 7078 7124 7220 9935 9991 10035 11911 11968 12010 12050 
+	}
+	manpower=28453040
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

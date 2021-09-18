@@ -1,0 +1,39 @@
+
+state={
+	id=128
+	name="STATE_128"
+	resources={
+		aluminium=5.000
+		rubber=18.000
+	}
+
+	history={
+		owner = X41
+		victory_points = {
+			10278 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 1
+			10149 = {
+				naval_base = 8
+			}
+			air_base = 5
+
+		}
+		add_core_of = X41
+		add_core_of = X66
+		add_claim_by = RAJ
+		add_claim_by = X48
+		add_claim_by = X88
+	}
+
+	provinces={
+		1268 1344 1381 1409 4327 4416 4420 7265 7363 7436 8067 10149 10246 10278 10808 12164 12247 
+	}
+	manpower=22330448
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

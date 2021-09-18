@@ -1,0 +1,30 @@
+
+state={
+	id=639
+	name="STATE_639"
+
+	history={
+		owner = TUR
+		victory_points = {
+			6935 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = KUR
+		add_core_of = TUR
+		add_core_of = W42
+		add_claim_by = ARM
+	}
+
+	provinces={
+		652 864 4583 6935 6976 6991 7470 9858 9886 10399 11853 11880 12318 12376 
+	}
+	manpower=1264640
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

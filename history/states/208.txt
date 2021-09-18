@@ -1,0 +1,31 @@
+
+state={
+	id=208
+	name="STATE_208"
+	resources={
+		aluminium=2.000
+		rubber=1.000
+	}
+
+	history={
+		owner = W43
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = GAB
+		add_core_of = RCG
+		add_core_of = W43
+		add_core_of = X74
+	}
+
+	provinces={
+		2192 3109 6008 8193 
+	}
+	manpower=1272352
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

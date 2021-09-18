@@ -1,0 +1,211 @@
+focus_tree = {
+	id = JAP_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = JAP
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = The_third_wayJAP
+		icon = GFX_goal_support_fascism
+		text = The_third_way
+		x = 28
+		y = 0
+		cost = 10
+		completion_reward = {
+		add_named_threat = { threat = 2 name = The_third_way }
+		add_ideas = fascist_influence
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = mil_marchJAP
+		icon = GFX_goal_generic_allies_build_infantry
+		text = mil_march
+		prerequisite = { focus = The_third_wayJAP }
+		x = 0
+		y = 1
+		relative_position_id = The_third_wayJAP
+		cost = 10
+		completion_reward = {
+		army_experience = 20
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 2
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 5
+		}
+	}
+
+	focus = {
+		id = expand_the_reichJAP
+		icon = GFX_goal_generic_political_pressure
+		text = expand_the_reich
+		x = 30
+		y = 0
+		cost = 10
+		completion_reward = {
+		add_named_threat = { threat = 3 name = expand_the_reich }
+		add_political_power = 150
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Fas_SummitJAP
+		icon = GFX_goal_generic_allies_build_infantry
+		text = Fascist_Summit
+		x = 33
+		y = 0
+		cost = 10
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "Call for the Fascist Summit" }
+		add_political_power = 150
+	}
+		ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 10
+			date > 1938.1.1
+		}
+	}
+	}
+
+	focus = {
+		id = Alliance_VINJAP
+		icon = GFX_goal_generic_allies_build_infantry
+		text = Alliance_VIN
+		prerequisite = { focus = Fas_SummitJAP }
+		bypass = {
+		OR = {
+			NOT = { has_government = VIN }
+			VIN = { is_subject = yes }
+			is_in_faction_with = VIN
+			has_war_with = VIN
+			NOT = { country_exists = VIN }
+		}
+	}
+		x = -1
+		y = 1
+		relative_position_id = Fas_SummitJAP
+		cost = 10
+		available = {
+		OR = {
+			is_faction_leader = yes
+			is_in_faction = no
+		}
+		VIN = {
+			OR = {
+				is_faction_leader = yes
+				is_in_faction = no
+				has_war = no
+			}
+			has_opinion = {
+				target = ROOT
+				value > -50
+			}
+		}
+	}
+		completion_reward = {
+		if = {
+			limit = { VIN = { is_faction_leader = yes } }
+			every_country = {
+				limit = {
+					is_in_faction_with = VIN
+					is_subject = no
+				}
+				country_event = { hours = 6 id = NFEvents.18 }
+			}
+		}
+		else = {
+			VIN = { country_event = { hours = 6 id = NFEvents.18 } }
+		}
+		VIN = {
+			add_opinion_modifier = { target = ROOT modifier = positive_50 }
+		}
+	}
+		ai_will_do = {
+			factor = 10
+	}
+	}
+
+	focus = {
+		id = Alliance_GERJAP
+		icon = GFX_goal_generic_allies_build_infantry
+		text = Alliance_GER
+		prerequisite = { focus = Fas_SummitJAP }
+		bypass = {
+		OR = {
+			NOT = { has_government = GER }
+			GER = { is_subject = yes }
+			is_in_faction_with = GER
+			has_war_with = GER
+			NOT = { country_exists = GER }
+		}
+	}
+		x = 1
+		y = 1
+		relative_position_id = Fas_SummitJAP
+		cost = 10
+		available = {
+		OR = {
+			is_faction_leader = yes
+			is_in_faction = no
+		}
+		GER = {
+			OR = {
+				is_faction_leader = yes
+				is_in_faction = no
+				has_war = no
+			}
+			has_opinion = {
+				target = ROOT
+				value > -50
+			}
+		}
+	}
+		completion_reward = {
+		if = {
+			limit = { GER = { is_faction_leader = yes } }
+			every_country = {
+				limit = {
+					is_in_faction_with = GER
+					is_subject = no
+				}
+				country_event = { hours = 6 id = NFEvents.19 }
+			}
+		}
+		else = {
+			GER = { country_event = { hours = 6 id = NFEvents.19 } }
+		}
+		GER = {
+			add_opinion_modifier = { target = ROOT modifier = positive_50 }
+		}
+	}
+		ai_will_do = {
+			factor = 10
+	}
+	}
+
+}

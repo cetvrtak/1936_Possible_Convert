@@ -1,0 +1,30 @@
+
+state={
+	id=423
+	name="STATE_423"
+
+	history={
+		owner = HOL
+		victory_points = {
+			6336 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			6336 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = HOL
+	}
+
+	provinces={
+		6286 6336 9309 9335 9403 11318 
+	}
+	manpower=749724
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,122 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 9498
+		task_force = {
+			name = "3rd Fleet"
+			location = 9498
+			ship = { name = "22nd Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "16th Leeuwarden Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "11th Leeuwarden Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "12th Leeuwarden Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "7th Leeuwarden Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "Limburg" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "Groningen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "Suriname" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "1st Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "Brabant" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "1st Leeuwarden Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "9th Leeuwarden Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "3rd Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "Brabant 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "4th Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "2nd Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "5th Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "8th Leeuwarden Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "Utrecht" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "Zeeland" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "Overijssel" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "23rd Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "17th Leeuwarden Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "24th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "25th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "Brabant 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "Gelderland" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "Holland" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "2nd Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "Zeeland 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "3rd Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "16th Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "17th Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "10th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "11th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "6th Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "4th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "7th Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "5th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "8th Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "6th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "7th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "8th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "9th Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "18th Leeuwarden Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "19th Leeuwarden Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "23rd Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "20th Leeuwarden Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "24th Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "25th Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "26th Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "26th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "27th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "10th Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "12th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "18th Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "19th Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "13th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "14th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "15th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "16th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "13th Leeuwarden Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "20th Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "17th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "14th Leeuwarden Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "21st Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "18th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "15th Leeuwarden Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "22nd Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "19th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "11th Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "12th Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "Atjeh" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "2nd Leeuwarden Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "28th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "3rd Leeuwarden Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "4th Leeuwarden Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "Curacao" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "Friesland" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "Overijssel 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "1st Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "6th Leeuwarden Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "Brabant 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "5th Leeuwarden Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "13th Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "14th Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "15th Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "10th Leeuwarden Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "9th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "20th Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "21st Rotterdam Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HOL } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "HOL"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "HOL"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,35 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 13092
+		task_force = {
+			name = "2nd Fleet"
+			location = 13092
+			ship = { name = "Cerro de la Muerte" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COS } } }
+			ship = { name = "Barva" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COS } } }
+			ship = { name = "Barva 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COS } } }
+			ship = { name = "Guanacaste" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COS } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "COS"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "COS"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

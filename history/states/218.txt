@@ -1,0 +1,35 @@
+
+state={
+	id=218
+	name="STATE_218"
+	resources={
+		rubber=4.000
+		steel=1.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = W43
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			10968 = {
+				naval_base = 8
+			}
+			air_base = 5
+
+		}
+		add_core_of = RCG
+		add_core_of = W43
+		add_core_of = X64
+		add_claim_by = X78
+	}
+
+	provinces={
+		2115 5117 10025 10968 12896 12925 12945 
+	}
+	manpower=8018800
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

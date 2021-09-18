@@ -1,0 +1,27 @@
+
+state={
+	id=272
+	name="STATE_272"
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			4286 = {
+				naval_base = 10
+			}
+			air_base = 5
+
+		}
+		add_core_of = FIJ
+	}
+
+	provinces={
+		4286 7302 12159 
+	}
+	manpower=235008
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,85 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 3151
+		task_force = {
+			name = "1st Fleet"
+			location = 3151
+			ship = { name = "Don" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Yug" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Kem" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Ket" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Nadym" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "1st Melitopol Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Kunya" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Riga Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Yeya" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Odessa Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Sestra" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Melitopol Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Mezha" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "1st Palanga Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "1st Reval Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Kunya 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Yeya 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Svir" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Ravan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Ravan 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "4th Odessa Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Istra" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "1st Kostomushka Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Istra 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Dubna" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Dubna 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Terek" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "1st Sevastopol Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Palanga Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Ravan 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Don 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Ob" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Sok" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Voronya" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Bereya" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "1st Riga Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Okhta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Seim" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Terek 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "1st Izmail Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Yug 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Amur" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+			ship = { name = "Svir 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 9340
+		task_force = {
+			name = "2nd Fleet"
+			location = 9340
+			ship = { name = "Indigirka" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "SOV"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "SOV"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

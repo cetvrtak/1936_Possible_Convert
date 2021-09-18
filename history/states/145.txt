@@ -1,0 +1,34 @@
+
+state={
+	id=145
+	name="STATE_145"
+	resources={
+		chromium=1.000
+	}
+
+	history={
+		owner = ELS
+		victory_points = {
+			12823 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			12823 = {
+				naval_base = 6
+			}
+			air_base = 5
+
+		}
+		add_core_of = ELS
+	}
+
+	provinces={
+		12823 13093 
+	}
+	manpower=607672
+	buildings_max_level_factor=1.000
+	state_category=town
+}

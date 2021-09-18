@@ -1,0 +1,33 @@
+
+state={
+	id=238
+	name="STATE_238"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = W48
+		victory_points = {
+			2229 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			2229 = {
+				naval_base = 8
+			}
+			air_base = 5
+
+		}
+		add_core_of = W48
+	}
+
+	provinces={
+		2229 5154 5189 7605 7770 10963 
+	}
+	manpower=110800
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=213
+	name="STATE_213"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = W44
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = KEN
+		add_core_of = W44
+		add_claim_by = SOM
+	}
+
+	provinces={
+		2066 5079 5160 8133 11145 12927 
+	}
+	manpower=735772
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=457
+	name="STATE_457"
+	resources={
+		steel=11.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = X98
+		victory_points = {
+			2182 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			2210 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = PRU
+		add_core_of = W18
+		add_core_of = X98
+	}
+
+	provinces={
+		2182 2210 5202 13086 
+	}
+	manpower=448660
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

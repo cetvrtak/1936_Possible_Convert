@@ -1,0 +1,151 @@
+﻿converted_war_strategies_BUL = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 945
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ROM"
+		value = 376
+	}
+	ai_strategy = {
+		type = conquer
+		id = "MAC"
+		value = 274
+	}
+	ai_strategy = {
+		type = conquer
+		id = "YUG"
+		value = 172
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 88
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAN"
+		value = 24
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_BUL = {
+	enable = {
+		tag = BUL
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "MAC"
+		value = 71
+	}
+	ai_strategy = {
+		type = contain
+		id = "YUG"
+		value = 46
+	}
+	ai_strategy = {
+		type = contain
+		id = "TUR"
+		value = 43
+	}
+	ai_strategy = {
+		type = contain
+		id = "ROM"
+		value = 29
+	}
+	ai_strategy = {
+		type = contain
+		id = "TUN"
+		value = 3
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ROM"
+		value = 144
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "YUG"
+		value = 143
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 17
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAN"
+		value = 5
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 2
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ITA"
+		value = 181
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 124
+	}
+	ai_strategy = {
+		type = alliance
+		id = "HUN"
+		value = 28
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GRE"
+		value = 4
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "TUN"
+		value = 62
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "MOR"
+		value = 55
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "YUG"
+		value = 53
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ECU"
+		value = 51
+	}
+}

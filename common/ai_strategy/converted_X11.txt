@@ -1,0 +1,16 @@
+﻿converted_war_strategies_X11 = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_X11 = {
+	enable = {
+		tag = X11
+	}
+	abort = {
+		always = no
+	}
+	
+}

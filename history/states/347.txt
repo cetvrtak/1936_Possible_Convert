@@ -1,0 +1,32 @@
+
+state={
+	id=347
+	name="STATE_347"
+	resources={
+		aluminium=3.000
+		steel=4.000
+	}
+
+	history={
+		owner = ITA
+		victory_points = {
+			3780 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 7
+
+		}
+		add_core_of = ITA
+		add_core_of = X75
+	}
+
+	provinces={
+		603 607 773 969 3776 3780 6661 9584 11568 11587 
+	}
+	manpower=9103984
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

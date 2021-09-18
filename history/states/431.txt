@@ -1,0 +1,28 @@
+
+state={
+	id=431
+	name="STATE_431"
+
+	history={
+		owner = W50
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			1419 = {
+				naval_base = 10
+			}
+			air_base = 5
+
+		}
+		add_core_of = W50
+		add_core_of = X81
+	}
+
+	provinces={
+		1419 1437 1574 7369 7413 7557 10141 10342 10409 
+	}
+	manpower=546492
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

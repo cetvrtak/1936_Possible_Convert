@@ -1,0 +1,32 @@
+
+state={
+	id=394
+	name="STATE_394"
+	resources={
+		chromium=1.000
+		steel=1.000
+	}
+
+	history={
+		owner = X56
+		victory_points = {
+			8098 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = X56
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		5043 5075 8013 8066 8098 10813 12761 
+	}
+	manpower=188700
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

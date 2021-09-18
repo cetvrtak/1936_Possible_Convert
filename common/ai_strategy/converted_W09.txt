@@ -1,0 +1,151 @@
+﻿converted_war_strategies_W09 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "HOL"
+		value = 676
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SIA"
+		value = 56
+	}
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 48
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = 16
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X13"
+		value = 8
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BRU"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_W09 = {
+	enable = {
+		tag = W09
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X09"
+		value = 340
+	}
+	ai_strategy = {
+		type = contain
+		id = "HOL"
+		value = 267
+	}
+	ai_strategy = {
+		type = contain
+		id = "X53"
+		value = 125
+	}
+	ai_strategy = {
+		type = contain
+		id = "BRU"
+		value = 115
+	}
+	ai_strategy = {
+		type = contain
+		id = "X55"
+		value = 75
+	}
+	ai_strategy = {
+		type = contain
+		id = "SAR"
+		value = 68
+	}
+	ai_strategy = {
+		type = contain
+		id = "X13"
+		value = 66
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HOL"
+		value = 362
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X09"
+		value = 267
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BRU"
+		value = 86
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SAR"
+		value = 48
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X55"
+		value = 36
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SIA"
+		value = 19
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 16
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X13"
+		value = 12
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SAR"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SIA"
+		value = 109
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X09"
+		value = 95
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "YEM"
+		value = 94
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X16"
+		value = 83
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SAR"
+		value = 62
+	}
+}

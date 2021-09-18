@@ -1,0 +1,30 @@
+
+state={
+	id=215
+	name="STATE_215"
+	resources={
+		rubber=1.000
+		tungsten=0.000
+	}
+
+	history={
+		owner = W43
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W43
+		add_core_of = X73
+		add_claim_by = CAR
+	}
+
+	provinces={
+		1181 4941 7161 10766 10858 
+	}
+	manpower=1243344
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,83 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 3151
+		task_force = {
+			name = "1st Fleet"
+			location = 3151
+			ship = { name = "Don" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Yug" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Kem" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Ket" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Nadym" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "1st Melitopol Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Kunya" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "3rd Riga Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Yeya" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "2nd Odessa Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Sestra" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "3rd Melitopol Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Mezha" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "1st Palanga Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "1st Reval Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Kunya 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Yeya 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Svir" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Ravan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Ravan 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "4th Odessa Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Istra" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "1st Kostomushka Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Istra 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Dubna" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Dubna 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Terek" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "1st Sevastopol Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "2nd Palanga Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Ravan 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Don 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Ob" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Sok" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Voronya" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Bereya" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "1st Riga Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Okhta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Seim" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Terek 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "1st Izmail Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Yug 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Amur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Svir 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 9340
+		task_force = {
+			name = "2nd Fleet"
+			location = 9340
+			ship = { name = "Indigirka" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "SOV"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "SOV"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

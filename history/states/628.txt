@@ -1,0 +1,32 @@
+
+state={
+	id=628
+	name="STATE_628"
+	resources={
+		chromium=4.000
+		steel=5.000
+	}
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			9805 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = GRE
+		add_claim_by = ALB
+	}
+
+	provinces={
+		3914 9805 
+	}
+	manpower=712328
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

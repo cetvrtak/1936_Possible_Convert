@@ -1,0 +1,990 @@
+﻿capital = 70
+set_research_slots = 3
+
+oob = "X93_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X93_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X93_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	early_bomber = 1
+	early_fighter = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_light = 1
+		improved_airplane_launcher = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1913.11.3"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 0
+	communism = 8
+	democratic = 69
+	fascism = 10
+	neutrality = 10
+	radical = 3
+}
+
+add_opinion_modifier = { target = ALG modifier = positive_15 }
+add_opinion_modifier = { target = ARG modifier = positive_20 }
+add_opinion_modifier = { target = AST modifier = positive_50 }
+add_opinion_modifier = { target = BAN modifier = negative_25 }
+add_opinion_modifier = { target = BEL modifier = negative_100 }
+add_opinion_modifier = { target = BHU modifier = negative_35 }
+add_opinion_modifier = { target = BRA modifier = positive_80 }
+give_military_access = BRA
+add_opinion_modifier = { target = BRU modifier = negative_35 }
+add_opinion_modifier = { target = BUL modifier = negative_200 }
+add_opinion_modifier = { target = CAM modifier = negative_35 }
+add_opinion_modifier = { target = CAN modifier = positive_127 }
+give_military_access = CAN
+add_opinion_modifier = { target = CHL modifier = negative_20 }
+add_opinion_modifier = { target = COL modifier = negative_20 }
+add_opinion_modifier = { target = COS modifier = negative_200 }
+add_opinion_modifier = { target = CUB modifier = negative_200 }
+add_opinion_modifier = { target = ECU modifier = negative_200 }
+add_opinion_modifier = { target = EGY modifier = negative_35 }
+add_opinion_modifier = { target = ELS modifier = negative_200 }
+add_opinion_modifier = { target = ENG modifier = positive_175 }
+give_military_access = ENG
+add_opinion_modifier = { target = FIN modifier = positive_55 }
+add_opinion_modifier = { target = FRA modifier = positive_200 }
+give_military_access = FRA
+add_opinion_modifier = { target = GER modifier = negative_150 }
+add_opinion_modifier = { target = GRE modifier = negative_40 }
+add_opinion_modifier = { target = GUA modifier = negative_150 }
+add_opinion_modifier = { target = HAI modifier = negative_105 }
+add_opinion_modifier = { target = HOL modifier = negative_165 }
+add_opinion_modifier = { target = HON modifier = negative_125 }
+add_opinion_modifier = { target = HUN modifier = negative_50 }
+add_opinion_modifier = { target = IRE modifier = negative_50 }
+add_opinion_modifier = { target = ITA modifier = negative_200 }
+add_opinion_modifier = { target = JAM modifier = negative_50 }
+add_opinion_modifier = { target = JAP modifier = negative_100 }
+add_opinion_modifier = { target = LIB modifier = negative_185 }
+add_opinion_modifier = { target = MEX modifier = positive_20 }
+add_opinion_modifier = { target = MON modifier = negative_200 }
+add_opinion_modifier = { target = MOR modifier = negative_25 }
+add_opinion_modifier = { target = NEP modifier = negative_35 }
+add_opinion_modifier = { target = NIC modifier = negative_100 }
+add_opinion_modifier = { target = NZL modifier = positive_50 }
+add_opinion_modifier = { target = PAR modifier = negative_200 }
+add_opinion_modifier = { target = PER modifier = negative_35 }
+give_military_access = POR
+add_opinion_modifier = { target = PUE modifier = negative_150 }
+add_opinion_modifier = { target = SAF modifier = positive_50 }
+add_opinion_modifier = { target = SCA modifier = negative_100 }
+add_opinion_modifier = { target = SIA modifier = negative_35 }
+add_opinion_modifier = { target = SIL modifier = negative_200 }
+add_opinion_modifier = { target = SOV modifier = negative_120 }
+add_opinion_modifier = { target = SPB modifier = negative_25 }
+add_opinion_modifier = { target = SWI modifier = positive_95 }
+give_military_access = SWI
+add_opinion_modifier = { target = TIB modifier = negative_35 }
+add_opinion_modifier = { target = TUR modifier = positive_140 }
+add_opinion_modifier = { target = UAE modifier = negative_35 }
+add_opinion_modifier = { target = URG modifier = positive_20 }
+add_opinion_modifier = { target = USA modifier = negative_46 }
+add_opinion_modifier = { target = VEN modifier = negative_200 }
+add_opinion_modifier = { target = VIN modifier = negative_135 }
+add_opinion_modifier = { target = W00 modifier = negative_35 }
+add_opinion_modifier = { target = W04 modifier = negative_125 }
+add_opinion_modifier = { target = W15 modifier = negative_135 }
+add_opinion_modifier = { target = X06 modifier = negative_25 }
+add_opinion_modifier = { target = X13 modifier = negative_35 }
+add_opinion_modifier = { target = X15 modifier = negative_50 }
+add_opinion_modifier = { target = X16 modifier = negative_35 }
+add_opinion_modifier = { target = X22 modifier = negative_150 }
+add_opinion_modifier = { target = X41 modifier = positive_25 }
+add_opinion_modifier = { target = X56 modifier = negative_135 }
+add_opinion_modifier = { target = X69 modifier = negative_35 }
+add_opinion_modifier = { target = X86 modifier = negative_125 }
+add_opinion_modifier = { target = X91 modifier = negative_35 }
+add_opinion_modifier = { target = X98 modifier = positive_18 }
+add_opinion_modifier = { target = YEM modifier = negative_135 }
+
+
+add_ideas = {
+	disarmed_nation
+	civilian_economy
+	export_focus
+	culture_anglo_canadian
+}
+create_country_leader = {
+	name = "Victor Petty-Fitzmaurice"
+	desc = "POLITICS_VICTOR_PETTY-FITZMAURICE_DESC"
+	picture = "gfx/leaders/AST/Portrait_Australia_John_Curtin.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "John Elliot"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 5
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Frederick Campbell"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Francine Grey"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Francine MacDougall"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Jane Hamilton"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Francine Elliot"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Francine Blackwood"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Jane Windham"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Mary Elliot"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Francine Elliot"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Francine Stanley"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Francine Gordon"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Mary Stanley"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Francine Blackwood"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Francine Windham"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Francine Hamilton"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Jane Doyle"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Mary Gordon"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Jane Grey"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Francine Stanley"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Mary Young"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Mary Elliot"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Jane Blackwood"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Mary MacDougall"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Francine Stanley"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Mary Grey"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Mary Gordon"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Mary Hamilton"
+		GFX = "gfx/leaders/ENG/portrait_eng_diana_rowden.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Mary Grey"
+		GFX = "gfx/leaders/ENG/portrait_eng_nancy_wake.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Mary Grey"
+		GFX = "gfx/leaders/ENG/portrait_eng_krystyna_skarbek.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Mary Elliot"
+		GFX = "gfx/leaders/FRA/portrait_fra_jennie_rousseau.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Mary Hamilton"
+		GFX = "gfx/leaders/FRA/portrait_fra_odette_samson.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Francine Hastings"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_F.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Douglas Campbell"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Victor Elliot"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Douglas Elliot"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Victor Doyle"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Frederick Petty-Fitzmaurice"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Campbell Grey"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Julian Elliot"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Gilbert Stanley"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Douglas Hastings"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Patrick Hastings"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Charles Ross"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Douglas Stanley"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Frederick Doyle"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Julian Doyle"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Frederick Grey"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Alexander Hastings"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Campbell Elliot"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Leonard Doyle"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Albert Doyle"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Francis Grey"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Julian Hastings"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Frederick Hamilton"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Leonard Petty-Fitzmaurice"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Victor MacDougall"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "John Grey"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Gilbert Ross"
+		GFX = "gfx/leaders/ENG/portrait_eng_patrick_fermor.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Arthur Campbell"
+		GFX = "gfx/leaders/ENG/portrait_eng_dusko_popov.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Campbell Petty-Fitzmaurice"
+		GFX = "gfx/leaders/ENG/portrait_eng_juan_pujol.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Francis MacDougall"
+		GFX = "gfx/leaders/ENG/portrait_eng_roman_czerniawski.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Julian Campbell"
+		GFX = "gfx/leaders/FRA/portrait_fra_rene_joyeuse.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Campbell Gordon"
+		GFX = "gfx/leaders/FRA/portrait_fra_gilbert_renault.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Douglas Elliot"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Julian Gordon"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Leonard Grey"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_M.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Victor Ross"
+		GFX = "gfx/leaders/GER/portrait_ger_elyesa_bazna.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Francis Stanley"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Arthur Ross"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Frederick Hastings"
+		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Francis Elliot"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_europe_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+	create_operative_leader = {
+		name = "Patrick Young"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_commonwealth_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X93 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = ship_hull_heavy_1
+		name_group = X93_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_heavy_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = X93_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X93_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X93_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}

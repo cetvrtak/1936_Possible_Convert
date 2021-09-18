@@ -1,0 +1,16 @@
+﻿converted_war_strategies_X76 = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_X76 = {
+	enable = {
+		tag = X76
+	}
+	abort = {
+		always = no
+	}
+	
+}

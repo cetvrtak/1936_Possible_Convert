@@ -1,0 +1,51 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 540
+		task_force = {
+			name = "3rd Fleet"
+			location = 8340
+			ship = { name = "Orlando" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Warspite" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Northampton" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Undaunted" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Galatea" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Australia" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Narcissus" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Immortalite" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 221
+		task_force = {
+			name = "5th Fleet"
+			location = 221
+			ship = { name = "Superb" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Shannon" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Imperieuse" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "ENG"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "ENG"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

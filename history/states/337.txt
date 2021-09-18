@@ -1,0 +1,32 @@
+
+state={
+	id=337
+	name="STATE_337"
+
+	history={
+		owner = ITA
+		victory_points = {
+			778 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			9909 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = ITA
+		add_claim_by = OCC
+	}
+
+	provinces={
+		778 3959 6609 9603 9745 9909 11573 
+	}
+	manpower=1004028
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

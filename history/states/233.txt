@@ -1,0 +1,29 @@
+
+state={
+	id=233
+	name="STATE_233"
+	resources={
+		rubber=0.000
+	}
+
+	history={
+		owner = W44
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = SOM
+		add_core_of = W44
+		add_claim_by = ETH
+	}
+
+	provinces={
+		4995 7980 10775 12714 12757 12812 
+	}
+	manpower=1952360
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=454
+	name="STATE_454"
+	resources={
+		oil=8.000
+	}
+
+	history={
+		owner = X98
+		victory_points = {
+			12969 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			8199 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = PRU
+		add_core_of = X98
+	}
+
+	provinces={
+		2156 5162 8199 12969 
+	}
+	manpower=486856
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

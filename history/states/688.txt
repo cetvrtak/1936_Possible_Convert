@@ -1,0 +1,31 @@
+
+state={
+	id=688
+	name="STATE_688"
+	resources={
+		tungsten=99.000
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			4865 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = USA
+		add_core_of = X36
+	}
+
+	provinces={
+		1663 1740 1756 4668 4742 4865 7764 7818 10582 10651 10662 12573 12699 
+	}
+	manpower=1217064
+	buildings_max_level_factor=1.000
+	state_category=town
+}

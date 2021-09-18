@@ -1,0 +1,116 @@
+﻿converted_war_strategies_CYP = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 144
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAN"
+		value = 104
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 24
+	}
+	ai_strategy = {
+		type = conquer
+		id = "MAC"
+		value = 16
+	}
+	ai_strategy = {
+		type = conquer
+		id = "OCC"
+		value = 16
+	}
+	ai_strategy = {
+		type = conquer
+		id = "FRA"
+		value = 8
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ROM"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_CYP = {
+	enable = {
+		tag = CYP
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "GRE"
+		value = 137
+	}
+	ai_strategy = {
+		type = contain
+		id = "TUR"
+		value = 51
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 48
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAN"
+		value = 35
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 13
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "FRA"
+		value = 8
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ROM"
+		value = 3
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 56
+	}
+	ai_strategy = {
+		type = alliance
+		id = "EGY"
+		value = 13
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "COS"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "YEM"
+		value = 39
+	}
+}

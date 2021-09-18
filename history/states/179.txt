@@ -1,0 +1,30 @@
+
+state={
+	id=179
+	name="STATE_179"
+	resources={
+		aluminium=4.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			9517 7 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 8
+			arms_factory = 4
+			air_base = 4
+
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		519 694 3690 6555 9517 9545 9655 11486 11499 
+	}
+	manpower=4908524
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

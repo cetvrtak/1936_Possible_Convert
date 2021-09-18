@@ -1,0 +1,151 @@
+﻿converted_war_strategies_X50 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "W00"
+		value = 1022
+	}
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 919
+	}
+	ai_strategy = {
+		type = conquer
+		id = "W04"
+		value = 544
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BAN"
+		value = 438
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = 292
+	}
+	ai_strategy = {
+		type = conquer
+		id = "RAJ"
+		value = 219
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X86"
+		value = 129
+	}
+}
+
+converted_diplo_strategies_X50 = {
+	enable = {
+		tag = X50
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "X46"
+		value = 148
+	}
+	ai_strategy = {
+		type = contain
+		id = "X54"
+		value = 129
+	}
+	ai_strategy = {
+		type = contain
+		id = "X84"
+		value = 129
+	}
+	ai_strategy = {
+		type = contain
+		id = "X18"
+		value = 127
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 114
+	}
+	ai_strategy = {
+		type = contain
+		id = "X15"
+		value = 52
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X54"
+		value = 342
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W00"
+		value = 100
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X69"
+		value = 24
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W16"
+		value = 9
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X15"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "W00"
+		value = 187
+	}
+	ai_strategy = {
+		type = alliance
+		id = "W16"
+		value = 101
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X69"
+		value = 3
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ELS"
+		value = 74
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X54"
+		value = 69
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ALG"
+		value = 61
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W16"
+		value = 49
+	}
+}

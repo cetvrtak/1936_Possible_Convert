@@ -1,0 +1,91 @@
+units = {
+	fleet = {
+		name = "7th Fleet"
+		naval_base = 1108
+		task_force = {
+			name = "7th Fleet"
+			location = 1108
+			ship = { name = "4th Askaleh Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Kastamonu Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Kuwait Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Acre Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "2nd Kuwait Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Jidda Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Mersin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Trabzon Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "2nd Askaleh Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Askaleh Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Qatif Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "3rd Hodeida Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Trabzon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "3rd Jidda Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Kayseri" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Uskup" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "2nd Hodeida Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Manisa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Edirne" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Kastamonu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "2nd Trabzon Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Hodeida Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Izmir" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Ankara" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Bagdat" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Kars" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Erzurum" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Selanik" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Halep" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "3rd Qatif Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Monastir" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "2nd Jidda Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Saraybosna" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Dimashq" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Bender" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Sinop" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Kudüs-ü Serif" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Kars 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "2nd Qatif Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "3rd Askaleh Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Sivas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "4th Hodeida Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Uskudar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Van" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Filibe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "2nd Antalya Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Trablusgarp" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Antioch Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Janina Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Uskudar 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "1st Antalya Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 11818
+		task_force = {
+			name = "1st Fleet"
+			location = 11818
+			ship = { name = "Ankara 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "TUR"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "TUR"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

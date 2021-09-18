@@ -1,0 +1,32 @@
+
+state={
+	id=180
+	name="STATE_180"
+	resources={
+		aluminium=38.000
+		steel=126.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			9570 7 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 9
+			arms_factory = 3
+			air_base = 4
+
+		}
+		add_core_of = GER
+		add_claim_by = SIL
+	}
+
+	provinces={
+		552 3283 3438 3485 3510 3514 3545 6462 6534 6595 9470 9535 9570 11517 
+	}
+	manpower=9295008
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

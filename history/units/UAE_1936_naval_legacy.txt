@@ -1,0 +1,34 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 7960
+		task_force = {
+			name = "1st Fleet"
+			location = 7960
+			ship = { name = "Abd al-Aziz" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = UAE } } }
+			ship = { name = "Abd al-Hadi" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = UAE } } }
+			ship = { name = "Abd al-Aziz 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = UAE } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "UAE"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "UAE"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,86 @@
+﻿converted_war_strategies_X95 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "SAF"
+		value = 440
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAN"
+		value = 72
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_X95 = {
+	enable = {
+		tag = X95
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "W29"
+		value = 159
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 309
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W29"
+		value = 270
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAN"
+		value = 24
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X90"
+		value = 10
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 3
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W29"
+		value = 136
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ECU"
+		value = 62
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "VEN"
+		value = 43
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "PUE"
+		value = 34
+	}
+}

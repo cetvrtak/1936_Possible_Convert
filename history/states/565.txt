@@ -1,0 +1,34 @@
+
+state={
+	id=565
+	name="STATE_565"
+	resources={
+		steel=21.000
+	}
+
+	history={
+		owner = SAF
+		victory_points = {
+			4822 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			4528 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = SAF
+		add_core_of = X23
+	}
+
+	provinces={
+		4528 4822 10442 10697 12419 
+	}
+	manpower=253692
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

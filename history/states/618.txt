@@ -1,0 +1,32 @@
+
+state={
+	id=618
+	name="STATE_618"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = W58
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			7972 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = W34
+		add_core_of = W58
+		add_claim_by = SEN
+	}
+
+	provinces={
+		7972 
+	}
+	manpower=323276
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=363
+	name="STATE_363"
+	resources={
+		aluminium=75.000
+	}
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			4982 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = GUY
+		add_claim_by = VEN
+	}
+
+	provinces={
+		4982 8107 
+	}
+	manpower=252808
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

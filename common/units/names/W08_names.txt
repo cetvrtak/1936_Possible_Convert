@@ -1,0 +1,58 @@
+﻿W08 = {
+	battle_cruiser = {
+		prefix = ""
+		generic = { "Battlecruiser" }
+		unique = {
+			"Shunten" "Shunbajunki" "Sai On" "Sho Nei" "Gihon" "Eiso" "Sho Boku" "Eiji" "Tamagusuku" "Taisei" "Seii" "Sho Shoken" "Satto" "Sho Tei" "Sho Shin" "Sho Kei" "Sho Gen" "Sho En" "Bunei" "Sho Kinpuku" "Sho Shitatsu" "Sho Chu" "Sho Hashi" "Sho Shisho" "Sho Taikyu" "Naha" "Shuri" "Amari" "Okinawa" 
+		}
+	}
+
+	battleship = {
+		prefix = ""
+		generic = { "Battleship" }
+		unique = {
+			"Shunten" "Shunbajunki" "Sai On" "Sho Nei" "Gihon" "Eiso" "Sho Boku" "Eiji" "Tamagusuku" "Taisei" "Seii" "Sho Shoken" "Satto" "Sho Tei" "Sho Shin" "Sho Kei" "Sho Gen" "Sho En" "Bunei" "Sho Kinpuku" "Sho Shitatsu" "Sho Chu" "Sho Hashi" "Sho Shisho" "Sho Taikyu" "Naha" "Shuri" "Amari" "Okinawa" 
+		}
+	}
+
+	carrier = {
+		prefix = ""
+		generic = { "Carrier" }
+		unique = {
+			"Shunten" "Shunbajunki" "Sai On" "Sho Nei" "Gihon" "Eiso" "Sho Boku" "Eiji" "Tamagusuku" "Taisei" "Seii" "Sho Shoken" "Satto" "Sho Tei" "Sho Shin" "Sho Kei" "Sho Gen" "Sho En" "Bunei" "Sho Kinpuku" "Sho Shitatsu" "Sho Chu" "Sho Hashi" "Sho Shisho" "Sho Taikyu" "Naha" "Shuri" "Amari" "Okinawa" 
+		}
+	}
+
+	destroyer = {
+		prefix = ""
+		generic = { "Destroyer" }
+		unique = {
+			"Shunten" "Shunbajunki" "Sai On" "Sho Nei" "Gihon" "Eiso" "Sho Boku" "Eiji" "Tamagusuku" "Taisei" "Seii" "Sho Shoken" "Satto" "Sho Tei" "Sho Shin" "Sho Kei" "Sho Gen" "Sho En" "Bunei" "Sho Kinpuku" "Sho Shitatsu" "Sho Chu" "Sho Hashi" "Sho Shisho" "Sho Taikyu" "Naha" "Shuri" "Amari" "Okinawa" 
+		}
+	}
+
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Heavy Cruiser" }
+		unique = {
+			"Shunten" "Shunbajunki" "Sai On" "Sho Nei" "Gihon" "Eiso" "Sho Boku" "Eiji" "Tamagusuku" "Taisei" "Seii" "Sho Shoken" "Satto" "Sho Tei" "Sho Shin" "Sho Kei" "Sho Gen" "Sho En" "Bunei" "Sho Kinpuku" "Sho Shitatsu" "Sho Chu" "Sho Hashi" "Sho Shisho" "Sho Taikyu" "Naha" "Shuri" "Amari" "Okinawa" 
+		}
+	}
+
+	light_cruiser = {
+		prefix = ""
+		generic = { "Light Cruiser" }
+		unique = {
+			"Shunten" "Shunbajunki" "Sai On" "Sho Nei" "Gihon" "Eiso" "Sho Boku" "Eiji" "Tamagusuku" "Taisei" "Seii" "Sho Shoken" "Satto" "Sho Tei" "Sho Shin" "Sho Kei" "Sho Gen" "Sho En" "Bunei" "Sho Kinpuku" "Sho Shitatsu" "Sho Chu" "Sho Hashi" "Sho Shisho" "Sho Taikyu" "Naha" "Shuri" "Amari" "Okinawa" 
+		}
+	}
+
+	submarine = {
+		prefix = ""
+		generic = { "Submarine" }
+		unique = {
+			"Shunten" "Shunbajunki" "Sai On" "Sho Nei" "Gihon" "Eiso" "Sho Boku" "Eiji" "Tamagusuku" "Taisei" "Seii" "Sho Shoken" "Satto" "Sho Tei" "Sho Shin" "Sho Kei" "Sho Gen" "Sho En" "Bunei" "Sho Kinpuku" "Sho Shitatsu" "Sho Chu" "Sho Hashi" "Sho Shisho" "Sho Taikyu" "Naha" "Shuri" "Amari" "Okinawa" 
+		}
+	}
+
+}

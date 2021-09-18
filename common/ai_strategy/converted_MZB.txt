@@ -1,0 +1,16 @@
+﻿converted_war_strategies_MZB = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_MZB = {
+	enable = {
+		tag = MZB
+	}
+	abort = {
+		always = no
+	}
+	
+}

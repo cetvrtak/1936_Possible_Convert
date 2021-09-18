@@ -1,0 +1,37 @@
+
+state={
+	id=212
+	name="STATE_212"
+	resources={
+		aluminium=0.000
+		rubber=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = W49
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			10831 = {
+				naval_base = 10
+			}
+			air_base = 10
+
+		}
+		add_core_of = W49
+		add_core_of = X04
+		add_claim_by = NGA
+		add_claim_by = NGR
+		add_claim_by = W35
+		add_claim_by = X28
+	}
+
+	provinces={
+		1992 8034 10831 
+	}
+	manpower=7271600
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

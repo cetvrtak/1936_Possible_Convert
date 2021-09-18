@@ -1,0 +1,30 @@
+
+state={
+	id=271
+	name="STATE_271"
+	resources={
+		oil=16.000
+	}
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			7123 = {
+				naval_base = 10
+			}
+			air_base = 5
+
+		}
+		add_core_of = TRI
+	}
+
+	provinces={
+		177 379 3284 7123 13009 13012 
+	}
+	manpower=1097404
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

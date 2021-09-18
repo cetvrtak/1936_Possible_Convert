@@ -1,0 +1,61 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 12589
+		task_force = {
+			name = "1st Fleet"
+			location = 12589
+			ship = { name = "7th Bisho Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "1st Cape Town Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "8th Bisho Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "3rd Durban Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "9th Bisho Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "1st Springbok Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "4th Durban Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "2nd Springbok Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "5th Durban Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "3rd Springbok Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "4th Springbok Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "10th Cape Town Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "Genet 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "1st Bisho Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "3rd Cape Town Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "2nd Bisho Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "Cecil Rhodes" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "Vildebeest" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "Leopard" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "1st Durban Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "8th Cape Town Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "2nd Cape Town Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "Caracal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "5th Springbok Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "3rd Bisho Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "4th Bisho Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "2nd Durban Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "9th Cape Town Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "5th Bisho Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+			ship = { name = "6th Bisho Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAF } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "SAF"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "SAF"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

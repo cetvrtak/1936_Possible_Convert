@@ -1,0 +1,23 @@
+
+state={
+	id=246
+	name="STATE_246"
+	resources={
+		steel=0.000
+	}
+	impassable = yes
+
+	history={
+		owner = W45
+		add_core_of = W45
+		add_core_of = X35
+		add_claim_by = CAR
+	}
+
+	provinces={
+		8103 
+	}
+	manpower=339096
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

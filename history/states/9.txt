@@ -1,0 +1,33 @@
+
+state={
+	id=9
+	name="STATE_9"
+	resources={
+		aluminium=1.000
+		steel=1.000
+		tungsten=17.000
+	}
+
+	history={
+		owner = ARG
+		victory_points = {
+			2106 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = ARG
+		add_core_of = PAR
+	}
+
+	provinces={
+		2106 10986 12922 12943 
+	}
+	manpower=1334692
+	buildings_max_level_factor=1.000
+	state_category=town
+}

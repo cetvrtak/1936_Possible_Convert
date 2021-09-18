@@ -1,0 +1,394 @@
+units = {
+	fleet = {
+		name = "Grand Old Fleet"
+		naval_base = 3118
+		task_force = {
+			name = "Grand Old Fleet"
+			location = 2716
+			ship = { name = "2nd Stade Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "2nd Emden Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "2nd Schwerin Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "2nd Stettin Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "2nd Danzig Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "2nd Königsberg Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "4th Kiel Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "5th Kiel Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "3rd Aabenraa Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "3rd Stade Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "3rd Emden Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "3rd Schwerin Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "3rd Lübeck Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "3rd Danzig Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "3rd Königsberg Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "3rd Stettin Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "1st Kiel Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "1st Aabenraa Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "1st Lübeck Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "1st Stade Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "1st Emden Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "1st Schwerin Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "1st Stettin Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "1st Danzig Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "1st Königsberg Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "1st Grand Bassam Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "2nd Kiel Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "3rd Kiel Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "2nd Aabenraa Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "2nd Lübeck Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+		}
+	}
+	fleet = {
+		name = "African Squadron"
+		naval_base = 6039
+		task_force = {
+			name = "African Squadron"
+			location = 6039
+			ship = { name = "Kronprinz" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "Kaiser" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "4th Kiel Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "5th Kiel Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "6th Kiel Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "Wacht" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Vineta" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Wiesbaden" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Calabar Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Victoria Louise" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Undine" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Djibuti Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Hamburg" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Yorck" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Bremse" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Stade Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Emden Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Schwerin Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Stettin Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Danzig Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Marcus Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Marcus Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Falkland Islands Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd New Ireland Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Fiji Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Marcus Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd New Hebrides Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Calabar Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Douala Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Libreville Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 3118
+		task_force = {
+			name = "1st Fleet"
+			location = 2825
+			ship = { name = "Thüringen" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "Von der Tann" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "Westfalen" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "Seydlitz" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "Württemberg" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "1st Kiel Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "1st Schwerin Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Kiel Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "1st Danzig Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "1st Königsberg Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "1st Stettin Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "1st Emden Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "1st Aabenraa Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "1st Stade Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Kiel Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "Derfflinger" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "Goeben" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "Helgoland" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "Hindenburg" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "Kaiserin" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "König" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "König Albert" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "Lützow" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "Mackensen" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "Markgraf" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "Nassau" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "Ostfriesland" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "Posen" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "Prinzregent Luitpold" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "Rheinland" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "Falke" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Geier" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Frauenlob" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Freya" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Fürst Bismarck" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Magdeburg" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Niobe" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Nymphe" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Pillau" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Prinz Heinrich" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Prinzess Wilhelm" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Nürnberg" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Regensburg" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Meteor" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Roon" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Rostock" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Scharnhorst" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Seeadler" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Sperber" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Stettin" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Stralsund" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Strassburg" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Stuttgart" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Schwalbe" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Thetis" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Kiel Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Königsberg Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Lübeck Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Senj Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Aabenraa Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Amazone" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Gazelle" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Jagd" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Kaiserin Augusta" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Königsberg" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Arcona" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Augsburg" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Bussard" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Cöln" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Blitz" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Comet" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Ariadne" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Gefion" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Gneisenau" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Graudenz" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Greif" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Hela" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Hertha" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Irene" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Kolberg" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Condor" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Deutschland" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Emden" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Elbing" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Blücher" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 11360
+		task_force = {
+			name = "2nd Fleet"
+			location = 11360
+			ship = { name = "Brandenburg" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Wittelsbach" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Wettin" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Schlesien" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Kurfürst Friedrich Wilhelm" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Weissenburg" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Zähringen" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Wörth" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Mecklenburg" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Schwaben" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Kaiser Friedrich III" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Elsass" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Kaiser Wilhelm II" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Hessen" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Kaiser Wilhelm Der Grosse" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Kaiser Karl Der Grosse" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Preussen" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Lothringen" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Kaiser Barbarossa" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Pommern" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "7th Kiel Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "4th Aabenraa Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "4th Stade Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "5th Stade Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "4th Emden Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "4th Schwerin Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "5th Aabenraa Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "4th Stettin Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "4th Danzig Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "4th Lübeck Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "5th Emden Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "5th Stettin Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "5th Danzig Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "4th Königsberg Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "5th Königsberg Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "5th Lübeck Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "1st Senj Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "2nd Senj Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "1st Douala Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "1st Boma Submarine" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "1936 Submarine" } } }
+			ship = { name = "2nd Kiel Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Kiel Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Stade Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Aabenraa Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Emden Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Schwerin Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Stettin Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Danzig Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Aabenraa Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Königsberg Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Stade Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Kiel Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Schwerin Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Kiel Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Stettin Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Danzig Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Königsberg Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Senj Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Lübeck Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Senj Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Apia Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Kiel Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Aabenraa Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Stade Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Emden Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Schwerin Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Stettin Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Danzig Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Königsberg Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Lübeck Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Kiel Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st New Ireland Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Fiji Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st New Hebrides Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Emden Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "17th Fleet"
+		naval_base = 12299
+		task_force = {
+			name = "17th Fleet"
+			location = 12299
+			ship = { name = "1st Mergui Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Singapore Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Bintulu Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Sandakan Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Weihaiwei Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Sittwe Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Bintulu Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Sandakan Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Sittwe Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Singapore Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd New Ireland Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Cocos Islands Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd New Hebrides Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st St Pierre & Miquelon Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Bermuda Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Senj Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Ponape Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Weihaiwei Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Marcus Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Rarotonga Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Bintulu Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Sandakan Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Ponape Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Weihaiwei Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Mergui Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Sittwe Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Singapore Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th New Ireland Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Fiji Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Marcus Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th New Hebrides Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Apia Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Rarotonga Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Cocos Islands Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "8th Fleet"
+		naval_base = 9377
+		task_force = {
+			name = "8th Fleet"
+			location = 9377
+			ship = { name = "7th Kiel Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "8th Kiel Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Aabenraa Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Stade Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Emden Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Schwerin Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Stettin Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Danzig Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Königsberg Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "1st Senj Dreadnought" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "1st Belize Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Dominica Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Dominica Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Belize Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Bermuda Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Bermuda Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Belize Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Dominica Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Guadeloupe Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd St Pierre & Miquelon Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Bermuda Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Belize Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Dominica Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Cayenne Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Guadeloupe Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 6349
+		task_force = {
+			name = "4th Fleet"
+			location = 6349
+			ship = { name = "5th Aabenraa Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Senj Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Schwerin Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Danzig Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Königsberg Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Lübeck Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 4073
+		task_force = {
+			name = "5th Fleet"
+			location = 4073
+			ship = { name = "1st Banjul Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Conakry Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Sassandra Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Suez Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Grand Bassam Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Rosso Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Mogadishu Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Djibuti Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Mombasa Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Freetown Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Dar Es Salaam Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Kilwa Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Antsiranana Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Comoros Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Boma Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Mauritius Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Angra Pequena Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Falkland Islands Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Swakopmund Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Saint Helena Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "GER"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "GER"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

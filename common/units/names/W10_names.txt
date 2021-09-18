@@ -1,0 +1,58 @@
+﻿W10 = {
+	battle_cruiser = {
+		prefix = ""
+		generic = { "Battlecruiser" }
+		unique = {
+			"Schleswig" "Up ewig ungedeelt" "Vertrag von Ripen" "Magnus von Wedderkop" "Uwe Jens Lornsen" "Flensburg" "Johann der Ältere" "Adolf I." "Friedrich III." "Christian Albrecht" 
+		}
+	}
+
+	battleship = {
+		prefix = ""
+		generic = { "Battleship" }
+		unique = {
+			"Schleswig" "Up ewig ungedeelt" "Vertrag von Ripen" "Magnus von Wedderkop" "Uwe Jens Lornsen" "Flensburg" "Johann der Ältere" "Adolf I." "Friedrich III." "Christian Albrecht" 
+		}
+	}
+
+	carrier = {
+		prefix = ""
+		generic = { "Carrier" }
+		unique = {
+			"Schleswig" "Up ewig ungedeelt" "Vertrag von Ripen" "Magnus von Wedderkop" "Uwe Jens Lornsen" "Flensburg" "Johann der Ältere" "Adolf I." "Friedrich III." "Christian Albrecht" 
+		}
+	}
+
+	destroyer = {
+		prefix = ""
+		generic = { "Destroyer" }
+		unique = {
+			"Schleswig" "Up ewig ungedeelt" "Vertrag von Ripen" "Magnus von Wedderkop" "Uwe Jens Lornsen" "Flensburg" "Johann der Ältere" "Adolf I." "Friedrich III." "Christian Albrecht" 
+		}
+	}
+
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Heavy Cruiser" }
+		unique = {
+			"Schleswig" "Up ewig ungedeelt" "Vertrag von Ripen" "Magnus von Wedderkop" "Uwe Jens Lornsen" "Flensburg" "Johann der Ältere" "Adolf I." "Friedrich III." "Christian Albrecht" 
+		}
+	}
+
+	light_cruiser = {
+		prefix = ""
+		generic = { "Light Cruiser" }
+		unique = {
+			"Klaus Störtebeker" "Gödeke Michels" "Hennig Wichmann" "Klaus Scheld" "Magister Wigbold" "Arnd Stuke" "Nikolaus Milies" "Likedeeler" 
+		}
+	}
+
+	submarine = {
+		prefix = ""
+		generic = { "Submarine" }
+		unique = {
+			"Schleswig" "Up ewig ungedeelt" "Vertrag von Ripen" "Magnus von Wedderkop" "Uwe Jens Lornsen" "Flensburg" "Johann der Ältere" "Adolf I." "Friedrich III." "Christian Albrecht" 
+		}
+	}
+
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=706
+	name="STATE_706"
+
+	history={
+		owner = USA
+		victory_points = {
+			1269 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			1269 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1042 1085 1269 1358 1370 4226 4252 4292 4378 7390 7437 10234 10291 10319 12265 
+	}
+	manpower=1006820
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=438
+	name="STATE_438"
+	resources={
+		oil=3.000
+		rubber=12.000
+	}
+
+	history={
+		owner = W50
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			10212 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = BRU
+		add_core_of = W50
+	}
+
+	provinces={
+		4282 10143 10212 12171 
+	}
+	manpower=115940
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

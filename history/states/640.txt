@@ -1,0 +1,32 @@
+
+state={
+	id=640
+	name="STATE_640"
+	resources={
+		steel=7.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			12416 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = KUR
+		add_core_of = TUR
+		add_core_of = W42
+	}
+
+	provinces={
+		876 1463 3890 4512 6965 7530 7620 9761 9823 9860 9912 10497 11739 11759 11871 12387 12416 12476 
+	}
+	manpower=1851700
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

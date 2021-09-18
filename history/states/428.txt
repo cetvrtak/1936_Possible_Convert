@@ -1,0 +1,33 @@
+
+state={
+	id=428
+	name="STATE_428"
+	resources={
+		oil=4.000
+		rubber=53.000
+	}
+
+	history={
+		owner = W50
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			7227 = {
+				naval_base = 10
+			}
+			air_base = 5
+
+		}
+		add_core_of = W50
+		add_core_of = X60
+		add_core_of = X72
+	}
+
+	provinces={
+		1230 1304 1316 2170 2222 4279 4335 4409 7227 7424 8221 10282 10310 12129 12280 12955 
+	}
+	manpower=802192
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

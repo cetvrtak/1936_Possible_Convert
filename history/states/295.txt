@@ -1,0 +1,27 @@
+
+state={
+	id=295
+	name="STATE_295"
+
+	history={
+		owner = W46
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = RAJ
+		add_core_of = W46
+		add_claim_by = NEP
+		add_claim_by = PAK
+	}
+
+	provinces={
+		1898 3989 
+	}
+	manpower=2576636
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,0 +1,166 @@
+﻿converted_war_strategies_X15 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "W00"
+		value = 1217
+	}
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 584
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X86"
+		value = 581
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = 292
+	}
+	ai_strategy = {
+		type = conquer
+		id = "W04"
+		value = 272
+	}
+	ai_strategy = {
+		type = conquer
+		id = "RAJ"
+		value = 224
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X41"
+		value = 156
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X69"
+		value = 135
+	}
+}
+
+converted_diplo_strategies_X15 = {
+	enable = {
+		tag = X15
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "X86"
+		value = 79
+	}
+	ai_strategy = {
+		type = contain
+		id = "W04"
+		value = 78
+	}
+	ai_strategy = {
+		type = contain
+		id = "X69"
+		value = 68
+	}
+	ai_strategy = {
+		type = contain
+		id = "W00"
+		value = 53
+	}
+	ai_strategy = {
+		type = contain
+		id = "RAJ"
+		value = 36
+	}
+	ai_strategy = {
+		type = contain
+		id = "BAN"
+		value = 15
+	}
+	ai_strategy = {
+		type = contain
+		id = "X41"
+		value = 8
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X69"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X86"
+		value = 298
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W04"
+		value = 156
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W00"
+		value = 137
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "RAJ"
+		value = 117
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 85
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 42
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X41"
+		value = 23
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X41"
+		value = 158
+	}
+	ai_strategy = {
+		type = alliance
+		id = "RAJ"
+		value = 69
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W04"
+		value = 95
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "LIB"
+		value = 72
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X86"
+		value = 71
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "PUE"
+		value = 44
+	}
+}

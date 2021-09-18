@@ -1,0 +1,35 @@
+
+state={
+	id=31
+	name="STATE_31"
+	resources={
+		aluminium=7.000
+		steel=37.000
+	}
+
+	history={
+		owner = BEL
+		victory_points = {
+			11483 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			575 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = BEL
+		add_claim_by = FLA
+	}
+
+	provinces={
+		575 3536 9500 11483 11548 
+	}
+	manpower=2076240
+	buildings_max_level_factor=1.000
+	state_category=town
+}

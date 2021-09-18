@@ -1,0 +1,46 @@
+﻿converted_war_strategies_TEX = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 3148
+	}
+}
+
+converted_diplo_strategies_TEX = {
+	enable = {
+		tag = TEX
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "MEX"
+		value = 254
+	}
+	ai_strategy = {
+		type = contain
+		id = "USA"
+		value = 195
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 366
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "MEX"
+		value = 287
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 39
+	}
+}

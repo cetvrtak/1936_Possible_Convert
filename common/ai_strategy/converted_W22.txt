@@ -1,0 +1,76 @@
+﻿converted_war_strategies_W22 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "CHI"
+		value = 3042
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 78
+	}
+}
+
+converted_diplo_strategies_W22 = {
+	enable = {
+		tag = W22
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "CHI"
+		value = 125
+	}
+	ai_strategy = {
+		type = contain
+		id = "X62"
+		value = 32
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X62"
+		value = 267
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"
+		value = 267
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "XSM"
+		value = 156
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 26
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X62"
+		value = 59
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "MON"
+		value = 58
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BUL"
+		value = 27
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BRU"
+		value = 24
+	}
+}

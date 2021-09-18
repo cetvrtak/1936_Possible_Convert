@@ -1,0 +1,35 @@
+
+state={
+	id=44
+	name="STATE_44"
+	resources={
+		aluminium=10.000
+		rubber=19.000
+		steel=10.000
+	}
+
+	history={
+		owner = BRA
+		victory_points = {
+			5220 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			2228 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = BRA
+	}
+
+	provinces={
+		2132 2150 2164 2178 2228 5107 5153 5204 5220 8179 10984 12913 12933 12947 
+	}
+	manpower=1892964
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=216
+	name="STATE_216"
+
+	history={
+		owner = W43
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = W43
+		add_core_of = X12
+	}
+
+	provinces={
+		1950 2034 2073 2154 6027 11934 12783 12808 12847 
+	}
+	manpower=2348568
+	buildings_max_level_factor=1.000
+	state_category=town
+}

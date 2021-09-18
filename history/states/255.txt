@@ -1,0 +1,36 @@
+
+state={
+	id=255
+	name="STATE_255"
+	resources={
+		rubber=2.000
+		steel=4.000
+		tungsten=4.000
+	}
+
+	history={
+		owner = W47
+		victory_points = {
+			1403 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			12292 = {
+				naval_base = 8
+			}
+			air_base = 5
+
+		}
+		add_core_of = BRM
+		add_core_of = W47
+	}
+
+	provinces={
+		1296 1315 1385 1403 4275 4408 7295 10217 12125 12238 12292 
+	}
+	manpower=1392052
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

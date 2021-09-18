@@ -1,0 +1,30 @@
+
+state={
+	id=289
+	name="STATE_289"
+	resources={
+		rubber=0.000
+		steel=3.000
+		tungsten=5.000
+	}
+
+	history={
+		owner = W47
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = BRM
+		add_core_of = W47
+	}
+
+	provinces={
+		1333 1417 1492 1650 4019 4059 4202 4293 4585 4626 7034 7441 7469 10283 10344 10386 12256 12284 12404 12449 12492 
+	}
+	manpower=4389028
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=211
+	name="STATE_211"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = W43
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = CHA
+		add_core_of = W31
+		add_core_of = W43
+		add_claim_by = X58
+	}
+
+	provinces={
+		1883 1993 2081 3181 7919 9152 13211 
+	}
+	manpower=1333440
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

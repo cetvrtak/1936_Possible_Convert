@@ -1,0 +1,28 @@
+
+state={
+	id=655
+	name="STATE_655"
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			1108 = {
+				naval_base = 6
+			}
+			air_base = 5
+
+		}
+		add_core_of = LEB
+		add_claim_by = TUR
+	}
+
+	provinces={
+		792 1065 1108 11919 
+	}
+	manpower=777768
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

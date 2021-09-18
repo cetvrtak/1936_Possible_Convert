@@ -1,0 +1,33 @@
+
+state={
+	id=603
+	name="STATE_603"
+	resources={
+		steel=11.000
+	}
+
+	history={
+		owner = SPB
+		victory_points = {
+			1176 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			10063 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = SPB
+	}
+
+	provinces={
+		747 950 1090 1176 1192 4065 4095 7068 7153 7196 9979 10009 10063 10111 11956 12038 12083 
+	}
+	manpower=3102268
+	buildings_max_level_factor=1.000
+	state_category=city
+}

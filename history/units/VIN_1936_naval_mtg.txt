@@ -1,0 +1,34 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 1185
+		task_force = {
+			name = "2nd Fleet"
+			location = 1185
+			ship = { name = "Tran Thuyên" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "Tran Manh" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "Tran Hao 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "Duong Nhat Le" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "Tran Phu 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "Tran Kính 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "Tran Hien" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "Tran Vuong 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "Duong Nhat Le 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "Tran Hien 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "Tran Ngung" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "VIN"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

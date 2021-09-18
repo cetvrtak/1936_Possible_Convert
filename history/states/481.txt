@@ -1,0 +1,27 @@
+
+state={
+	id=481
+	name="STATE_481"
+
+	history={
+		owner = PAR
+		victory_points = {
+			2152 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 5
+
+		}
+		add_core_of = PAR
+	}
+
+	provinces={
+		2152 2173 2194 11023 12901 
+	}
+	manpower=967528
+	buildings_max_level_factor=1.000
+	state_category=town
+}

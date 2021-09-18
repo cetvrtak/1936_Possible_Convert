@@ -1,0 +1,43 @@
+
+state={
+	id=653
+	name="STATE_653"
+	resources={
+		steel=16.000
+	}
+
+	history={
+		owner = W42
+		victory_points = {
+			4111 10 
+		}
+		victory_points = {
+			4550 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = SYR
+		add_claim_by = TUR
+		TUR = {
+			set_province_controller = 1074
+			set_province_controller = 4111
+			set_province_controller = 4486
+			set_province_controller = 7184
+			set_province_controller = 7513
+			set_province_controller = 10383
+			set_province_controller = 12316
+		}
+	}
+
+	provinces={
+		1074 4111 4486 4550 7184 7513 10383 12316 12442 
+	}
+	manpower=1014828
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

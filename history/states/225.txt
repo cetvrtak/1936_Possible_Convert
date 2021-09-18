@@ -1,0 +1,31 @@
+
+state={
+	id=225
+	name="STATE_225"
+	resources={
+		aluminium=3.000
+		rubber=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = W49
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = GNA
+		add_core_of = W49
+		add_core_of = X51
+	}
+
+	provinces={
+		4957 5039 8008 
+	}
+	manpower=1701132
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

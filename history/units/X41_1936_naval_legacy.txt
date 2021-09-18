@@ -1,0 +1,32 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 10255
+		task_force = {
+			name = "2nd Fleet"
+			location = 10255
+			ship = { name = "Arihant" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X41 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X41"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X41"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

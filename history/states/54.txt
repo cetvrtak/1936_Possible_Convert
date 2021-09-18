@@ -1,0 +1,25 @@
+
+state={
+	id=54
+	name="STATE_54"
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = PRU
+		add_core_of = X98
+	}
+
+	provinces={
+		8213 10970 
+	}
+	manpower=148760
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

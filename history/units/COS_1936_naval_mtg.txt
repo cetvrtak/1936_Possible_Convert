@@ -1,0 +1,27 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 13092
+		task_force = {
+			name = "2nd Fleet"
+			location = 13092
+			ship = { name = "Cerro de la Muerte" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = COS version_name = "Early Destroyer" } } }
+			ship = { name = "Barva" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = COS version_name = "Early Destroyer" } } }
+			ship = { name = "Barva 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = COS version_name = "Early Destroyer" } } }
+			ship = { name = "Guanacaste" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = COS version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "COS"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

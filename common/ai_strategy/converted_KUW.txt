@@ -1,0 +1,16 @@
+﻿converted_war_strategies_KUW = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_KUW = {
+	enable = {
+		tag = KUW
+	}
+	abort = {
+		always = no
+	}
+	
+}

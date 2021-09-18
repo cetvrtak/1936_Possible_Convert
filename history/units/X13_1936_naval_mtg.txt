@@ -1,0 +1,28 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 12234
+		task_force = {
+			name = "1st Fleet"
+			location = 12234
+			ship = { name = "Kecak" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = X13 version_name = "Early Destroyer" } } }
+			ship = { name = "Catur" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = X13 version_name = "Early Destroyer" } } }
+			ship = { name = "Bratan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = X13 version_name = "Early Destroyer" } } }
+			ship = { name = "Sangyang" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = X13 version_name = "Early Destroyer" } } }
+			ship = { name = "Patas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = X13 version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X13"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}
