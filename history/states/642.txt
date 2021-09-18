@@ -22,7 +22,6 @@ state={
 		TUR = {
 			set_province_controller = 901
 			set_province_controller = 1056
-			set_province_controller = 1072
 			set_province_controller = 1088
 			set_province_controller = 1549
 			set_province_controller = 1578
@@ -35,7 +34,6 @@ state={
 			set_province_controller = 7671
 			set_province_controller = 10087
 			set_province_controller = 10882
-			set_province_controller = 12029
 			set_province_controller = 12473
 		}
 	}
