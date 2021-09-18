@@ -78,8 +78,8 @@ add_ideas = {
 	culture_latvian
 }
 create_country_leader = {
-	name = "Bruno de Kolongs"
-	desc = "POLITICS_BRUNO_DE KOLONGS_DESC"
+	name = "Evgenijs Stucka"
+	desc = "POLITICS_EVGENIJS_STUCKA_DESC"
 	picture = "gfx/leaders/LIT/portrait_lit_antanas_smetona.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

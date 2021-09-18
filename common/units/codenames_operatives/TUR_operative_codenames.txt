@@ -1,7 +1,7 @@
 TUR_OPERATIVE_CODENAME_HISTORICAL = {
 	name = TUR_OPERATIVE_CODENAME_HISTORICAL
 
-	for_countries = { LBA TUR W42 W59 }
+	for_countries = { LBA TUR W58 }
 
 	type = codename
 

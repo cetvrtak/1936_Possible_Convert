@@ -128,8 +128,8 @@ add_ideas = {
 	culture_brazilian
 }
 create_country_leader = {
-	name = "Júlio Maciel"
-	desc = "POLITICS_JúLIO_MACIEL_DESC"
+	name = "Juscelino Pena"
+	desc = "POLITICS_JUSCELINO_PENA_DESC"
 	picture = "gfx/leaders/HAI/portrait_hai_stenio_vincent.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

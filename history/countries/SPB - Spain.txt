@@ -81,18 +81,18 @@ if = {
         has_dlc = "Together for Victory"
     }
     set_autonomy = {
-        target = W57
+        target = W56
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = W58
+        target = W57
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     else = {
+        puppet = W56
         puppet = W57
-        puppet = W58
     }
 }
 
@@ -193,8 +193,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.61
 create_country_leader = {
-	name = "Calixto Valdés"
-	desc = "POLITICS_CALIXTO_VALDéS_DESC"
+	name = "Santiago Allendesalazar"
+	desc = "POLITICS_SANTIAGO_ALLENDESALAZAR_DESC"
 	picture = "gfx/leaders/ITA/Portrait_Italy_Victor_Emmanuel_III.dds"
 	expire = "1965.1.1"
 	ideology = prussian_const

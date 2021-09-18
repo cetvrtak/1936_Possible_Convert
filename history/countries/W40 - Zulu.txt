@@ -135,8 +135,8 @@ add_ideas = {
 	culture_zulu
 }
 create_country_leader = {
-	name = "Hehlokazulu kaSihayo"
-	desc = "POLITICS_HEHLOKAZULU_KASIHAYO_DESC"
+	name = "Mgojana Buthelezei"
+	desc = "POLITICS_MGOJANA_BUTHELEZEI_DESC"
 	picture = "gfx/leaders/African/Portrait_Kongo_Pedro_VII_Afonso.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

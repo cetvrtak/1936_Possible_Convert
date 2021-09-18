@@ -135,8 +135,8 @@ add_ideas = {
 	culture_nguni
 }
 create_country_leader = {
-	name = "Matola Amari"
-	desc = "POLITICS_MATOLA_AMARI_DESC"
+	name = "Kiwanga Mbano"
+	desc = "POLITICS_KIWANGA_MBANO_DESC"
 	picture = "gfx/leaders/African/Portrait_ERT_Sellasie.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

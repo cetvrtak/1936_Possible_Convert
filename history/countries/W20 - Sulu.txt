@@ -131,8 +131,8 @@ add_ideas = {
 	culture_malay
 }
 create_country_leader = {
-	name = "Tuanku Riayat Shah"
-	desc = "POLITICS_TUANKU_RIAYAT SHAH_DESC"
+	name = "Isandar al-Marhum"
+	desc = "POLITICS_ISANDAR_AL-MARHUM_DESC"
 	picture = "gfx/leaders/Indo_Chinese_Nesia/Portrait_Siam_Rama_VII.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

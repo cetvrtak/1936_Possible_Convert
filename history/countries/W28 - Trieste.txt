@@ -78,8 +78,8 @@ add_ideas = {
 	culture_north_italian
 }
 create_country_leader = {
-	name = "Marco Bava-Beccaris"
-	desc = "POLITICS_MARCO_BAVA-BECCARIS_DESC"
+	name = "Camillo Filomarino"
+	desc = "POLITICS_CAMILLO_FILOMARINO_DESC"
 	picture = "gfx/leaders/Europe/Portrait_europe_generic_7.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

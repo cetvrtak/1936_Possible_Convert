@@ -128,8 +128,8 @@ add_ideas = {
 	culture_filipino
 }
 create_country_leader = {
-	name = "Manuel Mabini"
-	desc = "POLITICS_MANUEL_MABINI_DESC"
+	name = "León Rizal"
+	desc = "POLITICS_LEóN_RIZAL_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
 	expire = "1965.1.1"
 	ideology = socialism

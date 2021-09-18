@@ -78,8 +78,8 @@ add_ideas = {
 	culture_ukrainian
 }
 create_country_leader = {
-	name = "Vladislav Tymoshenko"
-	desc = "POLITICS_VLADISLAV_TYMOSHENKO_DESC"
+	name = "Alexei Leshchenko"
+	desc = "POLITICS_ALEXEI_LESHCHENKO_DESC"
 	picture = "gfx/leaders/LIT/portrait_lit_antanas_smetona.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

@@ -129,8 +129,8 @@ add_ideas = {
 	culture_texan
 }
 create_country_leader = {
-	name = "John Houston"
-	desc = "POLITICS_JOHN_HOUSTON_DESC"
+	name = "Walter Whitfield"
+	desc = "POLITICS_WALTER_WHITFIELD_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_4.dds"
 	expire = "1965.1.1"
 	ideology = minarchism

@@ -124,8 +124,8 @@ add_ideas = {
 	culture_panjabi
 }
 create_country_leader = {
-	name = "Ranjit Dhillon"
-	desc = "POLITICS_RANJIT_DHILLON_DESC"
+	name = "Nau Kunwar"
+	desc = "POLITICS_NAU_KUNWAR_DESC"
 	picture = "gfx/leaders/Indian/Portrait_Madras_Sri_Ramakrishna_Ranga_Rao.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

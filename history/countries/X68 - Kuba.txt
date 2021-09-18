@@ -95,8 +95,8 @@ add_ideas = {
 	culture_kuba
 }
 create_country_leader = {
-	name = "Kitamba Ngombe"
-	desc = "POLITICS_KITAMBA_NGOMBE_DESC"
+	name = "Kitamba Kabale"
+	desc = "POLITICS_KITAMBA_KABALE_DESC"
 	picture = "gfx/leaders/African/Portrait_ERT_Sellasie.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

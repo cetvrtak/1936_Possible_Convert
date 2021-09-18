@@ -136,8 +136,8 @@ add_ideas = {
 	culture_marathi
 }
 create_country_leader = {
-	name = "Sawai Narayan"
-	desc = "POLITICS_SAWAI_NARAYAN_DESC"
+	name = "Shambhaji Rao"
+	desc = "POLITICS_SHAMBHAJI_RAO_DESC"
 	picture = "gfx/leaders/Indian/Portrait_DEH_Maharaja_Ganga_Singh.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

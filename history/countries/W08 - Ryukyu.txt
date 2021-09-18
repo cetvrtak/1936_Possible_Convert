@@ -132,8 +132,8 @@ add_ideas = {
 	culture_japanese
 }
 create_country_leader = {
-	name = "Jinzaburo Sakura"
-	desc = "POLITICS_JINZABURO_SAKURA_DESC"
+	name = "Goro Matsudaira"
+	desc = "POLITICS_GORO_MATSUDAIRA_DESC"
 	picture = "gfx/leaders/JAP/Portrait_Japan_Hirohito.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

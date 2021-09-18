@@ -99,8 +99,8 @@ add_ideas = {
 	culture_polish
 }
 create_country_leader = {
-	name = "Wojciech Mierolawski"
-	desc = "POLITICS_WOJCIECH_MIEROLAWSKI_DESC"
+	name = "Boleslaw Rydz-Smigly"
+	desc = "POLITICS_BOLESLAW_RYDZ-SMIGLY_DESC"
 	picture = "gfx/leaders/EST/portrait_est_konstantin_pats.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

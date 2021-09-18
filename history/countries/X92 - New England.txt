@@ -93,8 +93,8 @@ add_ideas = {
 	culture_yankee
 }
 create_country_leader = {
-	name = "Cyrus Barnard"
-	desc = "POLITICS_CYRUS_BARNARD_DESC"
+	name = "Matthew Griffin"
+	desc = "POLITICS_MATTHEW_GRIFFIN_DESC"
 	picture = "gfx/leaders/CAN/Portrait_Canada_Mackenzie_King.dds"
 	expire = "1965.1.1"
 	ideology = socialism

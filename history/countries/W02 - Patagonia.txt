@@ -123,8 +123,8 @@ add_ideas = {
 	culture_patagonian
 }
 create_country_leader = {
-	name = "Marcos Remultray"
-	desc = "POLITICS_MARCOS_REMULTRAY_DESC"
+	name = "Arturo Marifil"
+	desc = "POLITICS_ARTURO_MARIFIL_DESC"
 	picture = "gfx/leaders/central_american_native/portrait_nat_carib_absolutist.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

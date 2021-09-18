@@ -131,8 +131,8 @@ add_ideas = {
 	culture_oriya
 }
 create_country_leader = {
-	name = "Dibvyasimhadeva Deva"
-	desc = "POLITICS_DIBVYASIMHADEVA_DEVA_DESC"
+	name = "Ramachandradeva Deva"
+	desc = "POLITICS_RAMACHANDRADEVA_DEVA_DESC"
 	picture = "gfx/leaders/Indian/Portrait_PRF_Taley_Muhammed_Khan_of_Palanpur.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

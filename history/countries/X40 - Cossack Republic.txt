@@ -78,8 +78,8 @@ add_ideas = {
 	culture_ukrainian
 }
 create_country_leader = {
-	name = "Lavr Ivanenko"
-	desc = "POLITICS_LAVR_IVANENKO_DESC"
+	name = "Andrei Kapustiansky"
+	desc = "POLITICS_ANDREI_KAPUSTIANSKY_DESC"
 	picture = "gfx/leaders/Eastern_European/portrait_EST_Adolf_Friedrich_von_Mecklenburg.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

@@ -94,8 +94,8 @@ add_ideas = {
 	culture_central_american
 }
 create_country_leader = {
-	name = "Alejandro Ezeta"
-	desc = "POLITICS_ALEJANDRO_EZETA_DESC"
+	name = "Aniceto Carrera"
+	desc = "POLITICS_ANICETO_CARRERA_DESC"
 	picture = "gfx/leaders/BOL/Portrait_Bolivia_Jose_Luis_Tejada_Sorzano.dds"
 	expire = "1965.1.1"
 	ideology = dictatorship_neutral

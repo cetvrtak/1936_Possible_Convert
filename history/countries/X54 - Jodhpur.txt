@@ -146,8 +146,8 @@ add_ideas = {
 	culture_rajput
 }
 create_country_leader = {
-	name = "Jawapala Qaim"
-	desc = "POLITICS_JAWAPALA_QAIM_DESC"
+	name = "Bhai Tiwana"
+	desc = "POLITICS_BHAI_TIWANA_DESC"
 	picture = "gfx/leaders/Indian/Portrait_BHC_M_N_Roy.tga"
 	expire = "1965.1.1"
 	ideology = leninism

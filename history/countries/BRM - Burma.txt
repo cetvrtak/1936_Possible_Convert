@@ -133,8 +133,8 @@ add_ideas = {
 	culture_burmese
 }
 create_country_leader = {
-	name = "Mindon Bandula"
-	desc = "POLITICS_MINDON_BANDULA_DESC"
+	name = "Minkyaw Myo"
+	desc = "POLITICS_MINKYAW_MYO_DESC"
 	picture = "gfx/leaders/SIA/Portrait_Siam_Phraya_Phahon.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

@@ -518,20 +518,6 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		W42_monarch = {
-			allowed = {
-				original_tag = W42
-			}
-
-			allowed_civil_war = {
-				original_tag = W42
-				has_government = neutrality
-			}
-
-			removal_cost = -1
-
-			traits = { popular_figurehead }
-		}
 		WLS_monarch = {
 			allowed = {
 				original_tag = WLS

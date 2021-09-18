@@ -114,8 +114,8 @@ add_ideas = {
 	culture_romanian
 }
 create_country_leader = {
-	name = "Laurentiu Argetoianu"
-	desc = "POLITICS_LAURENTIU_ARGETOIANU_DESC"
+	name = "Vintila Salajan"
+	desc = "POLITICS_VINTILA_SALAJAN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = minarchism

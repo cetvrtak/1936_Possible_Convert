@@ -78,8 +78,8 @@ add_ideas = {
 	culture_romanian
 }
 create_country_leader = {
-	name = "Andrei Cuza"
-	desc = "POLITICS_ANDREI_CUZA_DESC"
+	name = "Petru Averescu"
+	desc = "POLITICS_PETRU_AVERESCU_DESC"
 	picture = "gfx/leaders/Europe/Portrait_europe_generic_7.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

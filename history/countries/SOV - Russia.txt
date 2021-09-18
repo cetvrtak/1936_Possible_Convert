@@ -98,13 +98,13 @@ if = {
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = W56
+        target = W55
         autonomous_state = autonomy_colony
         freedom_level = 0.4
     }
     else = {
         puppet = FIN
-        puppet = W56
+        puppet = W55
     }
 }
 
@@ -210,8 +210,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Sergei Nakhimov"
-	desc = "POLITICS_SERGEI_NAKHIMOV_DESC"
+	name = "Mikhail Shuvalov"
+	desc = "POLITICS_MIKHAIL_SHUVALOV_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = minarchism

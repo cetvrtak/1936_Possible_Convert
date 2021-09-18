@@ -124,8 +124,8 @@ add_ideas = {
 	culture_russian
 }
 create_country_leader = {
-	name = "Anton Pavlov"
-	desc = "POLITICS_ANTON_PAVLOV_DESC"
+	name = "Valery Kornilov"
+	desc = "POLITICS_VALERY_KORNILOV_DESC"
 	picture = "gfx/leaders/LAT/portrait_lat_fricis_menders.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

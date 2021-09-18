@@ -79,8 +79,8 @@ add_ideas = {
 	culture_croat
 }
 create_country_leader = {
-	name = "Matej Mohorovicic"
-	desc = "POLITICS_MATEJ_MOHOROVICIC_DESC"
+	name = "Miroslav Haulik"
+	desc = "POLITICS_MIROSLAV_HAULIK_DESC"
 	picture = "gfx/leaders/ALB/Portrait_Albania_King_Zog.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = W58
+		owner = W57
 		victory_points = {
 			10919 10 
 		}
@@ -24,7 +24,7 @@ state={
 
 		}
 		add_core_of = DAH
-		add_core_of = W58
+		add_core_of = W57
 	}
 
 	provinces={

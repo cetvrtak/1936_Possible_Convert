@@ -149,8 +149,8 @@ add_ideas = {
 	culture_avadhi
 }
 create_country_leader = {
-	name = "Prasan Singh"
-	desc = "POLITICS_PRASAN_SINGH_DESC"
+	name = "Mahip Singh"
+	desc = "POLITICS_MAHIP_SINGH_DESC"
 	picture = "gfx/leaders/Indian/portrait_PAK_Mirza_Mughal.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

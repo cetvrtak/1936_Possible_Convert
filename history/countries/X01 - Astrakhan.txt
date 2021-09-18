@@ -93,8 +93,8 @@ add_ideas = {
 	culture_tatar
 }
 create_country_leader = {
-	name = "Ismail Tukay"
-	desc = "POLITICS_ISMAIL_TUKAY_DESC"
+	name = "Yusuf Kamal"
+	desc = "POLITICS_YUSUF_KAMAL_DESC"
 	picture = "gfx/leaders/Arabic_Persian/Portrait_JOR_Salih_Jabr.tga"
 	expire = "1965.1.1"
 	ideology = socialism

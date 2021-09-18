@@ -98,8 +98,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Wilhelm von Blomberg"
-	desc = "POLITICS_WILHELM_VON BLOMBERG_DESC"
+	name = "Adelbert Krohn"
+	desc = "POLITICS_ADELBERT_KROHN_DESC"
 	picture = "gfx/leaders/AST/Portrait_Australia_John_Curtin.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

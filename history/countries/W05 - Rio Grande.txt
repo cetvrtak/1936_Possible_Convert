@@ -124,8 +124,8 @@ add_ideas = {
 	culture_mexican
 }
 create_country_leader = {
-	name = "Juan Zuloaga"
-	desc = "POLITICS_JUAN_ZULOAGA_DESC"
+	name = "Emilio de Cos"
+	desc = "POLITICS_EMILIO_DE COS_DESC"
 	picture = "gfx/leaders/ELS/portrait_els_maximiliano_hernandez_martinez.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

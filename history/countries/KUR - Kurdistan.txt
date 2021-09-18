@@ -125,8 +125,8 @@ add_ideas = {
 	culture_kurdish
 }
 create_country_leader = {
-	name = "Ubaydallah Badirkhan"
-	desc = "POLITICS_UBAYDALLAH_BADIRKHAN_DESC"
+	name = "Hafid Barzani"
+	desc = "POLITICS_HAFID_BARZANI_DESC"
 	picture = "gfx/leaders/ALB/Portrait_Albania_King_Zog.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

@@ -137,8 +137,8 @@ add_ideas = {
 	culture_bakongo
 }
 create_country_leader = {
-	name = "Loembe Nsindi"
-	desc = "POLITICS_LOEMBE_NSINDI_DESC"
+	name = "Mfutila N'Gombi"
+	desc = "POLITICS_MFUTILA_N'GOMBI_DESC"
 	picture = "gfx/leaders/African/Portrait_Burundi_Mwambutsa_Fourth.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

@@ -133,8 +133,8 @@ add_ideas = {
 	culture_greek
 }
 create_country_leader = {
-	name = "Tzannis Sofoulis"
-	desc = "POLITICS_TZANNIS_SOFOULIS_DESC"
+	name = "Spyros Kallergis"
+	desc = "POLITICS_SPYROS_KALLERGIS_DESC"
 	picture = "gfx/leaders/ITA/Portrait_Italy_Victor_Emmanuel_III.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

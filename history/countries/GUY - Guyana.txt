@@ -93,8 +93,8 @@ add_ideas = {
 	culture_afro_caribbean
 }
 create_country_leader = {
-	name = "Henry Kilgour"
-	desc = "POLITICS_HENRY_KILGOUR_DESC"
+	name = "Mervyn Sylvester"
+	desc = "POLITICS_MERVYN_SYLVESTER_DESC"
 	picture = "gfx/leaders/LIB/Portrait_LIB_edwin_barclay.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

@@ -124,8 +124,8 @@ add_ideas = {
 	culture_south_andean
 }
 create_country_leader = {
-	name = "Sebastián Latorre"
-	desc = "POLITICS_SEBASTIáN_LATORRE_DESC"
+	name = "Emilio Zapata"
+	desc = "POLITICS_EMILIO_ZAPATA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = leninism

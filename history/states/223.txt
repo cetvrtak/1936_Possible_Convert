@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = W49
+		owner = W48
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 0
@@ -21,7 +21,7 @@ state={
 
 		}
 		add_core_of = GNA
-		add_core_of = W49
+		add_core_of = W48
 		add_core_of = X43
 		add_core_of = X51
 	}

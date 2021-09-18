@@ -148,8 +148,8 @@ add_ideas = {
 	culture_rajput
 }
 create_country_leader = {
-	name = "Durga Kunwar"
-	desc = "POLITICS_DURGA_KUNWAR_DESC"
+	name = "Muhammad Bhatti"
+	desc = "POLITICS_MUHAMMAD_BHATTI_DESC"
 	picture = "gfx/leaders/Indian/Portrait_Princely_Osman_Ali_Khan.tga"
 	expire = "1965.1.1"
 	ideology = fascism_ideology

@@ -98,8 +98,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Leonhard von Hessen-Kassel"
-	desc = "POLITICS_LEONHARD_VON HESSEN-KASSEL_DESC"
+	name = "Erich von Roon"
+	desc = "POLITICS_ERICH_VON ROON_DESC"
 	picture = "gfx/leaders/FIN/Portrait_Finland_Risto_Heikki_Ryti.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

@@ -95,8 +95,8 @@ add_ideas = {
 	culture_moluccan
 }
 create_country_leader = {
-	name = "Jordao Pattinama"
-	desc = "POLITICS_JORDAO_PATTINAMA_DESC"
+	name = "Edinho Leiwakabessy"
+	desc = "POLITICS_EDINHO_LEIWAKABESSY_DESC"
 	picture = "gfx/leaders/Indo_Chinese_Nesia/Portrait_Cambodia_Sisowath_Monivong.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

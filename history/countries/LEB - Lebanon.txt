@@ -125,8 +125,8 @@ add_ideas = {
 	culture_mashriqi
 }
 create_country_leader = {
-	name = "Khalid ibn Hisham"
-	desc = "POLITICS_KHALID_IBN HISHAM_DESC"
+	name = "Hasan ibn Uthman"
+	desc = "POLITICS_HASAN_IBN UTHMAN_DESC"
 	picture = "gfx/leaders/leader_unknown.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

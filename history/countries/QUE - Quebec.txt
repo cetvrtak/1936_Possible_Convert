@@ -97,8 +97,8 @@ add_ideas = {
 	culture_french_canadian
 }
 create_country_leader = {
-	name = "Luis-Phillippe de St.-Just"
-	desc = "POLITICS_LUIS-PHILLIPPE_DE ST.-JUST_DESC"
+	name = "Luc Perodeau"
+	desc = "POLITICS_LUC_PERODEAU_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = minarchism

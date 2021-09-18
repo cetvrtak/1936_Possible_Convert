@@ -126,8 +126,8 @@ add_ideas = {
 	culture_serb
 }
 create_country_leader = {
-	name = "Mirko Putnik"
-	desc = "POLITICS_MIRKO_PUTNIK_DESC"
+	name = "Dragan Vojvodic"
+	desc = "POLITICS_DRAGAN_VOJVODIC_DESC"
 	picture = "gfx/leaders/BUL/Portrait_Bulgaria_Georgi_Dimitrov.dds"
 	expire = "1965.1.1"
 	ideology = socialism

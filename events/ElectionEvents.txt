@@ -7859,44 +7859,23 @@ country_event = {
 
 	option = {
 		name = election.206b
-		set_party_name = { ideology = democratic long_name = W42_conservative_3_party name = W42_conservative_3_party }
+		set_party_name = { ideology = democratic long_name = W42_conservative_2_party name = W42_conservative_2_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.206c
-		set_party_name = { ideology = democratic long_name = W42_liberal_party name = W42_liberal_party }
+		set_party_name = { ideology = democratic long_name = W42_socialist_party name = W42_socialist_party }
 		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
+		set_country_leader_ideology = socialism
 	}
 
 	option = {
 		name = election.206d
-		set_party_name = { ideology = democratic long_name = W42_liberal_2_party name = W42_liberal_2_party }
+		set_party_name = { ideology = democratic long_name = W42_liberal_party name = W42_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.206e
-		set_party_name = { ideology = democratic long_name = W42_liberal_3_party name = W42_liberal_3_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.206f
-		set_party_name = { ideology = democratic long_name = W42_liberal_4_party name = W42_liberal_4_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.206g
-		set_party_name = { ideology = democratic long_name = W42_socialist_party name = W42_socialist_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = socialism
 	}
 }
 
@@ -8195,23 +8174,37 @@ country_event = {
 
 	option = {
 		name = election.213b
-		set_party_name = { ideology = democratic long_name = W49_conservative_2_party name = W49_conservative_2_party }
+		set_party_name = { ideology = democratic long_name = W49_liberal_party name = W49_liberal_party }
 		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
+		set_country_leader_ideology = liberalism
 	}
 
 	option = {
 		name = election.213c
-		set_party_name = { ideology = democratic long_name = W49_socialist_party name = W49_socialist_party }
+		set_party_name = { ideology = democratic long_name = W49_liberal_2_party name = W49_liberal_2_party }
 		retire_country_leader = yes
-		set_country_leader_ideology = socialism
+		set_country_leader_ideology = liberalism
 	}
 
 	option = {
 		name = election.213d
-		set_party_name = { ideology = democratic long_name = W49_liberal_party name = W49_liberal_party }
+		set_party_name = { ideology = democratic long_name = W49_liberal_3_party name = W49_liberal_3_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.213e
+		set_party_name = { ideology = democratic long_name = W49_liberal_5_party name = W49_liberal_5_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.213f
+		set_party_name = { ideology = democratic long_name = W49_socialist_party name = W49_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism
 	}
 }
 
@@ -8233,7 +8226,7 @@ country_event = {
 
 	option = {
 		name = election.214a
-		set_party_name = { ideology = democratic long_name = W50_conservative_party name = W50_conservative_party }
+		set_party_name = { ideology = democratic long_name = W50_conservative_2_party name = W50_conservative_2_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
@@ -8247,30 +8240,16 @@ country_event = {
 
 	option = {
 		name = election.214c
-		set_party_name = { ideology = democratic long_name = W50_liberal_2_party name = W50_liberal_2_party }
+		set_party_name = { ideology = democratic long_name = W50_socialist_party name = W50_socialist_party }
 		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
+		set_country_leader_ideology = socialism
 	}
 
 	option = {
 		name = election.214d
-		set_party_name = { ideology = democratic long_name = W50_liberal_3_party name = W50_liberal_3_party }
+		set_party_name = { ideology = democratic long_name = W50_conservative_party name = W50_conservative_party }
 		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.214e
-		set_party_name = { ideology = democratic long_name = W50_liberal_5_party name = W50_liberal_5_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.214f
-		set_party_name = { ideology = democratic long_name = W50_socialist_party name = W50_socialist_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = socialism
+		set_country_leader_ideology = conservatism
 	}
 }
 
@@ -8472,7 +8451,7 @@ country_event = {
 
 	option = {
 		name = election.219a
-		set_party_name = { ideology = democratic long_name = W55_conservative_2_party name = W55_conservative_2_party }
+		set_party_name = { ideology = democratic long_name = W55_conservative_party name = W55_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
@@ -8497,6 +8476,13 @@ country_event = {
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
+
+	option = {
+		name = election.219e
+		set_party_name = { ideology = democratic long_name = W55_liberal_party name = W55_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
 }
 
 country_event = {
@@ -8517,35 +8503,63 @@ country_event = {
 
 	option = {
 		name = election.220a
-		set_party_name = { ideology = democratic long_name = W56_conservative_party name = W56_conservative_party }
+		set_party_name = { ideology = democratic long_name = W56_conservative_2_party name = W56_conservative_2_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.220b
-		set_party_name = { ideology = democratic long_name = W56_liberal_party name = W56_liberal_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.220c
 		set_party_name = { ideology = democratic long_name = W56_socialist_party name = W56_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
 
 	option = {
-		name = election.220d
+		name = election.220c
 		set_party_name = { ideology = democratic long_name = W56_conservative_party name = W56_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
+		name = election.220d
+		set_party_name = { ideology = democratic long_name = W56_conservative_4_party name = W56_conservative_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
 		name = election.220e
+		set_party_name = { ideology = democratic long_name = W56_conservative_5_party name = W56_conservative_5_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.220f
 		set_party_name = { ideology = democratic long_name = W56_liberal_party name = W56_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.220g
+		set_party_name = { ideology = democratic long_name = W56_liberal_2_party name = W56_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.220h
+		set_party_name = { ideology = democratic long_name = W56_liberal_3_party name = W56_liberal_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.220i
+		set_party_name = { ideology = democratic long_name = W56_liberal_4_party name = W56_liberal_4_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
@@ -8649,65 +8663,51 @@ country_event = {
 
 	option = {
 		name = election.222a
-		set_party_name = { ideology = democratic long_name = W58_conservative_2_party name = W58_conservative_2_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.222b
-		set_party_name = { ideology = democratic long_name = W58_socialist_party name = W58_socialist_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = socialism
-	}
-
-	option = {
-		name = election.222c
 		set_party_name = { ideology = democratic long_name = W58_conservative_party name = W58_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.222d
-		set_party_name = { ideology = democratic long_name = W58_conservative_4_party name = W58_conservative_4_party }
+		name = election.222b
+		set_party_name = { ideology = democratic long_name = W58_conservative_3_party name = W58_conservative_3_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.222e
-		set_party_name = { ideology = democratic long_name = W58_conservative_5_party name = W58_conservative_5_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.222f
+		name = election.222c
 		set_party_name = { ideology = democratic long_name = W58_liberal_party name = W58_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.222g
+		name = election.222d
 		set_party_name = { ideology = democratic long_name = W58_liberal_2_party name = W58_liberal_2_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.222h
+		name = election.222e
 		set_party_name = { ideology = democratic long_name = W58_liberal_3_party name = W58_liberal_3_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.222i
+		name = election.222f
 		set_party_name = { ideology = democratic long_name = W58_liberal_4_party name = W58_liberal_4_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.222g
+		set_party_name = { ideology = democratic long_name = W58_socialist_party name = W58_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism
 	}
 }
 
@@ -8715,72 +8715,6 @@ country_event = {
 	id = election.223
 	title = election.223.t
 	desc = election.223.d
-	picture = GFX_report_event_usa_election_generic
-
-	is_triggered_only = yes
-
-	trigger = {
-		tag = W59
-		OR = {
-			democratic > 0.5
-			neutrality > 0.5
-		}
-	}
-
-	option = {
-		name = election.223a
-		set_party_name = { ideology = democratic long_name = W59_conservative_party name = W59_conservative_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.223b
-		set_party_name = { ideology = democratic long_name = W59_conservative_3_party name = W59_conservative_3_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.223c
-		set_party_name = { ideology = democratic long_name = W59_liberal_party name = W59_liberal_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.223d
-		set_party_name = { ideology = democratic long_name = W59_liberal_2_party name = W59_liberal_2_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.223e
-		set_party_name = { ideology = democratic long_name = W59_liberal_3_party name = W59_liberal_3_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.223f
-		set_party_name = { ideology = democratic long_name = W59_liberal_4_party name = W59_liberal_4_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.223g
-		set_party_name = { ideology = democratic long_name = W59_socialist_party name = W59_socialist_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = socialism
-	}
-}
-
-country_event = {
-	id = election.224
-	title = election.224.t
-	desc = election.224.d
 	picture = GFX_report_event_usa_election_generic
 
 	is_triggered_only = yes
@@ -8794,14 +8728,14 @@ country_event = {
 	}
 
 	option = {
-		name = election.224a
+		name = election.223a
 		set_party_name = { ideology = democratic long_name = WLL_conservative_3_party name = WLL_conservative_3_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.224b
+		name = election.223b
 		set_party_name = { ideology = democratic long_name = WLL_liberal_2_party name = WLL_liberal_2_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
@@ -8809,9 +8743,9 @@ country_event = {
 }
 
 country_event = {
-	id = election.225
-	title = election.225.t
-	desc = election.225.d
+	id = election.224
+	title = election.224.t
+	desc = election.224.d
 	picture = GFX_report_event_usa_election_generic
 
 	is_triggered_only = yes
@@ -8825,15 +8759,53 @@ country_event = {
 	}
 
 	option = {
-		name = election.225a
+		name = election.224a
 		set_party_name = { ideology = democratic long_name = WLS_liberal_party name = WLS_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.225b
+		name = election.224b
 		set_party_name = { ideology = democratic long_name = WLS_socialist_party name = WLS_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism
+	}
+}
+
+country_event = {
+	id = election.225
+	title = election.225.t
+	desc = election.225.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X00
+		OR = {
+			democratic > 0.5
+			neutrality > 0.5
+		}
+	}
+
+	option = {
+		name = election.225a
+		set_party_name = { ideology = democratic long_name = X00_conservative_party name = X00_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.225b
+		set_party_name = { ideology = democratic long_name = X00_liberal_party name = X00_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.225c
+		set_party_name = { ideology = democratic long_name = X00_socialist_party name = X00_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -8848,7 +8820,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X00
+		tag = X01
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -8857,21 +8829,21 @@ country_event = {
 
 	option = {
 		name = election.226a
-		set_party_name = { ideology = democratic long_name = X00_conservative_party name = X00_conservative_party }
+		set_party_name = { ideology = democratic long_name = X01_conservative_2_party name = X01_conservative_2_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.226b
-		set_party_name = { ideology = democratic long_name = X00_liberal_party name = X00_liberal_party }
+		set_party_name = { ideology = democratic long_name = X01_conservative_3_party name = X01_conservative_3_party }
 		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
+		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.226c
-		set_party_name = { ideology = democratic long_name = X00_socialist_party name = X00_socialist_party }
+		set_party_name = { ideology = democratic long_name = X01_socialist_3_party name = X01_socialist_3_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -8886,7 +8858,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X01
+		tag = X02
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -8895,21 +8867,14 @@ country_event = {
 
 	option = {
 		name = election.227a
-		set_party_name = { ideology = democratic long_name = X01_conservative_2_party name = X01_conservative_2_party }
+		set_party_name = { ideology = democratic long_name = X02_conservative_party name = X02_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.227b
-		set_party_name = { ideology = democratic long_name = X01_conservative_3_party name = X01_conservative_3_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.227c
-		set_party_name = { ideology = democratic long_name = X01_socialist_3_party name = X01_socialist_3_party }
+		set_party_name = { ideology = democratic long_name = X02_socialist_party name = X02_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -8924,7 +8889,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X02
+		tag = X03
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -8933,14 +8898,14 @@ country_event = {
 
 	option = {
 		name = election.228a
-		set_party_name = { ideology = democratic long_name = X02_conservative_party name = X02_conservative_party }
+		set_party_name = { ideology = democratic long_name = X03_conservative_party name = X03_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.228b
-		set_party_name = { ideology = democratic long_name = X02_socialist_party name = X02_socialist_party }
+		set_party_name = { ideology = democratic long_name = X03_socialist_party name = X03_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -8955,7 +8920,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X03
+		tag = X04
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -8964,14 +8929,14 @@ country_event = {
 
 	option = {
 		name = election.229a
-		set_party_name = { ideology = democratic long_name = X03_conservative_party name = X03_conservative_party }
+		set_party_name = { ideology = democratic long_name = X04_liberal_7_party name = X04_liberal_7_party }
 		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
+		set_country_leader_ideology = liberalism
 	}
 
 	option = {
 		name = election.229b
-		set_party_name = { ideology = democratic long_name = X03_socialist_party name = X03_socialist_party }
+		set_party_name = { ideology = democratic long_name = X04_socialist_party name = X04_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -8986,7 +8951,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X04
+		tag = X05
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -8995,14 +8960,14 @@ country_event = {
 
 	option = {
 		name = election.230a
-		set_party_name = { ideology = democratic long_name = X04_liberal_7_party name = X04_liberal_7_party }
+		set_party_name = { ideology = democratic long_name = X05_conservative_party name = X05_conservative_party }
 		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
+		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.230b
-		set_party_name = { ideology = democratic long_name = X04_socialist_party name = X04_socialist_party }
+		set_party_name = { ideology = democratic long_name = X05_socialist_party name = X05_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9017,7 +8982,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X05
+		tag = X06
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -9026,14 +8991,14 @@ country_event = {
 
 	option = {
 		name = election.231a
-		set_party_name = { ideology = democratic long_name = X05_conservative_party name = X05_conservative_party }
+		set_party_name = { ideology = democratic long_name = X06_conservative_party name = X06_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.231b
-		set_party_name = { ideology = democratic long_name = X05_socialist_party name = X05_socialist_party }
+		set_party_name = { ideology = democratic long_name = X06_socialist_party name = X06_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9048,7 +9013,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X06
+		tag = X07
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -9057,14 +9022,14 @@ country_event = {
 
 	option = {
 		name = election.232a
-		set_party_name = { ideology = democratic long_name = X06_conservative_party name = X06_conservative_party }
+		set_party_name = { ideology = democratic long_name = X07_conservative_party name = X07_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.232b
-		set_party_name = { ideology = democratic long_name = X06_socialist_party name = X06_socialist_party }
+		set_party_name = { ideology = democratic long_name = X07_socialist_party name = X07_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9079,7 +9044,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X07
+		tag = X09
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -9088,14 +9053,21 @@ country_event = {
 
 	option = {
 		name = election.233a
-		set_party_name = { ideology = democratic long_name = X07_conservative_party name = X07_conservative_party }
+		set_party_name = { ideology = democratic long_name = X09_conservative_party name = X09_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.233b
-		set_party_name = { ideology = democratic long_name = X07_socialist_party name = X07_socialist_party }
+		set_party_name = { ideology = democratic long_name = X09_liberal_party name = X09_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.233c
+		set_party_name = { ideology = democratic long_name = X09_socialist_party name = X09_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9110,7 +9082,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X09
+		tag = X10
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -9119,21 +9091,28 @@ country_event = {
 
 	option = {
 		name = election.234a
-		set_party_name = { ideology = democratic long_name = X09_conservative_party name = X09_conservative_party }
+		set_party_name = { ideology = democratic long_name = X10_conservative_2_party name = X10_conservative_2_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.234b
-		set_party_name = { ideology = democratic long_name = X09_liberal_party name = X09_liberal_party }
+		set_party_name = { ideology = democratic long_name = X10_liberal_party name = X10_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
 		name = election.234c
-		set_party_name = { ideology = democratic long_name = X09_socialist_party name = X09_socialist_party }
+		set_party_name = { ideology = democratic long_name = X10_liberal_2_party name = X10_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.234d
+		set_party_name = { ideology = democratic long_name = X10_socialist_party name = X10_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9148,7 +9127,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X10
+		tag = X11
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -9157,28 +9136,14 @@ country_event = {
 
 	option = {
 		name = election.235a
-		set_party_name = { ideology = democratic long_name = X10_conservative_2_party name = X10_conservative_2_party }
+		set_party_name = { ideology = democratic long_name = X11_conservative_party name = X11_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.235b
-		set_party_name = { ideology = democratic long_name = X10_liberal_party name = X10_liberal_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.235c
-		set_party_name = { ideology = democratic long_name = X10_liberal_2_party name = X10_liberal_2_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.235d
-		set_party_name = { ideology = democratic long_name = X10_socialist_party name = X10_socialist_party }
+		set_party_name = { ideology = democratic long_name = X11_socialist_party name = X11_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9193,7 +9158,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X11
+		tag = X12
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -9202,14 +9167,14 @@ country_event = {
 
 	option = {
 		name = election.236a
-		set_party_name = { ideology = democratic long_name = X11_conservative_party name = X11_conservative_party }
+		set_party_name = { ideology = democratic long_name = X12_conservative_party name = X12_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.236b
-		set_party_name = { ideology = democratic long_name = X11_socialist_party name = X11_socialist_party }
+		set_party_name = { ideology = democratic long_name = X12_socialist_party name = X12_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9224,7 +9189,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X12
+		tag = X13
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -9233,14 +9198,14 @@ country_event = {
 
 	option = {
 		name = election.237a
-		set_party_name = { ideology = democratic long_name = X12_conservative_party name = X12_conservative_party }
+		set_party_name = { ideology = democratic long_name = X13_liberal_party name = X13_liberal_party }
 		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
+		set_country_leader_ideology = liberalism
 	}
 
 	option = {
 		name = election.237b
-		set_party_name = { ideology = democratic long_name = X12_socialist_party name = X12_socialist_party }
+		set_party_name = { ideology = democratic long_name = X13_socialist_party name = X13_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9255,7 +9220,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X13
+		tag = X14
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -9264,14 +9229,21 @@ country_event = {
 
 	option = {
 		name = election.238a
-		set_party_name = { ideology = democratic long_name = X13_liberal_party name = X13_liberal_party }
+		set_party_name = { ideology = democratic long_name = X14_conservative_party name = X14_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.238b
+		set_party_name = { ideology = democratic long_name = X14_liberal_party name = X14_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.238b
-		set_party_name = { ideology = democratic long_name = X13_socialist_party name = X13_socialist_party }
+		name = election.238c
+		set_party_name = { ideology = democratic long_name = X14_socialist_party name = X14_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9286,44 +9258,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X14
-		OR = {
-			democratic > 0.5
-			neutrality > 0.5
-		}
-	}
-
-	option = {
-		name = election.239a
-		set_party_name = { ideology = democratic long_name = X14_conservative_party name = X14_conservative_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.239b
-		set_party_name = { ideology = democratic long_name = X14_liberal_party name = X14_liberal_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.239c
-		set_party_name = { ideology = democratic long_name = X14_socialist_party name = X14_socialist_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = socialism
-	}
-}
-
-country_event = {
-	id = election.240
-	title = election.240.t
-	desc = election.240.d
-	picture = GFX_report_event_usa_election_generic
-
-	is_triggered_only = yes
-
-	trigger = {
 		tag = X15
 		OR = {
 			democratic > 0.5
@@ -9332,28 +9266,28 @@ country_event = {
 	}
 
 	option = {
-		name = election.240a
+		name = election.239a
 		set_party_name = { ideology = democratic long_name = X15_socialist_party name = X15_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
 
 	option = {
-		name = election.240b
+		name = election.239b
 		set_party_name = { ideology = democratic long_name = X15_conservative_party name = X15_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.240c
+		name = election.239c
 		set_party_name = { ideology = democratic long_name = X15_conservative_2_party name = X15_conservative_2_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.240d
+		name = election.239d
 		set_party_name = { ideology = democratic long_name = X15_liberal_party name = X15_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
@@ -9361,9 +9295,9 @@ country_event = {
 }
 
 country_event = {
-	id = election.241
-	title = election.241.t
-	desc = election.241.d
+	id = election.240
+	title = election.240.t
+	desc = election.240.d
 	picture = GFX_report_event_usa_election_generic
 
 	is_triggered_only = yes
@@ -9377,15 +9311,46 @@ country_event = {
 	}
 
 	option = {
-		name = election.241a
+		name = election.240a
 		set_party_name = { ideology = democratic long_name = X16_liberal_3_party name = X16_liberal_3_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.241b
+		name = election.240b
 		set_party_name = { ideology = democratic long_name = X16_socialist_2_party name = X16_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism
+	}
+}
+
+country_event = {
+	id = election.241
+	title = election.241.t
+	desc = election.241.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X17
+		OR = {
+			democratic > 0.5
+			neutrality > 0.5
+		}
+	}
+
+	option = {
+		name = election.241a
+		set_party_name = { ideology = democratic long_name = X17_conservative_party name = X17_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.241b
+		set_party_name = { ideology = democratic long_name = X17_socialist_party name = X17_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9400,37 +9365,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X17
-		OR = {
-			democratic > 0.5
-			neutrality > 0.5
-		}
-	}
-
-	option = {
-		name = election.242a
-		set_party_name = { ideology = democratic long_name = X17_conservative_party name = X17_conservative_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.242b
-		set_party_name = { ideology = democratic long_name = X17_socialist_party name = X17_socialist_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = socialism
-	}
-}
-
-country_event = {
-	id = election.243
-	title = election.243.t
-	desc = election.243.d
-	picture = GFX_report_event_usa_election_generic
-
-	is_triggered_only = yes
-
-	trigger = {
 		tag = X18
 		OR = {
 			democratic > 0.5
@@ -9439,21 +9373,21 @@ country_event = {
 	}
 
 	option = {
-		name = election.243a
+		name = election.242a
 		set_party_name = { ideology = democratic long_name = X18_socialist_party name = X18_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
 
 	option = {
-		name = election.243b
+		name = election.242b
 		set_party_name = { ideology = democratic long_name = X18_conservative_party name = X18_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.243c
+		name = election.242c
 		set_party_name = { ideology = democratic long_name = X18_liberal_party name = X18_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
@@ -9461,9 +9395,9 @@ country_event = {
 }
 
 country_event = {
-	id = election.244
-	title = election.244.t
-	desc = election.244.d
+	id = election.243
+	title = election.243.t
+	desc = election.243.d
 	picture = GFX_report_event_usa_election_generic
 
 	is_triggered_only = yes
@@ -9477,15 +9411,67 @@ country_event = {
 	}
 
 	option = {
-		name = election.244a
+		name = election.243a
 		set_party_name = { ideology = democratic long_name = X19_liberal_party name = X19_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.244b
+		name = election.243b
 		set_party_name = { ideology = democratic long_name = X19_socialist_party name = X19_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism
+	}
+}
+
+country_event = {
+	id = election.244
+	title = election.244.t
+	desc = election.244.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X20
+		OR = {
+			democratic > 0.5
+			neutrality > 0.5
+		}
+	}
+
+	option = {
+		name = election.244a
+		set_party_name = { ideology = democratic long_name = X20_conservative_party name = X20_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.244b
+		set_party_name = { ideology = democratic long_name = X20_conservative_2_party name = X20_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.244c
+		set_party_name = { ideology = democratic long_name = X20_conservative_3_party name = X20_conservative_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.244d
+		set_party_name = { ideology = democratic long_name = X20_liberal_2_party name = X20_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.244e
+		set_party_name = { ideology = democratic long_name = X20_socialist_party name = X20_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9500,7 +9486,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X20
+		tag = X21
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -9509,35 +9495,14 @@ country_event = {
 
 	option = {
 		name = election.245a
-		set_party_name = { ideology = democratic long_name = X20_conservative_party name = X20_conservative_party }
+		set_party_name = { ideology = democratic long_name = X21_conservative_party name = X21_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.245b
-		set_party_name = { ideology = democratic long_name = X20_conservative_2_party name = X20_conservative_2_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.245c
-		set_party_name = { ideology = democratic long_name = X20_conservative_3_party name = X20_conservative_3_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.245d
-		set_party_name = { ideology = democratic long_name = X20_liberal_2_party name = X20_liberal_2_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.245e
-		set_party_name = { ideology = democratic long_name = X20_socialist_party name = X20_socialist_party }
+		set_party_name = { ideology = democratic long_name = X21_socialist_party name = X21_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9552,7 +9517,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X21
+		tag = X22
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -9561,14 +9526,21 @@ country_event = {
 
 	option = {
 		name = election.246a
-		set_party_name = { ideology = democratic long_name = X21_conservative_party name = X21_conservative_party }
+		set_party_name = { ideology = democratic long_name = X22_conservative_party name = X22_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.246b
-		set_party_name = { ideology = democratic long_name = X21_socialist_party name = X21_socialist_party }
+		set_party_name = { ideology = democratic long_name = X22_liberal_party name = X22_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.246c
+		set_party_name = { ideology = democratic long_name = X22_socialist_party name = X22_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9583,7 +9555,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X22
+		tag = X23
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -9592,21 +9564,14 @@ country_event = {
 
 	option = {
 		name = election.247a
-		set_party_name = { ideology = democratic long_name = X22_conservative_party name = X22_conservative_party }
+		set_party_name = { ideology = democratic long_name = X23_conservative_party name = X23_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.247b
-		set_party_name = { ideology = democratic long_name = X22_liberal_party name = X22_liberal_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.247c
-		set_party_name = { ideology = democratic long_name = X22_socialist_party name = X22_socialist_party }
+		set_party_name = { ideology = democratic long_name = X23_socialist_party name = X23_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9621,7 +9586,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X23
+		tag = X25
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -9630,14 +9595,14 @@ country_event = {
 
 	option = {
 		name = election.248a
-		set_party_name = { ideology = democratic long_name = X23_conservative_party name = X23_conservative_party }
+		set_party_name = { ideology = democratic long_name = X25_liberal_party name = X25_liberal_party }
 		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
+		set_country_leader_ideology = liberalism
 	}
 
 	option = {
 		name = election.248b
-		set_party_name = { ideology = democratic long_name = X23_socialist_party name = X23_socialist_party }
+		set_party_name = { ideology = democratic long_name = X25_socialist_party name = X25_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9652,7 +9617,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X25
+		tag = X27
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -9661,14 +9626,21 @@ country_event = {
 
 	option = {
 		name = election.249a
-		set_party_name = { ideology = democratic long_name = X25_liberal_party name = X25_liberal_party }
+		set_party_name = { ideology = democratic long_name = X27_conservative_party name = X27_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.249b
+		set_party_name = { ideology = democratic long_name = X27_liberal_party name = X27_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.249b
-		set_party_name = { ideology = democratic long_name = X25_socialist_party name = X25_socialist_party }
+		name = election.249c
+		set_party_name = { ideology = democratic long_name = X27_socialist_party name = X27_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9683,7 +9655,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X27
+		tag = X28
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -9692,21 +9664,14 @@ country_event = {
 
 	option = {
 		name = election.250a
-		set_party_name = { ideology = democratic long_name = X27_conservative_party name = X27_conservative_party }
+		set_party_name = { ideology = democratic long_name = X28_conservative_party name = X28_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.250b
-		set_party_name = { ideology = democratic long_name = X27_liberal_party name = X27_liberal_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.250c
-		set_party_name = { ideology = democratic long_name = X27_socialist_party name = X27_socialist_party }
+		set_party_name = { ideology = democratic long_name = X28_socialist_party name = X28_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9721,7 +9686,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X28
+		tag = X29
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -9730,14 +9695,21 @@ country_event = {
 
 	option = {
 		name = election.251a
-		set_party_name = { ideology = democratic long_name = X28_conservative_party name = X28_conservative_party }
+		set_party_name = { ideology = democratic long_name = X29_conservative_party name = X29_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.251b
-		set_party_name = { ideology = democratic long_name = X28_socialist_party name = X28_socialist_party }
+		set_party_name = { ideology = democratic long_name = X29_liberal_party name = X29_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.251c
+		set_party_name = { ideology = democratic long_name = X29_socialist_party name = X29_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9752,7 +9724,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X29
+		tag = X30
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -9761,21 +9733,14 @@ country_event = {
 
 	option = {
 		name = election.252a
-		set_party_name = { ideology = democratic long_name = X29_conservative_party name = X29_conservative_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.252b
-		set_party_name = { ideology = democratic long_name = X29_liberal_party name = X29_liberal_party }
+		set_party_name = { ideology = democratic long_name = X30_liberal_party name = X30_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.252c
-		set_party_name = { ideology = democratic long_name = X29_socialist_party name = X29_socialist_party }
+		name = election.252b
+		set_party_name = { ideology = democratic long_name = X30_socialist_party name = X30_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9790,37 +9755,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X30
-		OR = {
-			democratic > 0.5
-			neutrality > 0.5
-		}
-	}
-
-	option = {
-		name = election.253a
-		set_party_name = { ideology = democratic long_name = X30_liberal_party name = X30_liberal_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.253b
-		set_party_name = { ideology = democratic long_name = X30_socialist_party name = X30_socialist_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = socialism
-	}
-}
-
-country_event = {
-	id = election.254
-	title = election.254.t
-	desc = election.254.d
-	picture = GFX_report_event_usa_election_generic
-
-	is_triggered_only = yes
-
-	trigger = {
 		tag = X31
 		OR = {
 			democratic > 0.5
@@ -9829,14 +9763,14 @@ country_event = {
 	}
 
 	option = {
-		name = election.254a
+		name = election.253a
 		set_party_name = { ideology = democratic long_name = X31_conservative_party name = X31_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.254b
+		name = election.253b
 		set_party_name = { ideology = democratic long_name = X31_liberal_party name = X31_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
@@ -9844,9 +9778,9 @@ country_event = {
 }
 
 country_event = {
-	id = election.255
-	title = election.255.t
-	desc = election.255.d
+	id = election.254
+	title = election.254.t
+	desc = election.254.d
 	picture = GFX_report_event_usa_election_generic
 
 	is_triggered_only = yes
@@ -9860,22 +9794,60 @@ country_event = {
 	}
 
 	option = {
-		name = election.255a
+		name = election.254a
 		set_party_name = { ideology = democratic long_name = X32_conservative_party name = X32_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.255b
+		name = election.254b
 		set_party_name = { ideology = democratic long_name = X32_liberal_party name = X32_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.255c
+		name = election.254c
 		set_party_name = { ideology = democratic long_name = X32_socialist_party name = X32_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism
+	}
+}
+
+country_event = {
+	id = election.255
+	title = election.255.t
+	desc = election.255.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X33
+		OR = {
+			democratic > 0.5
+			neutrality > 0.5
+		}
+	}
+
+	option = {
+		name = election.255a
+		set_party_name = { ideology = democratic long_name = X33_conservative_party name = X33_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.255b
+		set_party_name = { ideology = democratic long_name = X33_liberal_party name = X33_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.255c
+		set_party_name = { ideology = democratic long_name = X33_socialist_party name = X33_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9890,7 +9862,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X33
+		tag = X34
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -9899,21 +9871,14 @@ country_event = {
 
 	option = {
 		name = election.256a
-		set_party_name = { ideology = democratic long_name = X33_conservative_party name = X33_conservative_party }
+		set_party_name = { ideology = democratic long_name = X34_conservative_party name = X34_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.256b
-		set_party_name = { ideology = democratic long_name = X33_liberal_party name = X33_liberal_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.256c
-		set_party_name = { ideology = democratic long_name = X33_socialist_party name = X33_socialist_party }
+		set_party_name = { ideology = democratic long_name = X34_socialist_party name = X34_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9928,7 +9893,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X34
+		tag = X35
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -9937,14 +9902,14 @@ country_event = {
 
 	option = {
 		name = election.257a
-		set_party_name = { ideology = democratic long_name = X34_conservative_party name = X34_conservative_party }
+		set_party_name = { ideology = democratic long_name = X35_conservative_party name = X35_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.257b
-		set_party_name = { ideology = democratic long_name = X34_socialist_party name = X34_socialist_party }
+		set_party_name = { ideology = democratic long_name = X35_socialist_party name = X35_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9959,7 +9924,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X35
+		tag = X36
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -9968,14 +9933,21 @@ country_event = {
 
 	option = {
 		name = election.258a
-		set_party_name = { ideology = democratic long_name = X35_conservative_party name = X35_conservative_party }
+		set_party_name = { ideology = democratic long_name = X36_conservative_party name = X36_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.258b
-		set_party_name = { ideology = democratic long_name = X35_socialist_party name = X35_socialist_party }
+		set_party_name = { ideology = democratic long_name = X36_liberal_party name = X36_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.258c
+		set_party_name = { ideology = democratic long_name = X36_socialist_party name = X36_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -9990,7 +9962,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X36
+		tag = X37
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -9999,21 +9971,14 @@ country_event = {
 
 	option = {
 		name = election.259a
-		set_party_name = { ideology = democratic long_name = X36_conservative_party name = X36_conservative_party }
+		set_party_name = { ideology = democratic long_name = X37_conservative_party name = X37_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.259b
-		set_party_name = { ideology = democratic long_name = X36_liberal_party name = X36_liberal_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.259c
-		set_party_name = { ideology = democratic long_name = X36_socialist_party name = X36_socialist_party }
+		set_party_name = { ideology = democratic long_name = X37_socialist_party name = X37_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -10028,7 +9993,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X37
+		tag = X38
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -10037,14 +10002,14 @@ country_event = {
 
 	option = {
 		name = election.260a
-		set_party_name = { ideology = democratic long_name = X37_conservative_party name = X37_conservative_party }
+		set_party_name = { ideology = democratic long_name = X38_conservative_party name = X38_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.260b
-		set_party_name = { ideology = democratic long_name = X37_socialist_party name = X37_socialist_party }
+		set_party_name = { ideology = democratic long_name = X38_socialist_party name = X38_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -10059,7 +10024,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X38
+		tag = X39
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -10068,14 +10033,14 @@ country_event = {
 
 	option = {
 		name = election.261a
-		set_party_name = { ideology = democratic long_name = X38_conservative_party name = X38_conservative_party }
+		set_party_name = { ideology = democratic long_name = X39_conservative_party name = X39_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.261b
-		set_party_name = { ideology = democratic long_name = X38_socialist_party name = X38_socialist_party }
+		set_party_name = { ideology = democratic long_name = X39_socialist_party name = X39_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -10090,7 +10055,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X39
+		tag = X40
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -10099,14 +10064,14 @@ country_event = {
 
 	option = {
 		name = election.262a
-		set_party_name = { ideology = democratic long_name = X39_conservative_party name = X39_conservative_party }
+		set_party_name = { ideology = democratic long_name = X40_conservative_party name = X40_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.262b
-		set_party_name = { ideology = democratic long_name = X39_socialist_party name = X39_socialist_party }
+		set_party_name = { ideology = democratic long_name = X40_socialist_party name = X40_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -10121,37 +10086,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X40
-		OR = {
-			democratic > 0.5
-			neutrality > 0.5
-		}
-	}
-
-	option = {
-		name = election.263a
-		set_party_name = { ideology = democratic long_name = X40_conservative_party name = X40_conservative_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.263b
-		set_party_name = { ideology = democratic long_name = X40_socialist_party name = X40_socialist_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = socialism
-	}
-}
-
-country_event = {
-	id = election.264
-	title = election.264.t
-	desc = election.264.d
-	picture = GFX_report_event_usa_election_generic
-
-	is_triggered_only = yes
-
-	trigger = {
 		tag = X41
 		OR = {
 			democratic > 0.5
@@ -10160,28 +10094,28 @@ country_event = {
 	}
 
 	option = {
-		name = election.264a
+		name = election.263a
 		set_party_name = { ideology = democratic long_name = X41_conservative_party name = X41_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.264b
+		name = election.263b
 		set_party_name = { ideology = democratic long_name = X41_socialist_party name = X41_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
 
 	option = {
-		name = election.264c
+		name = election.263c
 		set_party_name = { ideology = democratic long_name = X41_conservative_party name = X41_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.264d
+		name = election.263d
 		set_party_name = { ideology = democratic long_name = X41_liberal_party name = X41_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
@@ -10189,9 +10123,9 @@ country_event = {
 }
 
 country_event = {
-	id = election.265
-	title = election.265.t
-	desc = election.265.d
+	id = election.264
+	title = election.264.t
+	desc = election.264.d
 	picture = GFX_report_event_usa_election_generic
 
 	is_triggered_only = yes
@@ -10205,8 +10139,39 @@ country_event = {
 	}
 
 	option = {
-		name = election.265a
+		name = election.264a
 		set_party_name = { ideology = democratic long_name = X42_socialist_party name = X42_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism
+	}
+}
+
+country_event = {
+	id = election.265
+	title = election.265.t
+	desc = election.265.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X43
+		OR = {
+			democratic > 0.5
+			neutrality > 0.5
+		}
+	}
+
+	option = {
+		name = election.265a
+		set_party_name = { ideology = democratic long_name = X43_conservative_party name = X43_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.265b
+		set_party_name = { ideology = democratic long_name = X43_socialist_party name = X43_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -10221,7 +10186,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X43
+		tag = X44
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -10230,14 +10195,14 @@ country_event = {
 
 	option = {
 		name = election.266a
-		set_party_name = { ideology = democratic long_name = X43_conservative_party name = X43_conservative_party }
+		set_party_name = { ideology = democratic long_name = X44_conservative_party name = X44_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.266b
-		set_party_name = { ideology = democratic long_name = X43_socialist_party name = X43_socialist_party }
+		set_party_name = { ideology = democratic long_name = X44_socialist_party name = X44_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -10252,7 +10217,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X44
+		tag = X46
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -10261,14 +10226,14 @@ country_event = {
 
 	option = {
 		name = election.267a
-		set_party_name = { ideology = democratic long_name = X44_conservative_party name = X44_conservative_party }
+		set_party_name = { ideology = democratic long_name = X46_liberal_party name = X46_liberal_party }
 		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
+		set_country_leader_ideology = liberalism
 	}
 
 	option = {
 		name = election.267b
-		set_party_name = { ideology = democratic long_name = X44_socialist_party name = X44_socialist_party }
+		set_party_name = { ideology = democratic long_name = X46_socialist_party name = X46_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -10283,7 +10248,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X46
+		tag = X47
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -10292,14 +10257,14 @@ country_event = {
 
 	option = {
 		name = election.268a
-		set_party_name = { ideology = democratic long_name = X46_liberal_party name = X46_liberal_party }
+		set_party_name = { ideology = democratic long_name = X47_liberal_party name = X47_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
 		name = election.268b
-		set_party_name = { ideology = democratic long_name = X46_socialist_party name = X46_socialist_party }
+		set_party_name = { ideology = democratic long_name = X47_socialist_party name = X47_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -10314,7 +10279,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X47
+		tag = X48
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -10323,14 +10288,14 @@ country_event = {
 
 	option = {
 		name = election.269a
-		set_party_name = { ideology = democratic long_name = X47_liberal_party name = X47_liberal_party }
+		set_party_name = { ideology = democratic long_name = X48_conservative_party name = X48_conservative_party }
 		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
+		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.269b
-		set_party_name = { ideology = democratic long_name = X47_socialist_party name = X47_socialist_party }
+		set_party_name = { ideology = democratic long_name = X48_socialist_party name = X48_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -10345,7 +10310,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X48
+		tag = X49
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -10354,14 +10319,14 @@ country_event = {
 
 	option = {
 		name = election.270a
-		set_party_name = { ideology = democratic long_name = X48_conservative_party name = X48_conservative_party }
+		set_party_name = { ideology = democratic long_name = X49_liberal_party name = X49_liberal_party }
 		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
+		set_country_leader_ideology = liberalism
 	}
 
 	option = {
 		name = election.270b
-		set_party_name = { ideology = democratic long_name = X48_socialist_party name = X48_socialist_party }
+		set_party_name = { ideology = democratic long_name = X49_socialist_party name = X49_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -10376,7 +10341,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X49
+		tag = X50
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -10385,14 +10350,21 @@ country_event = {
 
 	option = {
 		name = election.271a
-		set_party_name = { ideology = democratic long_name = X49_liberal_party name = X49_liberal_party }
+		set_party_name = { ideology = democratic long_name = X50_conservative_2_party name = X50_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.271b
+		set_party_name = { ideology = democratic long_name = X50_liberal_party name = X50_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.271b
-		set_party_name = { ideology = democratic long_name = X49_socialist_party name = X49_socialist_party }
+		name = election.271c
+		set_party_name = { ideology = democratic long_name = X50_socialist_party name = X50_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -10407,7 +10379,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X50
+		tag = X51
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -10416,21 +10388,14 @@ country_event = {
 
 	option = {
 		name = election.272a
-		set_party_name = { ideology = democratic long_name = X50_conservative_2_party name = X50_conservative_2_party }
+		set_party_name = { ideology = democratic long_name = X51_conservative_party name = X51_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.272b
-		set_party_name = { ideology = democratic long_name = X50_liberal_party name = X50_liberal_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.272c
-		set_party_name = { ideology = democratic long_name = X50_socialist_party name = X50_socialist_party }
+		set_party_name = { ideology = democratic long_name = X51_socialist_party name = X51_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -10445,7 +10410,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X51
+		tag = X52
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -10454,14 +10419,21 @@ country_event = {
 
 	option = {
 		name = election.273a
-		set_party_name = { ideology = democratic long_name = X51_conservative_party name = X51_conservative_party }
+		set_party_name = { ideology = democratic long_name = X52_conservative_party name = X52_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.273b
-		set_party_name = { ideology = democratic long_name = X51_socialist_party name = X51_socialist_party }
+		set_party_name = { ideology = democratic long_name = X52_liberal_party name = X52_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.273c
+		set_party_name = { ideology = democratic long_name = X52_socialist_party name = X52_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -10476,7 +10448,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X52
+		tag = X53
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -10485,21 +10457,14 @@ country_event = {
 
 	option = {
 		name = election.274a
-		set_party_name = { ideology = democratic long_name = X52_conservative_party name = X52_conservative_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.274b
-		set_party_name = { ideology = democratic long_name = X52_liberal_party name = X52_liberal_party }
+		set_party_name = { ideology = democratic long_name = X53_liberal_party name = X53_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.274c
-		set_party_name = { ideology = democratic long_name = X52_socialist_party name = X52_socialist_party }
+		name = election.274b
+		set_party_name = { ideology = democratic long_name = X53_socialist_party name = X53_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -10514,7 +10479,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X53
+		tag = X54
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -10523,14 +10488,21 @@ country_event = {
 
 	option = {
 		name = election.275a
-		set_party_name = { ideology = democratic long_name = X53_liberal_party name = X53_liberal_party }
+		set_party_name = { ideology = democratic long_name = X54_conservative_party name = X54_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.275b
+		set_party_name = { ideology = democratic long_name = X54_liberal_party name = X54_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.275b
-		set_party_name = { ideology = democratic long_name = X53_socialist_party name = X53_socialist_party }
+		name = election.275c
+		set_party_name = { ideology = democratic long_name = X54_socialist_party name = X54_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -10545,44 +10517,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X54
-		OR = {
-			democratic > 0.5
-			neutrality > 0.5
-		}
-	}
-
-	option = {
-		name = election.276a
-		set_party_name = { ideology = democratic long_name = X54_conservative_party name = X54_conservative_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.276b
-		set_party_name = { ideology = democratic long_name = X54_liberal_party name = X54_liberal_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.276c
-		set_party_name = { ideology = democratic long_name = X54_socialist_party name = X54_socialist_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = socialism
-	}
-}
-
-country_event = {
-	id = election.277
-	title = election.277.t
-	desc = election.277.d
-	picture = GFX_report_event_usa_election_generic
-
-	is_triggered_only = yes
-
-	trigger = {
 		tag = X55
 		OR = {
 			democratic > 0.5
@@ -10591,21 +10525,21 @@ country_event = {
 	}
 
 	option = {
-		name = election.277a
+		name = election.276a
 		set_party_name = { ideology = democratic long_name = X55_socialist_party name = X55_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
 
 	option = {
-		name = election.277b
+		name = election.276b
 		set_party_name = { ideology = democratic long_name = X55_conservative_party name = X55_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.277c
+		name = election.276c
 		set_party_name = { ideology = democratic long_name = X55_liberal_party name = X55_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
@@ -10613,9 +10547,9 @@ country_event = {
 }
 
 country_event = {
-	id = election.278
-	title = election.278.t
-	desc = election.278.d
+	id = election.277
+	title = election.277.t
+	desc = election.277.d
 	picture = GFX_report_event_usa_election_generic
 
 	is_triggered_only = yes
@@ -10629,22 +10563,53 @@ country_event = {
 	}
 
 	option = {
-		name = election.278a
+		name = election.277a
 		set_party_name = { ideology = democratic long_name = X56_conservative_party name = X56_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.278b
+		name = election.277b
 		set_party_name = { ideology = democratic long_name = X56_liberal_party name = X56_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.278c
+		name = election.277c
 		set_party_name = { ideology = democratic long_name = X56_socialist_party name = X56_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism
+	}
+}
+
+country_event = {
+	id = election.278
+	title = election.278.t
+	desc = election.278.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X57
+		OR = {
+			democratic > 0.5
+			neutrality > 0.5
+		}
+	}
+
+	option = {
+		name = election.278a
+		set_party_name = { ideology = democratic long_name = X57_conservative_party name = X57_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.278b
+		set_party_name = { ideology = democratic long_name = X57_socialist_party name = X57_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -10659,7 +10624,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X57
+		tag = X58
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -10668,14 +10633,14 @@ country_event = {
 
 	option = {
 		name = election.279a
-		set_party_name = { ideology = democratic long_name = X57_conservative_party name = X57_conservative_party }
+		set_party_name = { ideology = democratic long_name = X58_conservative_party name = X58_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.279b
-		set_party_name = { ideology = democratic long_name = X57_socialist_party name = X57_socialist_party }
+		set_party_name = { ideology = democratic long_name = X58_socialist_party name = X58_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -10690,7 +10655,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X58
+		tag = X60
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -10699,14 +10664,14 @@ country_event = {
 
 	option = {
 		name = election.280a
-		set_party_name = { ideology = democratic long_name = X58_conservative_party name = X58_conservative_party }
+		set_party_name = { ideology = democratic long_name = X60_conservative_party name = X60_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.280b
-		set_party_name = { ideology = democratic long_name = X58_socialist_party name = X58_socialist_party }
+		set_party_name = { ideology = democratic long_name = X60_socialist_party name = X60_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -10721,7 +10686,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X60
+		tag = X61
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -10730,14 +10695,21 @@ country_event = {
 
 	option = {
 		name = election.281a
-		set_party_name = { ideology = democratic long_name = X60_conservative_party name = X60_conservative_party }
+		set_party_name = { ideology = democratic long_name = X61_conservative_party name = X61_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.281b
-		set_party_name = { ideology = democratic long_name = X60_socialist_party name = X60_socialist_party }
+		set_party_name = { ideology = democratic long_name = X61_liberal_party name = X61_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.281c
+		set_party_name = { ideology = democratic long_name = X61_socialist_party name = X61_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -10752,44 +10724,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X61
-		OR = {
-			democratic > 0.5
-			neutrality > 0.5
-		}
-	}
-
-	option = {
-		name = election.282a
-		set_party_name = { ideology = democratic long_name = X61_conservative_party name = X61_conservative_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.282b
-		set_party_name = { ideology = democratic long_name = X61_liberal_party name = X61_liberal_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.282c
-		set_party_name = { ideology = democratic long_name = X61_socialist_party name = X61_socialist_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = socialism
-	}
-}
-
-country_event = {
-	id = election.283
-	title = election.283.t
-	desc = election.283.d
-	picture = GFX_report_event_usa_election_generic
-
-	is_triggered_only = yes
-
-	trigger = {
 		tag = X62
 		OR = {
 			democratic > 0.5
@@ -10798,21 +10732,21 @@ country_event = {
 	}
 
 	option = {
-		name = election.283a
+		name = election.282a
 		set_party_name = { ideology = democratic long_name = X62_socialist_party name = X62_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
 
 	option = {
-		name = election.283b
+		name = election.282b
 		set_party_name = { ideology = democratic long_name = X62_conservative_party name = X62_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.283c
+		name = election.282c
 		set_party_name = { ideology = democratic long_name = X62_liberal_party name = X62_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
@@ -10820,9 +10754,9 @@ country_event = {
 }
 
 country_event = {
-	id = election.284
-	title = election.284.t
-	desc = election.284.d
+	id = election.283
+	title = election.283.t
+	desc = election.283.d
 	picture = GFX_report_event_usa_election_generic
 
 	is_triggered_only = yes
@@ -10836,15 +10770,46 @@ country_event = {
 	}
 
 	option = {
-		name = election.284a
+		name = election.283a
 		set_party_name = { ideology = democratic long_name = X63_conservative_party name = X63_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.284b
+		name = election.283b
 		set_party_name = { ideology = democratic long_name = X63_socialist_party name = X63_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism
+	}
+}
+
+country_event = {
+	id = election.284
+	title = election.284.t
+	desc = election.284.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X64
+		OR = {
+			democratic > 0.5
+			neutrality > 0.5
+		}
+	}
+
+	option = {
+		name = election.284a
+		set_party_name = { ideology = democratic long_name = X64_conservative_party name = X64_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.284b
+		set_party_name = { ideology = democratic long_name = X64_socialist_party name = X64_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -10859,37 +10824,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X64
-		OR = {
-			democratic > 0.5
-			neutrality > 0.5
-		}
-	}
-
-	option = {
-		name = election.285a
-		set_party_name = { ideology = democratic long_name = X64_conservative_party name = X64_conservative_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.285b
-		set_party_name = { ideology = democratic long_name = X64_socialist_party name = X64_socialist_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = socialism
-	}
-}
-
-country_event = {
-	id = election.286
-	title = election.286.t
-	desc = election.286.d
-	picture = GFX_report_event_usa_election_generic
-
-	is_triggered_only = yes
-
-	trigger = {
 		tag = X65
 		OR = {
 			democratic > 0.5
@@ -10898,35 +10832,35 @@ country_event = {
 	}
 
 	option = {
-		name = election.286a
+		name = election.285a
 		set_party_name = { ideology = democratic long_name = X65_conservative_party name = X65_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.286b
+		name = election.285b
 		set_party_name = { ideology = democratic long_name = X65_liberal_party name = X65_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.286c
+		name = election.285c
 		set_party_name = { ideology = democratic long_name = X65_socialist_party name = X65_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
 
 	option = {
-		name = election.286d
+		name = election.285d
 		set_party_name = { ideology = democratic long_name = X65_conservative_2_party name = X65_conservative_2_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.286e
+		name = election.285e
 		set_party_name = { ideology = democratic long_name = X65_conservative_3_party name = X65_conservative_3_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
@@ -10934,9 +10868,9 @@ country_event = {
 }
 
 country_event = {
-	id = election.287
-	title = election.287.t
-	desc = election.287.d
+	id = election.286
+	title = election.286.t
+	desc = election.286.d
 	picture = GFX_report_event_usa_election_generic
 
 	is_triggered_only = yes
@@ -10950,15 +10884,53 @@ country_event = {
 	}
 
 	option = {
-		name = election.287a
+		name = election.286a
 		set_party_name = { ideology = democratic long_name = X66_conservative_party name = X66_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.287b
+		name = election.286b
 		set_party_name = { ideology = democratic long_name = X66_socialist_party name = X66_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism
+	}
+}
+
+country_event = {
+	id = election.287
+	title = election.287.t
+	desc = election.287.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X67
+		OR = {
+			democratic > 0.5
+			neutrality > 0.5
+		}
+	}
+
+	option = {
+		name = election.287a
+		set_party_name = { ideology = democratic long_name = X67_conservative_4_party name = X67_conservative_4_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.287b
+		set_party_name = { ideology = democratic long_name = X67_liberal_2_party name = X67_liberal_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.287c
+		set_party_name = { ideology = democratic long_name = X67_socialist_party name = X67_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -10973,7 +10945,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X67
+		tag = X68
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -10982,21 +10954,14 @@ country_event = {
 
 	option = {
 		name = election.288a
-		set_party_name = { ideology = democratic long_name = X67_conservative_4_party name = X67_conservative_4_party }
+		set_party_name = { ideology = democratic long_name = X68_conservative_party name = X68_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.288b
-		set_party_name = { ideology = democratic long_name = X67_liberal_2_party name = X67_liberal_2_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.288c
-		set_party_name = { ideology = democratic long_name = X67_socialist_party name = X67_socialist_party }
+		set_party_name = { ideology = democratic long_name = X68_socialist_party name = X68_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -11011,37 +10976,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X68
-		OR = {
-			democratic > 0.5
-			neutrality > 0.5
-		}
-	}
-
-	option = {
-		name = election.289a
-		set_party_name = { ideology = democratic long_name = X68_conservative_party name = X68_conservative_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.289b
-		set_party_name = { ideology = democratic long_name = X68_socialist_party name = X68_socialist_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = socialism
-	}
-}
-
-country_event = {
-	id = election.290
-	title = election.290.t
-	desc = election.290.d
-	picture = GFX_report_event_usa_election_generic
-
-	is_triggered_only = yes
-
-	trigger = {
 		tag = X69
 		OR = {
 			democratic > 0.5
@@ -11050,21 +10984,21 @@ country_event = {
 	}
 
 	option = {
-		name = election.290a
+		name = election.289a
 		set_party_name = { ideology = democratic long_name = X69_conservative_party name = X69_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.290b
+		name = election.289b
 		set_party_name = { ideology = democratic long_name = X69_liberal_party name = X69_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.290c
+		name = election.289c
 		set_party_name = { ideology = democratic long_name = X69_liberal_2_party name = X69_liberal_2_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
@@ -11072,9 +11006,9 @@ country_event = {
 }
 
 country_event = {
-	id = election.291
-	title = election.291.t
-	desc = election.291.d
+	id = election.290
+	title = election.290.t
+	desc = election.290.d
 	picture = GFX_report_event_usa_election_generic
 
 	is_triggered_only = yes
@@ -11088,15 +11022,74 @@ country_event = {
 	}
 
 	option = {
-		name = election.291a
+		name = election.290a
 		set_party_name = { ideology = democratic long_name = X70_conservative_party name = X70_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.291b
+		name = election.290b
 		set_party_name = { ideology = democratic long_name = X70_socialist_party name = X70_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism
+	}
+}
+
+country_event = {
+	id = election.291
+	title = election.291.t
+	desc = election.291.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X71
+		OR = {
+			democratic > 0.5
+			neutrality > 0.5
+		}
+	}
+
+	option = {
+		name = election.291a
+		set_party_name = { ideology = democratic long_name = X71_conservative_2_party name = X71_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.291b
+		set_party_name = { ideology = democratic long_name = X71_liberal_3_party name = X71_liberal_3_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.291c
+		set_party_name = { ideology = democratic long_name = X71_liberal_5_party name = X71_liberal_5_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.291d
+		set_party_name = { ideology = democratic long_name = X71_liberal_6_party name = X71_liberal_6_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.291e
+		set_party_name = { ideology = democratic long_name = X71_liberal_7_party name = X71_liberal_7_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.291f
+		set_party_name = { ideology = democratic long_name = X71_socialist_party name = X71_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -11111,7 +11104,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X71
+		tag = X72
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -11120,42 +11113,7 @@ country_event = {
 
 	option = {
 		name = election.292a
-		set_party_name = { ideology = democratic long_name = X71_conservative_2_party name = X71_conservative_2_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.292b
-		set_party_name = { ideology = democratic long_name = X71_liberal_3_party name = X71_liberal_3_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.292c
-		set_party_name = { ideology = democratic long_name = X71_liberal_5_party name = X71_liberal_5_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.292d
-		set_party_name = { ideology = democratic long_name = X71_liberal_6_party name = X71_liberal_6_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.292e
-		set_party_name = { ideology = democratic long_name = X71_liberal_7_party name = X71_liberal_7_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.292f
-		set_party_name = { ideology = democratic long_name = X71_socialist_party name = X71_socialist_party }
+		set_party_name = { ideology = democratic long_name = X72_socialist_party name = X72_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -11170,7 +11128,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X72
+		tag = X73
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -11179,7 +11137,14 @@ country_event = {
 
 	option = {
 		name = election.293a
-		set_party_name = { ideology = democratic long_name = X72_socialist_party name = X72_socialist_party }
+		set_party_name = { ideology = democratic long_name = X73_conservative_party name = X73_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.293b
+		set_party_name = { ideology = democratic long_name = X73_socialist_party name = X73_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -11194,37 +11159,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X73
-		OR = {
-			democratic > 0.5
-			neutrality > 0.5
-		}
-	}
-
-	option = {
-		name = election.294a
-		set_party_name = { ideology = democratic long_name = X73_conservative_party name = X73_conservative_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.294b
-		set_party_name = { ideology = democratic long_name = X73_socialist_party name = X73_socialist_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = socialism
-	}
-}
-
-country_event = {
-	id = election.295
-	title = election.295.t
-	desc = election.295.d
-	picture = GFX_report_event_usa_election_generic
-
-	is_triggered_only = yes
-
-	trigger = {
 		tag = X74
 		OR = {
 			democratic > 0.5
@@ -11233,21 +11167,21 @@ country_event = {
 	}
 
 	option = {
-		name = election.295a
+		name = election.294a
 		set_party_name = { ideology = democratic long_name = X74_socialist_party name = X74_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
 
 	option = {
-		name = election.295b
+		name = election.294b
 		set_party_name = { ideology = democratic long_name = X74_conservative_party name = X74_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.295c
+		name = election.294c
 		set_party_name = { ideology = democratic long_name = X74_liberal_party name = X74_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
@@ -11255,9 +11189,9 @@ country_event = {
 }
 
 country_event = {
-	id = election.296
-	title = election.296.t
-	desc = election.296.d
+	id = election.295
+	title = election.295.t
+	desc = election.295.d
 	picture = GFX_report_event_usa_election_generic
 
 	is_triggered_only = yes
@@ -11271,36 +11205,74 @@ country_event = {
 	}
 
 	option = {
-		name = election.296a
+		name = election.295a
 		set_party_name = { ideology = democratic long_name = X75_conservative_party name = X75_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.296b
+		name = election.295b
 		set_party_name = { ideology = democratic long_name = X75_liberal_party name = X75_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.296c
+		name = election.295c
 		set_party_name = { ideology = democratic long_name = X75_liberal_2_party name = X75_liberal_2_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.296d
+		name = election.295d
 		set_party_name = { ideology = democratic long_name = X75_liberal_3_party name = X75_liberal_3_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.296e
+		name = election.295e
 		set_party_name = { ideology = democratic long_name = X75_socialist_party name = X75_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism
+	}
+}
+
+country_event = {
+	id = election.296
+	title = election.296.t
+	desc = election.296.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X76
+		OR = {
+			democratic > 0.5
+			neutrality > 0.5
+		}
+	}
+
+	option = {
+		name = election.296a
+		set_party_name = { ideology = democratic long_name = X76_conservative_party name = X76_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.296b
+		set_party_name = { ideology = democratic long_name = X76_liberal_party name = X76_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.296c
+		set_party_name = { ideology = democratic long_name = X76_socialist_party name = X76_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -11315,7 +11287,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X76
+		tag = X77
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -11324,21 +11296,21 @@ country_event = {
 
 	option = {
 		name = election.297a
-		set_party_name = { ideology = democratic long_name = X76_conservative_party name = X76_conservative_party }
+		set_party_name = { ideology = democratic long_name = X77_conservative_party name = X77_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.297b
-		set_party_name = { ideology = democratic long_name = X76_liberal_party name = X76_liberal_party }
+		set_party_name = { ideology = democratic long_name = X77_liberal_party name = X77_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
 		name = election.297c
-		set_party_name = { ideology = democratic long_name = X76_socialist_party name = X76_socialist_party }
+		set_party_name = { ideology = democratic long_name = X77_socialist_party name = X77_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -11353,7 +11325,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X77
+		tag = X78
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -11362,21 +11334,14 @@ country_event = {
 
 	option = {
 		name = election.298a
-		set_party_name = { ideology = democratic long_name = X77_conservative_party name = X77_conservative_party }
+		set_party_name = { ideology = democratic long_name = X78_conservative_party name = X78_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.298b
-		set_party_name = { ideology = democratic long_name = X77_liberal_party name = X77_liberal_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.298c
-		set_party_name = { ideology = democratic long_name = X77_socialist_party name = X77_socialist_party }
+		set_party_name = { ideology = democratic long_name = X78_socialist_party name = X78_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -11391,7 +11356,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X78
+		tag = X79
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -11400,14 +11365,14 @@ country_event = {
 
 	option = {
 		name = election.299a
-		set_party_name = { ideology = democratic long_name = X78_conservative_party name = X78_conservative_party }
+		set_party_name = { ideology = democratic long_name = X79_conservative_party name = X79_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.299b
-		set_party_name = { ideology = democratic long_name = X78_socialist_party name = X78_socialist_party }
+		set_party_name = { ideology = democratic long_name = X79_socialist_party name = X79_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -11422,37 +11387,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X79
-		OR = {
-			democratic > 0.5
-			neutrality > 0.5
-		}
-	}
-
-	option = {
-		name = election.300a
-		set_party_name = { ideology = democratic long_name = X79_conservative_party name = X79_conservative_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.300b
-		set_party_name = { ideology = democratic long_name = X79_socialist_party name = X79_socialist_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = socialism
-	}
-}
-
-country_event = {
-	id = election.301
-	title = election.301.t
-	desc = election.301.d
-	picture = GFX_report_event_usa_election_generic
-
-	is_triggered_only = yes
-
-	trigger = {
 		tag = X80
 		OR = {
 			democratic > 0.5
@@ -11461,14 +11395,14 @@ country_event = {
 	}
 
 	option = {
-		name = election.301a
+		name = election.300a
 		set_party_name = { ideology = democratic long_name = X80_conservative_party name = X80_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.301b
+		name = election.300b
 		set_party_name = { ideology = democratic long_name = X80_liberal_party name = X80_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
@@ -11476,9 +11410,9 @@ country_event = {
 }
 
 country_event = {
-	id = election.302
-	title = election.302.t
-	desc = election.302.d
+	id = election.301
+	title = election.301.t
+	desc = election.301.d
 	picture = GFX_report_event_usa_election_generic
 
 	is_triggered_only = yes
@@ -11492,15 +11426,46 @@ country_event = {
 	}
 
 	option = {
-		name = election.302a
+		name = election.301a
 		set_party_name = { ideology = democratic long_name = X81_conservative_party name = X81_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.302b
+		name = election.301b
 		set_party_name = { ideology = democratic long_name = X81_socialist_party name = X81_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism
+	}
+}
+
+country_event = {
+	id = election.302
+	title = election.302.t
+	desc = election.302.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X82
+		OR = {
+			democratic > 0.5
+			neutrality > 0.5
+		}
+	}
+
+	option = {
+		name = election.302a
+		set_party_name = { ideology = democratic long_name = X82_conservative_party name = X82_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.302b
+		set_party_name = { ideology = democratic long_name = X82_socialist_party name = X82_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -11515,7 +11480,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X82
+		tag = X83
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -11524,14 +11489,14 @@ country_event = {
 
 	option = {
 		name = election.303a
-		set_party_name = { ideology = democratic long_name = X82_conservative_party name = X82_conservative_party }
+		set_party_name = { ideology = democratic long_name = X83_conservative_party name = X83_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.303b
-		set_party_name = { ideology = democratic long_name = X82_socialist_party name = X82_socialist_party }
+		set_party_name = { ideology = democratic long_name = X83_socialist_party name = X83_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -11546,7 +11511,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X83
+		tag = X84
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -11555,14 +11520,28 @@ country_event = {
 
 	option = {
 		name = election.304a
-		set_party_name = { ideology = democratic long_name = X83_conservative_party name = X83_conservative_party }
+		set_party_name = { ideology = democratic long_name = X84_conservative_party name = X84_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.304b
-		set_party_name = { ideology = democratic long_name = X83_socialist_party name = X83_socialist_party }
+		set_party_name = { ideology = democratic long_name = X84_conservative_2_party name = X84_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.304c
+		set_party_name = { ideology = democratic long_name = X84_conservative_2_party name = X84_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.304d
+		set_party_name = { ideology = democratic long_name = X84_socialist_party name = X84_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -11577,7 +11556,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X84
+		tag = X85
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -11586,28 +11565,14 @@ country_event = {
 
 	option = {
 		name = election.305a
-		set_party_name = { ideology = democratic long_name = X84_conservative_party name = X84_conservative_party }
+		set_party_name = { ideology = democratic long_name = X85_conservative_party name = X85_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.305b
-		set_party_name = { ideology = democratic long_name = X84_conservative_2_party name = X84_conservative_2_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.305c
-		set_party_name = { ideology = democratic long_name = X84_conservative_2_party name = X84_conservative_2_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.305d
-		set_party_name = { ideology = democratic long_name = X84_socialist_party name = X84_socialist_party }
+		set_party_name = { ideology = democratic long_name = X85_socialist_party name = X85_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -11622,7 +11587,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X85
+		tag = X86
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -11631,14 +11596,14 @@ country_event = {
 
 	option = {
 		name = election.306a
-		set_party_name = { ideology = democratic long_name = X85_conservative_party name = X85_conservative_party }
+		set_party_name = { ideology = democratic long_name = X86_conservative_party name = X86_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.306b
-		set_party_name = { ideology = democratic long_name = X85_socialist_party name = X85_socialist_party }
+		set_party_name = { ideology = democratic long_name = X86_socialist_party name = X86_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -11653,7 +11618,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X86
+		tag = X87
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -11662,14 +11627,21 @@ country_event = {
 
 	option = {
 		name = election.307a
-		set_party_name = { ideology = democratic long_name = X86_conservative_party name = X86_conservative_party }
+		set_party_name = { ideology = democratic long_name = X87_conservative_party name = X87_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.307b
-		set_party_name = { ideology = democratic long_name = X86_socialist_party name = X86_socialist_party }
+		set_party_name = { ideology = democratic long_name = X87_liberal_party name = X87_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.307c
+		set_party_name = { ideology = democratic long_name = X87_socialist_party name = X87_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -11684,44 +11656,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X87
-		OR = {
-			democratic > 0.5
-			neutrality > 0.5
-		}
-	}
-
-	option = {
-		name = election.308a
-		set_party_name = { ideology = democratic long_name = X87_conservative_party name = X87_conservative_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.308b
-		set_party_name = { ideology = democratic long_name = X87_liberal_party name = X87_liberal_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.308c
-		set_party_name = { ideology = democratic long_name = X87_socialist_party name = X87_socialist_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = socialism
-	}
-}
-
-country_event = {
-	id = election.309
-	title = election.309.t
-	desc = election.309.d
-	picture = GFX_report_event_usa_election_generic
-
-	is_triggered_only = yes
-
-	trigger = {
 		tag = X88
 		OR = {
 			democratic > 0.5
@@ -11730,21 +11664,21 @@ country_event = {
 	}
 
 	option = {
-		name = election.309a
+		name = election.308a
 		set_party_name = { ideology = democratic long_name = X88_liberal_party name = X88_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.309b
+		name = election.308b
 		set_party_name = { ideology = democratic long_name = X88_socialist_party name = X88_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
 
 	option = {
-		name = election.309c
+		name = election.308c
 		set_party_name = { ideology = democratic long_name = X88_conservative_party name = X88_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
@@ -11752,9 +11686,9 @@ country_event = {
 }
 
 country_event = {
-	id = election.310
-	title = election.310.t
-	desc = election.310.d
+	id = election.309
+	title = election.309.t
+	desc = election.309.d
 	picture = GFX_report_event_usa_election_generic
 
 	is_triggered_only = yes
@@ -11768,15 +11702,67 @@ country_event = {
 	}
 
 	option = {
-		name = election.310a
+		name = election.309a
 		set_party_name = { ideology = democratic long_name = X89_liberal_party name = X89_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.310b
+		name = election.309b
 		set_party_name = { ideology = democratic long_name = X89_socialist_party name = X89_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism
+	}
+}
+
+country_event = {
+	id = election.310
+	title = election.310.t
+	desc = election.310.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X90
+		OR = {
+			democratic > 0.5
+			neutrality > 0.5
+		}
+	}
+
+	option = {
+		name = election.310a
+		set_party_name = { ideology = democratic long_name = X90_conservative_party name = X90_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.310b
+		set_party_name = { ideology = democratic long_name = X90_conservative_2_party name = X90_conservative_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.310c
+		set_party_name = { ideology = democratic long_name = X90_liberal_party name = X90_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.310d
+		set_party_name = { ideology = democratic long_name = X90_socialist_2_party name = X90_socialist_2_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism
+	}
+
+	option = {
+		name = election.310e
+		set_party_name = { ideology = democratic long_name = X90_socialist_3_party name = X90_socialist_3_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -11791,7 +11777,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X90
+		tag = X91
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -11800,37 +11786,23 @@ country_event = {
 
 	option = {
 		name = election.311a
-		set_party_name = { ideology = democratic long_name = X90_conservative_party name = X90_conservative_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.311b
-		set_party_name = { ideology = democratic long_name = X90_conservative_2_party name = X90_conservative_2_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.311c
-		set_party_name = { ideology = democratic long_name = X90_liberal_party name = X90_liberal_party }
+		set_party_name = { ideology = democratic long_name = X91_liberal_3_party name = X91_liberal_3_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.311d
-		set_party_name = { ideology = democratic long_name = X90_socialist_2_party name = X90_socialist_2_party }
+		name = election.311b
+		set_party_name = { ideology = democratic long_name = X91_socialist_party name = X91_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
 
 	option = {
-		name = election.311e
-		set_party_name = { ideology = democratic long_name = X90_socialist_3_party name = X90_socialist_3_party }
+		name = election.311c
+		set_party_name = { ideology = democratic long_name = X91_liberal_party name = X91_liberal_party }
 		retire_country_leader = yes
-		set_country_leader_ideology = socialism
+		set_country_leader_ideology = liberalism
 	}
 }
 
@@ -11843,7 +11815,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X91
+		tag = X92
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -11852,21 +11824,28 @@ country_event = {
 
 	option = {
 		name = election.312a
-		set_party_name = { ideology = democratic long_name = X91_liberal_3_party name = X91_liberal_3_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.312b
-		set_party_name = { ideology = democratic long_name = X91_socialist_party name = X91_socialist_party }
+		set_party_name = { ideology = democratic long_name = X92_socialist_party name = X92_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
 
 	option = {
+		name = election.312b
+		set_party_name = { ideology = democratic long_name = X92_conservative_party name = X92_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
 		name = election.312c
-		set_party_name = { ideology = democratic long_name = X91_liberal_party name = X91_liberal_party }
+		set_party_name = { ideology = democratic long_name = X92_liberal_party name = X92_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.312d
+		set_party_name = { ideology = democratic long_name = X92_liberal_2_party name = X92_liberal_2_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
@@ -11881,51 +11860,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X92
-		OR = {
-			democratic > 0.5
-			neutrality > 0.5
-		}
-	}
-
-	option = {
-		name = election.313a
-		set_party_name = { ideology = democratic long_name = X92_socialist_party name = X92_socialist_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = socialism
-	}
-
-	option = {
-		name = election.313b
-		set_party_name = { ideology = democratic long_name = X92_conservative_party name = X92_conservative_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.313c
-		set_party_name = { ideology = democratic long_name = X92_liberal_party name = X92_liberal_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.313d
-		set_party_name = { ideology = democratic long_name = X92_liberal_2_party name = X92_liberal_2_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-}
-
-country_event = {
-	id = election.314
-	title = election.314.t
-	desc = election.314.d
-	picture = GFX_report_event_usa_election_generic
-
-	is_triggered_only = yes
-
-	trigger = {
 		tag = X93
 		OR = {
 			democratic > 0.5
@@ -11934,28 +11868,28 @@ country_event = {
 	}
 
 	option = {
-		name = election.314a
+		name = election.313a
 		set_party_name = { ideology = democratic long_name = X93_conservative_2_party name = X93_conservative_2_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.314b
+		name = election.313b
 		set_party_name = { ideology = democratic long_name = X93_liberal_3_party name = X93_liberal_3_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.314c
+		name = election.313c
 		set_party_name = { ideology = democratic long_name = X93_socialist_party name = X93_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
 
 	option = {
-		name = election.314d
+		name = election.313d
 		set_party_name = { ideology = democratic long_name = X93_conservative_party name = X93_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
@@ -11963,9 +11897,9 @@ country_event = {
 }
 
 country_event = {
-	id = election.315
-	title = election.315.t
-	desc = election.315.d
+	id = election.314
+	title = election.314.t
+	desc = election.314.d
 	picture = GFX_report_event_usa_election_generic
 
 	is_triggered_only = yes
@@ -11979,14 +11913,14 @@ country_event = {
 	}
 
 	option = {
-		name = election.315a
+		name = election.314a
 		set_party_name = { ideology = democratic long_name = X94_conservative_party name = X94_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.315b
+		name = election.314b
 		set_party_name = { ideology = democratic long_name = X94_socialist_party name = X94_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
@@ -11994,9 +11928,9 @@ country_event = {
 }
 
 country_event = {
-	id = election.316
-	title = election.316.t
-	desc = election.316.d
+	id = election.315
+	title = election.315.t
+	desc = election.315.d
 	picture = GFX_report_event_usa_election_generic
 
 	is_triggered_only = yes
@@ -12010,22 +11944,53 @@ country_event = {
 	}
 
 	option = {
-		name = election.316a
+		name = election.315a
 		set_party_name = { ideology = democratic long_name = X95_socialist_party name = X95_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
 
 	option = {
-		name = election.316b
+		name = election.315b
 		set_party_name = { ideology = democratic long_name = X95_conservative_party name = X95_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.316c
+		name = election.315c
 		set_party_name = { ideology = democratic long_name = X95_liberal_party name = X95_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+}
+
+country_event = {
+	id = election.316
+	title = election.316.t
+	desc = election.316.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = X96
+		OR = {
+			democratic > 0.5
+			neutrality > 0.5
+		}
+	}
+
+	option = {
+		name = election.316a
+		set_party_name = { ideology = democratic long_name = X96_conservative_party name = X96_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.316b
+		set_party_name = { ideology = democratic long_name = X96_liberal_party name = X96_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
@@ -12040,7 +12005,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X96
+		tag = X97
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -12049,16 +12014,16 @@ country_event = {
 
 	option = {
 		name = election.317a
-		set_party_name = { ideology = democratic long_name = X96_conservative_party name = X96_conservative_party }
+		set_party_name = { ideology = democratic long_name = X97_conservative_party name = X97_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.317b
-		set_party_name = { ideology = democratic long_name = X96_liberal_party name = X96_liberal_party }
+		set_party_name = { ideology = democratic long_name = X97_socialist_party name = X97_socialist_party }
 		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
+		set_country_leader_ideology = socialism
 	}
 }
 
@@ -12071,7 +12036,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X97
+		tag = X98
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -12080,14 +12045,21 @@ country_event = {
 
 	option = {
 		name = election.318a
-		set_party_name = { ideology = democratic long_name = X97_conservative_party name = X97_conservative_party }
+		set_party_name = { ideology = democratic long_name = X98_conservative_party name = X98_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
 		name = election.318b
-		set_party_name = { ideology = democratic long_name = X97_socialist_party name = X97_socialist_party }
+		set_party_name = { ideology = democratic long_name = X98_liberal_party name = X98_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+
+	option = {
+		name = election.318c
+		set_party_name = { ideology = democratic long_name = X98_socialist_party name = X98_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -12102,7 +12074,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X98
+		tag = X99
 		OR = {
 			democratic > 0.5
 			neutrality > 0.5
@@ -12111,21 +12083,14 @@ country_event = {
 
 	option = {
 		name = election.319a
-		set_party_name = { ideology = democratic long_name = X98_conservative_party name = X98_conservative_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.319b
-		set_party_name = { ideology = democratic long_name = X98_liberal_party name = X98_liberal_party }
+		set_party_name = { ideology = democratic long_name = X99_liberal_party name = X99_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.319c
-		set_party_name = { ideology = democratic long_name = X98_socialist_party name = X98_socialist_party }
+		name = election.319b
+		set_party_name = { ideology = democratic long_name = X99_socialist_party name = X99_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
@@ -12140,37 +12105,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = X99
-		OR = {
-			democratic > 0.5
-			neutrality > 0.5
-		}
-	}
-
-	option = {
-		name = election.320a
-		set_party_name = { ideology = democratic long_name = X99_liberal_party name = X99_liberal_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-
-	option = {
-		name = election.320b
-		set_party_name = { ideology = democratic long_name = X99_socialist_party name = X99_socialist_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = socialism
-	}
-}
-
-country_event = {
-	id = election.321
-	title = election.321.t
-	desc = election.321.d
-	picture = GFX_report_event_usa_election_generic
-
-	is_triggered_only = yes
-
-	trigger = {
 		tag = XSM
 		OR = {
 			democratic > 0.5
@@ -12179,21 +12113,21 @@ country_event = {
 	}
 
 	option = {
-		name = election.321a
+		name = election.320a
 		set_party_name = { ideology = democratic long_name = XSM_socialist_party name = XSM_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
 	}
 
 	option = {
-		name = election.321b
+		name = election.320b
 		set_party_name = { ideology = democratic long_name = XSM_conservative_party name = XSM_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.321c
+		name = election.320c
 		set_party_name = { ideology = democratic long_name = XSM_liberal_party name = XSM_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
@@ -12201,9 +12135,9 @@ country_event = {
 }
 
 country_event = {
-	id = election.322
-	title = election.322.t
-	desc = election.322.d
+	id = election.321
+	title = election.321.t
+	desc = election.321.d
 	picture = GFX_report_event_usa_election_generic
 
 	is_triggered_only = yes
@@ -12217,14 +12151,14 @@ country_event = {
 	}
 
 	option = {
-		name = election.322a
+		name = election.321a
 		set_party_name = { ideology = democratic long_name = YEM_liberal_party name = YEM_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.322b
+		name = election.321b
 		set_party_name = { ideology = democratic long_name = YEM_socialist_party name = YEM_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
@@ -12232,9 +12166,9 @@ country_event = {
 }
 
 country_event = {
-	id = election.323
-	title = election.323.t
-	desc = election.323.d
+	id = election.322
+	title = election.322.t
+	desc = election.322.d
 	picture = GFX_report_event_usa_election_generic
 
 	is_triggered_only = yes
@@ -12248,15 +12182,53 @@ country_event = {
 	}
 
 	option = {
-		name = election.323a
+		name = election.322a
 		set_party_name = { ideology = democratic long_name = YUG_conservative_party name = YUG_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.323b
+		name = election.322b
 		set_party_name = { ideology = democratic long_name = YUG_liberal_party name = YUG_liberal_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = liberalism
+	}
+}
+
+country_event = {
+	id = election.323
+	title = election.323.t
+	desc = election.323.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = YUN
+		OR = {
+			democratic > 0.5
+			neutrality > 0.5
+		}
+	}
+
+	option = {
+		name = election.323a
+		set_party_name = { ideology = democratic long_name = YUN_socialist_party name = YUN_socialist_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = socialism
+	}
+
+	option = {
+		name = election.323b
+		set_party_name = { ideology = democratic long_name = YUN_conservative_party name = YUN_conservative_party }
+		retire_country_leader = yes
+		set_country_leader_ideology = conservatism
+	}
+
+	option = {
+		name = election.323c
+		set_party_name = { ideology = democratic long_name = YUN_liberal_party name = YUN_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
@@ -12271,44 +12243,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		tag = YUN
-		OR = {
-			democratic > 0.5
-			neutrality > 0.5
-		}
-	}
-
-	option = {
-		name = election.324a
-		set_party_name = { ideology = democratic long_name = YUN_socialist_party name = YUN_socialist_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = socialism
-	}
-
-	option = {
-		name = election.324b
-		set_party_name = { ideology = democratic long_name = YUN_conservative_party name = YUN_conservative_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = conservatism
-	}
-
-	option = {
-		name = election.324c
-		set_party_name = { ideology = democratic long_name = YUN_liberal_party name = YUN_liberal_party }
-		retire_country_leader = yes
-		set_country_leader_ideology = liberalism
-	}
-}
-
-country_event = {
-	id = election.325
-	title = election.325.t
-	desc = election.325.d
-	picture = GFX_report_event_usa_election_generic
-
-	is_triggered_only = yes
-
-	trigger = {
 		tag = ZAM
 		OR = {
 			democratic > 0.5
@@ -12317,14 +12251,14 @@ country_event = {
 	}
 
 	option = {
-		name = election.325a
+		name = election.324a
 		set_party_name = { ideology = democratic long_name = ZAM_conservative_party name = ZAM_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.325b
+		name = election.324b
 		set_party_name = { ideology = democratic long_name = ZAM_socialist_party name = ZAM_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism
@@ -12332,9 +12266,9 @@ country_event = {
 }
 
 country_event = {
-	id = election.326
-	title = election.326.t
-	desc = election.326.d
+	id = election.325
+	title = election.325.t
+	desc = election.325.d
 	picture = GFX_report_event_usa_election_generic
 
 	is_triggered_only = yes
@@ -12348,21 +12282,21 @@ country_event = {
 	}
 
 	option = {
-		name = election.326a
+		name = election.325a
 		set_party_name = { ideology = democratic long_name = ZIM_conservative_party name = ZIM_conservative_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = conservatism
 	}
 
 	option = {
-		name = election.326b
+		name = election.325b
 		set_party_name = { ideology = democratic long_name = ZIM_liberal_party name = ZIM_liberal_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = liberalism
 	}
 
 	option = {
-		name = election.326c
+		name = election.325c
 		set_party_name = { ideology = democratic long_name = ZIM_socialist_party name = ZIM_socialist_party }
 		retire_country_leader = yes
 		set_country_leader_ideology = socialism

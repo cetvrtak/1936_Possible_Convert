@@ -876,10 +876,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_george_v.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W59_monarch"
-		texturefile = "gfx/interface/ideas/idea_george_v.dds"
-	}
-	spriteType = {
 		name = "GFX_idea_WLL_monarch"
 		texturefile = "gfx/interface/ideas/idea_george_v.dds"
 	}

@@ -135,8 +135,8 @@ add_ideas = {
 	culture_ibo
 }
 create_country_leader = {
-	name = "Azuka Opobo"
-	desc = "POLITICS_AZUKA_OPOBO_DESC"
+	name = "Azuka Onyeso"
+	desc = "POLITICS_AZUKA_ONYESO_DESC"
 	picture = "gfx/leaders/African/Portrait_NAM_Otto_Schimming.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

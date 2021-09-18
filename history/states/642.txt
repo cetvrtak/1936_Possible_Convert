@@ -4,7 +4,7 @@ state={
 	name="STATE_642"
 
 	history={
-		owner = TUR
+		owner = SYR
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 0
@@ -19,6 +19,25 @@ state={
 		add_core_of = SYR
 		add_claim_by = TUR
 		add_claim_by = X08
+		TUR = {
+			set_province_controller = 901
+			set_province_controller = 1056
+			set_province_controller = 1072
+			set_province_controller = 1088
+			set_province_controller = 1549
+			set_province_controller = 1578
+			set_province_controller = 1606
+			set_province_controller = 1634
+			set_province_controller = 2013
+			set_province_controller = 3942
+			set_province_controller = 6883
+			set_province_controller = 7140
+			set_province_controller = 7671
+			set_province_controller = 10087
+			set_province_controller = 10882
+			set_province_controller = 12029
+			set_province_controller = 12473
+		}
 	}
 
 	provinces={

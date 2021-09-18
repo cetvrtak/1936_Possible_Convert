@@ -124,8 +124,8 @@ add_ideas = {
 	culture_lao
 }
 create_country_leader = {
-	name = "Sisavang Anuvong"
-	desc = "POLITICS_SISAVANG_ANUVONG_DESC"
+	name = "Nanthasen Kuman"
+	desc = "POLITICS_NANTHASEN_KUMAN_DESC"
 	picture = "gfx/leaders/Indo_Chinese_Nesia/Portrait_Sarawak_Ahmad_Tajuddin.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

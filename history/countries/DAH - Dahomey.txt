@@ -135,8 +135,8 @@ add_ideas = {
 	culture_fon
 }
 create_country_leader = {
-	name = "Tegbessou Chadakogundo"
-	desc = "POLITICS_TEGBESSOU_CHADAKOGUNDO_DESC"
+	name = "Agadja Chadakogundo"
+	desc = "POLITICS_AGADJA_CHADAKOGUNDO_DESC"
 	picture = "gfx/leaders/LIB/Portrait_LIB_edwin_barclay.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

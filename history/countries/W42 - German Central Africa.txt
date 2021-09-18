@@ -1,12 +1,12 @@
-﻿capital = 203
+﻿capital = 201
 set_research_slots = 3
 
-oob = "W44_OOB"
+oob = "W42_OOB"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "W44_1936_naval_mtg"
+		set_naval_oob = "W42_1936_naval_mtg"
 	else = { 
-		set_naval_oob = "W44_1936_naval_legacy"
+		set_naval_oob = "W42_1936_naval_legacy"
 	}
 }
 
@@ -93,7 +93,7 @@ add_tech_bonus = { name = air_doc_bonus bonus = 1000 uses = 1 category = air_doc
 add_tech_bonus = { name = land_doc_bonus bonus = 1000 uses = 1 category = land_doctrine }
 add_tech_bonus = { name = naval_doc_bonus bonus = 1000 uses = 1 category = naval_doctrine }
 
-set_country_flag = conv_eastern_africa
+set_country_flag = conv_central_africa
 set_convoys = 0
 
 
@@ -131,9 +131,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.48
 create_country_leader = {
-	name = "Erwin von Bülow"
-	desc = "POLITICS_ERWIN_VON BüLOW_DESC"
-	picture = "gfx/leaders/USA/Portrait_USA_Harry_Truman.dds"
+	name = "Heinrich von Sachsen-Altenburg"
+	desc = "POLITICS_HEINRICH_VON SACHSEN-ALTENBURG_DESC"
+	picture = "gfx/leaders/USA/Portrait_USA_Franklin_Roosevelt.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
@@ -144,7 +144,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Emma von Ravensberg"
+		name = "Jessica von Sachsen-Coburg-Gotha"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -218,7 +218,7 @@ if = {
 	create_equipment_variant = {
 		name = "1936 Battleship"
 		type = ship_hull_heavy_2
-		name_group = W44_BB_HISTORICAL
+		name_group = W42_BB_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -237,7 +237,7 @@ if = {
 	create_equipment_variant = {
 		name = "1936 Destroyer"
 		type = ship_hull_light_2
-		name_group = W44_DD_HISTORICAL
+		name_group = W42_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_2
@@ -253,7 +253,7 @@ if = {
 	create_equipment_variant = {
 		name = "1936 Heavy Cruiser"
 		type = ship_hull_cruiser_2
-		name_group = W44_CA_HISTORICAL
+		name_group = W42_CA_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -271,7 +271,7 @@ if = {
 	create_equipment_variant = {
 		name = "1936 Light Cruiser"
 		type = ship_hull_cruiser_2
-		name_group = W44_CL_HISTORICAL
+		name_group = W42_CL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -289,7 +289,7 @@ if = {
 	create_equipment_variant = {
 		name = "1936 Submarine"
 		type = ship_hull_submarine_2
-		name_group = W44_SS_HISTORICAL
+		name_group = W42_SS_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_engine_slot = sub_ship_engine_2

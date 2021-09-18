@@ -136,8 +136,8 @@ add_ideas = {
 	culture_edo
 }
 create_country_leader = {
-	name = "Adolo Akenzua"
-	desc = "POLITICS_ADOLO_AKENZUA_DESC"
+	name = "Igodo Orhogbua"
+	desc = "POLITICS_IGODO_ORHOGBUA_DESC"
 	picture = "gfx/leaders/ETH/Portrait_Ethiopia_Haile_Selassie.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

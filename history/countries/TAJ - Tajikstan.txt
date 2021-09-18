@@ -117,8 +117,8 @@ add_ideas = {
 	culture_tajik
 }
 create_country_leader = {
-	name = "Abdolhossein Khan"
-	desc = "POLITICS_ABDOLHOSSEIN_KHAN_DESC"
+	name = "Hamzeh Khan"
+	desc = "POLITICS_HAMZEH_KHAN_DESC"
 	picture = "gfx/leaders/PER/Portrait_Iran_Reza_Shah_Pahlavi.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

@@ -131,8 +131,8 @@ add_ideas = {
 	culture_malay
 }
 create_country_leader = {
-	name = "Jalil Murshidul"
-	desc = "POLITICS_JALIL_MURSHIDUL_DESC"
+	name = "Muabidin Aadzam"
+	desc = "POLITICS_MUABIDIN_AADZAM_DESC"
 	picture = "gfx/leaders/Indo_Chinese_Nesia/Portrait_Malaya_Iskander_I_Perak.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

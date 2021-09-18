@@ -131,8 +131,8 @@ add_ideas = {
 	culture_south_andean
 }
 create_country_leader = {
-	name = "Tomás Blanche"
-	desc = "POLITICS_TOMáS_BLANCHE_DESC"
+	name = "Domingo Guilarte"
+	desc = "POLITICS_DOMINGO_GUILARTE_DESC"
 	picture = "gfx/leaders/NIC/portrait_nic_anastasio_somoza_garcia.dds"
 	expire = "1965.1.1"
 	ideology = dictatorship_neutral

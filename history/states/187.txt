@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = W49
+		owner = W48
 		victory_points = {
 			10803 10 
 		}
@@ -25,7 +25,7 @@ state={
 
 		}
 		add_core_of = IVO
-		add_core_of = W49
+		add_core_of = W48
 		add_core_of = X05
 		add_core_of = X63
 	}

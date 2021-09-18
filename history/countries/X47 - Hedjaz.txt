@@ -128,8 +128,8 @@ add_ideas = {
 	culture_mashriqi
 }
 create_country_leader = {
-	name = "Uthman ibn Muhammad"
-	desc = "POLITICS_UTHMAN_IBN MUHAMMAD_DESC"
+	name = "Sa'd al-Din al-Nablusi"
+	desc = "POLITICS_SA'D AL-DIN_AL-NABLUSI_DESC"
 	picture = "gfx/leaders/leader_unknown.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

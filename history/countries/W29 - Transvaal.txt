@@ -135,8 +135,8 @@ add_ideas = {
 	culture_boer
 }
 create_country_leader = {
-	name = "Sarel Theron"
-	desc = "POLITICS_SAREL_THERON_DESC"
+	name = "Andries van Rensburg"
+	desc = "POLITICS_ANDRIES_VAN RENSBURG_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_8.dds"
 	expire = "1965.1.1"
 	ideology = leninism

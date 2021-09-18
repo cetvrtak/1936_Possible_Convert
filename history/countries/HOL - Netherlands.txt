@@ -87,12 +87,12 @@ if = {
         has_dlc = "Together for Victory"
     }
     set_autonomy = {
-        target = W50
+        target = W49
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     else = {
-        puppet = W50
+        puppet = W49
     }
 }
 
@@ -188,8 +188,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Paul van Keppel"
-	desc = "POLITICS_PAUL_VAN KEPPEL_DESC"
+	name = "Gerard van Heemskerck"
+	desc = "POLITICS_GERARD_VAN HEEMSKERCK_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

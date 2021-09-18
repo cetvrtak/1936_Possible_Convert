@@ -145,8 +145,8 @@ add_ideas = {
 	culture_south_german
 }
 create_country_leader = {
-	name = "Joachim Hainisch"
-	desc = "POLITICS_JOACHIM_HAINISCH_DESC"
+	name = "Erwin von Hohenhausen"
+	desc = "POLITICS_ERWIN_VON HOHENHAUSEN_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_6.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology

@@ -1,43 +1,33 @@
-﻿capital = 346
+﻿capital = 424
 set_research_slots = 3
 
-oob = "W51_OOB"
+oob = "W49_OOB"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "W51_1936_naval_mtg"
+		set_naval_oob = "W49_1936_naval_mtg"
 	else = { 
-		set_naval_oob = "W51_1936_naval_legacy"
+		set_naval_oob = "W49_1936_naval_legacy"
 	}
 }
 
 # Starting tech
 set_technology = {
-	basic_light_tank = 1
 	early_bomber = 1
 	early_fighter = 1
+	fighter1 = 1
 	fuel_refining = 1
 	fuel_silos = 1
 	gw_artillery = 1
 	gwtank = 1
-	improved_light_tank = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	interwar_antiair = 1
-	interwar_artillery = 1
 	marines = 1
-	motorised_infantry = 1
 	support_weapons = 1
 	synth_oil_experiments = 1
+	tactical_bomber1 = 1
 	tech_engineers = 1
 	tech_recon = 1
 	tech_support = 1
-}
-
-if = {
-	limit = { has_dlc = "La Resistance" }
-	set_technology = {
-		armored_car1 = 1
-	}
 }
 
 if = {
@@ -51,6 +41,7 @@ if = {
 		early_ship_hull_light = 1
 		improved_airplane_launcher = 1
 		mtg_transport = 1
+		smoke_generator = 1
 	}
 }
 
@@ -67,48 +58,50 @@ if = {
 }
 
 # Research Bonuses
+add_tech_bonus = { name = air_doc_bonus bonus = 1000 uses = 1 category = air_doctrine }
+add_tech_bonus = { name = land_doc_bonus bonus = 1000 uses = 1 category = land_doctrine }
 
-set_country_flag = conv_eastern_africa
+set_country_flag = conv_southeast_asia
 set_convoys = 0
 
 
 set_politics = {
     ruling_party = democratic
-    last_election = "1932.12.16"
+    last_election = "1934.1.16"
     election_frequency = 48
     elections_allowed = yes
 }
 
 set_popularities = {
 	absolutist = 0
-	communism = 5
-	democratic = 86
-	fascism = 4
+	communism = 2
+	democratic = 88
+	fascism = 6
 	neutrality = 3
-	radical = 2
+	radical = 1
 }
 
 if = {
     limit = {has_dlc = "Together for Victory" }
 
-    add_to_tech_sharing_group = ITA_research
+    add_to_tech_sharing_group = HOL_research
 }
 
 
 
 add_ideas = {
-	ITA_monarch
-	limited_conscription
+	HOL_monarch
+	volunteer_only
 	civilian_economy
 	export_focus
-	culture_north_italian
+	culture_dutch
 }
 set_stability = 0.60
-set_war_support = 0.61
+set_war_support = 0.60
 create_country_leader = {
-	name = "Simone Capello"
-	desc = "POLITICS_SIMONE_CAPELLO_DESC"
-	picture = "gfx/leaders/Mediterranean/Portrait_SRI_Giacomo_Matteotti.tga"
+	name = "Godfried van Renesse"
+	desc = "POLITICS_GODFRIED_VAN RENESSE_DESC"
+	picture = "gfx/leaders/AST/Portrait_Australia_John_Curtin.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
@@ -119,7 +112,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Maria Canevaro"
+		name = "Truus van Wijngaarden"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -193,7 +186,7 @@ if = {
 	create_equipment_variant = {
 		name = "Early Battleship"
 		type = ship_hull_heavy_1
-		name_group = W51_BB_HISTORICAL
+		name_group = W49_BB_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -212,7 +205,7 @@ if = {
 	create_equipment_variant = {
 		name = "Early Destroyer"
 		type = ship_hull_light_1
-		name_group = W51_DD_HISTORICAL
+		name_group = W49_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -228,7 +221,7 @@ if = {
 	create_equipment_variant = {
 		name = "Early Heavy Cruiser"
 		type = ship_hull_cruiser_1
-		name_group = W51_CA_HISTORICAL
+		name_group = W49_CA_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -246,7 +239,7 @@ if = {
 	create_equipment_variant = {
 		name = "Early Light Cruiser"
 		type = ship_hull_cruiser_1
-		name_group = W51_CL_HISTORICAL
+		name_group = W49_CL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1

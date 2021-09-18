@@ -140,8 +140,8 @@ add_ideas = {
 	culture_swedish
 }
 create_country_leader = {
-	name = "Gustav Thulstrup"
-	desc = "POLITICS_GUSTAV_THULSTRUP_DESC"
+	name = "Theodor Ryding"
+	desc = "POLITICS_THEODOR_RYDING_DESC"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

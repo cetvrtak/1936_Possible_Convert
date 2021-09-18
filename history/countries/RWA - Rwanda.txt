@@ -95,8 +95,8 @@ add_ideas = {
 	culture_ruanda
 }
 create_country_leader = {
-	name = "Yuhi Rutarindwa"
-	desc = "POLITICS_YUHI_RUTARINDWA_DESC"
+	name = "Runihura Ndahindurwa"
+	desc = "POLITICS_RUNIHURA_NDAHINDURWA_DESC"
 	picture = "gfx/leaders/African/Portrait_ERT_Sellasie.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

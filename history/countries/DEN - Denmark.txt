@@ -125,8 +125,8 @@ add_ideas = {
 	culture_danish
 }
 create_country_leader = {
-	name = "Otto Güntelberg"
-	desc = "POLITICS_OTTO_GüNTELBERG_DESC"
+	name = "Frederik von Oldenburg"
+	desc = "POLITICS_FREDERIK_VON OLDENBURG_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

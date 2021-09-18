@@ -131,8 +131,8 @@ add_ideas = {
 	culture_polynesian
 }
 create_country_leader = {
-	name = "Tupou Moengangongo"
-	desc = "POLITICS_TUPOU_MOENGANGONGO_DESC"
+	name = "Havaiki Moengangongo"
+	desc = "POLITICS_HAVAIKI_MOENGANGONGO_DESC"
 	picture = "gfx/leaders/Aborigine_Polynesia/Portrait_HAW_David_Kalakaua.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

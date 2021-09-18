@@ -125,8 +125,8 @@ add_ideas = {
 	culture_afar
 }
 create_country_leader = {
-	name = "Amda Aydahis"
-	desc = "POLITICS_AMDA_AYDAHIS_DESC"
+	name = "Umar Seyon"
+	desc = "POLITICS_UMAR_SEYON_DESC"
 	picture = "gfx/leaders/African/Portrait_NAM_Otto_Schimming.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

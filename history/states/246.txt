@@ -8,8 +8,8 @@ state={
 	impassable = yes
 
 	history={
-		owner = W45
-		add_core_of = W45
+		owner = W44
+		add_core_of = W44
 		add_core_of = X35
 		add_claim_by = CAR
 	}

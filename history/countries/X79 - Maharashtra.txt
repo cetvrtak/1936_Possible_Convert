@@ -131,8 +131,8 @@ add_ideas = {
 	culture_marathi
 }
 create_country_leader = {
-	name = "Pratapsinha Bowa Sahib"
-	desc = "POLITICS_PRATAPSINHA_BOWA SAHIB_DESC"
+	name = "Sawai Narayan"
+	desc = "POLITICS_SAWAI_NARAYAN_DESC"
 	picture = "gfx/leaders/Indian/Portrait_Madras_Sri_Ramakrishna_Ranga_Rao.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

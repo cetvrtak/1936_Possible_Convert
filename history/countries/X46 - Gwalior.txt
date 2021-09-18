@@ -147,8 +147,8 @@ add_ideas = {
 	culture_marathi
 }
 create_country_leader = {
-	name = "Pratapsinha Bhat"
-	desc = "POLITICS_PRATAPSINHA_BHAT_DESC"
+	name = "Madhava Rao"
+	desc = "POLITICS_MADHAVA_RAO_DESC"
 	picture = "gfx/leaders/Indian/Portrait_PRF_Ahmad_Ali_of_Malerjotla.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

@@ -134,8 +134,8 @@ add_ideas = {
 	culture_sotho
 }
 create_country_leader = {
-	name = "Letsie Moshoeshoe"
-	desc = "POLITICS_LETSIE_MOSHOESHOE_DESC"
+	name = "Ilo Matsaba"
+	desc = "POLITICS_ILO_MATSABA_DESC"
 	picture = "gfx/leaders/African/Portrait_KTG_Mabumba_Kitanika.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

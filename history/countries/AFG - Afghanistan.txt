@@ -140,8 +140,8 @@ add_ideas = {
 	culture_pashtun
 }
 create_country_leader = {
-	name = "Timur Khan"
-	desc = "POLITICS_TIMUR_KHAN_DESC"
+	name = "Shahpur Khan"
+	desc = "POLITICS_SHAHPUR_KHAN_DESC"
 	picture = "gfx/leaders/AFG/Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

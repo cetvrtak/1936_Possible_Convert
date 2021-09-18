@@ -97,8 +97,8 @@ add_ideas = {
 	culture_afro_caribbean
 }
 create_country_leader = {
-	name = "Josiah Julian"
-	desc = "POLITICS_JOSIAH_JULIAN_DESC"
+	name = "Colville Robinson"
+	desc = "POLITICS_COLVILLE_ROBINSON_DESC"
 	picture = "gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

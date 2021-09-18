@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = W53
+		owner = W52
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 0
@@ -19,7 +19,7 @@ state={
 
 		}
 		add_core_of = SRL
-		add_core_of = W53
+		add_core_of = W52
 	}
 
 	provinces={

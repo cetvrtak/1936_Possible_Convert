@@ -125,8 +125,8 @@ add_ideas = {
 	culture_mashriqi
 }
 create_country_leader = {
-	name = "Abd al-Rahman al-Ghazzawi"
-	desc = "POLITICS_ABD AL-RAHMAN_AL-GHAZZAWI_DESC"
+	name = "Iskandar al-Ghazzawi"
+	desc = "POLITICS_ISKANDAR_AL-GHAZZAWI_DESC"
 	picture = "gfx/leaders/leader_unknown.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

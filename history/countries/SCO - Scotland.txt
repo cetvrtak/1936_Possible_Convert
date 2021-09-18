@@ -97,8 +97,8 @@ add_ideas = {
 	culture_british
 }
 create_country_leader = {
-	name = "Russell Milne"
-	desc = "POLITICS_RUSSELL_MILNE_DESC"
+	name = "Richard Gough"
+	desc = "POLITICS_RICHARD_GOUGH_DESC"
 	picture = "gfx/leaders/CAN/Portrait_Canada_Mackenzie_King.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

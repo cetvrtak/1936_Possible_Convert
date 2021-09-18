@@ -131,8 +131,8 @@ add_ideas = {
 	culture_xhosa
 }
 create_country_leader = {
-	name = "Paki Xesibe"
-	desc = "POLITICS_PAKI_XESIBE_DESC"
+	name = "Nonceba Rhadebe"
+	desc = "POLITICS_NONCEBA_RHADEBE_DESC"
 	picture = "gfx/leaders/African/Portrait_KBR_Shehu_Masta_II.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

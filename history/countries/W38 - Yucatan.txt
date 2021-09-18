@@ -126,8 +126,8 @@ add_ideas = {
 	culture_mayan
 }
 create_country_leader = {
-	name = "Hernando Chi"
-	desc = "POLITICS_HERNANDO_CHI_DESC"
+	name = "Miguel Pop"
+	desc = "POLITICS_MIGUEL_POP_DESC"
 	picture = "gfx/leaders/Generic/r56_portrait_generic_politician_south_america_1.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

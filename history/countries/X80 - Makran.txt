@@ -146,8 +146,8 @@ add_ideas = {
 	culture_baluchi
 }
 create_country_leader = {
-	name = "Khudadad Khan"
-	desc = "POLITICS_KHUDADAD_KHAN_DESC"
+	name = "Mehrab Khan"
+	desc = "POLITICS_MEHRAB_KHAN_DESC"
 	picture = "gfx/leaders/Arabic_Persian/Portrait_JBS_Abdulaziz_bin_Saud_bin_Abdulaziz.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

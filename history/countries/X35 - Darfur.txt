@@ -125,8 +125,8 @@ add_ideas = {
 	culture_fur
 }
 create_country_leader = {
-	name = "Abdallahi El-Fadl"
-	desc = "POLITICS_ABDALLAHI_EL-FADL_DESC"
+	name = "Bush El-Fadl"
+	desc = "POLITICS_BUSH_EL-FADL_DESC"
 	picture = "gfx/leaders/African/Portrait_Mittelafrika_Achirimbi.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

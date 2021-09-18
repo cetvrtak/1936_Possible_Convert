@@ -88,8 +88,8 @@ add_ideas = {
 	culture_dutch
 }
 create_country_leader = {
-	name = "Paul Staal"
-	desc = "POLITICS_PAUL_STAAL_DESC"
+	name = "Hendrik Steltman"
+	desc = "POLITICS_HENDRIK_STELTMAN_DESC"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

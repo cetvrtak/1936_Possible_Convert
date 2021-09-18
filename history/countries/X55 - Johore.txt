@@ -134,8 +134,8 @@ add_ideas = {
 	culture_malay
 }
 create_country_leader = {
-	name = "Abdullah Bendahara"
-	desc = "POLITICS_ABDULLAH_BENDAHARA_DESC"
+	name = "Safiuddin Raja Inu"
+	desc = "POLITICS_SAFIUDDIN_RAJA INU_DESC"
 	picture = "gfx/leaders/Indo_Chinese_Nesia/Portrait_Malaya_Abdul_Rahman_Negeri_Sembilan.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

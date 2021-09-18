@@ -4849,243 +4849,243 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_W42_communism_advisor"
-		texturefile = "gfx/interface/ideas/idea_tur_nazim_hikmet.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_W42_democratic_advisor"
-		texturefile = "gfx/interface/ideas/idea_tur_celal_bayar.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_W42_neutrality_advisor"
-		texturefile = "gfx/interface/ideas/idea_tur_sukru_saracoglu.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_W42_absolutist_advisor"
-		texturefile = "gfx/interface/ideas/idea_generic_army_arab_1.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_W42_radical_advisor"
-		texturefile = "gfx/interface/ideas/idea_generic_fascist_arab.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_W42_fascism_advisor"
-		texturefile = "gfx/interface/ideas/idea_tur_zeki_velidi_togan.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_W43_communism_advisor"
 		texturefile = "gfx/interface/ideas/idea_ernst_thalmann.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W43_democratic_advisor"
+		name = "GFX_idea_W42_democratic_advisor"
 		texturefile = "gfx/interface/ideas/idea_kurt_schumacher.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W43_neutrality_advisor"
+		name = "GFX_idea_W42_neutrality_advisor"
 		texturefile = "gfx/interface/ideas/idea_albert_kesselring.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W43_absolutist_advisor"
+		name = "GFX_idea_W42_absolutist_advisor"
 		texturefile = "gfx/interface/ideas/idea_ger_wilhelm_iii.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W43_radical_advisor"
+		name = "GFX_idea_W42_radical_advisor"
 		texturefile = "gfx/interface/ideas/idea_hjalmar_schacht.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W43_fascism_advisor"
+		name = "GFX_idea_W42_fascism_advisor"
 		texturefile = "gfx/interface/ideas/idea_joseph_goebbels.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W44_communism_advisor"
+		name = "GFX_idea_W43_communism_advisor"
 		texturefile = "gfx/interface/ideas/idea_henri_giraud.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W44_democratic_advisor"
+		name = "GFX_idea_W43_democratic_advisor"
 		texturefile = "gfx/interface/ideas/idea_franz_halder.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W44_neutrality_advisor"
+		name = "GFX_idea_W43_neutrality_advisor"
 		texturefile = "gfx/interface/ideas/idea_erich_bey.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W44_absolutist_advisor"
+		name = "GFX_idea_W43_absolutist_advisor"
 		texturefile = "gfx/interface/ideas/idea_gerd_von_rundstedt.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W44_radical_advisor"
+		name = "GFX_idea_W43_radical_advisor"
 		texturefile = "gfx/interface/ideas/idea_hermann_gortz.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W44_fascism_advisor"
+		name = "GFX_idea_W43_fascism_advisor"
 		texturefile = "gfx/interface/ideas/idea_alfred_saalwachter.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W45_communism_advisor"
+		name = "GFX_idea_W44_communism_advisor"
 		texturefile = "gfx/interface/ideas/idea_martin_bormann.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W45_democratic_advisor"
+		name = "GFX_idea_W44_democratic_advisor"
 		texturefile = "gfx/interface/ideas/idea_ludwig_beck.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W45_neutrality_advisor"
+		name = "GFX_idea_W44_neutrality_advisor"
 		texturefile = "gfx/interface/ideas/idea_ritter_von_greim.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W45_absolutist_advisor"
+		name = "GFX_idea_W44_absolutist_advisor"
 		texturefile = "gfx/interface/ideas/idea_raeder.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W45_radical_advisor"
+		name = "GFX_idea_W44_radical_advisor"
 		texturefile = "gfx/interface/ideas/idea_robert_oppenheimer.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W45_fascism_advisor"
+		name = "GFX_idea_W44_fascism_advisor"
 		texturefile = "gfx/interface/ideas/idea_gunther_lutjens.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W46_communism_advisor"
+		name = "GFX_idea_W45_communism_advisor"
 		texturefile = "gfx/interface/ideas/idea_arthur_harris.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W46_democratic_advisor"
+		name = "GFX_idea_W45_democratic_advisor"
 		texturefile = "gfx/interface/ideas/idea_andrew_cunningham.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W46_neutrality_advisor"
+		name = "GFX_idea_W45_neutrality_advisor"
 		texturefile = "gfx/interface/ideas/idea_john_vereker.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W46_absolutist_advisor"
+		name = "GFX_idea_W45_absolutist_advisor"
 		texturefile = "gfx/interface/ideas/idea_louis_mountbatten.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W46_radical_advisor"
+		name = "GFX_idea_W45_radical_advisor"
 		texturefile = "gfx/interface/ideas/idea_archibald_wavell.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W46_fascism_advisor"
+		name = "GFX_idea_W45_fascism_advisor"
 		texturefile = "gfx/interface/ideas/idea_kenneth_anderson.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W47_communism_advisor"
+		name = "GFX_idea_W46_communism_advisor"
 		texturefile = "gfx/interface/ideas/idea_harry_pollitt.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W47_democratic_advisor"
+		name = "GFX_idea_W46_democratic_advisor"
 		texturefile = "gfx/interface/ideas/idea_clement_attlee.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W47_neutrality_advisor"
+		name = "GFX_idea_W46_neutrality_advisor"
 		texturefile = "gfx/interface/ideas/idea_bernard_montgomery.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W47_absolutist_advisor"
+		name = "GFX_idea_W46_absolutist_advisor"
 		texturefile = "gfx/interface/ideas/idea_king_edward.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W47_radical_advisor"
+		name = "GFX_idea_W46_radical_advisor"
 		texturefile = "gfx/interface/ideas/idea_alan_brooke.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W47_fascism_advisor"
+		name = "GFX_idea_W46_fascism_advisor"
 		texturefile = "gfx/interface/ideas/idea_john_beckett.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W48_communism_advisor"
+		name = "GFX_idea_W47_communism_advisor"
 		texturefile = "gfx/interface/ideas/idea_ferdinand_schorner.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W48_democratic_advisor"
+		name = "GFX_idea_W47_democratic_advisor"
 		texturefile = "gfx/interface/ideas/idea_carl_spaatz.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W48_neutrality_advisor"
+		name = "GFX_idea_W47_neutrality_advisor"
 		texturefile = "gfx/interface/ideas/idea_erhard_milch.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W48_absolutist_advisor"
+		name = "GFX_idea_W47_absolutist_advisor"
 		texturefile = "gfx/interface/ideas/idea_charles_huntziger.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W48_radical_advisor"
+		name = "GFX_idea_W47_radical_advisor"
 		texturefile = "gfx/interface/ideas/idea_ernst_udet.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W48_fascism_advisor"
+		name = "GFX_idea_W47_fascism_advisor"
 		texturefile = "gfx/interface/ideas/idea_donitz.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W49_communism_advisor"
+		name = "GFX_idea_W48_communism_advisor"
 		texturefile = "gfx/interface/ideas/idea_maurice_thorez.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W49_democratic_advisor"
+		name = "GFX_idea_W48_democratic_advisor"
 		texturefile = "gfx/interface/ideas/idea_leon_blum.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W49_neutrality_advisor"
+		name = "GFX_idea_W48_neutrality_advisor"
 		texturefile = "gfx/interface/ideas/idea_alfred_heurtaux.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W49_absolutist_advisor"
+		name = "GFX_idea_W48_absolutist_advisor"
 		texturefile = "gfx/interface/ideas/idea_charles_de_gaulle.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W49_radical_advisor"
+		name = "GFX_idea_W48_radical_advisor"
 		texturefile = "gfx/interface/ideas/idea_alphonse_georges.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W49_fascism_advisor"
+		name = "GFX_idea_W48_fascism_advisor"
 		texturefile = "gfx/interface/ideas/idea_marcel_bucard.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W50_communism_advisor"
+		name = "GFX_idea_W49_communism_advisor"
 		texturefile = "gfx/interface/ideas/idea_arthur_harris.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W50_democratic_advisor"
+		name = "GFX_idea_W49_democratic_advisor"
 		texturefile = "gfx/interface/ideas/idea_andrew_cunningham.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W50_neutrality_advisor"
+		name = "GFX_idea_W49_neutrality_advisor"
 		texturefile = "gfx/interface/ideas/idea_john_vereker.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W50_absolutist_advisor"
+		name = "GFX_idea_W49_absolutist_advisor"
 		texturefile = "gfx/interface/ideas/idea_louis_mountbatten.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W50_radical_advisor"
+		name = "GFX_idea_W49_radical_advisor"
 		texturefile = "gfx/interface/ideas/idea_archibald_wavell.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W50_fascism_advisor"
+		name = "GFX_idea_W49_fascism_advisor"
 		texturefile = "gfx/interface/ideas/idea_kenneth_anderson.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W51_communism_advisor"
+		name = "GFX_idea_W50_communism_advisor"
 		texturefile = "gfx/interface/ideas/idea_amadeo_bordiga.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W51_democratic_advisor"
+		name = "GFX_idea_W50_democratic_advisor"
 		texturefile = "gfx/interface/ideas/idea_ivanoe_bonomi.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W51_neutrality_advisor"
+		name = "GFX_idea_W50_neutrality_advisor"
 		texturefile = "gfx/interface/ideas/idea_alberto_da_zara.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W51_absolutist_advisor"
+		name = "GFX_idea_W50_absolutist_advisor"
 		texturefile = "gfx/interface/ideas/idea_victor_emmanuel.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W51_radical_advisor"
+		name = "GFX_idea_W50_radical_advisor"
 		texturefile = "gfx/interface/ideas/idea_alfredo_guzzoni.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W51_fascism_advisor"
+		name = "GFX_idea_W50_fascism_advisor"
 		texturefile = "gfx/interface/ideas/idea_carlo_scorza.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_W51_communism_advisor"
+		texturefile = "gfx/interface/ideas/idea_carlo_bergamini.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_W51_democratic_advisor"
+		texturefile = "gfx/interface/ideas/idea_arturo_riccardi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_W51_neutrality_advisor"
+		texturefile = "gfx/interface/ideas/idea_amedeo_mecozzi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_W51_absolutist_advisor"
+		texturefile = "gfx/interface/ideas/idea_giovanni_messe.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_W51_radical_advisor"
+		texturefile = "gfx/interface/ideas/idea_domenico_cavagnari.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_W51_fascism_advisor"
+		texturefile = "gfx/interface/ideas/idea_angelo_iachino.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_W52_communism_advisor"
@@ -5113,99 +5113,99 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_W53_communism_advisor"
-		texturefile = "gfx/interface/ideas/idea_carlo_bergamini.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_W53_democratic_advisor"
-		texturefile = "gfx/interface/ideas/idea_arturo_riccardi.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_W53_neutrality_advisor"
-		texturefile = "gfx/interface/ideas/idea_amedeo_mecozzi.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_W53_absolutist_advisor"
-		texturefile = "gfx/interface/ideas/idea_giovanni_messe.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_W53_radical_advisor"
-		texturefile = "gfx/interface/ideas/idea_domenico_cavagnari.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_W53_fascism_advisor"
-		texturefile = "gfx/interface/ideas/idea_angelo_iachino.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_W54_communism_advisor"
 		texturefile = "gfx/interface/ideas/idea_amadeo_bordiga.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W54_democratic_advisor"
+		name = "GFX_idea_W53_democratic_advisor"
 		texturefile = "gfx/interface/ideas/idea_ivanoe_bonomi.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W54_neutrality_advisor"
+		name = "GFX_idea_W53_neutrality_advisor"
 		texturefile = "gfx/interface/ideas/idea_alberto_da_zara.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W54_absolutist_advisor"
+		name = "GFX_idea_W53_absolutist_advisor"
 		texturefile = "gfx/interface/ideas/idea_victor_emmanuel.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W54_radical_advisor"
+		name = "GFX_idea_W53_radical_advisor"
 		texturefile = "gfx/interface/ideas/idea_alfredo_guzzoni.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W54_fascism_advisor"
+		name = "GFX_idea_W53_fascism_advisor"
 		texturefile = "gfx/interface/ideas/idea_carlo_scorza.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W55_communism_advisor"
+		name = "GFX_idea_W54_communism_advisor"
 		texturefile = "gfx/interface/ideas/idea_dolores_ibarruri.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W55_democratic_advisor"
+		name = "GFX_idea_W54_democratic_advisor"
 		texturefile = "gfx/interface/ideas/idea_ettore_muti.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W55_neutrality_advisor"
+		name = "GFX_idea_W54_neutrality_advisor"
 		texturefile = "gfx/interface/ideas/idea_emilio_de_bono.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W55_absolutist_advisor"
+		name = "GFX_idea_W54_absolutist_advisor"
 		texturefile = "gfx/interface/ideas/idea_francisco_franco.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W55_radical_advisor"
+		name = "GFX_idea_W54_radical_advisor"
 		texturefile = "gfx/interface/ideas/idea_francesco_pricolo.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W55_fascism_advisor"
+		name = "GFX_idea_W54_fascism_advisor"
 		texturefile = "gfx/interface/ideas/idea_gaetano_crocco.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W56_communism_advisor"
+		name = "GFX_idea_W55_communism_advisor"
 		texturefile = "gfx/interface/ideas/idea_nikita_khrushchev.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W56_democratic_advisor"
+		name = "GFX_idea_W55_democratic_advisor"
 		texturefile = "gfx/interface/ideas/idea_alexander_kerensky.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W56_neutrality_advisor"
+		name = "GFX_idea_W55_neutrality_advisor"
 		texturefile = "gfx/interface/ideas/idea_alexander_novikov.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W56_absolutist_advisor"
+		name = "GFX_idea_W55_absolutist_advisor"
 		texturefile = "gfx/interface/ideas/idea_aleksandr_vasilevsky.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W56_radical_advisor"
+		name = "GFX_idea_W55_radical_advisor"
 		texturefile = "gfx/interface/ideas/idea_alexander_golovanov.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W56_fascism_advisor"
+		name = "GFX_idea_W55_fascism_advisor"
 		texturefile = "gfx/interface/ideas/idea_konstantin_rodzaevsky.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_W56_communism_advisor"
+		texturefile = "gfx/interface/ideas/idea_carlo_bergamini.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_W56_democratic_advisor"
+		texturefile = "gfx/interface/ideas/idea_arturo_riccardi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_W56_neutrality_advisor"
+		texturefile = "gfx/interface/ideas/idea_amedeo_mecozzi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_W56_absolutist_advisor"
+		texturefile = "gfx/interface/ideas/idea_giovanni_messe.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_W56_radical_advisor"
+		texturefile = "gfx/interface/ideas/idea_domenico_cavagnari.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_W56_fascism_advisor"
+		texturefile = "gfx/interface/ideas/idea_angelo_iachino.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_W57_communism_advisor"
@@ -5233,51 +5233,27 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_W58_communism_advisor"
-		texturefile = "gfx/interface/ideas/idea_carlo_bergamini.dds"
+		texturefile = "gfx/interface/ideas/idea_tur_nazim_hikmet.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_W58_democratic_advisor"
-		texturefile = "gfx/interface/ideas/idea_arturo_riccardi.dds"
+		texturefile = "gfx/interface/ideas/idea_tur_celal_bayar.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_W58_neutrality_advisor"
-		texturefile = "gfx/interface/ideas/idea_amedeo_mecozzi.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_W58_absolutist_advisor"
-		texturefile = "gfx/interface/ideas/idea_giovanni_messe.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_W58_radical_advisor"
-		texturefile = "gfx/interface/ideas/idea_domenico_cavagnari.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_W58_fascism_advisor"
-		texturefile = "gfx/interface/ideas/idea_angelo_iachino.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_W59_communism_advisor"
-		texturefile = "gfx/interface/ideas/idea_generic_communist_arab.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_W59_democratic_advisor"
-		texturefile = "gfx/interface/ideas/idea_sabiha_gocen.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_W59_neutrality_advisor"
 		texturefile = "gfx/interface/ideas/idea_tur_sukru_saracoglu.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W59_absolutist_advisor"
+		name = "GFX_idea_W58_absolutist_advisor"
 		texturefile = "gfx/interface/ideas/idea_generic_army_arab_1.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W59_radical_advisor"
+		name = "GFX_idea_W58_radical_advisor"
 		texturefile = "gfx/interface/ideas/idea_generic_fascist_arab.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_W59_fascism_advisor"
-		texturefile = "gfx/interface/ideas/idea_generic_fascist_arab.dds"
+		name = "GFX_idea_W58_fascism_advisor"
+		texturefile = "gfx/interface/ideas/idea_tur_zeki_velidi_togan.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_WLL_communism_advisor"

@@ -136,8 +136,8 @@ add_ideas = {
 	culture_bambara
 }
 create_country_leader = {
-	name = "Kaladian Bari"
-	desc = "POLITICS_KALADIAN_BARI_DESC"
+	name = "Kuma Koro"
+	desc = "POLITICS_KUMA_KORO_DESC"
 	picture = "gfx/leaders/African/Portrait_ERT_Sellasie.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

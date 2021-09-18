@@ -4,7 +4,7 @@ state={
 	name="STATE_606"
 
 	history={
-		owner = W57
+		owner = W56
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 0
@@ -17,7 +17,7 @@ state={
 		}
 		add_core_of = PHI
 		add_core_of = W20
-		add_core_of = W57
+		add_core_of = W56
 	}
 
 	provinces={

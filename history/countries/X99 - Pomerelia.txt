@@ -99,8 +99,8 @@ add_ideas = {
 	culture_polish
 }
 create_country_leader = {
-	name = "Zygmunt Fabryvy"
-	desc = "POLITICS_ZYGMUNT_FABRYVY_DESC"
+	name = "Aleksander Rydz-Smigly"
+	desc = "POLITICS_ALEKSANDER_RYDZ-SMIGLY_DESC"
 	picture = "gfx/leaders/SOV/Portrait_Soviet_Victor_Baydalakov.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

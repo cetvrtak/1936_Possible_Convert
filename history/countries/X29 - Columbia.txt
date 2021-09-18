@@ -94,8 +94,8 @@ add_ideas = {
 	culture_anglo_canadian
 }
 create_country_leader = {
-	name = "Arthur Grey"
-	desc = "POLITICS_ARTHUR_GREY_DESC"
+	name = "Leonard Stanley"
+	desc = "POLITICS_LEONARD_STANLEY_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_6.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology

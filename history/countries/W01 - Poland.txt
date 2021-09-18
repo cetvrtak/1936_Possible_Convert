@@ -97,8 +97,8 @@ add_ideas = {
 	culture_polish
 }
 create_country_leader = {
-	name = "Michal Dabrowski"
-	desc = "POLITICS_MICHAL_DABROWSKI_DESC"
+	name = "Jakub Poniatowski"
+	desc = "POLITICS_JAKUB_PONIATOWSKI_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = minarchism

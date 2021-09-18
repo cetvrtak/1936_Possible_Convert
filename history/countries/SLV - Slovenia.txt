@@ -78,8 +78,8 @@ add_ideas = {
 	culture_slovene
 }
 create_country_leader = {
-	name = "Andrej Urbancic"
-	desc = "POLITICS_ANDREJ_URBANCIC_DESC"
+	name = "Toncka Lipuscek"
+	desc = "POLITICS_TONCKA_LIPUSCEK_DESC"
 	picture = "gfx/leaders/BUL/Portrait_Bulgaria_Boris_III.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

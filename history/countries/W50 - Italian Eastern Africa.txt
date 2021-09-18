@@ -1,30 +1,43 @@
-﻿capital = 653
+﻿capital = 346
 set_research_slots = 3
 
-declare_war_on = {
-	target = TUR
-	type = civil_war
-}
-add_civil_war_target = TUR
-
-oob = "W42_OOB"
+oob = "W50_OOB"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "W42_1936_naval_mtg"
+		set_naval_oob = "W50_1936_naval_mtg"
 	else = { 
-		set_naval_oob = "W42_1936_naval_legacy"
+		set_naval_oob = "W50_1936_naval_legacy"
 	}
 }
 
 # Starting tech
 set_technology = {
+	basic_light_tank = 1
 	early_bomber = 1
 	early_fighter = 1
 	fuel_refining = 1
 	fuel_silos = 1
 	gw_artillery = 1
+	gwtank = 1
+	improved_light_tank = 1
 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
+	marines = 1
+	motorised_infantry = 1
+	support_weapons = 1
+	synth_oil_experiments = 1
+	tech_engineers = 1
+	tech_recon = 1
 	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "La Resistance" }
+	set_technology = {
+		armored_car1 = 1
+	}
 }
 
 if = {
@@ -34,7 +47,10 @@ if = {
 		basic_naval_mines = 1
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
 		early_ship_hull_light = 1
+		improved_airplane_launcher = 1
+		mtg_transport = 1
 	}
 }
 
@@ -51,37 +67,50 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_eastern_africa
 set_convoys = 0
 
 
 set_politics = {
-    ruling_party = neutrality
+    ruling_party = democratic
     last_election = "1932.12.16"
     election_frequency = 48
-    elections_allowed = no
+    elections_allowed = yes
 }
 
 set_popularities = {
-	neutrality = 100
+	absolutist = 0
+	communism = 5
+	democratic = 86
+	fascism = 4
+	neutrality = 3
+	radical = 2
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = ITA_research
 }
 
 
 
 add_ideas = {
-	TUR_monarch
-	volunteer_only
+	ITA_monarch
+	limited_conscription
 	civilian_economy
 	export_focus
-	culture_turkish
+	culture_north_italian
 }
 set_stability = 0.60
-set_war_support = 0.60
+set_war_support = 0.61
 create_country_leader = {
-	name = "Kazim Pasha"
-	desc = "POLITICS_KAZIM_PASHA_DESC"
-	picture = "gfx/leaders/KAZ/portrait_kaz_ilyas_zhansugurov.dds"
+	name = "Ferdinando Sanna"
+	desc = "POLITICS_FERDINANDO_SANNA_DESC"
+	picture = "gfx/leaders/Mediterranean/Portrait_SRI_Giacomo_Matteotti.tga"
 	expire = "1965.1.1"
-	ideology = anarchism
+	ideology = liberalism
 	traits = {
 	}
 }
@@ -90,117 +119,13 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Özgul Pasha"
-		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		name = "Maria Porro"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		female = yes
-		nationalities = { W42 }
-	}
-
-	create_operative_leader = {
-		name = "Çiçek Pasha"
-		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		female = yes
-		nationalities = { W42 }
-	}
-
-	create_operative_leader = {
-		name = "Çilen Bey"
-		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		female = yes
-		nationalities = { W42 }
-	}
-
-	create_operative_leader = {
-		name = "Çiçek Bey"
-		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_4.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		female = yes
-		nationalities = { W42 }
-	}
-
-	create_operative_leader = {
-		name = "Akgul Pasha"
-		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_5.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		female = yes
-		nationalities = { W42 }
-	}
-
-	create_operative_leader = {
-		name = "Akgul Pasha"
-		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_6.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		female = yes
-		nationalities = { W42 }
-	}
-
-	create_operative_leader = {
-		name = "Talat Bey"
-		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { W42 }
-	}
-
-	create_operative_leader = {
-		name = "Bekir Bey"
-		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { W42 }
-	}
-
-	create_operative_leader = {
-		name = "Halil Bey"
-		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { W42 }
-	}
-
-	create_operative_leader = {
-		name = "Bekir Pasha"
-		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { W42 }
-	}
-
-	create_operative_leader = {
-		name = "Bekir Pasha"
-		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { W42 }
-	}
-
-	create_operative_leader = {
-		name = "Fahri Bey"
-		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { W42 }
+		nationalities = {  }
 	}
 
 }
@@ -266,9 +191,28 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	create_equipment_variant = {
+		name = "Early Battleship"
+		type = ship_hull_heavy_1
+		name_group = W50_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_heavy_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
 		name = "Early Destroyer"
 		type = ship_hull_light_1
-		name_group = W42_DD_HISTORICAL
+		name_group = W50_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -284,7 +228,7 @@ if = {
 	create_equipment_variant = {
 		name = "Early Heavy Cruiser"
 		type = ship_hull_cruiser_1
-		name_group = W42_CA_HISTORICAL
+		name_group = W50_CA_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -302,7 +246,7 @@ if = {
 	create_equipment_variant = {
 		name = "Early Light Cruiser"
 		type = ship_hull_cruiser_1
-		name_group = W42_CL_HISTORICAL
+		name_group = W50_CL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1

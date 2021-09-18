@@ -126,8 +126,8 @@ add_ideas = {
 	culture_maori
 }
 create_country_leader = {
-	name = "Rangi-Kahu Raouparah"
-	desc = "POLITICS_RANGI-KAHU_RAOUPARAH_DESC"
+	name = "Te Rata Ataarangikaahu"
+	desc = "POLITICS_TE RATA_ATAARANGIKAAHU_DESC"
 	picture = "gfx/leaders/Aborigine_Polynesia/Portrait_HAW_jonah_kuhio.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

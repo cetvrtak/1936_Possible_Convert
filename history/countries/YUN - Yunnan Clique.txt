@@ -135,8 +135,8 @@ add_ideas = {
 	culture_nanfaren
 }
 create_country_leader = {
-	name = "Liang Dong"
-	desc = "POLITICS_LIANG_DONG_DESC"
+	name = "Hu Tian"
+	desc = "POLITICS_HU_TIAN_DESC"
 	picture = "gfx/leaders/CHI/portrait_prc_mao_zedong.dds"
 	expire = "1965.1.1"
 	ideology = leninism

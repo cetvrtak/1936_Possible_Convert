@@ -135,8 +135,8 @@ add_ideas = {
 	culture_fulbe
 }
 create_country_leader = {
-	name = "Yusufu Fodio"
-	desc = "POLITICS_YUSUFU_FODIO_DESC"
+	name = "Balobo Amadu"
+	desc = "POLITICS_BALOBO_AMADU_DESC"
 	picture = "gfx/leaders/African/Portrait_SOM_Cismaan_III_Maxamuud.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

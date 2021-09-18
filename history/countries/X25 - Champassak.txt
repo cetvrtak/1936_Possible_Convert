@@ -124,8 +124,8 @@ add_ideas = {
 	culture_lao
 }
 create_country_leader = {
-	name = "Nanthasen Anuvong"
-	desc = "POLITICS_NANTHASEN_ANUVONG_DESC"
+	name = "Chantha Bun"
+	desc = "POLITICS_CHANTHA_BUN_DESC"
 	picture = "gfx/leaders/Indo_Chinese_Nesia/Portrait_Indonesia_Hamengkubuwono_IX.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

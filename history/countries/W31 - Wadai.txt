@@ -125,8 +125,8 @@ add_ideas = {
 	culture_fur
 }
 create_country_leader = {
-	name = "Ahmad Badl"
-	desc = "POLITICS_AHMAD_BADL_DESC"
+	name = "Ali Badl"
+	desc = "POLITICS_ALI_BADL_DESC"
 	picture = "gfx/leaders/African/Portrait_KTG_Mabumba_Kitanika.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

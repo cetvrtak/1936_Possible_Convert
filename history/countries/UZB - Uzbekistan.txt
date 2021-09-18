@@ -117,8 +117,8 @@ add_ideas = {
 	culture_uzbek
 }
 create_country_leader = {
-	name = "Husayn Bahadur"
-	desc = "POLITICS_HUSAYN_BAHADUR_DESC"
+	name = "Khudayar Bahadur"
+	desc = "POLITICS_KHUDAYAR_BAHADUR_DESC"
 	picture = "gfx/leaders/YEM/portrait_yem_imam_yaha.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

@@ -87,8 +87,8 @@ add_ideas = {
 	culture_kirgiz
 }
 create_country_leader = {
-	name = "Nasiridin Beg"
-	desc = "POLITICS_NASIRIDIN_BEG_DESC"
+	name = "Ishim Beg"
+	desc = "POLITICS_ISHIM_BEG_DESC"
 	picture = "gfx/leaders/IRQ/portrait_irq_ghazi.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = W47
+		owner = W46
 		victory_points = {
 			1403 10 
 		}
@@ -24,7 +24,7 @@ state={
 
 		}
 		add_core_of = BRM
-		add_core_of = W47
+		add_core_of = W46
 	}
 
 	provinces={

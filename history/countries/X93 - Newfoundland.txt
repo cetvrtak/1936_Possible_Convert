@@ -152,8 +152,8 @@ add_ideas = {
 	culture_anglo_canadian
 }
 create_country_leader = {
-	name = "Victor Petty-Fitzmaurice"
-	desc = "POLITICS_VICTOR_PETTY-FITZMAURICE_DESC"
+	name = "James Doyle"
+	desc = "POLITICS_JAMES_DOYLE_DESC"
 	picture = "gfx/leaders/AST/Portrait_Australia_John_Curtin.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

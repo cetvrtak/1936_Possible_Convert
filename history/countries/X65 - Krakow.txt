@@ -130,8 +130,8 @@ add_ideas = {
 	culture_polish
 }
 create_country_leader = {
-	name = "Leopold Sowinski"
-	desc = "POLITICS_LEOPOLD_SOWINSKI_DESC"
+	name = "Michal Poniatowski"
+	desc = "POLITICS_MICHAL_PONIATOWSKI_DESC"
 	picture = "gfx/leaders/POL/Portrait_POL_Wincenty_Witos.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

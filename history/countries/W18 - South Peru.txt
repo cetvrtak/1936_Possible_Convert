@@ -127,8 +127,8 @@ add_ideas = {
 	culture_south_andean
 }
 create_country_leader = {
-	name = "Eduardo Echenique"
-	desc = "POLITICS_EDUARDO_ECHENIQUE_DESC"
+	name = "Ismael Zapata"
+	desc = "POLITICS_ISMAEL_ZAPATA_DESC"
 	picture = "gfx/leaders/Hispanic/Portrait_Bolivia_Enrique_Castillo.tga"
 	expire = "1965.1.1"
 	ideology = dictatorship_neutral

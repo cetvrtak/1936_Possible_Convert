@@ -78,8 +78,8 @@ add_ideas = {
 	culture_wallonian
 }
 create_country_leader = {
-	name = "Georges de Ligne"
-	desc = "POLITICS_GEORGES_DE LIGNE_DESC"
+	name = "Alexandre Raikem"
+	desc = "POLITICS_ALEXANDRE_RAIKEM_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Britain_George_VI.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

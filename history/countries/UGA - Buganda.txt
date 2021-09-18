@@ -95,8 +95,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Eduard von Wrangel"
-	desc = "POLITICS_EDUARD_VON WRANGEL_DESC"
+	name = "Erwin von Bülow"
+	desc = "POLITICS_ERWIN_VON BüLOW_DESC"
 	picture = "gfx/leaders/NZL/Portrait_NewZealand_Peter_Fraser.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

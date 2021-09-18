@@ -79,8 +79,8 @@ add_ideas = {
 	culture_armenian
 }
 create_country_leader = {
-	name = "Deran Mardvian"
-	desc = "POLITICS_DERAN_MARDVIAN_DESC"
+	name = "Soghomon Dombalagian"
+	desc = "POLITICS_SOGHOMON_DOMBALAGIAN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_europe_generic_7.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

@@ -95,8 +95,8 @@ add_ideas = {
 	culture_lunda
 }
 create_country_leader = {
-	name = "Waranankong Naweej"
-	desc = "POLITICS_WARANANKONG_NAWEEJ_DESC"
+	name = "Cakasekene Yaava"
+	desc = "POLITICS_CAKASEKENE_YAAVA_DESC"
 	picture = "gfx/leaders/African/Portrait_NAM_Otto_Schimming.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

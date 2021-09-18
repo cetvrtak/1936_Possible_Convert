@@ -135,8 +135,8 @@ add_ideas = {
 	culture_mande
 }
 create_country_leader = {
-	name = "Kaleefa Diawara"
-	desc = "POLITICS_KALEEFA_DIAWARA_DESC"
+	name = "Aoua Sidibe"
+	desc = "POLITICS_AOUA_SIDIBE_DESC"
 	picture = "gfx/leaders/African/Portrait_SOM_Ali_Shire.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

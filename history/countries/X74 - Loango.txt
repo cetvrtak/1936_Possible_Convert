@@ -135,8 +135,8 @@ add_ideas = {
 	culture_bakongo
 }
 create_country_leader = {
-	name = "Poaty Mpanzu"
-	desc = "POLITICS_POATY_MPANZU_DESC"
+	name = "Loembe Mvemba"
+	desc = "POLITICS_LOEMBE_MVEMBA_DESC"
 	picture = "gfx/leaders/African/Portrait_KTG_Mabumba_Kitanika.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

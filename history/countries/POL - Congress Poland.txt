@@ -98,8 +98,8 @@ add_ideas = {
 	culture_polish
 }
 create_country_leader = {
-	name = "Lech Sowinski"
-	desc = "POLITICS_LECH_SOWINSKI_DESC"
+	name = "Gustaw Krukowiecki"
+	desc = "POLITICS_GUSTAW_KRUKOWIECKI_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

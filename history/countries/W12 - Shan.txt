@@ -124,8 +124,8 @@ add_ideas = {
 	culture_shan
 }
 create_country_leader = {
-	name = "Hpo Kaw"
-	desc = "POLITICS_HPO_KAW_DESC"
+	name = "Lun Thi"
+	desc = "POLITICS_LUN_THI_DESC"
 	picture = "gfx/leaders/Indo_Chinese_Nesia/Portrait_Shan_Sao_Shwe_Thaik.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

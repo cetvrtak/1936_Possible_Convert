@@ -125,8 +125,8 @@ add_ideas = {
 	culture_kanuri
 }
 create_country_leader = {
-	name = "Ibrahim Dalatumi"
-	desc = "POLITICS_IBRAHIM_DALATUMI_DESC"
+	name = "Umar Sayfawa"
+	desc = "POLITICS_UMAR_SAYFAWA_DESC"
 	picture = "gfx/leaders/ETH/Portrait_Ethiopia_Haile_Selassie.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

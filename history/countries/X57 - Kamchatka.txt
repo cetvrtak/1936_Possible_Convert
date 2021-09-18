@@ -80,8 +80,8 @@ add_ideas = {
 	culture_siberian
 }
 create_country_leader = {
-	name = "Sihabetdin Shaimiev"
-	desc = "POLITICS_SIHABETDIN_SHAIMIEV_DESC"
+	name = "Diniyar Shchapov"
+	desc = "POLITICS_DINIYAR_SHCHAPOV_DESC"
 	picture = "gfx/leaders/NEP/portrait_nep_juddah_rana.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

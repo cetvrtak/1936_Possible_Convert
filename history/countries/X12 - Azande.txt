@@ -95,8 +95,8 @@ add_ideas = {
 	culture_azande
 }
 create_country_leader = {
-	name = "Ngabwe Nabushi"
-	desc = "POLITICS_NGABWE_NABUSHI_DESC"
+	name = "Birhenjira Ntayitunda"
+	desc = "POLITICS_BIRHENJIRA_NTAYITUNDA_DESC"
 	picture = "gfx/leaders/African/Portrait_SUD_Abd_Mahdi.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

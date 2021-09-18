@@ -144,8 +144,8 @@ add_ideas = {
 	culture_kannada
 }
 create_country_leader = {
-	name = "Amoghavarasha Rani"
-	desc = "POLITICS_AMOGHAVARASHA_RANI_DESC"
+	name = "Aliya Rani"
+	desc = "POLITICS_ALIYA_RANI_DESC"
 	picture = "gfx/leaders/Indian/Portrait_Burma_Ba_Cho.tga"
 	expire = "1965.1.1"
 	ideology = leninism

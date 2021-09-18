@@ -146,8 +146,8 @@ add_ideas = {
 	culture_rajput
 }
 create_country_leader = {
-	name = "Rai Kunwar"
-	desc = "POLITICS_RAI_KUNWAR_DESC"
+	name = "Fateh Bachittar Singh"
+	desc = "POLITICS_FATEH_BACHITTAR SINGH_DESC"
 	picture = "gfx/leaders/Indian/Portrait_PRF_Balarama_Varma_of_Travancore.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

@@ -126,8 +126,8 @@ add_ideas = {
 	culture_caribeno
 }
 create_country_leader = {
-	name = "Ramón Cabral"
-	desc = "POLITICS_RAMóN_CABRAL_DESC"
+	name = "Benigno Cisneros"
+	desc = "POLITICS_BENIGNO_CISNEROS_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_6.dds"
 	expire = "1965.1.1"
 	ideology = dictatorship_neutral

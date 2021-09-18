@@ -125,8 +125,8 @@ add_ideas = {
 	culture_bihari
 }
 create_country_leader = {
-	name = "Mahavira Jarasandh"
-	desc = "POLITICS_MAHAVIRA_JARASANDH_DESC"
+	name = "Samudragupta Mishra"
+	desc = "POLITICS_SAMUDRAGUPTA_MISHRA_DESC"
 	picture = "gfx/leaders/Indian/Portrait_PRF_Bhupinder_Singh.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

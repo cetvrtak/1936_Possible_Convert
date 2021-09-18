@@ -1,12 +1,12 @@
-﻿capital = 245
+﻿capital = 255
 set_research_slots = 3
 
-oob = "W45_OOB"
+oob = "W46_OOB"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "W45_1936_naval_mtg"
+		set_naval_oob = "W46_1936_naval_mtg"
 	else = { 
-		set_naval_oob = "W45_1936_naval_legacy"
+		set_naval_oob = "W46_1936_naval_legacy"
 	}
 }
 
@@ -93,7 +93,7 @@ add_tech_bonus = { name = air_doc_bonus bonus = 1000 uses = 1 category = air_doc
 add_tech_bonus = { name = land_doc_bonus bonus = 1000 uses = 1 category = land_doctrine }
 add_tech_bonus = { name = naval_doc_bonus bonus = 1000 uses = 1 category = naval_doctrine }
 
-set_country_flag = conv_northern_africa
+set_country_flag = conv_southeast_asia
 set_convoys = 0
 
 
@@ -131,9 +131,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.48
 create_country_leader = {
-	name = "Edwin von Hannover"
-	desc = "POLITICS_EDWIN_VON HANNOVER_DESC"
-	picture = "gfx/leaders/USA/Portrait_USA_Wendell_Willkie.dds"
+	name = "Alexander Groener"
+	desc = "POLITICS_ALEXANDER_GROENER_DESC"
+	picture = "gfx/leaders/Western_European/Portrait_USA_John_Nance_Garner.tga"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
@@ -144,7 +144,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Marie Droste"
+		name = "Jessica von Fritsch"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -218,7 +218,7 @@ if = {
 	create_equipment_variant = {
 		name = "1936 Battleship"
 		type = ship_hull_heavy_2
-		name_group = W45_BB_HISTORICAL
+		name_group = W46_BB_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -237,7 +237,7 @@ if = {
 	create_equipment_variant = {
 		name = "1936 Destroyer"
 		type = ship_hull_light_2
-		name_group = W45_DD_HISTORICAL
+		name_group = W46_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_2
@@ -253,7 +253,7 @@ if = {
 	create_equipment_variant = {
 		name = "1936 Heavy Cruiser"
 		type = ship_hull_cruiser_2
-		name_group = W45_CA_HISTORICAL
+		name_group = W46_CA_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -271,7 +271,7 @@ if = {
 	create_equipment_variant = {
 		name = "1936 Light Cruiser"
 		type = ship_hull_cruiser_2
-		name_group = W45_CL_HISTORICAL
+		name_group = W46_CL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -289,7 +289,7 @@ if = {
 	create_equipment_variant = {
 		name = "1936 Submarine"
 		type = ship_hull_submarine_2
-		name_group = W45_SS_HISTORICAL
+		name_group = W46_SS_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_engine_slot = sub_ship_engine_2

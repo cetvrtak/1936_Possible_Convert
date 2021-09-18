@@ -136,8 +136,8 @@ add_ideas = {
 	culture_yoruba
 }
 create_country_leader = {
-	name = "Ademufekun Dudu"
-	desc = "POLITICS_ADEMUFEKUN_DUDU_DESC"
+	name = "Adelu Tofa"
+	desc = "POLITICS_ADELU_TOFA_DESC"
 	picture = "gfx/leaders/Arabic_Persian/Portrait_YEM_Ahmad_bin_Yahya.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

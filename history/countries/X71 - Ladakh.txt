@@ -125,8 +125,8 @@ add_ideas = {
 	culture_tibetan
 }
 create_country_leader = {
-	name = "Tsepon Dzasa"
-	desc = "POLITICS_TSEPON_DZASA_DESC"
+	name = "Mipham Lungshar"
+	desc = "POLITICS_MIPHAM_LUNGSHAR_DESC"
 	picture = "gfx/leaders/Asian_Steppe/portrait_MON_Gengis_Khan.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

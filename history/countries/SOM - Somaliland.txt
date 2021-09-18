@@ -136,8 +136,8 @@ add_ideas = {
 	culture_somali
 }
 create_country_leader = {
-	name = "Ali Afrah"
-	desc = "POLITICS_ALI_AFRAH_DESC"
+	name = "Mohamud Gurey"
+	desc = "POLITICS_MOHAMUD_GUREY_DESC"
 	picture = "gfx/leaders/African/Portrait_KBR_Shehu_Masta_II.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

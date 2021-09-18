@@ -95,8 +95,8 @@ add_ideas = {
 	culture_british
 }
 create_country_leader = {
-	name = "David Roberts"
-	desc = "POLITICS_DAVID_ROBERTS_DESC"
+	name = "Alexander Dundas"
+	desc = "POLITICS_ALEXANDER_DUNDAS_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

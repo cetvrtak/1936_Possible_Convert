@@ -467,7 +467,6 @@ tag_mscne= {
 		tag = W56
 		tag = W57
 		tag = W58
-		tag = W59
 		tag = WLS
 		tag = X12
 		tag = X15

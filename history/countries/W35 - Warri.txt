@@ -136,8 +136,8 @@ add_ideas = {
 	culture_itsekari
 }
 create_country_leader = {
-	name = "Ewenetem Udene"
-	desc = "POLITICS_EWENETEM_UDENE_DESC"
+	name = "Jiofo Udene"
+	desc = "POLITICS_JIOFO_UDENE_DESC"
 	picture = "gfx/leaders/African/Portrait_KTG_Mabumba_Kitanika.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

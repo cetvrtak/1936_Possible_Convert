@@ -87,8 +87,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Pascal zur Lippe"
-	desc = "POLITICS_PASCAL_ZUR LIPPE_DESC"
+	name = "Adelbert von Roon"
+	desc = "POLITICS_ADELBERT_VON ROON_DESC"
 	picture = "gfx/leaders/AST/Portrait_Australia_John_Curtin.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

@@ -1,6 +1,11 @@
 ﻿capital = 629
 set_research_slots = 3
 
+declare_war_on = {
+	target = SYR
+	type = annex_everything
+}
+
 oob = "TUR_OOB"
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -78,13 +83,13 @@ if = {
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = W59
+        target = W58
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     else = {
         puppet = MAC
-        puppet = W59
+        puppet = W58
     }
 }
 
@@ -186,8 +191,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Kemal Bey"
-	desc = "POLITICS_KEMAL_BEY_DESC"
+	name = "Daud Bey"
+	desc = "POLITICS_DAUD_BEY_DESC"
 	picture = "gfx/leaders/KUR/portrait_kur_seyid_riza.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

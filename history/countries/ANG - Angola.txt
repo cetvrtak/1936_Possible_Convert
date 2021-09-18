@@ -98,8 +98,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Peter von Hindenburg"
-	desc = "POLITICS_PETER_VON HINDENBURG_DESC"
+	name = "Stefan Herwarth von Bittenfeld"
+	desc = "POLITICS_STEFAN_HERWARTH VON BITTENFELD_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = dictatorship_neutral

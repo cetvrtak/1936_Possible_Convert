@@ -123,8 +123,8 @@ add_ideas = {
 	culture_min
 }
 create_country_leader = {
-	name = "Lin Fu"
-	desc = "POLITICS_LIN_FU_DESC"
+	name = "Wong Sen"
+	desc = "POLITICS_WONG_SEN_DESC"
 	picture = "gfx/leaders/CHI/Portrait_China_Mao_Zedong.dds"
 	expire = "1965.1.1"
 	ideology = leninism

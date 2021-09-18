@@ -126,8 +126,8 @@ add_ideas = {
 	culture_dixie
 }
 create_country_leader = {
-	name = "Ezra Johnson"
-	desc = "POLITICS_EZRA_JOHNSON_DESC"
+	name = "Albert Lee"
+	desc = "POLITICS_ALBERT_LEE_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = minarchism

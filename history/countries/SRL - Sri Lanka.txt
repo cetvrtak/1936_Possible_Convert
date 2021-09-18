@@ -125,8 +125,8 @@ add_ideas = {
 	culture_sinhala
 }
 create_country_leader = {
-	name = "Vikrama Rajasimha"
-	desc = "POLITICS_VIKRAMA_RAJASIMHA_DESC"
+	name = "Kirtisri Rajadhirajasimha"
+	desc = "POLITICS_KIRTISRI_RAJADHIRAJASIMHA_DESC"
 	picture = "gfx/leaders/Indian/Portrait_MYS_Krishna_Wadiyar.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

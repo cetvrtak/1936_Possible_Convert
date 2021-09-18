@@ -95,8 +95,8 @@ add_ideas = {
 	culture_central_american
 }
 create_country_leader = {
-	name = "José María Barahona"
-	desc = "POLITICS_JOSé MARíA_BARAHONA_DESC"
+	name = "Manuel Soto"
+	desc = "POLITICS_MANUEL_SOTO_DESC"
 	picture = "gfx/leaders/HON/portrait_hon_tiburcio_carias_andino.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

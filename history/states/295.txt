@@ -4,7 +4,7 @@ state={
 	name="STATE_295"
 
 	history={
-		owner = W46
+		owner = W45
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 0
@@ -13,7 +13,7 @@ state={
 
 		}
 		add_core_of = RAJ
-		add_core_of = W46
+		add_core_of = W45
 		add_claim_by = NEP
 		add_claim_by = PAK
 	}

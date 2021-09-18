@@ -127,8 +127,8 @@ add_ideas = {
 	culture_ainu
 }
 create_country_leader = {
-	name = "Pasekur Shakushine"
-	desc = "POLITICS_PASEKUR_SHAKUSHINE_DESC"
+	name = "Apniainu Keutoranke"
+	desc = "POLITICS_APNIAINU_KEUTORANKE_DESC"
 	picture = "gfx/leaders/Korean_Japan/Yi_Un.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

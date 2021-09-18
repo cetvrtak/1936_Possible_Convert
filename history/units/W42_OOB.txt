@@ -190,7 +190,7 @@ division_template = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_0
+			type = infantry_equipment_1
 			creator = "W42"
 		}
 		requested_factories = 5
@@ -208,7 +208,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = fighter_equipment_0
+			type = fighter_equipment_1
 			creator = "W42"
 		}
 		requested_factories = 5
@@ -226,67 +226,4 @@ instant_effect = {
 	}
 }
 units = {
-	division = {
-		name = "1. Light Infantry Division"
-		location = 4550
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.0
-		start_equipment_factor = 0.5
-	}
-	division = {
-		name = "2. Light Infantry Division"
-		location = 4550
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.0
-		start_equipment_factor = 0.9
-	}
-	division = {
-		name = "3. Light Infantry Division"
-		location = 4550
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.0
-		start_equipment_factor = 0.3
-	}
-	division = {
-		name = "4. Light Infantry Division"
-		location = 4550
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.0
-		start_equipment_factor = 0.0
-	}
-	division = {
-		name = "5. Light Infantry Division"
-		location = 4550
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.0
-		start_equipment_factor = 0.2
-	}
-	division = {
-		name = "1. Light Infantry Brigade"
-		location = 4550
-		division_template = "Light Infantry Brigade"
-		start_experience_factor = 0.0
-		start_equipment_factor = 0.7
-	}
-	division = {
-		name = "2. Light Infantry Brigade"
-		location = 4550
-		division_template = "Light Infantry Brigade"
-		start_experience_factor = 0.0
-		start_equipment_factor = 0.5
-	}
-	division = {
-		name = "1. Cavalry Brigade"
-		location = 4550
-		division_template = "Cavalry Brigade"
-		start_experience_factor = 0.0
-		start_equipment_factor = 0.7
-	}
-	division = {
-		name = "2. Cavalry Brigade"
-		location = 4550
-		division_template = "Cavalry Brigade"
-		start_experience_factor = 0.0
-		start_equipment_factor = 0.1
-	}
 }

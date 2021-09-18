@@ -124,9 +124,11 @@ add_ideas = {
 	export_focus
 	culture_mashriqi
 }
+set_stability = 0.60
+set_war_support = 0.60
 create_country_leader = {
-	name = "Umar ibn Halil"
-	desc = "POLITICS_UMAR_IBN HALIL_DESC"
+	name = "Zafir ibn Abd al-Qadir"
+	desc = "POLITICS_ZAFIR_IBN ABD AL-QADIR_DESC"
 	picture = "gfx/leaders/leader_unknown.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

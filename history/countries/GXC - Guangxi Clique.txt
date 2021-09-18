@@ -139,8 +139,8 @@ add_ideas = {
 	culture_zhuang
 }
 create_country_leader = {
-	name = "Nong Khanh"
-	desc = "POLITICS_NONG_KHANH_DESC"
+	name = "Quoc Khanh"
+	desc = "POLITICS_QUOC_KHANH_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = leninism

@@ -136,8 +136,8 @@ add_ideas = {
 	culture_mossi
 }
 create_country_leader = {
-	name = "Sapilem Nyandane"
-	desc = "POLITICS_SAPILEM_NYANDANE_DESC"
+	name = "Yamba Dyan"
+	desc = "POLITICS_YAMBA_DYAN_DESC"
 	picture = "gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

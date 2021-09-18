@@ -124,8 +124,8 @@ add_ideas = {
 	culture_bosniak
 }
 create_country_leader = {
-	name = "Naser Prazina"
-	desc = "POLITICS_NASER_PRAZINA_DESC"
+	name = "Hamid Pozderac"
+	desc = "POLITICS_HAMID_POZDERAC_DESC"
 	picture = "gfx/leaders/Europe/Portrait_europe_generic_7.dds"
 	expire = "1965.1.1"
 	ideology = prussian_const

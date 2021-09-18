@@ -129,6 +129,11 @@ if = {
         freedom_level = 0.4
     }
     set_autonomy = {
+        target = W42
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
         target = W43
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
@@ -140,12 +145,12 @@ if = {
     }
     set_autonomy = {
         target = W45
-        autonomous_state = autonomy_integrated_puppet
+        autonomous_state = autonomy_colony
         freedom_level = 0.4
     }
     set_autonomy = {
         target = W46
-        autonomous_state = autonomy_colony
+        autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     set_autonomy = {
@@ -158,20 +163,15 @@ if = {
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
-    set_autonomy = {
-        target = W49
-        autonomous_state = autonomy_integrated_puppet
-        freedom_level = 0.4
-    }
     else = {
         puppet = OCC
+        puppet = W42
         puppet = W43
         puppet = W44
         puppet = W45
         puppet = W46
         puppet = W47
         puppet = W48
-        puppet = W49
     }
 }
 
@@ -306,8 +306,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.48
 create_country_leader = {
-	name = "Hugo Dreyer"
-	desc = "POLITICS_HUGO_DREYER_DESC"
+	name = "Peter Ludendorff"
+	desc = "POLITICS_PETER_LUDENDORFF_DESC"
 	picture = "gfx/leaders/DEN/Portrait_Denmark_Erik_Scavenius.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

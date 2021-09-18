@@ -130,8 +130,8 @@ add_ideas = {
 	culture_tigray
 }
 create_country_leader = {
-	name = "Siye Hagos"
-	desc = "POLITICS_SIYE_HAGOS_DESC"
+	name = "Gidey Teklehaymanot"
+	desc = "POLITICS_GIDEY_TEKLEHAYMANOT_DESC"
 	picture = "gfx/leaders/African/Portrait_Kongo_Pedro_VII_Afonso.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

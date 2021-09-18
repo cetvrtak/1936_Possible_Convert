@@ -134,8 +134,8 @@ add_ideas = {
 	culture_min
 }
 create_country_leader = {
-	name = "Tan Debang"
-	desc = "POLITICS_TAN_DEBANG_DESC"
+	name = "Wong Zexu"
+	desc = "POLITICS_WONG_ZEXU_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = minarchism

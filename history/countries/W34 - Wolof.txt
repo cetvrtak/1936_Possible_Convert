@@ -136,8 +136,8 @@ add_ideas = {
 	culture_wolof
 }
 create_country_leader = {
-	name = "Birawa Penda"
-	desc = "POLITICS_BIRAWA_PENDA_DESC"
+	name = "Birawa Paate"
+	desc = "POLITICS_BIRAWA_PAATE_DESC"
 	picture = "gfx/leaders/African/Portrait_Kongo_Pedro_VII_Afonso.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

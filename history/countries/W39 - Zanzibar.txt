@@ -131,8 +131,8 @@ add_ideas = {
 	culture_swahili
 }
 create_country_leader = {
-	name = "Juma Salehe"
-	desc = "POLITICS_JUMA_SALEHE_DESC"
+	name = "Kamari Erevu"
+	desc = "POLITICS_KAMARI_EREVU_DESC"
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = minarchism

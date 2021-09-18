@@ -136,8 +136,8 @@ add_ideas = {
 	culture_akan
 }
 create_country_leader = {
-	name = "Opoku Bonsu"
-	desc = "POLITICS_OPOKU_BONSU_DESC"
+	name = "Kwame Sekyere"
+	desc = "POLITICS_KWAME_SEKYERE_DESC"
 	picture = "gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
 	expire = "1965.1.1"
 	ideology = conservatism

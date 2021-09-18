@@ -132,8 +132,8 @@ add_ideas = {
 	culture_malay
 }
 create_country_leader = {
-	name = "Jaafar Raja Ahmad"
-	desc = "POLITICS_JAAFAR_RAJA AHMAD_DESC"
+	name = "Shahabuddin Raja Inu"
+	desc = "POLITICS_SHAHABUDDIN_RAJA INU_DESC"
 	picture = "gfx/leaders/Indo_Chinese_Nesia/Portrait_Malaya_Hisamuddin_of_Selangor.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

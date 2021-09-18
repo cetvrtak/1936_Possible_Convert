@@ -79,8 +79,8 @@ add_ideas = {
 	culture_greek
 }
 create_country_leader = {
-	name = "Emmanouil Plapoutas"
-	desc = "POLITICS_EMMANOUIL_PLAPOUTAS_DESC"
+	name = "Spyros Kolokotronis"
+	desc = "POLITICS_SPYROS_KOLOKOTRONIS_DESC"
 	picture = "gfx/leaders/Mediterranean/Portrait_Portugal_Duarte_Nuno.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

@@ -95,8 +95,8 @@ add_ideas = {
 	culture_yankee
 }
 create_country_leader = {
-	name = "Charles Potter"
-	desc = "POLITICS_CHARLES_POTTER_DESC"
+	name = "William Meade"
+	desc = "POLITICS_WILLIAM_MEADE_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = dictatorship_neutral

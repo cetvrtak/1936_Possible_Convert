@@ -142,8 +142,8 @@ add_ideas = {
 	culture_korean
 }
 create_country_leader = {
-	name = "Yi Jip"
-	desc = "POLITICS_YI_JIP_DESC"
+	name = "Kim Sun"
+	desc = "POLITICS_KIM_SUN_DESC"
 	picture = "gfx/leaders/Asia/portrait_asia_generic_4.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology

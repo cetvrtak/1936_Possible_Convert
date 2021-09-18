@@ -95,8 +95,8 @@ add_ideas = {
 	culture_turkish
 }
 create_country_leader = {
-	name = "Abdullah Pasha"
-	desc = "POLITICS_ABDULLAH_PASHA_DESC"
+	name = "Ahmet Bey"
+	desc = "POLITICS_AHMET_BEY_DESC"
 	picture = "gfx/leaders/EGY/Portrait_EGY_faud_i.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

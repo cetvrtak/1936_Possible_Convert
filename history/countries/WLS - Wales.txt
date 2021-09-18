@@ -97,8 +97,8 @@ add_ideas = {
 	culture_british
 }
 create_country_leader = {
-	name = "Martin Tyrwhitt"
-	desc = "POLITICS_MARTIN_TYRWHITT_DESC"
+	name = "Winston Buller"
+	desc = "POLITICS_WINSTON_BULLER_DESC"
 	picture = "gfx/leaders/DEN/Portrait_Denmark_Erik_Scavenius.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

@@ -124,8 +124,8 @@ add_ideas = {
 	culture_melanesian
 }
 create_country_leader = {
-	name = "Raivalita Banuve"
-	desc = "POLITICS_RAIVALITA_BANUVE_DESC"
+	name = "Seru Qaraniqio"
+	desc = "POLITICS_SERU_QARANIQIO_DESC"
 	picture = "gfx/leaders/Aborigine_Polynesia/Portrait_HAW_David_Kawananakoa.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

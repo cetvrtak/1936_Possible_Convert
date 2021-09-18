@@ -98,8 +98,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Dieter von Hindenburg"
-	desc = "POLITICS_DIETER_VON HINDENBURG_DESC"
+	name = "Theodor von Arentschildt"
+	desc = "POLITICS_THEODOR_VON ARENTSCHILDT_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Britain_Winston_Churchill.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

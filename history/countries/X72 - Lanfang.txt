@@ -127,8 +127,8 @@ add_ideas = {
 	culture_hakka
 }
 create_country_leader = {
-	name = "Shu Zicai"
-	desc = "POLITICS_SHU_ZICAI_DESC"
+	name = "Xue Fengjia"
+	desc = "POLITICS_XUE_FENGJIA_DESC"
 	picture = "gfx/leaders/Generic/r56_portrait_generic_politician_asia_2_democracy.dds"
 	expire = "1965.1.1"
 	ideology = minarchism

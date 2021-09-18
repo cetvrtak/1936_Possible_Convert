@@ -97,8 +97,8 @@ add_ideas = {
 	culture_romanian
 }
 create_country_leader = {
-	name = "Lucian Ionescu"
-	desc = "POLITICS_LUCIAN_IONESCU_DESC"
+	name = "Daniel Falcoianu"
+	desc = "POLITICS_DANIEL_FALCOIANU_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_8.dds"
 	expire = "1965.1.1"
 	ideology = leninism

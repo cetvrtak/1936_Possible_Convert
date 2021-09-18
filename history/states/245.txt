@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = W45
+		owner = W44
 		victory_points = {
 			5060 10 
 		}
@@ -19,7 +19,7 @@ state={
 			air_base = 10
 
 		}
-		add_core_of = W45
+		add_core_of = W44
 		add_core_of = X35
 		add_claim_by = CAR
 	}

@@ -132,8 +132,8 @@ add_ideas = {
 	culture_javan
 }
 create_country_leader = {
-	name = "Muhieddin Khairuddin"
-	desc = "POLITICS_MUHIEDDIN_KHAIRUDDIN_DESC"
+	name = "Haji Tajul"
+	desc = "POLITICS_HAJI_TAJUL_DESC"
 	picture = "gfx/leaders/Asia/portrait_asia_generic_4.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology

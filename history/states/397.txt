@@ -22,7 +22,6 @@ state={
 		add_core_of = BUL
 		add_core_of = MAC
 		add_core_of = TUR
-		add_core_of = W42
 		add_claim_by = ALB
 		add_claim_by = GRE
 		add_claim_by = SER

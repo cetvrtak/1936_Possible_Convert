@@ -87,8 +87,8 @@ add_ideas = {
 	culture_kazak
 }
 create_country_leader = {
-	name = "Isatai Muhammad uli"
-	desc = "POLITICS_ISATAI_MUHAMMAD ULI_DESC"
+	name = "Bukei Beg"
+	desc = "POLITICS_BUKEI_BEG_DESC"
 	picture = "gfx/leaders/EGY/Portrait_EGY_faud_i.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

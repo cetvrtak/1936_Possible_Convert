@@ -116,8 +116,8 @@ add_ideas = {
 	culture_slovak
 }
 create_country_leader = {
-	name = "Samuel Rohácek"
-	desc = "POLITICS_SAMUEL_ROHáCEK_DESC"
+	name = "Milos Tiso"
+	desc = "POLITICS_MILOS_TISO_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
 	ideology = socialism

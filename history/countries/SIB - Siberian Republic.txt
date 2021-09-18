@@ -123,8 +123,8 @@ add_ideas = {
 	culture_russian
 }
 create_country_leader = {
-	name = "Maxim Skobelev"
-	desc = "POLITICS_MAXIM_SKOBELEV_DESC"
+	name = "Gennady Voroshilov"
+	desc = "POLITICS_GENNADY_VOROSHILOV_DESC"
 	picture = "gfx/leaders/EST/portrait_est_konstantin_pats.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

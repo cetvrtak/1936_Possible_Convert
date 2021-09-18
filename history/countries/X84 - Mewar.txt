@@ -147,8 +147,8 @@ add_ideas = {
 	culture_rajput
 }
 create_country_leader = {
-	name = "Harsha Shekha"
-	desc = "POLITICS_HARSHA_SHEKHA_DESC"
+	name = "Harsha Qaim"
+	desc = "POLITICS_HARSHA_QAIM_DESC"
 	picture = "gfx/leaders/Indian/Portrait_MYS_Krishna_Wadiyar.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

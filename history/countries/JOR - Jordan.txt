@@ -125,8 +125,8 @@ add_ideas = {
 	culture_bedouin
 }
 create_country_leader = {
-	name = "Kamil ibn Abd Allah"
-	desc = "POLITICS_KAMIL_IBN ABD ALLAH_DESC"
+	name = "Hasan ibn Abd al-Qadir"
+	desc = "POLITICS_HASAN_IBN ABD AL-QADIR_DESC"
 	picture = "gfx/leaders/leader_unknown.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

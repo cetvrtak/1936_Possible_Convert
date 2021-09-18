@@ -137,8 +137,8 @@ add_ideas = {
 	culture_tamil
 }
 create_country_leader = {
-	name = "Seshayya Mudaliar"
-	desc = "POLITICS_SESHAYYA_MUDALIAR_DESC"
+	name = "Shungrasoobyer Sastri"
+	desc = "POLITICS_SHUNGRASOOBYER_SASTRI_DESC"
 	picture = "gfx/leaders/Indian/Portrait_BHC_Jawaharlal_Nehru.tga"
 	expire = "1965.1.1"
 	ideology = conservatism

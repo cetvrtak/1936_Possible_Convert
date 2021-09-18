@@ -8,8 +8,8 @@ state={
 	impassable = yes
 
 	history={
-		owner = W49
-		add_core_of = W49
+		owner = W48
+		add_core_of = W48
 		add_core_of = X21
 		add_core_of = X39
 	}

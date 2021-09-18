@@ -135,8 +135,8 @@ add_ideas = {
 	culture_ibibio
 }
 create_country_leader = {
-	name = "Eyo Eyamba"
-	desc = "POLITICS_EYO_EYAMBA_DESC"
+	name = "Eyamba Nta"
+	desc = "POLITICS_EYAMBA_NTA_DESC"
 	picture = "gfx/leaders/African/Portrait_SUD_Abd_Mahdi.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

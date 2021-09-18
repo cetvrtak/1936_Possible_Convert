@@ -95,8 +95,8 @@ add_ideas = {
 	culture_shona
 }
 create_country_leader = {
-	name = "Zuka Magaya"
-	desc = "POLITICS_ZUKA_MAGAYA_DESC"
+	name = "Sekayi Soshangane"
+	desc = "POLITICS_SEKAYI_SOSHANGANE_DESC"
 	picture = "gfx/leaders/African/Portrait_Burundi_Mwambutsa_Fourth.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

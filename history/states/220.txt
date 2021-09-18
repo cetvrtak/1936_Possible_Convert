@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = W49
+		owner = W48
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 0
@@ -22,7 +22,7 @@ state={
 		}
 		add_core_of = BEN
 		add_core_of = W35
-		add_core_of = W49
+		add_core_of = W48
 		add_claim_by = NGA
 		add_claim_by = NGR
 		add_claim_by = X04

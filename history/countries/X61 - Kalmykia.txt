@@ -86,8 +86,8 @@ add_ideas = {
 	culture_mongol
 }
 create_country_leader = {
-	name = "Khorloogiin Tserendorj"
-	desc = "POLITICS_KHORLOOGIIN_TSERENDORJ_DESC"
+	name = "Dogsomyn Amar"
+	desc = "POLITICS_DOGSOMYN_AMAR_DESC"
 	picture = "gfx/leaders/TIB/Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

@@ -97,8 +97,8 @@ add_ideas = {
 	culture_spanish
 }
 create_country_leader = {
-	name = "Juan Bautista Cabrera"
-	desc = "POLITICS_JUAN BAUTISTA_CABRERA_DESC"
+	name = "José Primo de Rivera"
+	desc = "POLITICS_JOSé_PRIMO DE RIVERA_DESC"
 	picture = "gfx/leaders/ITA/portrait_ita_ferruccio_parri.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

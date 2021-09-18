@@ -133,8 +133,8 @@ add_ideas = {
 	culture_amhara
 }
 create_country_leader = {
-	name = "Berhanu Mikael"
-	desc = "POLITICS_BERHANU_MIKAEL_DESC"
+	name = "Berihun Mikael"
+	desc = "POLITICS_BERIHUN_MIKAEL_DESC"
 	picture = "gfx/leaders/African/Portrait_Burundi_Mwambutsa_Fourth.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

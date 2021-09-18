@@ -1,24 +1,31 @@
-﻿capital = 613
+﻿capital = 353
 set_research_slots = 3
 
-oob = "W58_OOB"
+oob = "W54_OOB"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "W58_1936_naval_mtg"
+		set_naval_oob = "W54_1936_naval_mtg"
 	else = { 
-		set_naval_oob = "W58_1936_naval_legacy"
+		set_naval_oob = "W54_1936_naval_legacy"
 	}
 }
 
 # Starting tech
 set_technology = {
+	basic_light_tank = 1
 	early_bomber = 1
 	early_fighter = 1
 	fuel_refining = 1
 	fuel_silos = 1
 	gw_artillery = 1
+	gwtank = 1
+	improved_light_tank = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
+	marines = 1
+	motorised_infantry = 1
 	support_weapons = 1
 	synth_oil_experiments = 1
 	tech_engineers = 1
@@ -27,16 +34,23 @@ set_technology = {
 }
 
 if = {
+	limit = { has_dlc = "La Resistance" }
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
 		basic_battery = 1
 		basic_naval_mines = 1
-		basic_ship_hull_submarine = 1
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
 		early_ship_hull_heavy = 1
 		early_ship_hull_light = 1
 		improved_airplane_launcher = 1
+		mtg_transport = 1
 	}
 }
 
@@ -59,43 +73,44 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
-    last_election = "1934.9.21"
+    ruling_party = democratic
+    last_election = "1932.12.16"
     election_frequency = 48
-    elections_allowed = no
+    elections_allowed = yes
 }
 
 set_popularities = {
-	absolutist = 63
-	communism = 4
-	democratic = 16
-	fascism = 8
-	neutrality = 4
-	radical = 5
+	absolutist = 0
+	communism = 5
+	democratic = 86
+	fascism = 4
+	neutrality = 3
+	radical = 2
 }
 
 if = {
     limit = {has_dlc = "Together for Victory" }
 
-    add_to_tech_sharing_group = SPB_research
+    add_to_tech_sharing_group = ITA_research
 }
 
 
 
 add_ideas = {
-	volunteer_only
+	ITA_monarch
+	limited_conscription
 	civilian_economy
 	export_focus
-	culture_spanish
+	culture_north_italian
 }
 set_stability = 0.60
 set_war_support = 0.61
 create_country_leader = {
-	name = "Segismundo de Albornoz"
-	desc = "POLITICS_SEGISMUNDO_DE ALBORNOZ_DESC"
-	picture = "gfx/leaders/Mediterranean/Portrait_Alfonso_XIII.tga"
+	name = "Ferdinando Ricotti-Magnani"
+	desc = "POLITICS_FERDINANDO_RICOTTI-MAGNANI_DESC"
+	picture = "gfx/leaders/Mediterranean/Portrait_GRE_Themistoklis_Sofoulis.tga"
 	expire = "1965.1.1"
-	ideology = prussian_const
+	ideology = liberalism
 	traits = {
 	}
 }
@@ -104,7 +119,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Catalina Villar"
+		name = "Maria Albricci"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -176,20 +191,9 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	create_equipment_variant = {
-		name = "1936 Submarine"
-		type = ship_hull_submarine_2
-		name_group = W58_SS_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_engine_slot = sub_ship_engine_2
-			fixed_ship_torpedo_slot = ship_torpedo_sub_2
-			rear_1_custom_slot = ship_torpedo_sub_2
-		}
-	}
-	create_equipment_variant = {
 		name = "Early Battleship"
 		type = ship_hull_heavy_1
-		name_group = W58_BB_HISTORICAL
+		name_group = W54_BB_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -208,7 +212,7 @@ if = {
 	create_equipment_variant = {
 		name = "Early Destroyer"
 		type = ship_hull_light_1
-		name_group = W58_DD_HISTORICAL
+		name_group = W54_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -224,7 +228,7 @@ if = {
 	create_equipment_variant = {
 		name = "Early Heavy Cruiser"
 		type = ship_hull_cruiser_1
-		name_group = W58_CA_HISTORICAL
+		name_group = W54_CA_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -242,7 +246,7 @@ if = {
 	create_equipment_variant = {
 		name = "Early Light Cruiser"
 		type = ship_hull_cruiser_1
-		name_group = W58_CL_HISTORICAL
+		name_group = W54_CL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1

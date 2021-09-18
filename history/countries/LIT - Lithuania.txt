@@ -78,8 +78,8 @@ add_ideas = {
 	culture_lithuanian
 }
 create_country_leader = {
-	name = "Marijus Krupavicius"
-	desc = "POLITICS_MARIJUS_KRUPAVICIUS_DESC"
+	name = "Mykolas Danauskas"
+	desc = "POLITICS_MYKOLAS_DANAUSKAS_DESC"
 	picture = "gfx/leaders/Eastern_European/portrait_EST_Adolf_Friedrich_von_Mecklenburg.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

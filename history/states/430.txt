@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = W50
+		owner = W49
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 0
@@ -18,7 +18,7 @@ state={
 			air_base = 0
 
 		}
-		add_core_of = W50
+		add_core_of = W49
 		add_core_of = X19
 	}
 

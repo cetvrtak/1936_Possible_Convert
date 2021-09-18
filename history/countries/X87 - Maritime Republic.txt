@@ -96,8 +96,8 @@ add_ideas = {
 	culture_anglo_canadian
 }
 create_country_leader = {
-	name = "Gilbert Doyle"
-	desc = "POLITICS_GILBERT_DOYLE_DESC"
+	name = "Charles Petty-Fitzmaurice"
+	desc = "POLITICS_CHARLES_PETTY-FITZMAURICE_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

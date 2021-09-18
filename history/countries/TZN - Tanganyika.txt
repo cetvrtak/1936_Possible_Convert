@@ -98,8 +98,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Reinhard von Bismarck-Bohlen"
-	desc = "POLITICS_REINHARD_VON BISMARCK-BOHLEN_DESC"
+	name = "Wolfgang von Moltke"
+	desc = "POLITICS_WOLFGANG_VON MOLTKE_DESC"
 	picture = "gfx/leaders/ICE/portrait_ice_sveinn_bjornsson.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

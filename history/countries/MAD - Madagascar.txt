@@ -135,8 +135,8 @@ add_ideas = {
 	culture_malagasy
 }
 create_country_leader = {
-	name = "Ramasoandro Ratsiraka"
-	desc = "POLITICS_RAMASOANDRO_RATSIRAKA_DESC"
+	name = "Ratsimivila Ramanantsoa"
+	desc = "POLITICS_RATSIMIVILA_RAMANANTSOA_DESC"
 	picture = "gfx/leaders/ETH/Portrait_Ethiopia_Haile_Selassie.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

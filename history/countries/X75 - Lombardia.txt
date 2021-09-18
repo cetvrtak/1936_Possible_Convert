@@ -78,8 +78,8 @@ add_ideas = {
 	culture_north_italian
 }
 create_country_leader = {
-	name = "Raffaele Dezza"
-	desc = "POLITICS_RAFFAELE_DEZZA_DESC"
+	name = "Benito Fanti"
+	desc = "POLITICS_BENITO_FANTI_DESC"
 	picture = "gfx/leaders/ITA/Portrait_Italy_Victor_Emmanuel_III.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

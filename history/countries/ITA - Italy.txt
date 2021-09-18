@@ -98,18 +98,23 @@ if = {
         has_dlc = "Together for Victory"
     }
     set_autonomy = {
+        target = W50
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
         target = W51
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     set_autonomy = {
         target = W52
-        autonomous_state = autonomy_integrated_puppet
+        autonomous_state = autonomy_colony
         freedom_level = 0.4
     }
     set_autonomy = {
         target = W53
-        autonomous_state = autonomy_colony
+        autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     set_autonomy = {
@@ -117,17 +122,12 @@ if = {
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
-    set_autonomy = {
-        target = W55
-        autonomous_state = autonomy_integrated_puppet
-        freedom_level = 0.4
-    }
     else = {
+        puppet = W50
         puppet = W51
         puppet = W52
         puppet = W53
         puppet = W54
-        puppet = W55
     }
 }
 
@@ -235,8 +235,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.61
 create_country_leader = {
-	name = "Simone di Savoia-Aosta"
-	desc = "POLITICS_SIMONE_DI SAVOIA-AOSTA_DESC"
+	name = "Innocenzo Thaon di Revel"
+	desc = "POLITICS_INNOCENZO_THAON DI REVEL_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

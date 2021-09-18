@@ -125,8 +125,8 @@ add_ideas = {
 	culture_mashriqi
 }
 create_country_leader = {
-	name = "Khalid al-Ghazzawi"
-	desc = "POLITICS_KHALID_AL-GHAZZAWI_DESC"
+	name = "Hisham ibn Halil"
+	desc = "POLITICS_HISHAM_IBN HALIL_DESC"
 	picture = "gfx/leaders/leader_unknown.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

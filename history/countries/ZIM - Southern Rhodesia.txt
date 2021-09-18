@@ -97,8 +97,8 @@ add_ideas = {
 	culture_british
 }
 create_country_leader = {
-	name = "Herbert Beatty"
-	desc = "POLITICS_HERBERT_BEATTY_DESC"
+	name = "Oswald Smith"
+	desc = "POLITICS_OSWALD_SMITH_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Britain_Oswald_Mosley.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology

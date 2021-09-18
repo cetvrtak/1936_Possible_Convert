@@ -132,8 +132,8 @@ add_ideas = {
 	culture_icelandic
 }
 create_country_leader = {
-	name = "Pétur Arnórsson"
-	desc = "POLITICS_PéTUR_ARNóRSSON_DESC"
+	name = "Sigurdur Stefánsson"
+	desc = "POLITICS_SIGURDUR_STEFáNSSON_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = minarchism

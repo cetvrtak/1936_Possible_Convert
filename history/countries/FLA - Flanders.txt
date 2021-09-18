@@ -78,8 +78,8 @@ add_ideas = {
 	culture_flemish
 }
 create_country_leader = {
-	name = "Jan van Zeeland"
-	desc = "POLITICS_JAN_VAN ZEELAND_DESC"
+	name = "Nikolaas van Volden de Lombeke"
+	desc = "POLITICS_NIKOLAAS_VAN VOLDEN DE LOMBEKE_DESC"
 	picture = "gfx/leaders/Europe/Portrait_europe_generic_7.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

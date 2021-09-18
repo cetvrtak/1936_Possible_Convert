@@ -132,8 +132,8 @@ add_ideas = {
 	culture_sindi
 }
 create_country_leader = {
-	name = "Mohammad Kalpar"
-	desc = "POLITICS_MOHAMMAD_KALPAR_DESC"
+	name = "Sobhdar Kalpar"
+	desc = "POLITICS_SOBHDAR_KALPAR_DESC"
 	picture = "gfx/leaders/Indian/Portrait_Madras_Paramasiva_Subbarayan.tga"
 	expire = "1965.1.1"
 	ideology = minarchism

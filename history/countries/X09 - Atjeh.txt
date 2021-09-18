@@ -134,8 +134,8 @@ add_ideas = {
 	culture_malay
 }
 create_country_leader = {
-	name = "Riayat Aadzam"
-	desc = "POLITICS_RIAYAT_AADZAM_DESC"
+	name = "Tuanku Raja Inu"
+	desc = "POLITICS_TUANKU_RAJA INU_DESC"
 	picture = "gfx/leaders/SIA/Portrait_Siam_Phraya_Phahon.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

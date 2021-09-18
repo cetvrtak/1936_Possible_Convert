@@ -87,8 +87,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Burkhard von Tirpitz"
-	desc = "POLITICS_BURKHARD_VON TIRPITZ_DESC"
+	name = "Theodor von Hohenzollern"
+	desc = "POLITICS_THEODOR_VON HOHENZOLLERN_DESC"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

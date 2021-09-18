@@ -128,8 +128,8 @@ add_ideas = {
 	culture_boer
 }
 create_country_leader = {
-	name = "Rudolf de Beer"
-	desc = "POLITICS_RUDOLF_DE BEER_DESC"
+	name = "Petrus Joubert"
+	desc = "POLITICS_PETRUS_JOUBERT_DESC"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.dds"
 	expire = "1965.1.1"
 	ideology = socialism

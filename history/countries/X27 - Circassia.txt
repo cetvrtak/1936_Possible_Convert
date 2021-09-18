@@ -124,8 +124,8 @@ add_ideas = {
 	culture_north_caucasian
 }
 create_country_leader = {
-	name = "Shamil Bek"
-	desc = "POLITICS_SHAMIL_BEK_DESC"
+	name = "Mohammad Mollah"
+	desc = "POLITICS_MOHAMMAD_MOLLAH_DESC"
 	picture = "gfx/leaders/Turkic_Steppe/Portrait_Ottoman_Abdulmecid.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

@@ -5186,26 +5186,29 @@ W41 = {
 W42 = {
 	male = {
 		names = {
-			"Abdullah" "Abdulhamid" "Abdulkerim" "Abdulrahim" "Ahmet" "Akif" "Ali" "Arif" "Bahaeddin" "Bekir"
-			"Cemal" "Cevad" "Celaleddin" "Cevdet" "Daud" "Edhem" "Emin" "Enver" "Fahri" "Fevzi"
-			"Ferid" "Fuat" "Hafiz" "Hamza" "Halil" "Halim" "Hasan" "Hayrullah" "Husrev" "Ibrahim"
-			"Iskender" "Ismet" "Izzet" "Kamil" "Kazim" "Kemal" "Lutfi" "Mahmut" "Mehmet" "Mithat"
-			"Muhtar" "Murat" "Musa" "Mustafa" "Namik" "Nazim" "Nurettin" "Nuri" "Numan" "Omar"
-			"Osman" "Pertev" "Rauf" "Receb" "Reshad" "Refet" "Rifat" "Riza" "Sabaheddin" "Said"
-			"Selim" "Shevket" "Shukru" "Suleyman" "Talat" "Tevfik" "Vefik" "Yusuf" "Yunus" "Ziya"
-			"Ziyauddin"
+			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
+			"Edwin" "Erwin" "Erich" "Ernst" "Florian" "Franz" "Friedrich" "Fritz" "Georg" "Günther"
+			"Gustav" "Hasso" "Heinrich" "Helmuth" "Hermann" "Hugo" "Joachim" "Johann" "Jürgen" "Karl"
+			"Konrad" "Leonhard" "Leopold" "Ludwig" "Lukas" "Manfred" "Maximilian" "Michael" "Nikolaus" "Otto"
+			"Pascal" "Paul" "Peter" "Reinhard" "Rudolf" "Ruprecht" "Stefan" "Theodor" "Wilhelm" "Wolfgang"
 		}
 	}
 	female = {
 		names = {
-			"Çiçek" "Çilen" "Çiltanesi" "Özgul" "Özlem" "Akgul"
+			"Jessica" "Emma" "Hanna" "Sofia" "Marie"
 		}
 	}
 	surnames = {
-		"Bey" "Pasha"
+		"Behncke" "Brommy" "Cordemann" "Dreyer" "Droste" "Groener" "Herwarth von Bittenfeld" "Heppendorf" "Hoffmann" "Krohn"
+		"Ludendorff" "Schree" "Vogel von Falkenstein" "von Alten" "von Anhalt" "von Arentschildt" "von Bülow" "von Bismarck-Bohlen" "von Blumenthal" "von Blomberg"
+		"von Boyen" "von Braunschweig" "von Bülow" "von dem Knesebeck" "von Gebser" "von Fritsch" "von Halkett" "von Hannover" "von Hessen-Darmstadt" "von Hessen-Kassel"
+		"von Hindenburg" "von Hohenzollern" "von Holstein-Gottorp" "von Knorr" "von Kleefeld" "von Manteuffel" "von Mecklenburg-Schwerin" "von Mecklenburg-Strelitz" "von Moltke" "von Oldenburg"
+		"von Rauch" "von Ravensberg" "von Reuter" "von Richthofen" "von Sachsen-Altenburg" "von Sachsen-Coburg-Gotha" "von Sachsen-Meiningen" "von Sachsen-Weimar-Eisenach" "von Schlieffen" "von Schwarzburg"
+		"von Spee" "von Tirpitz" "von Waldeck und Pyrmont" "von Wettin" "von Wrangel" "von Zieten" "zur Lippe" "von Roon"
 	}
 	callsigns = {
-		"Türk" "Kebap" "Selçuklu" "Yunan" "1453"
+		"Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer"
+		"The Red knight" "Reeste"
 	}
 }
 W43 = {
@@ -5379,34 +5382,6 @@ W48 = {
 W49 = {
 	male = {
 		names = {
-			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
-			"Edwin" "Erwin" "Erich" "Ernst" "Florian" "Franz" "Friedrich" "Fritz" "Georg" "Günther"
-			"Gustav" "Hasso" "Heinrich" "Helmuth" "Hermann" "Hugo" "Joachim" "Johann" "Jürgen" "Karl"
-			"Konrad" "Leonhard" "Leopold" "Ludwig" "Lukas" "Manfred" "Maximilian" "Michael" "Nikolaus" "Otto"
-			"Pascal" "Paul" "Peter" "Reinhard" "Rudolf" "Ruprecht" "Stefan" "Theodor" "Wilhelm" "Wolfgang"
-		}
-	}
-	female = {
-		names = {
-			"Jessica" "Emma" "Hanna" "Sofia" "Marie"
-		}
-	}
-	surnames = {
-		"Behncke" "Brommy" "Cordemann" "Dreyer" "Droste" "Groener" "Herwarth von Bittenfeld" "Heppendorf" "Hoffmann" "Krohn"
-		"Ludendorff" "Schree" "Vogel von Falkenstein" "von Alten" "von Anhalt" "von Arentschildt" "von Bülow" "von Bismarck-Bohlen" "von Blumenthal" "von Blomberg"
-		"von Boyen" "von Braunschweig" "von Bülow" "von dem Knesebeck" "von Gebser" "von Fritsch" "von Halkett" "von Hannover" "von Hessen-Darmstadt" "von Hessen-Kassel"
-		"von Hindenburg" "von Hohenzollern" "von Holstein-Gottorp" "von Knorr" "von Kleefeld" "von Manteuffel" "von Mecklenburg-Schwerin" "von Mecklenburg-Strelitz" "von Moltke" "von Oldenburg"
-		"von Rauch" "von Ravensberg" "von Reuter" "von Richthofen" "von Sachsen-Altenburg" "von Sachsen-Coburg-Gotha" "von Sachsen-Meiningen" "von Sachsen-Weimar-Eisenach" "von Schlieffen" "von Schwarzburg"
-		"von Spee" "von Tirpitz" "von Waldeck und Pyrmont" "von Wettin" "von Wrangel" "von Zieten" "zur Lippe" "von Roon"
-	}
-	callsigns = {
-		"Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer"
-		"The Red knight" "Reeste"
-	}
-}
-W50 = {
-	male = {
-		names = {
 			"Adolf" "Adriaan" "Alexander" "Andreas" "Antoon" "Andries" "Antonius" "Abraham" "Barthout" "Casimir"
 			"Constantijn" "Cornelis" "Christiaan" "Christoffel" "Daniël" "David" "Dominicus" "Daniel" "Dirk" "Elias"
 			"Ernst" "Erwin" "Eise" "Frans" "Frederik" "Gijsbert" "Godfried" "Gustaaf" "Gaspar" "Gabriel"
@@ -5439,6 +5414,33 @@ W50 = {
 	}
 	callsigns = {
 		"the Dutch" "Amsterdam" "420" "Nassau" "Orange"
+	}
+}
+W50 = {
+	male = {
+		names = {
+			"Alessandro" "Alfonso" "Ambrogio" "Amedeo" "Andrea" "Angelo" "Antonio" "Benito" "Camillo" "Carlo"
+			"Cesare" "Costanzo" "Davide" "Enrico" "Ettore" "Fabrizio" "Faustino" "Federico" "Felice" "Ferdinando"
+			"Fiorenzo" "Francesco" "Gaetano" "Gennaro" "Girolamo" "Giulio" "Giuseppe" "Guglielmo" "Innocenzo" "Leopoldo"
+			"Luigi" "Marco" "Massimo" "Matteo" "Nicola" "Oreste" "Paolo" "Pasquale" "Pietro" "Prospero"
+			"Raffaele" "Roberto" "Ruggiero" "Silvio" "Simone" "Tancredi" "Ugo" "Umberto" "Vincenzo" "Vittorio"
+		}
+	}
+	female = {
+		names = {
+			"Maria" "Anna"
+		}
+	}
+	surnames = {
+		"Acton" "Albricci" "Badoglio" "Baldissera" "Baratieri" "Bava-Beccaris" "Cadorna" "Cagni" "Canevaro" "Capello"
+		"Caviglia" "Ceccherini" "Cialdini" "Cusani" "d'Absburgo-Toscana" "d'Austria-Este" "Dezza" "di Borbone di Parma" "di Robilant" "di Savoia"
+		"di Savoia-Aosta" "Emo" "Fanti" "Fara" "Filomarino" "Garibaldi" "Giardino" "Govone" "La Màrmora" "Mambretti"
+		"Menabrea" "Orengo" "Pacoret de Saint Bon" "Pallavicino" "Pecori-Giraldi" "Pellion di Persano" "Pelloux" "Perruchetti" "Pianelli" "Porro"
+		"Presbitero" "Ramorino" "Ricotti-Magnani" "Sacchi" "Saletta" "Sanna" "Solari" "Thaon di Revel" "Vaccari" "Zupelli"
+	}
+	callsigns = {
+		"Buzzard" "Dusty" "Falcon" "Hawk" "Hammer" "Viper" "Banshee" "The Baron" "Lightning" "Duce"
+		"Raven" "Two Shot" "Rosso"
 	}
 }
 W51 = {
@@ -5552,33 +5554,6 @@ W54 = {
 W55 = {
 	male = {
 		names = {
-			"Alessandro" "Alfonso" "Ambrogio" "Amedeo" "Andrea" "Angelo" "Antonio" "Benito" "Camillo" "Carlo"
-			"Cesare" "Costanzo" "Davide" "Enrico" "Ettore" "Fabrizio" "Faustino" "Federico" "Felice" "Ferdinando"
-			"Fiorenzo" "Francesco" "Gaetano" "Gennaro" "Girolamo" "Giulio" "Giuseppe" "Guglielmo" "Innocenzo" "Leopoldo"
-			"Luigi" "Marco" "Massimo" "Matteo" "Nicola" "Oreste" "Paolo" "Pasquale" "Pietro" "Prospero"
-			"Raffaele" "Roberto" "Ruggiero" "Silvio" "Simone" "Tancredi" "Ugo" "Umberto" "Vincenzo" "Vittorio"
-		}
-	}
-	female = {
-		names = {
-			"Maria" "Anna"
-		}
-	}
-	surnames = {
-		"Acton" "Albricci" "Badoglio" "Baldissera" "Baratieri" "Bava-Beccaris" "Cadorna" "Cagni" "Canevaro" "Capello"
-		"Caviglia" "Ceccherini" "Cialdini" "Cusani" "d'Absburgo-Toscana" "d'Austria-Este" "Dezza" "di Borbone di Parma" "di Robilant" "di Savoia"
-		"di Savoia-Aosta" "Emo" "Fanti" "Fara" "Filomarino" "Garibaldi" "Giardino" "Govone" "La Màrmora" "Mambretti"
-		"Menabrea" "Orengo" "Pacoret de Saint Bon" "Pallavicino" "Pecori-Giraldi" "Pellion di Persano" "Pelloux" "Perruchetti" "Pianelli" "Porro"
-		"Presbitero" "Ramorino" "Ricotti-Magnani" "Sacchi" "Saletta" "Sanna" "Solari" "Thaon di Revel" "Vaccari" "Zupelli"
-	}
-	callsigns = {
-		"Buzzard" "Dusty" "Falcon" "Hawk" "Hammer" "Viper" "Banshee" "The Baron" "Lightning" "Duce"
-		"Raven" "Two Shot" "Rosso"
-	}
-}
-W56 = {
-	male = {
-		names = {
 			"Aleksandr" "Alexei" "Andrei" "Anton" "Boris" "Dmitry" "Fyodor" "Gennady" "Giorgi" "Grigoriy"
 			"Igor" "Ivan" "Kirill" "Konstantin" "Lavr" "Leonid" "Lev" "Maxim" "Mikhail" "Nikita"
 			"Nikolai" "Oleg" "Pavel" "Pyotr" "Roman" "Semyon" "Sergei" "Valery" "Vasily" "Viktor"
@@ -5606,6 +5581,36 @@ W56 = {
 		"Anvil" "Hammer" "Fury" "Arrow" "Storm" "Bear" "White Lily" "Devil" "Eagle" "Falcon"
 		"Fox" "Snowflake" "Greasy" "Guardian" "Gunman" "Hawk" "Hardball" "Howl" "Blizzard" "Husky"
 		"Ice" "Killer" "Steel" "Iron" "Skull" "Striker" "Thunder" "Warrior" "Wardog" "Vodka"
+	}
+}
+W56 = {
+	male = {
+		names = {
+			"Agustín" "Alberto" "Alejandro" "Alfonso" "Álvaro" "Antonio" "Antonio María" "Arsenio" "Augusto" "Baldomero"
+			"Baltasar" "Benito" "Bernardino" "Bernardo" "Calixto" "Carlos" "Celestino" "Claudio" "Cristobal" "Dámaso"
+			"Diego" "Dionisio" "Eduardo" "Emilio" "Estanislao" "Federico" "Felipe" "Félix" "Fernando" "Francisco"
+			"Francisco Javier" "Gabino" "Gabriel" "Gaspar" "Genaro" "Gonzalo" "Ignacio" "Isidro" "Jacobo" "Jaime"
+			"Joaquín" "José" "José Antonio" "José Manuel" "José María" "Juan" "Juan Bautista" "Julio" "Leopoldo" "Lorenzo"
+			"Luis" "Manuel" "Marcelo" "Mariano" "Mateo" "Melchor" "Miguel" "Nicolás" "Pablo" "Pascual"
+			"Pedro" "Rafael" "Raimundo" "Ramón" "Ricardo" "Santiago" "Sebastián" "Segismundo" "Valeriano" "Vicente"
+		}
+	}
+	female = {
+		names = {
+			"Juana" "Catalina" "Leonor" "Blanca"
+		}
+	}
+	surnames = {
+		"Acuña" "Aguirre" "Alcalá-Zamora" "Allendesalazar" "Alonso" "Álvarez" "Álvarez de Toledo" "Aranda" "Argüelles-Meres" "Asensio"
+		"Aznar" "Barradas" "Bugallal" "Cabrera" "Cagigal de la Vega" "Cano" "Cervera" "de Albornoz" "de Borbón" "de Carvajal"
+		"de la Fuente" "de Orleans" "Díaz" "Espartero" "Fernández" "Fernández de Córdoba" "Fitz-James Stuart" "Franco" "García" "García de la Noceda"
+		"González" "Heredia" "Hernández" "Herrera" "Hevia" "Hidalgo de Cisneros" "Linares" "López" "Maroto" "Márquez"
+		"Martínez-Campos" "Maura" "Menéndez" "Miaja" "Millán-Astray" "Mina" "Mola" "Muñoz" "Narváez" "O'Donnell"
+		"Ortega" "Pavía" "Pérez" "Primo de Rivera" "Queipo de Llano" "Rodríguez" "Rojo" "Ruiz" "Sanjurjo" "Serrano"
+		"Silvestre" "Topete" "Valdés" "Varela" "Villapol" "Villar" "Weyler" "Yagüe"
+	}
+	callsigns = {
+		"Castilla" "Aragón" "Navarra" "Portugal" "Galicia"
 	}
 }
 W57 = {
@@ -5639,36 +5644,6 @@ W57 = {
 	}
 }
 W58 = {
-	male = {
-		names = {
-			"Agustín" "Alberto" "Alejandro" "Alfonso" "Álvaro" "Antonio" "Antonio María" "Arsenio" "Augusto" "Baldomero"
-			"Baltasar" "Benito" "Bernardino" "Bernardo" "Calixto" "Carlos" "Celestino" "Claudio" "Cristobal" "Dámaso"
-			"Diego" "Dionisio" "Eduardo" "Emilio" "Estanislao" "Federico" "Felipe" "Félix" "Fernando" "Francisco"
-			"Francisco Javier" "Gabino" "Gabriel" "Gaspar" "Genaro" "Gonzalo" "Ignacio" "Isidro" "Jacobo" "Jaime"
-			"Joaquín" "José" "José Antonio" "José Manuel" "José María" "Juan" "Juan Bautista" "Julio" "Leopoldo" "Lorenzo"
-			"Luis" "Manuel" "Marcelo" "Mariano" "Mateo" "Melchor" "Miguel" "Nicolás" "Pablo" "Pascual"
-			"Pedro" "Rafael" "Raimundo" "Ramón" "Ricardo" "Santiago" "Sebastián" "Segismundo" "Valeriano" "Vicente"
-		}
-	}
-	female = {
-		names = {
-			"Juana" "Catalina" "Leonor" "Blanca"
-		}
-	}
-	surnames = {
-		"Acuña" "Aguirre" "Alcalá-Zamora" "Allendesalazar" "Alonso" "Álvarez" "Álvarez de Toledo" "Aranda" "Argüelles-Meres" "Asensio"
-		"Aznar" "Barradas" "Bugallal" "Cabrera" "Cagigal de la Vega" "Cano" "Cervera" "de Albornoz" "de Borbón" "de Carvajal"
-		"de la Fuente" "de Orleans" "Díaz" "Espartero" "Fernández" "Fernández de Córdoba" "Fitz-James Stuart" "Franco" "García" "García de la Noceda"
-		"González" "Heredia" "Hernández" "Herrera" "Hevia" "Hidalgo de Cisneros" "Linares" "López" "Maroto" "Márquez"
-		"Martínez-Campos" "Maura" "Menéndez" "Miaja" "Millán-Astray" "Mina" "Mola" "Muñoz" "Narváez" "O'Donnell"
-		"Ortega" "Pavía" "Pérez" "Primo de Rivera" "Queipo de Llano" "Rodríguez" "Rojo" "Ruiz" "Sanjurjo" "Serrano"
-		"Silvestre" "Topete" "Valdés" "Varela" "Villapol" "Villar" "Weyler" "Yagüe"
-	}
-	callsigns = {
-		"Castilla" "Aragón" "Navarra" "Portugal" "Galicia"
-	}
-}
-W59 = {
 	male = {
 		names = {
 			"Abdullah" "Abdulhamid" "Abdulkerim" "Abdulrahim" "Ahmet" "Akif" "Ali" "Arif" "Bahaeddin" "Bekir"

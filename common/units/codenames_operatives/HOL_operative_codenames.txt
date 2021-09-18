@@ -1,7 +1,7 @@
 HOL_OPERATIVE_CODENAME_HISTORICAL = {
 	name = HOL_OPERATIVE_CODENAME_HISTORICAL
 
-	for_countries = { FLA HOL INS W29 W50 X90 X95 }
+	for_countries = { FLA HOL INS W29 W49 X90 X95 }
 
 	type = codename
 

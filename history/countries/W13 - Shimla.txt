@@ -129,8 +129,8 @@ add_ideas = {
 	culture_nepali
 }
 create_country_leader = {
-	name = "Jang Bahadur Rana"
-	desc = "POLITICS_JANG_BAHADUR RANA_DESC"
+	name = "Bhimsen Rana"
+	desc = "POLITICS_BHIMSEN_RANA_DESC"
 	picture = "gfx/leaders/Indian/Portrait_PRF_Taley_Muhammed_Khan_of_Palanpur.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

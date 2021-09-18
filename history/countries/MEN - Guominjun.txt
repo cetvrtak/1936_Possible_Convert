@@ -141,8 +141,8 @@ add_ideas = {
 	culture_beifaren
 }
 create_country_leader = {
-	name = "Zhang Dong"
-	desc = "POLITICS_ZHANG_DONG_DESC"
+	name = "Li Hu"
+	desc = "POLITICS_LI_HU_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_communism.dds"
 	expire = "1965.1.1"
 	ideology = leninism

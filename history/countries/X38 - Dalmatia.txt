@@ -79,8 +79,8 @@ add_ideas = {
 	culture_croat
 }
 create_country_leader = {
-	name = "Vicko Pucic"
-	desc = "POLITICS_VICKO_PUCIC_DESC"
+	name = "Toma Mazuranic"
+	desc = "POLITICS_TOMA_MAZURANIC_DESC"
 	picture = "gfx/leaders/HUN/Portrait_Hungary_Miklos_Horthy.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

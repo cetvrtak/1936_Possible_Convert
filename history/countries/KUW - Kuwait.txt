@@ -125,8 +125,8 @@ add_ideas = {
 	culture_bedouin
 }
 create_country_leader = {
-	name = "Zafir ibn Abu Bakr"
-	desc = "POLITICS_ZAFIR_IBN ABU BAKR_DESC"
+	name = "Sa'ud ibn Ja'far"
+	desc = "POLITICS_SA'UD_IBN JA'FAR_DESC"
 	picture = "gfx/leaders/leader_unknown.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

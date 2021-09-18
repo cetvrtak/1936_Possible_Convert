@@ -98,8 +98,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Friedrich von Moltke"
-	desc = "POLITICS_FRIEDRICH_VON MOLTKE_DESC"
+	name = "Eduard von Schwarzburg"
+	desc = "POLITICS_EDUARD_VON SCHWARZBURG_DESC"
 	picture = "gfx/leaders/CAN/Portrait_Canada_Mackenzie_King.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

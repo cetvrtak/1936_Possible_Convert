@@ -98,8 +98,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Hermann von Bismarck-Bohlen"
-	desc = "POLITICS_HERMANN_VON BISMARCK-BOHLEN_DESC"
+	name = "Gustav von Bülow"
+	desc = "POLITICS_GUSTAV_VON BüLOW_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Austria_Kurt_Schuschnigg.dds"
 	expire = "1965.1.1"
 	ideology = dictatorship_neutral

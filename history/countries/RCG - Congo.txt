@@ -97,8 +97,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Ludwig von Moltke"
-	desc = "POLITICS_LUDWIG_VON MOLTKE_DESC"
+	name = "Dieter Droste"
+	desc = "POLITICS_DIETER_DROSTE_DESC"
 	picture = "gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

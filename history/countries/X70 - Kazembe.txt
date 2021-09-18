@@ -95,8 +95,8 @@ add_ideas = {
 	culture_lunda
 }
 create_country_leader = {
-	name = "Mulay Kamong"
-	desc = "POLITICS_MULAY_KAMONG_DESC"
+	name = "Mulay Kalong"
+	desc = "POLITICS_MULAY_KALONG_DESC"
 	picture = "gfx/leaders/African/Portrait_KBR_Shehu_Masta_II.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

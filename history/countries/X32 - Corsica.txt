@@ -96,8 +96,8 @@ add_ideas = {
 	culture_north_italian
 }
 create_country_leader = {
-	name = "Roberto Zupelli"
-	desc = "POLITICS_ROBERTO_ZUPELLI_DESC"
+	name = "Fiorenzo Pianelli"
+	desc = "POLITICS_FIORENZO_PIANELLI_DESC"
 	picture = "gfx/leaders/Mediterranean/Portrait_Papal_State_Angelo_Cerica.tga"
 	expire = "1965.1.1"
 	ideology = liberalism

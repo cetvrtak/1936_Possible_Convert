@@ -87,8 +87,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Edwin Heppendorf"
-	desc = "POLITICS_EDWIN_HEPPENDORF_DESC"
+	name = "Wolfgang Groener"
+	desc = "POLITICS_WOLFGANG_GROENER_DESC"
 	picture = "gfx/leaders/FRA/Portrait_France_Paul_Reynaud.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

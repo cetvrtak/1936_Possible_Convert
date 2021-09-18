@@ -136,8 +136,8 @@ add_ideas = {
 	culture_fulbe
 }
 create_country_leader = {
-	name = "Abdullahi zaki"
-	desc = "POLITICS_ABDULLAHI_ZAKI_DESC"
+	name = "Tukur zaki"
+	desc = "POLITICS_TUKUR_ZAKI_DESC"
 	picture = "gfx/leaders/African/Portrait_KBR_Shehu_Masta_II.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

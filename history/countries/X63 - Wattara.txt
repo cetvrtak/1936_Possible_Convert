@@ -135,8 +135,8 @@ add_ideas = {
 	culture_dyula
 }
 create_country_leader = {
-	name = "Muhammad Salim-Suwari"
-	desc = "POLITICS_MUHAMMAD_SALIM-SUWARI_DESC"
+	name = "Samory Wattara"
+	desc = "POLITICS_SAMORY_WATTARA_DESC"
 	picture = "gfx/leaders/African/Portrait_Zanzibar_Sultan_Khalifa.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

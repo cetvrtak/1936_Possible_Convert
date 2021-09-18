@@ -87,8 +87,8 @@ add_ideas = {
 	culture_albanian
 }
 create_country_leader = {
-	name = "Fiqri Xoxe"
-	desc = "POLITICS_FIQRI_XOXE_DESC"
+	name = "Ramush al-Albani"
+	desc = "POLITICS_RAMUSH_AL-ALBANI_DESC"
 	picture = "gfx/leaders/Europe/Portrait_europe_generic_7.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

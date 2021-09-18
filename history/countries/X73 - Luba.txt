@@ -95,8 +95,8 @@ add_ideas = {
 	culture_luba
 }
 create_country_leader = {
-	name = "Kisula Kalombo"
-	desc = "POLITICS_KISULA_KALOMBO_DESC"
+	name = "Maloba Ngombe"
+	desc = "POLITICS_MALOBA_NGOMBE_DESC"
 	picture = "gfx/leaders/African/Portrait_Kongo_Pedro_VII_Afonso.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

@@ -132,8 +132,8 @@ add_ideas = {
 	culture_malay
 }
 create_country_leader = {
-	name = "Riayat al-Khairat"
-	desc = "POLITICS_RIAYAT_AL-KHAIRAT_DESC"
+	name = "Safiuddin Raja Inu"
+	desc = "POLITICS_SAFIUDDIN_RAJA INU_DESC"
 	picture = "gfx/leaders/Indo_Chinese_Nesia/Portrait_Malaya_Hisamuddin_of_Selangor.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

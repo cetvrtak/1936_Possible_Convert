@@ -97,8 +97,8 @@ add_ideas = {
 	culture_north_italian
 }
 create_country_leader = {
-	name = "Angelo Filomarino"
-	desc = "POLITICS_ANGELO_FILOMARINO_DESC"
+	name = "Ruggiero di Robilant"
+	desc = "POLITICS_RUGGIERO_DI ROBILANT_DESC"
 	picture = "gfx/leaders/SPR/Portrait_Spain_Manuel_Azana.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

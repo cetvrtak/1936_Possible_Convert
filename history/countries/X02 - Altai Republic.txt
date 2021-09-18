@@ -96,8 +96,8 @@ add_ideas = {
 	culture_tatar
 }
 create_country_leader = {
-	name = "Rustam Tukay"
-	desc = "POLITICS_RUSTAM_TUKAY_DESC"
+	name = "Asaf Faysi"
+	desc = "POLITICS_ASAF_FAYSI_DESC"
 	picture = "gfx/leaders/Arabic_Persian/Portrait_KUR_Kamuran.tga"
 	expire = "1965.1.1"
 	ideology = conservatism

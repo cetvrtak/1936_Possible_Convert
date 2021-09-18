@@ -124,8 +124,8 @@ add_ideas = {
 	culture_sudanese
 }
 create_country_leader = {
-	name = "said Nujumi"
-	desc = "POLITICS_SAID_NUJUMI_DESC"
+	name = "Wiraj Zubayr"
+	desc = "POLITICS_WIRAJ_ZUBAYR_DESC"
 	picture = "gfx/leaders/leader_unknown.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

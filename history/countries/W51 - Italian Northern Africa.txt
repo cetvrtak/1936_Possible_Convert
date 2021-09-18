@@ -1,12 +1,12 @@
-﻿capital = 187
+﻿capital = 368
 set_research_slots = 3
 
-oob = "W49_OOB"
+oob = "W51_OOB"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "W49_1936_naval_mtg"
+		set_naval_oob = "W51_1936_naval_mtg"
 	else = { 
-		set_naval_oob = "W49_1936_naval_legacy"
+		set_naval_oob = "W51_1936_naval_legacy"
 	}
 }
 
@@ -15,7 +15,6 @@ set_technology = {
 	basic_light_tank = 1
 	early_bomber = 1
 	early_fighter = 1
-	fighter1 = 1
 	fuel_refining = 1
 	fuel_silos = 1
 	gw_artillery = 1
@@ -29,7 +28,6 @@ set_technology = {
 	motorised_infantry = 1
 	support_weapons = 1
 	synth_oil_experiments = 1
-	tactical_bomber1 = 1
 	tech_engineers = 1
 	tech_recon = 1
 	tech_support = 1
@@ -46,39 +44,19 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
 		basic_battery = 1
-		basic_cruiser_armor_scheme = 1
-		basic_depth_charges = 1
-		basic_heavy_armor_scheme = 1
-		basic_heavy_battery = 1
-		basic_light_battery = 1
-		basic_medium_battery = 1
 		basic_naval_mines = 1
-		basic_secondary_battery = 1
-		basic_ship_hull_cruiser = 1
-		basic_ship_hull_heavy = 1
-		basic_ship_hull_light = 1
-		basic_ship_hull_submarine = 1
 		basic_torpedo = 1
-		early_ship_hull_carrier = 1
 		early_ship_hull_cruiser = 1
 		early_ship_hull_heavy = 1
 		early_ship_hull_light = 1
-		early_ship_hull_submarine = 1
 		improved_airplane_launcher = 1
 		mtg_transport = 1
-		smoke_generator = 1
-		sonar = 1
-		submarine_mine_laying = 1
 	}
 }
 
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
-		basic_battleship = 1
-		basic_destroyer = 1
-		basic_heavy_cruiser = 1
-		basic_light_cruiser = 1
 		early_battleship = 1
 		early_destroyer = 1
 		early_heavy_cruiser = 1
@@ -89,51 +67,48 @@ if = {
 }
 
 # Research Bonuses
-add_tech_bonus = { name = air_doc_bonus bonus = 1000 uses = 1 category = air_doctrine }
-add_tech_bonus = { name = land_doc_bonus bonus = 1000 uses = 1 category = land_doctrine }
-add_tech_bonus = { name = naval_doc_bonus bonus = 1000 uses = 1 category = naval_doctrine }
 
-set_country_flag = conv_western_africa
+set_country_flag = conv_northern_africa
 set_convoys = 0
 
 
 set_politics = {
     ruling_party = democratic
-    last_election = "1932.10.13"
+    last_election = "1932.12.16"
     election_frequency = 48
     elections_allowed = yes
 }
 
 set_popularities = {
 	absolutist = 0
-	communism = 1
-	democratic = 62
-	fascism = 13
-	neutrality = 5
-	radical = 19
+	communism = 5
+	democratic = 86
+	fascism = 4
+	neutrality = 3
+	radical = 2
 }
 
 if = {
     limit = {has_dlc = "Together for Victory" }
 
-    add_to_tech_sharing_group = GER_research
+    add_to_tech_sharing_group = ITA_research
 }
 
 
 
 add_ideas = {
-	GER_monarch
-	volunteer_only
+	ITA_monarch
+	limited_conscription
 	civilian_economy
 	export_focus
-	culture_north_german
+	culture_north_italian
 }
 set_stability = 0.60
-set_war_support = 0.48
+set_war_support = 0.61
 create_country_leader = {
-	name = "Leonhard Herwarth von Bittenfeld"
-	desc = "POLITICS_LEONHARD_HERWARTH VON BITTENFELD_DESC"
-	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
+	name = "Tancredi Thaon di Revel"
+	desc = "POLITICS_TANCREDI_THAON DI REVEL_DESC"
+	picture = "gfx/leaders/Mediterranean/Portrait_GRE_George_Santios.tga"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
@@ -144,7 +119,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Jessica von Sachsen-Weimar-Eisenach"
+		name = "Anna Capello"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -158,8 +133,8 @@ if = {
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	create_equipment_variant = {
-		name = "1936 Battleship"
-		type = battleship_2
+		name = "Early Battleship"
+		type = battleship_1
 		upgrades = {
 			ship_armor_upgrade = 1
 			ship_engine_upgrade = 1
@@ -169,8 +144,8 @@ if = {
 	}
 
 	create_equipment_variant = {
-		name = "1936 Destroyer"
-		type = destroyer_2
+		name = "Early Destroyer"
+		type = destroyer_1
 		upgrades = {
 			destroyer_engine_upgrade = 1
 			ship_ASW_upgrade = 1
@@ -180,8 +155,8 @@ if = {
 	}
 
 	create_equipment_variant = {
-		name = "1936 Heavy Cruiser"
-		type = heavy_cruiser_2
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
 		upgrades = {
 			ship_armor_upgrade = 1
 			ship_engine_upgrade = 1
@@ -191,8 +166,8 @@ if = {
 	}
 
 	create_equipment_variant = {
-		name = "1936 Light Cruiser"
-		type = light_cruiser_2
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
 		upgrades = {
 			ship_anti_air_upgrade = 1
 			ship_engine_upgrade = 1
@@ -216,33 +191,33 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	create_equipment_variant = {
-		name = "1936 Battleship"
-		type = ship_hull_heavy_2
-		name_group = W49_BB_HISTORICAL
+		name = "Early Battleship"
+		type = ship_hull_heavy_1
+		name_group = W51_BB_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_armor_slot = ship_armor_bb_2
-			fixed_ship_battery_slot = ship_heavy_battery_2
-			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
-			fixed_ship_secondaries_slot = ship_secondaries_2
-			front_1_custom_slot = ship_heavy_battery_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_heavy_battery_1
 			mid_1_custom_slot = empty
-			mid_2_custom_slot = ship_heavy_battery_2
+			mid_2_custom_slot = ship_heavy_battery_1
 			rear_1_custom_slot = empty
 		}
 	}
 	create_equipment_variant = {
-		name = "1936 Destroyer"
-		type = ship_hull_light_2
-		name_group = W49_DD_HISTORICAL
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = W51_DD_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_anti_air_slot = ship_anti_air_2
-			fixed_ship_battery_slot = ship_light_battery_2
-			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = ship_sonar_1
 			fixed_ship_torpedo_slot = ship_torpedo_1
@@ -251,50 +226,39 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "1936 Heavy Cruiser"
-		type = ship_hull_cruiser_2
-		name_group = W49_CA_HISTORICAL
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = W51_CA_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_armor_slot = ship_armor_cruiser_2
-			fixed_ship_battery_slot = ship_medium_battery_2
-			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_secondaries_slot = ship_secondaries_2
-			mid_1_custom_slot = ship_secondaries_2
-			mid_2_custom_slot = ship_medium_battery_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
 			rear_1_custom_slot = empty
 		}
 	}
 	create_equipment_variant = {
-		name = "1936 Light Cruiser"
-		type = ship_hull_cruiser_2
-		name_group = W49_CL_HISTORICAL
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = W51_CL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_armor_slot = ship_armor_cruiser_2
-			fixed_ship_battery_slot = ship_light_battery_2
-			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = ship_sonar_1
-			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
 			mid_1_custom_slot = ship_torpedo_1
-			mid_2_custom_slot = ship_light_battery_2
+			mid_2_custom_slot = ship_light_battery_1
 			rear_1_custom_slot = empty
-		}
-	}
-	create_equipment_variant = {
-		name = "1936 Submarine"
-		type = ship_hull_submarine_2
-		name_group = W49_SS_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_engine_slot = sub_ship_engine_2
-			fixed_ship_torpedo_slot = ship_torpedo_sub_2
-			rear_1_custom_slot = ship_torpedo_sub_2
 		}
 	}
 }

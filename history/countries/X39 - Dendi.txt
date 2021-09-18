@@ -135,8 +135,8 @@ add_ideas = {
 	culture_songhai
 }
 create_country_leader = {
-	name = "Bigo Kodama Komi"
-	desc = "POLITICS_BIGO_KODAMA KOMI_DESC"
+	name = "Hanga Keyna"
+	desc = "POLITICS_HANGA_KEYNA_DESC"
 	picture = "gfx/leaders/African/Portrait_RWA_Yuhi_V.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

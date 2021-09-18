@@ -95,8 +95,8 @@ add_ideas = {
 	culture_rundi
 }
 create_country_leader = {
-	name = "Khairi Serushambo"
-	desc = "POLITICS_KHAIRI_SERUSHAMBO_DESC"
+	name = "Jabari Rugamba"
+	desc = "POLITICS_JABARI_RUGAMBA_DESC"
 	picture = "gfx/leaders/ETH/Portrait_Ethiopia_Haile_Selassie.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

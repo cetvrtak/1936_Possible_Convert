@@ -140,8 +140,8 @@ add_ideas = {
 	culture_malayalam
 }
 create_country_leader = {
-	name = "Sri Perumal"
-	desc = "POLITICS_SRI_PERUMAL_DESC"
+	name = "Thirunal Perumal"
+	desc = "POLITICS_THIRUNAL_PERUMAL_DESC"
 	picture = "gfx/leaders/Indian/Portrait_Burma_Maung_Gyi.tga"
 	expire = "1965.1.1"
 	ideology = minarchism

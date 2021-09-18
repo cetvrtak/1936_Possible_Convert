@@ -97,8 +97,8 @@ add_ideas = {
 	culture_south_german
 }
 create_country_leader = {
-	name = "Reinhold Hoffmann"
-	desc = "POLITICS_REINHOLD_HOFFMANN_DESC"
+	name = "Anton von Böhm-Ermolli"
+	desc = "POLITICS_ANTON_VON BöHM-ERMOLLI_DESC"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

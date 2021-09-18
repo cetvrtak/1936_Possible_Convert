@@ -78,8 +78,8 @@ add_ideas = {
 	culture_catalan
 }
 create_country_leader = {
-	name = "Enric Tristany"
-	desc = "POLITICS_ENRIC_TRISTANY_DESC"
+	name = "Rafel Borrell"
+	desc = "POLITICS_RAFEL_BORRELL_DESC"
 	picture = "gfx/leaders/Europe/Portrait_europe_generic_7.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

@@ -93,8 +93,8 @@ add_ideas = {
 	culture_yakut
 }
 create_country_leader = {
-	name = "Manchaary Okhlopkov"
-	desc = "POLITICS_MANCHAARY_OKHLOPKOV_DESC"
+	name = "Elley Okhlopkov"
+	desc = "POLITICS_ELLEY_OKHLOPKOV_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

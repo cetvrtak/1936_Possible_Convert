@@ -123,8 +123,8 @@ add_ideas = {
 	culture_tatar
 }
 create_country_leader = {
-	name = "Rustam Khusainov"
-	desc = "POLITICS_RUSTAM_KHUSAINOV_DESC"
+	name = "Yusuf Kamal"
+	desc = "POLITICS_YUSUF_KAMAL_DESC"
 	picture = "gfx/leaders/Arabic_Persian/Portrait_IRQ_maktoum.tga"
 	expire = "1965.1.1"
 	ideology = conservatism

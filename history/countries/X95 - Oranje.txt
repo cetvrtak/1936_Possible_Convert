@@ -129,8 +129,8 @@ add_ideas = {
 	culture_boer
 }
 create_country_leader = {
-	name = "Andries Theron"
-	desc = "POLITICS_ANDRIES_THERON_DESC"
+	name = "Dirkie de Wet"
+	desc = "POLITICS_DIRKIE_DE WET_DESC"
 	picture = "gfx/leaders/CAN/Portrait_Canada_Mackenzie_King.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

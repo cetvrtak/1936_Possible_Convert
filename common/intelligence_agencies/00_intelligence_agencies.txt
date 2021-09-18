@@ -1413,13 +1413,6 @@ intelligence_agency = {
 }
 
 intelligence_agency = {
-	picture = GFX_intelligence_agency_logo_tur
-	names = { "Intelligence Agency" }
-	default = { tag = W42 }
-	available = { original_tag = W42 }
-}
-
-intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_bel
 	names = { "Intelligence Agency" }
 	default = { tag = WLL }

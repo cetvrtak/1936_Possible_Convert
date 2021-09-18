@@ -3,7 +3,7 @@
 		prefix = ""
 		generic = { "Battlecruiser" }
 		unique = {
-			"Hertog Hendrik" "Koning der Nederlanden" "Koningin Regentes" "Koning Willem" "Prins Hendrik" 
+			"Dante Alighieri" "Conti di Cavour" "Giulio Cesare" "Leonarda da Vince" "Andrea Doria" "Duilio" "Francesco Caracciolo" "Littorio" "Roma" "Terribile" "Formidabile" "Principe di Carignano" "Messina" "Conte Verde" "Re d'Italia" "Re di Portogallo" "Regina Maria Pia" "San Martino" "Castelfidardo" "Ancona" "Affondatore" "Principe Amedeo" "Italia" "Lepanto" "Ruggiero di Lauria" "Francesco Morosini" "Emanuele Filiberto" 
 		}
 	}
 
@@ -11,7 +11,7 @@
 		prefix = ""
 		generic = { "Battleship" }
 		unique = {
-			"De Ruyter" "Tromp" "De Zeven Provincien" "Evertsen" "Kortenaer" "Piet Hein" "Witte de With" "Jacob van Heemskerk" 
+			"Dante Alighieri" "Conti di Cavour" "Giulio Cesare" "Leonarda da Vince" "Andrea Doria" "Duilio" "Francesco Caracciolo" "Littorio" "Roma" "Terribile" "Formidabile" "Principe di Carignano" "Messina" "Conte Verde" "Re d'Italia" "Re di Portogallo" "Regina Maria Pia" "San Martino" "Castelfidardo" "Ancona" "Affondatore" "Principe Amedeo" "Italia" "Lepanto" "Ruggiero di Lauria" "Francesco Morosini" "Emanuele Filiberto" 
 		}
 	}
 
@@ -19,7 +19,7 @@
 		prefix = ""
 		generic = { "Carrier" }
 		unique = {
-			"Buffel" "Guinea" "Schorpioen" "Stier" 
+			"Dante Alighieri" "Conti di Cavour" "Giulio Cesare" "Leonarda da Vince" "Andrea Doria" "Duilio" "Francesco Caracciolo" "Littorio" "Roma" "Terribile" "Formidabile" "Principe di Carignano" "Messina" "Conte Verde" "Re d'Italia" "Re di Portogallo" "Regina Maria Pia" "San Martino" "Castelfidardo" "Ancona" "Affondatore" "Principe Amedeo" "Italia" "Lepanto" "Ruggiero di Lauria" "Francesco Morosini" "Emanuele Filiberto" 
 		}
 	}
 
@@ -27,7 +27,7 @@
 		prefix = ""
 		generic = { "Destroyer" }
 		unique = {
-			"Java" "Banckert" "Callenburgh" "Isaac Sweers" "Van Ghent" "Aert van Nes" "Tjerk Hiddes" "Van Galen" "Abraham van der Hulst" "Van Speijck" "Adolf Hertog van Nassau" "Anna Paulowna" "Zoutman" "Johan Willem Friso" "Van Kinsbergen" "Pieter Florisz" "Philips van Almonde" "Bloys van Treslong" "Jan van Brakel" "Van Amstel" "Willem van der Zaan" 
+			"Marco Polo" "Carlo Alberto" "Vettor Pisani" "General Garibaldi" "General San Martin" "General Belgrano" "General Pueyrredon" "Amalfi" "Pisa" "San Giorgio" "San Marco" "Nino Bixio" "Marsala" "Taranto" "Brindisi" "Bari" "Trieste" "Fiume" "Gorizia" "Pola" "Zara" "Bolzano" 
 		}
 	}
 
@@ -35,7 +35,7 @@
 		prefix = ""
 		generic = { "Heavy Cruiser" }
 		unique = {
-			"Admiraal Generaal" "Beschermer" "Brederode" "Campen" "Eendracht" "Eenhoorn" "Frederik Hendrik" "Gouden Leeuw" "Graaf Willem" "Groote Liefde" "Jozua" "Kameel" "Kapitein Generaal" "Landman" "Louisa Hendrika" "Overwinnaer" "Prinses Amalia" "Prinses Roijaal" "Prins Friso" "Prins Willem" "Rosenkrans" "Salamander" "Vergulde Maen" "Verwachting" "Unie" "Vrede" "Vrijheid" "Witte Lam" 
+			"Sicilia" "Sardegna" "Puglia" "Libia" "Campania" "Basilicata" "Quarto" "Venezia" "Trento" "Valle d'Aosta" "Piemonte" "Liguria" "Lombardia" "Veneto" "Trentino" "Friuli" "Emilia-Romagna" "Toscana" "Marche" "Umbria" "Lazio" "Abruzzo" "Molise" "Calabria" 
 		}
 	}
 
@@ -43,7 +43,7 @@
 		prefix = ""
 		generic = { "Light Cruiser" }
 		unique = {
-			"Atjeh" "Brabant" "Curacao" "Holland" "Friesland" "Gelderland" "Groningen" "Limburg" "Overijssel" "Suriname" "Utrecht" "Zeeland" 
+			"Rosolino Pilo" "Giuseppe Cesare Abba" "Pilade Bronzetti" "Giuseppe Missori" "Antonio Mosto" "Ippolito Nievo" "Francesco Nullo" "Simone Schiaffino" "Giuseppe Sirtori" "Giovanni Acerbi" "Vincenzo Giordano Orsini" "Francesco Stucco" 
 		}
 	}
 
@@ -51,7 +51,7 @@
 		prefix = ""
 		generic = { "Submarine" }
 		unique = {
-			"Wolf" "Fret" "Hermelijn" "Vos" "Panter" "Jaguar" "Lynx" "Leeuw" "Jakhals" 
+			"Fulmine" "Lampo" "Freccia" "Dardo" "Strale" "Euro" "Ostro" "Nembo" "Turbine" "Aquilone" "Borea" "Zeffiro" "Espero" "Artigliere" "Bersagliere" "Corazziere" "Garibaldino" "Granatiere" "Lanciere" "Alpino" "Fuciliere" "Pontiere" "Ascaro" "Indomito" "Impavido" "Impetuoso" "Insidioso" "Intrepido" "Irrequieto" "Ardito" "Ardente" "Audace" "Animoso" 
 		}
 	}
 

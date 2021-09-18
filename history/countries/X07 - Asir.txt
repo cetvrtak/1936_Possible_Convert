@@ -125,8 +125,8 @@ add_ideas = {
 	culture_mashriqi
 }
 create_country_leader = {
-	name = "Uthman ibn Umar"
-	desc = "POLITICS_UTHMAN_IBN UMAR_DESC"
+	name = "Ishaq ibn Khalid"
+	desc = "POLITICS_ISHAQ_IBN KHALID_DESC"
 	picture = "gfx/leaders/leader_unknown.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

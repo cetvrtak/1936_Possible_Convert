@@ -128,8 +128,8 @@ add_ideas = {
 	culture_rajput
 }
 create_country_leader = {
-	name = "Sardar Kunwar"
-	desc = "POLITICS_SARDAR_KUNWAR_DESC"
+	name = "Jawapala ur Rahman"
+	desc = "POLITICS_JAWAPALA_UR RAHMAN_DESC"
 	picture = "gfx/leaders/Indian/Portrait_Nepal_Mahendra.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

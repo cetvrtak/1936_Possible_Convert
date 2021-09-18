@@ -125,8 +125,8 @@ add_ideas = {
 	culture_hausa
 }
 create_country_leader = {
-	name = "Muhammad Rumfa"
-	desc = "POLITICS_MUHAMMAD_RUMFA_DESC"
+	name = "Yaji al-Hajj"
+	desc = "POLITICS_YAJI_AL-HAJJ_DESC"
 	picture = "gfx/leaders/African/Portrait_Mittelafrika_Achirimbi.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

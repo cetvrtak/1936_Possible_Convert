@@ -95,8 +95,8 @@ add_ideas = {
 	culture_nguni
 }
 create_country_leader = {
-	name = "Chapwanya Kwira"
-	desc = "POLITICS_CHAPWANYA_KWIRA_DESC"
+	name = "Magobi Hanga"
+	desc = "POLITICS_MAGOBI_HANGA_DESC"
 	picture = "gfx/leaders/African/Portrait_NAM_Otto_Schimming.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

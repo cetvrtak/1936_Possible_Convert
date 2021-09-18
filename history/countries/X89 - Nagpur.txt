@@ -147,8 +147,8 @@ add_ideas = {
 	culture_marathi
 }
 create_country_leader = {
-	name = "Pratapsinha Ballal"
-	desc = "POLITICS_PRATAPSINHA_BALLAL_DESC"
+	name = "Balaji Appa Sahib"
+	desc = "POLITICS_BALAJI_APPA SAHIB_DESC"
 	picture = "gfx/leaders/Indian/Portrait_Princely_Osman_Ali_Khan2.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

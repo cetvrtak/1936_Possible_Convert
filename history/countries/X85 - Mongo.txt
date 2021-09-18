@@ -95,8 +95,8 @@ add_ideas = {
 	culture_mongo
 }
 create_country_leader = {
-	name = "Chane Sengele"
-	desc = "POLITICS_CHANE_SENGELE_DESC"
+	name = "Issay Songomeno"
+	desc = "POLITICS_ISSAY_SONGOMENO_DESC"
 	picture = "gfx/leaders/African/Portrait_SUD_Abd_Mahdi.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

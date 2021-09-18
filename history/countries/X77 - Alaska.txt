@@ -92,8 +92,8 @@ add_ideas = {
 	culture_yankee
 }
 create_country_leader = {
-	name = "Isaac Sherman"
-	desc = "POLITICS_ISAAC_SHERMAN_DESC"
+	name = "George Barnard"
+	desc = "POLITICS_GEORGE_BARNARD_DESC"
 	picture = "gfx/leaders/AST/Portrait_Australia_John_Curtin.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

@@ -125,8 +125,8 @@ add_ideas = {
 	culture_moluccan
 }
 create_country_leader = {
-	name = "Mohammad Pelmelay"
-	desc = "POLITICS_MOHAMMAD_PELMELAY_DESC"
+	name = "Ellyas Leiwakabessy"
+	desc = "POLITICS_ELLYAS_LEIWAKABESSY_DESC"
 	picture = "gfx/leaders/Indo_Chinese_Nesia/Portrait_Siam_Rama_IX.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
